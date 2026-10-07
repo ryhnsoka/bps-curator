@@ -1,0 +1,9 @@
+# biner & lokal — JANGAN push
+data/*.xlsx
+*.db
+*.sqlite3
+__pycache__/
+*.pyc
+.env
+output/*.do
+.DS_Store

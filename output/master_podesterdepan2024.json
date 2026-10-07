@@ -1,0 +1,108 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Terdepan",
+  "source_file": "Master_PodesTerdepan2024.xlsx",
+  "kamus_sheet": "KETERANGAN DATA",
+  "kamus_header_row": 1,
+  "n_variables": 11,
+  "partitions": [
+    "podes2024_desa_2t_terdepan"
+  ],
+  "mandatory": [
+    "IDDESA",
+    "R101",
+    "R102",
+    "R103",
+    "R104"
+  ],
+  "variables": [
+    {
+      "code": "IDDESA",
+      "label": "IDENTITAS DESA/KELURAHAN (GABUNGAN DARI KODE PROVINSI, KODE KABUPATEN/KOTA, KODE KECAMATAN, DAN KODE DESA/KELURAHAN/NAGARI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN/KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "KODE DESA/KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R201",
+      "label": "APAKAH TERDAPAT WILAYAH DESA YANG BERBATASAN LANGSUNG (DARAT) DENGAN WILAYAH NEGARA LAIN?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R202",
+      "label": "APAKAH TERDAPAT POS LINTAS BATAS NEGARA YANG DIJAGA OLEH PETUGAS/APARAT PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R203",
+      "label": "APAKAH TERDAPAT PENDUDUK YANG KESEHARIANNYA LEBIH BANYAK MENGGUNAKAN MATA UANG SELAIN RUPIAH?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R204",
+      "label": "APAKAH TERDAPAT PENDUDUK YANG BERSEKOLAH (PULANG-PERGI) DI NEGARA TETANGGA?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R205",
+      "label": "APAKAH TERDAPAT PENDUDUK YANG BEKERJA (PULANG-PERGI) DI NEGARA TETANGGA?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    },
+    {
+      "code": "R206",
+      "label": "APAKAH TERDAPAT PENDUDUK YANG KEBUTUHAN SEHARI-HARINYA BERASAL DARI NEGARA TETANGGA (MEMBELI BARANG DARI NEGARA  TETANGGA)?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terdepan"
+      ]
+    }
+  ]
+}

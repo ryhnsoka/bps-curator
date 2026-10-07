@@ -1,0 +1,300 @@
+{
+  "survey_id": "PODES",
+  "period": "2021 Kabupaten",
+  "source_file": "Master_PodesKab2021.xlsx",
+  "kamus_sheet": "KETERANGAN DATA",
+  "kamus_header_row": 1,
+  "n_variables": 35,
+  "partitions": [
+    "podes2021_kab"
+  ],
+  "mandatory": [
+    "KODE_KAB",
+    "KABUPATEN",
+    "R401AK2",
+    "R401BK2",
+    "R402K2"
+  ],
+  "variables": [
+    {
+      "code": "PROV",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "KODE_KAB",
+      "label": "KODE KABUPATEN/KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "KABUPATEN",
+      "label": "KODE - NAMA KABUPATEN/KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R401AK2",
+      "label": "JUMLAH KECAMATAN LOKASI PENAMBANGAN MINYAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R401BK2",
+      "label": "JUMLAH KECAMATAN LOKASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R402K2",
+      "label": "JUMLAH KECAMATAN LOKASI PENAMBANGAN NONMIGAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R501AK2",
+      "label": "KEBERADAAN LOKASI KAWASAN INDUSTRI",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R501AK3",
+      "label": "JUMLAH LOKASI KAWASAN INDUSTRI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R501BK2",
+      "label": "KEBERADAAN LOKASI PERGUDANGAN",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R501BK3",
+      "label": "JUMLAH LOKASI PERGUDANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R601A",
+      "label": "KEBERADAAN LAPANGAN TERBANG PERINTIS",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R601B",
+      "label": "BANYAKNYA LAPANGAN TERBANG PERINTIS",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K2_A",
+      "label": "PJTKI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K3_A",
+      "label": "JUMLAH PJTKI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K2_B",
+      "label": "RUANG PELAYANAN KHUSUS (RPK)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K3_B",
+      "label": "JUMLAH RUANG PELAYANAN KHUSUS (RPK)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K2_C",
+      "label": "RUMAH SINGGAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K3_C",
+      "label": "JUMLAH RUMAH SINGGAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K2_D",
+      "label": "RUMAH AMAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R701K3_D",
+      "label": "JUMLAH RUMAH AMAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R801A",
+      "label": "KEBERADAAN PENDIDIKAN DAN PELATIHAN KESIAPSIAGAAN BENCANA ALAM SELAMA 3 TAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R801B",
+      "label": "KEBERADAAN PEMBUATAN, PERAWATAN, ATAU NORMALISASI: SUNGAI, KANAL, TANGGUL, PARIT, DRAINASE, WADUK, PANTAI, DLL. SELAMA 3 TAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K2_A",
+      "label": "KEBERADAAN BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K3_A",
+      "label": "UMUR BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K4_A",
+      "label": "JENIS KELAMIN BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K5_A",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K2_B",
+      "label": "KEBERADAAN WAKIL BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K3_B",
+      "label": "UMUR WAKIL BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K4_B",
+      "label": "JENIS KELAMIN WAKIL BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K5_B",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN WAKIL BUPATI/WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K2_C",
+      "label": "KEBERADAAN SEKRETARIS DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K3_C",
+      "label": "UMUR SEKRETARIS DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K4_C",
+      "label": "JENIS KELAMIN SEKRETARIS DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "R901K5_C",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN SEKRETARIS DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    },
+    {
+      "code": "KAB",
+      "label": "KODE KABUPATEN",
+      "type": "character",
+      "partitions": [
+        "podes2021_kab"
+      ]
+    }
+  ]
+}

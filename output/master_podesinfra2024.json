@@ -1,0 +1,105 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Infrastruktur",
+  "source_file": "Master_PodesInfra2024.xlsx",
+  "kamus_sheet": "Layout_Jenis_Infrastruktur",
+  "kamus_header_row": 1,
+  "n_variables": 10,
+  "partitions": [
+    "podes2024_desa_infrastruktur__diseminasi"
+  ],
+  "mandatory": [
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "NAMA_PROV",
+    "NAMA_KAB",
+    "NAMA_KEC",
+    "NAMA_DESA",
+    "JENIS",
+    "NAMA"
+  ],
+  "variables": [
+    {
+      "code": "JENIS",
+      "label": "KODE DARI JENIS INFRASTRUKTUR",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA",
+      "label": "NAMA INFRASTRUKTUR",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_DESA",
+      "label": "NAMA DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_KAB",
+      "label": "NAMA KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_KEC",
+      "label": "NAMA KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_PROV",
+      "label": "NAMA PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "KODE DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_infrastruktur__diseminasi"
+      ]
+    }
+  ]
+}

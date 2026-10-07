@@ -1,0 +1,481 @@
+{
+  "survey_id": "SUSENAS",
+  "period": "2024 Modul",
+  "source_file": "Master_SUSENAS2024_Modul.xlsx",
+  "kamus_sheet": "Master",
+  "kamus_header_row": 2,
+  "n_variables": 41,
+  "partitions": [
+    "ssn202403_kp_blok41_11_31",
+    "ssn202403_kp_blok41_32_36",
+    "ssn202403_kp_blok41_51_97",
+    "ssn202403_kp_blok42_11_31",
+    "ssn202403_kp_blok42_32_36",
+    "ssn202403_kp_blok42_51_97",
+    "ssn202403_kp_blok43"
+  ],
+  "mandatory": [
+    "URUT",
+    "WI1",
+    "WI2",
+    "R101",
+    "R102",
+    "R105",
+    "R203",
+    "R301",
+    "COICOP",
+    "KODE",
+    "KLP",
+    "WERT",
+    "WEIND",
+    "KABU"
+  ],
+  "variables": [
+    {
+      "code": "B41K10",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B41K5",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PEMBELIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B41K6",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PEMBELIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B41K7",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PRODUKSI SENDIRI PEMBERIAN DSB",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B41K8",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PRODUKSI SENDIRI PEMBERIAN DSB",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B41K9",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "B42K3",
+      "label": "BANYAKNYA PENGGUNAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K3A",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K3B",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K3C",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K3D",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K3E",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K4",
+      "label": "NILAI PENGELUARAN SEBULAN TERAKHIR RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "B42K5",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "COICOP",
+      "label": "KODE COICOP",
+      "type": "character",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "EXPEND",
+      "label": "RATA RATA PENGELUARAN RUMAH TANGGA SEBULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "FOOD",
+      "label": "RATA RATA PENGELUARAN MAKANAN RUMAH TANGGA SEBULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "KABU",
+      "label": "KABUPATEN KOTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "KALORI",
+      "label": "BANYAKNYA KONSUMSI KALORI SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "KALORI_KAP",
+      "label": "BANYAKNYA KONSUMSI KALORI PERKAPITA SEHARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "KAPITA",
+      "label": "RATA RATA PENGELUARAN PERKAPITA SEBULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "KARBO",
+      "label": "BANYAKNYA KONSUMSI KARBO SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "KARBO_KAP",
+      "label": "BANYAKNYA KONSUMSI KARBOHIDRAT PERKAPITA SEHARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "KLP",
+      "label": "KODE SUBKELOMPOK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "KODE",
+      "label": "NO URUT RINCIAN KOMODITI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "LEMAK",
+      "label": "BANYAKNYA KONSUMSI LEMAK SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "LEMAK_KAP",
+      "label": "BANYAKNYA KONSUMSI LEMAK PERKAPITA SEHARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "NONFOOD",
+      "label": "RATA RATA PENGELUARAN BUKAN MAKANAN RUMAH TANGGA SEBULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "PROTEIN",
+      "label": "BANYAKNYA KONSUMSI PROTEIN SEMINGGU SATU RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "PROTE_KAP",
+      "label": "BANYAKNYA KONSUMSI PROTEIN PERKAPITA SEHARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok43"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KABUPATEN KOTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "R105",
+      "label": "KLASIFIKASI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "R203",
+      "label": "HASIL PENCACAHAN RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "R301",
+      "label": "JUMLAH ANGGOTA RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "SEBULAN",
+      "label": "RATA RATA NILAI PENGELUARAN BUKAN MAKANAN SEBULAN RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97"
+      ]
+    },
+    {
+      "code": "URUT",
+      "label": "NOMOR URUT RT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "WEIND",
+      "label": "PENIMBANG UNTUK ESTIMASI PENDUDUK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "WERT",
+      "label": "PENIMBANG UNTUK ESTIMASI RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "WI1",
+      "label": "RENUMBERING NKS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    },
+    {
+      "code": "WI2",
+      "label": "RENUMBERING NURT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202403_kp_blok41_32_36",
+        "ssn202403_kp_blok41_51_97",
+        "ssn202403_kp_blok42_11_31",
+        "ssn202403_kp_blok42_32_36",
+        "ssn202403_kp_blok42_51_97",
+        "ssn202403_kp_blok43",
+        "ssn202403_kp_blok41_11_31"
+      ]
+    }
+  ]
+}

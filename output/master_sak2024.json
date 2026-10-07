@@ -1,0 +1,2318 @@
+{
+  "survey_id": "SAKERNAS",
+  "period": "2024 Agustus",
+  "source_file": "Master_SAK2024_Agustus.xlsx",
+  "kamus_sheet": "MASTER DATA",
+  "kamus_header_row": 2,
+  "n_variables": 286,
+  "partitions": [
+    "sak202408_part1",
+    "sak202408_part2"
+  ],
+  "mandatory": [
+    "KLASIFIKAS",
+    "KODE_KAB",
+    "KODE_PROV",
+    "PSU",
+    "STRATA",
+    "URUTAN",
+    "WEIGHT"
+  ],
+  "variables": [
+    {
+      "code": "B2R1",
+      "label": "Jumlah Anggota Rumah Tangga usia 5 Tahun ke atas",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "B2R2",
+      "label": "k1 NU ART",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K1",
+      "label": "k10 Umur",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K10",
+      "label": "k11 NU Ibu Kandung",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K11",
+      "label": "k4 Gender",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K3",
+      "label": "k5 Kewarganegaraan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K4",
+      "label": "k5 Kewarganegaraan Nama Negara",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K5",
+      "label": "k8 Kab kota tempat lahir ibu kandung",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K5_NEG",
+      "label": "Klasifikasi Desa Kota",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K6",
+      "label": "Primary Sampling Unit PSU",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K7_PROV",
+      "label": "r10b Melakukan kegiatan untuk memperoleh penghasilan pendapatan uang dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K8_KAB",
+      "label": "r11 Sedang tidak bekerja tidak menjalankan usaha dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "K8_NEG",
+      "label": "r12c Lama sementara tidak bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "KLASIFIKAS",
+      "label": "r14d Bulan usaha terdaftar pada sistem perizinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "KODE_KAB",
+      "label": "r14d Tahun usaha terdaftar pada sistem perizinan",
+      "type": "character",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "KODE_PROV",
+      "label": "r15a kode KBLI",
+      "type": "character",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "PSU",
+      "label": "KBJI 1982",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R10A",
+      "label": "KBJI 2014",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R10B",
+      "label": "r16 1 Uang pendapatan penghasilan gaji upah bersih diterima selama sebulan terakhir dari pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R10C",
+      "label": "r16 2 Barang pendapatan penghasilan gaji upah bersih diterima selama sebulan terakhir dari pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R11",
+      "label": "r20a1 Menggunakan Komputer PC di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R12A",
+      "label": "r20a3 Menggunakan teknologi digital lain di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R12B",
+      "label": "r20b1 Internet untuk komunikasi di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R12C",
+      "label": "r20b3 Internet untuk mengakses informasi di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R12D",
+      "label": "r20b5 Internet untuk penjualan barang jasa di marketplace di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14A",
+      "label": "r20b7 Internet untuk pembelian barang jasa di marketplace di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14B",
+      "label": "r20b9 Internet untuk lainnya di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14C",
+      "label": "r21 Jenis instansi lembaga institusi dari tempat kerja usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14D",
+      "label": "r23a Lokasi utama tempat bekerja berusaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14D_BLN",
+      "label": "r23c Tempat bekerja pada pekerjaan utama dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R14D_THN",
+      "label": "r23c Provinsi tempat bekerja pada pekerjaan utama dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R15A_KBLI2",
+      "label": "r23d1 Biasa mobil ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R15B_KBJI1",
+      "label": "r23d3 Biasa kendaraan pribadi lainnya ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R15B_KBJI2",
+      "label": "r23d4 Biasa transportasi umum ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R16_1",
+      "label": "r24a2 Pembayaran per satuan hasil sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R16_2",
+      "label": "r24a4 Ongkos jasa sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R17A",
+      "label": "r24a5 Barang sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R17B",
+      "label": "r24a7 Borongan sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R18A_BLN",
+      "label": "r24b Periode pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R18A_THN",
+      "label": "r25a Jaminan kesehatan dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R18B",
+      "label": "r25f Jaminan kehilangan pekerjaan dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_BLT",
+      "label": "r25g Cuti tahunan bersalin tanpa memotong upah gaji pokok dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_JML",
+      "label": "r26a Perjanjian kontrak kerja surat keputusan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_JUM",
+      "label": "r26b Jangka waktu perjanjian kontrak kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_KAM",
+      "label": "r28c Mengalami kekerasan di tempat kerja baik secara lisan maupun fisik",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_MNG",
+      "label": "r29 memiliki lebih dari satu pekerjaan dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_RAB",
+      "label": "r31 Jumat jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_SAB",
+      "label": "r31 Kamis jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_SEL",
+      "label": "r31 Minggu jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19A_SEN",
+      "label": "r31 Rabu jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R19B",
+      "label": "r31 Selasa jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20A1",
+      "label": "r32d Bulan usaha tambahan utama terdaftar pada sistem perizinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20A2",
+      "label": "r32d Tahun usaha tambahan utama terdaftar pada sistem perizinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20A3",
+      "label": "r33b kode KBJI tambahan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20A4",
+      "label": "r34a1 Menggunakan Komputer PC di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B1",
+      "label": "r34a3 Menggunakan teknologi digital lain di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B2",
+      "label": "r34b2 Internet untuk promosi di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B3",
+      "label": "r34b5 Internet untuk penjualan barang jasa di marketplace di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B4",
+      "label": "r34b7 Internet untuk pembelian barang jasa di marketplace di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B5",
+      "label": "r34b9 Internet untuk lainnya di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B6",
+      "label": "r35a Pembulatan Jumlah jam semua pekerjaan seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B7",
+      "label": "r35a Jumat jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B8",
+      "label": "r35a Minggu jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R20B9",
+      "label": "r35a Sabtu jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R21",
+      "label": "r35a Senin jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R22",
+      "label": "r35b Jumlah jam semua pekerjaan biasanya dalam seminggu",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23A",
+      "label": "r36b Alasan utama tidak ingin menambah jam kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23B",
+      "label": "r36c Siap bersedia menambah jam kerja dalam rentang 2 minggu ke depan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23C",
+      "label": "r39b Aktif mempersiapkah usaha baru sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23C_KAB",
+      "label": "r3b Alasan NIK tidak terisi",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23C_NEG",
+      "label": "r4 Perkawinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23C_PROV",
+      "label": "r40 Bulan lama mencari pekerjaan mempersiapkan usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D1",
+      "label": "r40 Tahun lama mencari pekerjaan mempersiapkan usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D2",
+      "label": "r41a Mendaftar bursa kesempatan kerja seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D3",
+      "label": "r41b Menghubungi perusahaan memperbarui mengirim CV biodata profil bisnis seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D4",
+      "label": "r41d Menghubungi keluarga kenalan untuk mencari kerja atau mempersiapkan usaha seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D5",
+      "label": "r41f Upaya lain dalam mencari kerja mempersiapkan usaha seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23D6",
+      "label": "r42b Alasan utama sebulan terakhir tidak mencari pekerjaan dan tidak mempersiapkan usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R23E",
+      "label": "r42d Siap bersedia memulai pekerjaan usaha tersebut dalam rentang waktu 2 minggu ke depan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A1",
+      "label": "r43b Siap bersedia memulai pekerjaan di seminggu terakhir yang ditawarkan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A2",
+      "label": "r44 Menginginkan pekerjaan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A3",
+      "label": "r45a Kapan memperoleh pekerjaan memulai usaha setelah lulus dari pendidikan tertinggi yang ditamatkan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A4",
+      "label": "r46b Bulan berhenti bekerja dari pekerjaan 45b di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A5",
+      "label": "r48a KBLI pekerjaan berhenti setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A6",
+      "label": "r5 Partisipasi Sekolah",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A7",
+      "label": "r50a Bersekolah seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24A8",
+      "label": "r50b Mengurus RT seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24B",
+      "label": "r50d Waktu terbanyak seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R24C",
+      "label": "r51a Tahu Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25A",
+      "label": "r51b Daftar Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25B",
+      "label": "r51d Diterima Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25C",
+      "label": "r51e Kapan diterima Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25D",
+      "label": "r51f Bekerja sebelum diterima Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25E",
+      "label": "r51h Pelatihan yang diikuti di Prakerja sesuai minat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25F",
+      "label": "r51j1 Insentif Prakerja untuk pemenuhan kebutuhan sehari hari",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25G",
+      "label": "r51j2 Insentif Prakerja untuk modal usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25H",
+      "label": "r51j4 Insentif Prakerja untuk biaya transportasi BBM",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R25I",
+      "label": "r51j7 Insentif Prakerja untuk Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R26A",
+      "label": "r52a Pernah ke luar negeri untuk menjadi Buruh Karyawan Pegawai",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R26B",
+      "label": "r53 Negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R27",
+      "label": "r54 Bulan berangkat ke negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R28A",
+      "label": "r56b KBJI di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R28B",
+      "label": "r57 Cara mendapatkan pekerjaan di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R28C",
+      "label": "r58 Cara masuk di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R29",
+      "label": "r59 Total Rupiah dibayarkan untuk mendapatkan kerja di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_BLT",
+      "label": "r60 Rata rupiah upah gaji bulanan diperoleh di tahun pertama bekerja di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_JML",
+      "label": "r6c Tahun lulus pendidikan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_JUM",
+      "label": "r6d Pernah pelatihan kursus training",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_KAM",
+      "label": "r6e Sertifikat pelatihan kursus training di r6d",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_MNG",
+      "label": "r6f Pelatihan kursus training di r6d dilakukan di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_RAB",
+      "label": "r6g1 Pelatihan1 Kode",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_SAB",
+      "label": "r6g1 Pelatihan1 Online Offline",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_SEL",
+      "label": "r6g1 Pelatihan1 Sumber biaya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R31_SEN",
+      "label": "r6g1 Pelatihan1 kode biaya Pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32A",
+      "label": "r6g2 Pelatihan2 Kode",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32B",
+      "label": "r6g2 Pelatihan2 Online Offline",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32C",
+      "label": "r6g2 Pelatihan2 Sumber biaya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32D",
+      "label": "r6g2 Pelatihan2 kode biaya Pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32D_BLN",
+      "label": "r6g3 Pelatihan3 Kode",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R32D_THN",
+      "label": "r6g3 Pelatihan3 Online Offline",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R33A_KBLI2",
+      "label": "r6g3 Pelatihan3 kode biaya Pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R33B_KBJI1",
+      "label": "r6h Sedang mengikuti pelatihan kursus training",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34A1",
+      "label": "r6i Pernah Magang PKL disponsori Universitas di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34A2",
+      "label": "r6i Pernah Magang PKL disponsori Lain di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34A3",
+      "label": "r6i Pernah Magang PKL saat sekolah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34A4",
+      "label": "r6i Pernah Magang PKL saat tidak sekolah kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B1",
+      "label": "r6i Tidak pernah Magang PKL di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B2",
+      "label": "r6j Pernah Pernah Program Pertukaran Pelajar Mahasiswa disponsori Sekolah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B3",
+      "label": "r6j Pernah Pernah Program Pertukaran Pelajar Mahasiswa disponsori Kemdikbudristek di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B4",
+      "label": "r6j Pernah Program Pertukaran Pelajar Mahasiswa saat sekolah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B5",
+      "label": "r6j Tidak Pernah Program Pertukaran Pelajar Mahasiswa saat tidak sekolah kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B6",
+      "label": "r6k Pernah Pernah Program Pengabdian Masyarakat disponsori Sekolah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B7",
+      "label": "r6k Pernah Pernah Program Pengabdian Masyarakat disponsori Kemdikbudristek di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B8",
+      "label": "r6k Pernah Pernah Program Pengabdian Masyarakat disponsori Lain di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R34B9",
+      "label": "r6k Pernah Program Pengabdian Masyarakat saat kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_BLT",
+      "label": "r7 Tempat tinggal 5 tahun lalu Agustus 2019",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_JML",
+      "label": "r7 Kabupaten Kota tempat tinggal 5 tahun lalu Agustus 2019",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_JUM",
+      "label": "r9b1 Menggunakan Komputer PC dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_KAM",
+      "label": "r9b2 Menggunakan telepon seluler pintar dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_MNG",
+      "label": "r9b3 Menggunakan teknologi digital lain dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_RAB",
+      "label": "r9b4 Menggunakan Internet dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_SAB",
+      "label": "r9c1 Memanfaatkan Internet untuk komunikasi dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_SEL",
+      "label": "r9c2 Memanfaatkan Internet untuk mengakses informasi dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35A_SEN",
+      "label": "r9c3 Memanfaatkan Internet untuk penjualan barang jasa dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R35B",
+      "label": "r9c5 Memanfaatkan Internet untuk internet banking dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R36A",
+      "label": "r9c6 Memanfaatkan Internet untuk lainnya dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R36B",
+      "label": "Penimbang",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R36C",
+      "label": "k3 Hubungan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R37",
+      "label": "k6 Tempat lahir ibu kandung",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R38A",
+      "label": "k8 Negara tempat lahir ibu kandung",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R38B",
+      "label": "r10a Bekerja paling sedikit satu jam dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R39A",
+      "label": "r10c Membantu kegiatan usaha atau pekerjaan keluarga orang lain dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R39B",
+      "label": "r14a Status pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R3B",
+      "label": "r14b Dibantu buruh tidak tetap dan dibayar",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R4",
+      "label": "r14c Jumlah buruh karyawan pegawai yang dibayar",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R40_BLN",
+      "label": "r14d Usaha terdaftar pada sistem perizinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R40_THN",
+      "label": "r18a Bulan mulai bekerja pada pekerjaan atau kegiatan usaha ini",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41A",
+      "label": "r20a2 Menggunakan telepon seluler pintar di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41B",
+      "label": "r20a4 Menggunakan Internet di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41C",
+      "label": "r20b2 Internet untuk promosi di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41D",
+      "label": "r20b4 Internet untuk penjualan barang jasa melalui surel sosmed di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41E",
+      "label": "r20b6 Internet untuk pembelian barang jasa melalui surel sosmed di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R41F",
+      "label": "r20b8 Internet untuk internet banking di pekerjaan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R42A",
+      "label": "r22 Pembukuan keuangan di instansi lembaga institusi perusahaan usaha tempat bekerja berusaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R42B",
+      "label": "r23b Melakukan perjalanan pergi dan pulang dari rumah tempat tinggal ke kantor tempat kerja secara rutin",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R42C",
+      "label": "r23c Kab tempat bekerja pada pekerjaan utama dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R42D",
+      "label": "r23d2 Biasa sepeda motor ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R43A",
+      "label": "r23d5 Biasa transportasi online ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R43B",
+      "label": "r24a1 Uang sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R43C",
+      "label": "r24a3 Komisi sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R44",
+      "label": "r24a6 Makanan akomodasi sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R45A",
+      "label": "r24c Besar upah gaji bersih per bulan pertama uang dan barang saat mulai bekerja pada pekerjaan utama ini",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R45A_BLN",
+      "label": "r25c Jaminan kematian dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R45A_THN",
+      "label": "r25d Jaminan hari tua dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R45B",
+      "label": "r25i Upah sesuai UMP UMP dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R46A",
+      "label": "r27 Anggota dalam serikat pekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R46B_BLN",
+      "label": "r28a Kondisi yang membahayakan kesehatan yang disebabkan pekerjaan selama 12 bulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R46B_THN",
+      "label": "r28b Bekerja dalam lingkungan yang tidak aman atau tidak sehat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R47D",
+      "label": "r31 Pembulatan Jumlah jam kerja tambahan utama seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R48A_KBLI2",
+      "label": "r31 Jumlah jam kerja tambahan utama seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R48B_KBJI1",
+      "label": "r31 Sabtu jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R49",
+      "label": "r31 Senin jumlah jam kerja tambahan utama dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R5",
+      "label": "r32a Status pekerjaan tambahan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R50A",
+      "label": "r32b Dibantu buruh tidak tetap dan dibayar di tambahan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R50B",
+      "label": "r32d Usaha tambahan utama terdaftar pada sistem perizinan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R50C",
+      "label": "r34a2 Menggunakan telepon seluler pintar di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R50D",
+      "label": "r34b1 Internet untuk komunikasi di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51A",
+      "label": "r34b3 Internet untuk mengakses informasi di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51B",
+      "label": "r34b4 Internet untuk penjualan barang jasa melalui surel sosmed di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51C",
+      "label": "r34b6 Internet untuk pembelian barang jasa melalui surel sosmed di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51D",
+      "label": "r34b8 Internet untuk internet banking di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51E",
+      "label": "r35a Jumlah jam semua pekerjaan seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51F",
+      "label": "r35a Kamis jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51G",
+      "label": "r35a Rabu jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51H",
+      "label": "r35a Selasa jumlah jam semua pekerjaan dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51I",
+      "label": "r36a Ingin menambah jam kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J1",
+      "label": "r38a Mencari pekerjaan seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J2",
+      "label": "r38b Mempersiapkah usaha baru seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J3",
+      "label": "r39a Aktif mencari pekerjaan sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J4",
+      "label": "r41c Mengiklankan diri di media cetak elektronik internet seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J5",
+      "label": "r41e Mengumpulkan modal mencari lokasi mengurus surat izin usaha seminggu sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J6",
+      "label": "r42a Alasan utama tidak mencari pekerjaan dan tidak mempersiapkan usaha seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R51J7",
+      "label": "r42c Memulai pekerjaan usaha dalam waktu 3 bulan ke depan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R52A",
+      "label": "r43a Mau menerima jika ada penawaran pekerjaan seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R52B",
+      "label": "r45a Bulan bekerja setelah lulus pendidikan tertinggi",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R53",
+      "label": "r45a Tahun bekerja setelah lulus pendidikan tertinggi",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R54_BLN",
+      "label": "r45b Pernah punya pekerjaan usaha",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R54_THN",
+      "label": "r46b Tahun berhenti bekerja dari pekerjaan 45b di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R56A_KBLI2",
+      "label": "r47d Status pekerjaan pada pekerjaan yang berhenti di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R56B_KBJI1",
+      "label": "r49 Alasan utama berhenti bekerja di pekerjaan yang berhenti setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R57",
+      "label": "r50c Kegiatan Lainnya seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R58",
+      "label": "r51c Alasan utama daftar Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R59",
+      "label": "r51g Menyelesaikan pelatihan pertama Prakerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R60",
+      "label": "r51i Prakerja meningkatkan pengetahuan ketrampilan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "R6A",
+      "label": "r51j3 Insentif Prakerja untuk membayar hutang",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6B_J_KD",
+      "label": "r51j5 Insentif Prakerja untuk pulsa internet",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6B_P",
+      "label": "r51j6 Insentif Prakerja untuk pelatihan lain penunjang belajar",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6C_BLN",
+      "label": "r54 Tahun berangkat ke negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6C_THN",
+      "label": "r56a KBLI di negara terakhir tempat bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6D",
+      "label": "r6a Pendidikan tertinggi ditamatkan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6E",
+      "label": "r6b Kode Jurusan Pendidikan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6F",
+      "label": "r6b Penyelenggara Pendidikan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G1_KD",
+      "label": "r6c Bulan lulus pendidikan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G1_M",
+      "label": "r6g Jumlah pelatihan kursus training di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G1_S",
+      "label": "r6i Pernah Magang PKL disponsori Kemdikbudristek di 3 tahun terakhir",
+      "type": "character",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G1_S_KD",
+      "label": "r6i Pernah Magang PKL saat kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G2_KD",
+      "label": "r6j Pernah Program Pertukaran Pelajar Mahasiswa memperoleh sertifikat di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G2_M",
+      "label": "r6j Pernah Pernah Program Pertukaran Pelajar Mahasiswa disponsori Universitas di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G2_S",
+      "label": "r6j Pernah Pernah Program Pertukaran Pelajar Mahasiswa disponsori Lain di 3 tahun terakhir",
+      "type": "character",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G2_S_KD",
+      "label": "r6j Pernah Program Pertukaran Pelajar Mahasiswa saat kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G3_KD",
+      "label": "r6k Pernah Program Pengabdian Masyarakat memperoleh sertifikat di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G3_M",
+      "label": "r6k Pernah Pernah Program Pengabdian Masyarakat disponsori Universitas di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G3_S",
+      "label": "r6k Pernah Program Pengabdian Masyarakat saat sekolah di 3 tahun terakhir",
+      "type": "character",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G3_S_KD",
+      "label": "r6k Tidak Pernah Program Pengabdian Masyarakat saat tidak sekolah kuliah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6G_JML",
+      "label": "r7 Negara tempat tinggal 5 tahun lalu Agustus 2019",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6H",
+      "label": "r8c Disabilitas Berjalan naik tangga",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_M",
+      "label": "r8d Disabilitas menggunakan menggerakkan tangan jari",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_P_A",
+      "label": "r8e Disabilitas berbicara dan atau memahami berkomunikasi dengan orang lain",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_P_B",
+      "label": "r9c4 Memanfaatkan Internet untuk pembelian barang jasa dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_P_C",
+      "label": "Strata",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_P_D",
+      "label": "Identitas Unik",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_S_A",
+      "label": "k7 Provinsi Negara tempat lahir ibu kandung",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_S_B",
+      "label": "r12b Tetap memperoleh penghasilan gaji upah selama periode sementara tidak bekerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_S_C",
+      "label": "r12d Jaminan kembali bekerja pada unit usaha tempat kerja sekarang",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6I_S_D",
+      "label": "r17a Bidang pekerjaan utama seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_M",
+      "label": "r17b Barang produk yang dihasilkan dari pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_P_A",
+      "label": "r19a Pembulatan Jumlah jam kerja seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_P_B",
+      "label": "r19a Jumlah jam kerja seminggu terakhir dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_P_C",
+      "label": "r19a Jumat jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_P_D",
+      "label": "r19a Kamis jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_S_A",
+      "label": "r19a Senin jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_S_B",
+      "label": "r19b Jumlah jam kerja biasanya dalam seminggu dikurangi waktu istirahat",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6J_S_C",
+      "label": "r23c Negara tempat bekerja pada pekerjaan utama dalam seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_M",
+      "label": "r24a8 Tunai lainnya sebagai pembayaran pengupahan di pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_P_A",
+      "label": "r25b Jaminan kecelakaan kerja dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_P_B",
+      "label": "r32c Jumlah buruh karyawan pegawai dibayar di tambahan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_P_C",
+      "label": "r33a kode KBLI tambahan utama",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_P_D",
+      "label": "r34a4 Menggunakan Internet di pekerjaan tambahan utama dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_S_A",
+      "label": "r37 Alasan utama bekerja kurang dari 40 jam selama seminggu yang lalu karena penurunan aktivitas ekonomi penurunan permintaan pasar jumlah pesanan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_S_B",
+      "label": "r46a Berhenti bekerja dari pekerjaan 45b di setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R6K_S_C",
+      "label": "r48b KBJI pekerjaan berhenti setahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R7",
+      "label": "r52b Ke luar negeri di 5 tahun terakhir setelah Agustus 2019 untuk menjadi Buruh Karyawan Pegawai",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R7_KAB",
+      "label": "r6i Pernah Magang PKL memperoleh sertifikat di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R7_NEG",
+      "label": "r6i Pernah Magang PKL disponsori Sekolah di 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R7_PROV",
+      "label": "r7 Provinsi tempat tinggal 5 tahun lalu Agustus 2019",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8A",
+      "label": "r8a Disabilitas Penglihatan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8B",
+      "label": "r8b Disabilitas Pendengaran",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8C",
+      "label": "r8f Disabilitas lainnya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8D",
+      "label": "r9a Memiliki menguasai telepon selular telepon pintar dalam sebulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8E",
+      "label": "Jumlah Seluruh Anggota Rumah Tangga",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R8F",
+      "label": "r12a Alasan utama sementara tidak bekerja selama seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9A",
+      "label": "r18a Tahun mulai bekerja pada pekerjaan atau kegiatan usaha ini",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9B1",
+      "label": "r18b Lama waktu yang diperlukan untuk mencari pekerjaan atau mempersiapkan usaha pada pekerjaan jika bekerja sejak Agustus 2023 atau setelahnya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9B2",
+      "label": "r19a Minggu jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9B3",
+      "label": "r19a Rabu jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9B4",
+      "label": "r19a Sabtu jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C1",
+      "label": "r19a Selasa jumlah jam kerja dikurangi waktu istirahat di seminggu terakhir",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C2",
+      "label": "r23d6 Biasa lainnya ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C3",
+      "label": "r23e Transportasi utama ke tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C4",
+      "label": "r25e Jaminan pensiun dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C5",
+      "label": "r25h Cuti sakit haid tanpa memotong upah gaji pokok dari instansi perusahaan usaha tempat kerja",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "R9C6",
+      "label": "r43c Siap bersedia memulai pekerjaan di 2 minggu ke depan pekerjaan yang ditawarkan",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1"
+      ]
+    },
+    {
+      "code": "STRATA",
+      "label": "r6g3 Pelatihan3 Sumber biaya",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "URUTAN",
+      "label": "tahun",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "WEIGHT",
+      "label": "",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part1",
+        "sak202408_part2"
+      ]
+    },
+    {
+      "code": "TAHUN",
+      "label": "",
+      "type": "numeric",
+      "partitions": [
+        "sak202408_part2"
+      ]
+    }
+  ]
+}

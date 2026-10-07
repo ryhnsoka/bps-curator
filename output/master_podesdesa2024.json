@@ -1,0 +1,6398 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Desa",
+  "source_file": "Master_PodesDesa2024.xlsx",
+  "kamus_sheet": "Layout_Podes2024-Desa_Diseminas",
+  "kamus_header_row": 0,
+  "n_variables": 793,
+  "partitions": [
+    "podes2024_desa_01",
+    "podes2024_desa_02",
+    "podes2024_desa_03",
+    "podes2024_desa_04"
+  ],
+  "mandatory": [
+    "IDDESA",
+    "NAMA_DESA",
+    "NAMA_KAB",
+    "NAMA_KEC",
+    "NAMA_PROV",
+    "R101",
+    "R102",
+    "R103",
+    "R104"
+  ],
+  "variables": [
+    {
+      "code": "IDDESA",
+      "label": "Identitas desa/kelurahan (gabungan dari kode provinsi, kode kabupaten/kota, kode kecamatan, dan kode desa/kelurahan/nagari",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_DESA",
+      "label": "Kode provinsi",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_KAB",
+      "label": "Kode kabupaten/kota",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_KEC",
+      "label": "Kode kecamatan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_PROV",
+      "label": "Kode desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R1001A",
+      "label": "Status daerah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001B1",
+      "label": "Nama provinsi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001B2",
+      "label": "Nama kabupaten/kota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C1",
+      "label": "Nama kecamatan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C2",
+      "label": "Nama Desa/Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C3",
+      "label": "kode desa Permendagri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK2",
+      "label": "Status definitif desa dan operasional desa/kelurahan: Ada wilayah desa/kelurahan dengan batas yang jelas",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK3",
+      "label": "Status definitif desa dan operasional desa/kelurahan: Ada penduduk yang menetap di wilayah desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK4",
+      "label": "Status definitif desa dan operasional desa/kelurahan: Ada pemerintah desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK5",
+      "label": "Status pemerintahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK6A",
+      "label": "Peta desa/kelurahan yang ditetapkan dalam Peraturan Bupati/Walikota atau Gubernur",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK6B",
+      "label": "Topografi sebagian besar wilayah desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK7",
+      "label": "Keberadaan permukiman penduduk di puncak/tebing/lereng",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK2",
+      "label": "Wilayah desa/kelurahan terletak di sebanyak ......... pulau",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK3",
+      "label": "Keberadaan kantor kepala desa/lurah:",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK4",
+      "label": "Status kantor kepala desa/lurah",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK5",
+      "label": "Kondisi kantor kepala desa/lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK6A",
+      "label": "Lokasi kantor kepala desa/lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK6B",
+      "label": "Kegiatan pemerintahan desa/kelurahan utamanya dilaksanakan di",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK7",
+      "label": "Koordinat lokasi kegiatan pemerintahan desa/kelurahan: Garis Lintang (Latitude)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK2",
+      "label": "Keterangan Lintang Utara/Selatan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK3",
+      "label": "Koordinat lokasi kegiatan pemerintahan desa/kelurahan: Garis Bujur (Longitude) Timur:",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK4",
+      "label": "Ketinggian letak (Altitude) lokasi kegiatan pemerintahan desa/kelurahan dari permukaan air laut (dpal):",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK5",
+      "label": "Ada wilayah desa/kelurahan yang berbatasan langsung dengan laut :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK6A",
+      "label": "Pemanfaatan laut untuk : Perikanan tangkap (mencakup seluruh biota laut)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK6B",
+      "label": "Pemanfaatan laut untuk : Perikanan budidaya (mencakup seluruh biota laut)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK7",
+      "label": "Pemanfaatan laut untuk : Tambak garam",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK2",
+      "label": "Pemanfaatan laut untuk : Wisata bahari",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK3",
+      "label": "Pemanfaatan laut untuk : Transportasi umum",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK4",
+      "label": "Keberadaan tanaman mangrove (misalnya: bakau, api-api, pedada, tanjang, dll.) di desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK5",
+      "label": "Kondisi mangrove",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK6A",
+      "label": "Lokasi wilayah desa/kelurahan terhadap kawasan hutan/hutan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK6B",
+      "label": "Status kawasan hutan/hutan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK7",
+      "label": "Fungsi kawasan hutan/hutan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1003A",
+      "label": "Ketergantungan penduduk terhadap kawasan hutan/hutan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1003B",
+      "label": "Program Perhutanan Sosial tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1004",
+      "label": "Keberadaan satwa/tumbuhan yang dilindungi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005A",
+      "label": "Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI(Pekerja Migran)/TKI di luar negeri pada 1 Januari 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005B",
+      "label": "Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI diluar negeri pada 1 Januari 2024: laki-laki",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005C",
+      "label": "Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI diluar negeri pada 1 Januari 2024: perempuan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005D",
+      "label": "Keberadaan agen pengerahan PMI/TKI ke luar negeri di desa/kelurahan pada tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1006A",
+      "label": "Sejak tahun 2018 sampai 2023, apakah pihak desa/kelurahan telah memberikan layanan rekomendasi/surat keterangan bagi warga desa/kelurahan yang akan bekerja sebagai PMI/TKI di luar negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1006B",
+      "label": "Selama tahun 2023, berapa jumlah calon PMI laki-laki yang mendapatkan rekomendasi/surat keterangan untuk bekerja sebagai PMI/TKI di luar negeri dari kepala desa/lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007A",
+      "label": "Selama tahun 2023, berapa jumlah calon PMI perempuan yang mendapatkan rekomendasi/surat keterangan untuk bekerja sebagai PMI/TKI di luar negeri dari kepala desa/lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007B",
+      "label": "Keberadaan warga negara asing (WNA) di desa/kelurahan pada 1 Januari 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007C",
+      "label": "Jumlah WNA laki-laki di desa/kelurahan pada 1 Januari 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008AK2",
+      "label": "Jumlah WNA perempuan di desa/kelurahan pada 1 Januari 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008AK3",
+      "label": "Sumber penghasilan utama sebagian besar penduduk desa/kelurahan berasal dari lapangan usaha :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008BK2",
+      "label": "Jenis sub sektor utama sebagian besar penduduk desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008BK3",
+      "label": "Komoditas utama dari sub sektor utama sebagian besar penduduk desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008CK2",
+      "label": "Jenis prasarana transportasi dari/ke lokasi sentra produksi pertanian ke jalan utama desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008CK3",
+      "label": "Jalan dari/ke lokasi sentra produksi pertanian ke jalan utama desa/kelurahan dapat dilalui kendaraan bermotor roda 4 atau lebih",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008DK2",
+      "label": "Jumlah keluarga pengguna listrik PLN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008DK3",
+      "label": "Jumlah keluarga pengguna listrik Non PLN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008EK2",
+      "label": "Jumlah keluarga bukan pengguna listrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008FK2",
+      "label": "Keluarga yang menggunakan lampu tenaga surya:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008GK2",
+      "label": "Penerangan di jalan desa/kelurahan yang menggunakan lampu tenaga surya:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "Penerangan di jalan utama desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "Sumber penerangan di jalan utama desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Listrik",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Elpiji 5,5 kg/blue gaz",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R105",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Elpiji 12 kg",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R106B",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Elpiji 3 kg",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107A",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Gas kota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107B",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Biogas",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107C",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Minyak tanah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R1201A1",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Briket",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A10",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Arang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A11",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Kayu bakar",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A12",
+      "label": "Bahan bakar untuk memasak yang digunakan oleh keluarga: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A13",
+      "label": "Bahan bakar untuk memasak sebagian besar keluarga:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A14",
+      "label": "Cara memperoleh kayu bakar oleh sebagian besar keluarga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A15",
+      "label": "Tempat buang sampah keluarga: Tempat sampah, kemudian diangkut",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A16",
+      "label": "Frekuensi pengangkutan sampah dalam satu minggu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A2",
+      "label": "Tempat buang sampah keluarga: Dalam lubang atau dibakar",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A3",
+      "label": "Tempat buang sampah keluarga: Sungai/saluran irigasi/danau/laut",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A4",
+      "label": "Tempat buang sampah keluarga: Drainase (got/selokan)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A5",
+      "label": "Tempat buang sampah keluarga: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A6",
+      "label": "Tempat buang sampah sebagian besar keluarga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A7",
+      "label": "Keberadaan Tempat Penampungan Sementara (TPS)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A8",
+      "label": "Keberadaan Tempat Penampungan Sementara Reduce, Reuse, Recycle (TPS3R)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A9",
+      "label": "Keberadaan bank sampah di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202A1",
+      "label": "Proses pemilahan di TPS3R",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202A2",
+      "label": "Jenis pemilahan yang dilakukan di TPR3R",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202B",
+      "label": "Pemilahan sampah membusuk dan sampah kering:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202C",
+      "label": "Penggunaan fasilitas buang air besar sebagian besar keluarga di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203A",
+      "label": "Tempat pembuangan akhir tinja sebagian besar keluarga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203B1",
+      "label": "Tempat/saluran pembuangan limbah cair dari air mandi/cuci sebagian besar keluarga",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203B2",
+      "label": "Sumber air untuk minum sebagian besar keluarga berasal dari",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203C",
+      "label": "Sumber air untuk mandi/cuci sebagian besar keluarga berasal dari",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1204A",
+      "label": "Wilayah desa/kelurahan dilalui SUTET, SUTT, SUTTAS :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1204B",
+      "label": "Jika dilalui SUTET/SUTT/SUTTAS, keberadaan permukiman dibawah SUTET/SUTT/SUTTAS:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A1",
+      "label": "Jumlah lokasi permukiman di bawah SUTET/SUTT/SUTTAS:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A2",
+      "label": "Jumlah bangunan rumah permukiman di bawah SUTET/SUTT/SUTTAS:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A3",
+      "label": "Jumlah keluarga permukiman di bawah SUTET/SUTT/SUTTAS:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205B",
+      "label": "Keberadaan sungai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A1",
+      "label": "Keberadaan saluran irigasi:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A2",
+      "label": "Keberadaan danau/waduk/situ/bendungan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A3",
+      "label": "Keberadaan embung:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A4",
+      "label": "Penggunaan sungai untuk: Mandi/cuci",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B1",
+      "label": "Penggunaan saluran irigasi untuk: Mandi/cuci",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Mandi/cuci",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B3",
+      "label": "Penggunaan embung untuk: Mandi/cuci",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207A",
+      "label": "Penggunaan sungai untuk: Sumber air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207B",
+      "label": "Penggunaan saluran irigasi untuk: Sumber air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207C",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Sumber air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207D",
+      "label": "Penggunaan embung untuk: Sumber air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK2",
+      "label": "Penggunaan sungai untuk: Bahan baku air minum",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK3",
+      "label": "Penggunaan saluran irigasi untuk: Bahan baku air minum",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK4",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Bahan baku air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK2",
+      "label": "Penggunaan embung untuk: Bahan baku air minum/masak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK3",
+      "label": "Penggunaan sungai untuk: Pengairan/irigasi lahan pertanian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK4",
+      "label": "Penggunaan saluran irigasi untuk: Pengairan/irigasi lahan pertanian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Pengairan/irigasi lahan pertanian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK3",
+      "label": "Penggunaan embung untuk: Pengairan/irigasi lahan pertanian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK4",
+      "label": "Penggunaan sungai untuk: Pariwisata (komersial)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK2",
+      "label": "Penggunaan saluran irigasi untuk: Pariwisata (komersial)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK3",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Pariwisata (komersial)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK4",
+      "label": "Penggunaan embung untuk: Pariwisata (komersial)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK2",
+      "label": "Penggunaan sungai untuk: Perikanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK3",
+      "label": "Penggunaan saluran irigasi untuk: Perikanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK4",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Perikanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK2",
+      "label": "Penggunaan embung untuk: Perikanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK3",
+      "label": "Penggunaan sungai untuk: Transportasi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK4",
+      "label": "Penggunaan saluran irigasi untuk: Transportasi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Transportasi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK3",
+      "label": "Penggunaan sungai untuk: Pembangkit listrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK4",
+      "label": "Penggunaan saluran irigasi untuk: Pembangkit listrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Pembangkit listrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK3",
+      "label": "Penggunaan embung untuk: Pembangkit listrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK4",
+      "label": "Penggunaan sungai untuk: Industri/pabrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Industri/pabrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK3",
+      "label": "Penggunaan embung untuk: Industri/pabrik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK4",
+      "label": "Penggunaan sungai untuk: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK2",
+      "label": "Penggunaan danau/waduk/situ/bendungan untuk: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK3",
+      "label": "Penggunaan embung untuk: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK4",
+      "label": "Keberadaan permukiman di bantaran sungai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK2",
+      "label": "Jumlah lokasi permukiman di bantaran sungai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK3",
+      "label": "Jumlah bangunan rumah permukiman di bantaran sungai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK4",
+      "label": "Jumlah keluarga permukiman di bantaran sungai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK2",
+      "label": "Air sungai tercemar limbah:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK3",
+      "label": "Jika air sungai tercemar limbah, sumber limbah berasal dari: Pabrik/industri/usaha",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK4",
+      "label": "Jika air sungai tercemar limbah, sumber limbah berasal dari: Rumah tangga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK2",
+      "label": "Jika air sungai tercemar limbah, sumber limbah berasal dari: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK3",
+      "label": "Sumber limbah berlokasi di:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK4",
+      "label": "Keberadaan mata air di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK2",
+      "label": "Jumlah embung di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK3",
+      "label": "Keberadaan permukiman kumuh:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK4",
+      "label": "Jumlah lokasi permukiman kumuh:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK2",
+      "label": "Jumlah bangunan rumah permukiman kumuh:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK3",
+      "label": "Jumlah keluarga permukiman kumuh:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK4",
+      "label": "Kejadian pencemaran lingkungan: Air",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK2",
+      "label": "Sumber pencemaran Air",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK3",
+      "label": "Pengaduan warga ke aparat desa/kelurahan: Kejadian pencemaran Air",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK4",
+      "label": "Kejadian pencemaran lingkungan: Tanah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK2",
+      "label": "Sumber pencemaran Tanah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK3",
+      "label": "Pengaduan warga ke aparat desa/kelurahan: Kejadian pencemaran Tanah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK4",
+      "label": "Kejadian pencemaran lingkungan: Udara",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK2",
+      "label": "Sumber pencemaran Udara",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK3",
+      "label": "Pengaduan warga ke aparat desa/kelurahan : Kejadian pencemaran Udara",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK4",
+      "label": "Penanaman/pemeliharaan pepohonan di lahan kritis, penanaman mangrove, dan sejenisnya oleh masyarakat desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK2",
+      "label": "Pengolahan/daur ulang sampah (reuse, recycle) oleh masyarakat desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK3",
+      "label": "Penggalakan penggunaan pupuk organik di lahan pertanian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK4",
+      "label": "Keberadaan dan keaktifan komunitas/kelompok lingkungan hidup (meliputi gerakan lingkungan berkelanjutan, sadar lingkungan, siaga bencana)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301A",
+      "label": "Kebiasaan masyarakat membakar ladang/kebun di desa/kelurahan untuk proses usaha pertanian selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K2",
+      "label": "Keberadaan lokasi penggalian Golongan C (misalnya: batu kali, pasir, kapur, kaolin, pasir kuarsa, tanah liat, dll.) di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K3",
+      "label": "Tanah longsor",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K4",
+      "label": "Banyak kejadian tanah longsor 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K5",
+      "label": "Korban jiwa tanah longsor 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K2",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K3",
+      "label": "Banyak kejadian tanah longsor 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K4",
+      "label": "Korban jiwa tanah longsor 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K5",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K2",
+      "label": "Banjir",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K3",
+      "label": "Banyak kejadian Banjir 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K4",
+      "label": "Korban jiwa Banjir 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K5",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K2",
+      "label": "Banyak kejadian Banjir 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K3",
+      "label": "Korban jiwa Banjir 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K4",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K5",
+      "label": "Banjir bandang",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K2",
+      "label": "Banyak kejadian Banjir bandang 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K3",
+      "label": "Korban jiwa Banjir bandang 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K4",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K5",
+      "label": "Banyak kejadian Banjir bandang 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K2",
+      "label": "Korban jiwa Banjir bandang 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K4",
+      "label": "Gempa bumi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K5",
+      "label": "Banyak kejadian Gempa bumi 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K2",
+      "label": "Korban jiwa Gempa bumi 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K4",
+      "label": "Banyak kejadian Gempa bumi 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K5",
+      "label": "Korban jiwa Gempa bumi 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1302A",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1302B",
+      "label": "Tsunami",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A10K3",
+      "label": "Banyak kejadian Tsunami 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A10K4",
+      "label": "Korban jiwa Tsunami 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A11K3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A11K4",
+      "label": "Banyak kejadian Tsunami 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A1K3",
+      "label": "Korban jiwa Tsunami 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A1K4",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A2K3",
+      "label": "Gelombang pasang laut",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A2K4",
+      "label": "Banyak kejadian Gelombang pasang laut 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A3K3",
+      "label": "Korban jiwa Gelombang pasang laut 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A3K4",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A4K3",
+      "label": "Banyak kejadian Gelombang pasang laut 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A4K4",
+      "label": "Korban jiwa Gelombang pasang laut 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A5K3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A5K4",
+      "label": "Angin puyuh/puting beliung/topan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A6K3",
+      "label": "Banyak kejadian Angin puyuh/puting beliung/topan 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A6K4",
+      "label": "Korban jiwa Angin puyuh/puting beliung/topan 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A7K3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A7K4",
+      "label": "Banyak kejadian Angin puyuh/puting beliung/topan 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A8K3",
+      "label": "Korban jiwa Angin puyuh/puting beliung/topan 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A8K4",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A9K3",
+      "label": "Gunung meletus",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A9K4",
+      "label": "Banyak kejadian Gunung meletus 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303B",
+      "label": "Korban jiwa Gunung meletus 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304A",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304B",
+      "label": "Banyak kejadian Gunung meletus 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304C",
+      "label": "Korban jiwa Gunung meletus 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304D",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304E",
+      "label": "Kebakaran hutan dan lahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1305",
+      "label": "Banyak kejadian Kebakaran hutan dan lahan 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306A",
+      "label": "Korban jiwa Kebakaran hutan dan lahan 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306B1",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306B2",
+      "label": "Banyak kejadian Kebakaran hutan dan lahan 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306C1",
+      "label": "Korban jiwa Kebakaran hutan dan lahan 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306C2",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307AK2",
+      "label": "Kekeringan (lahan)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307AK3",
+      "label": "Banyak kejadian Kekeringan (lahan) 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307BK2",
+      "label": "Korban jiwa Kekeringan (lahan) 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307BK3",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1308A",
+      "label": "Banyak kejadian Kekeringan (lahan) 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1308B",
+      "label": "Korban jiwa Kekeringan (lahan) 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1309",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401A",
+      "label": "Abrasi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401B_BLN",
+      "label": "Banyak kejadian Abrasi 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401B_THN",
+      "label": "Korban jiwa Abrasi 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401C",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1402",
+      "label": "Banyak kejadian Abrasi 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403A",
+      "label": "Korban jiwa Abrasi 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403B",
+      "label": "Keberadaan Korban (hilang, terluka/sakit, mengungsi) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403C",
+      "label": "Jumlah korban yang terdampak bencana tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403D",
+      "label": "Luas areal pertanian yang terdampak/rusak tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403E",
+      "label": "Sistem peringatan dini bencana alam",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403F",
+      "label": "Sistem peringatan dini khusus tsunami",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403G",
+      "label": "Perlengkapan keselamatan (perahu karet, tenda, masker, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403H",
+      "label": "Rambu-rambu dan jalur evakuasi bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403I",
+      "label": "Pembuatan, perawatan, atau normalisasi: sungai, kanal, tanggul, parit, drainase, waduk, pantai, dll. selama 3 tahun terakhir",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1404A1",
+      "label": "Desa Tangguh Bencana (Destana)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404A2_T1",
+      "label": "Program Kampung Iklim (Proklim)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404A2_T2",
+      "label": "Kampung Pesisir Tangguh",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404B",
+      "label": "Kampung Siaga Bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404C",
+      "label": "Kampung Tangguh Covid",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404D",
+      "label": "Keberadaan warga desa pernah mengikuti simulasi kesiapsiagaan bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1405A",
+      "label": "Keberadaan warga desa pernah mengikuti gladi ruang kesiapsiagaan bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1405B",
+      "label": "Keberadaan warga desa pernah memiliki sertifikasi pelatihan penanggulangan bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1406",
+      "label": "Jenjang pendidikan Pos Pendidikan Anak Usia Dini (PAUD) negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1407A",
+      "label": "Jenjang pendidikan Pos Pendidikan Anak Usia Dini (PAUD) swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1407B",
+      "label": "Jarak mencapai Pos Pendidikan Anak Usia Dini terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K2",
+      "label": "Kemudahan untuk mencapai Pos Pendidikan Anak Usia Dini (Pos PAUD) terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K3",
+      "label": "Jumlah TK negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K4",
+      "label": "Jumlah TK swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K5",
+      "label": "Jarak ke TK terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K2",
+      "label": "Kemudahan mencapai TK terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K3",
+      "label": "Jumlah RA/BA negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K4",
+      "label": "Jumlah RA/BA swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K5",
+      "label": "Jarak ke RA/BA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K2",
+      "label": "Kemudahan mencapai RA/BA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K3",
+      "label": "Jumlah SD negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K5",
+      "label": "Jumlah SD swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1",
+      "label": "jarak ke SD terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_10",
+      "label": "Kemudahan mencapai SD terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_11",
+      "label": "Jumlah MI negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1A",
+      "label": "Jumlah MI swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1B",
+      "label": "jarak ke MI terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1C",
+      "label": "Kemudahan mencapai MI terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1D",
+      "label": "Jumlah SMP negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_2",
+      "label": "Jumlah SMP swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_3",
+      "label": "jarak ke SMP terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_4",
+      "label": "Kemudahan mencapai SMP terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_5",
+      "label": "Jumlah MTs negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_6",
+      "label": "Jumlah MTs swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_7",
+      "label": "jarak ke MTs terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_8",
+      "label": "Kemudahan mencapai MTs terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_9",
+      "label": "Jumlah SMA negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503A",
+      "label": "Jumlah SMA swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503B",
+      "label": "jarak ke SMA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503C",
+      "label": "Kemudahan mencapai SMA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504A",
+      "label": "Jumlah MA negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504B",
+      "label": "Jumlah MA swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504C",
+      "label": "jarak ke MA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K2",
+      "label": "Kemudahan mencapai MA terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K3",
+      "label": "Jumlah SMK negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K4",
+      "label": "Jumlah SMK swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K5",
+      "label": "jarak ke SMK terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K6",
+      "label": "Kemudahan mencapai SMK terdekat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K2",
+      "label": "Jumlah Akademi/Perguruan Tinggi negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K3",
+      "label": "Jumlah Akademi/Perguruan Tinggi swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K4",
+      "label": "jarak ke Akademi/Perguruan Tinggi terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K5",
+      "label": "Kemudahan mencapai Akademi/Perguruan Tinggi terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K6",
+      "label": "Jumlah SDLB negeri",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602A",
+      "label": "Jumlah SDLB swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602B",
+      "label": "Jumlah SMPLB negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602C",
+      "label": "Jumlah SMPLB swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602D",
+      "label": "Jumlah SMALB negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603A",
+      "label": "Jumlah SMALB swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603B",
+      "label": "Jumlah Pondok Pesantren negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603C",
+      "label": "Jumlah Pondok Pesantren swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604A",
+      "label": "Jumlah Madrasah Diniyah swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604B",
+      "label": "Jumlah Seminari/sejenisnya swasta",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604C",
+      "label": "Kegiatan pendidikan keaksaraan dasar/lanjutan selama setahun terakhir :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604D",
+      "label": "Kegiatan pendidikan Paket A/B/C selama setahun terakhir :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R301",
+      "label": "Taman Bacaan Masyarakat (TBM)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R302",
+      "label": "Jumlah lembaga pendidikan keterampilan Bahasa asing milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305A",
+      "label": "Jumlah lembaga pendidikan keterampilan Bahasa asing bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305B",
+      "label": "Jumlah lembaga pendidikan keterampilan Komputer milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305C",
+      "label": "Jumlah lembaga pendidikan keterampilan Komputer bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306A",
+      "label": "Jumlah lembaga pendidikan keterampilan Menjahit/tata busana milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306B",
+      "label": "Jumlah lembaga pendidikan keterampilan Menjahit/tata busana bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306C",
+      "label": "Jumlah lembaga pendidikan keterampilan Kecantikan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306D",
+      "label": "Jumlah lembaga pendidikan keterampilan Kecantikan bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307A",
+      "label": "Jumlah lembaga pendidikan keterampilan Montir mobil/motor milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B2",
+      "label": "Jumlah lembaga pendidikan keterampilan Montir mobil/motor bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LAT",
+      "label": "Jumlah lembaga pendidikan keterampilan Elektronika milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LAT2",
+      "label": "Jumlah lembaga pendidikan keterampilan Elektronika bukan milik desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LONG",
+      "label": "Jumlah lembaga pendidikan keterampilan Lainnya milik desa/kelurahan............................................. (misalnya: tataboga, stir mobil, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308A",
+      "label": "Jumlah lembaga pendidikan keterampilan Lainnya bukan milik desa/kelurahan............................................. (misalnya: tataboga, stir mobil, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1A",
+      "label": "Jumlah Rumah sakit",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1B",
+      "label": "Jarak menuju Rumah sakit terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1C",
+      "label": "Kemudahan untuk mencapai Rumah sakit terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1D",
+      "label": "Jumlah Rumah sakit bersalin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1E",
+      "label": "Jarak menuju Rumah sakit bersalin terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B2",
+      "label": "Kemudahan untuk mencapai Rumah sakit bersalin terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B3",
+      "label": "Jumlah Puskesmas dengan rawat inap",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309A",
+      "label": "Jarak menuju Puskesmas dengan rawat inap terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309B",
+      "label": "Kemudahan untuk mencapai Puskesmas dengan rawat inap terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309C",
+      "label": "Jumlah Puskesmas tanpa rawat inap",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309D",
+      "label": "Jarak menuju Puskesmas tanpa rawat inap terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309E",
+      "label": "Kemudahan untuk mencapai Puskesmas tanpa rawat inap terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R310",
+      "label": "Jumlah Puskesmas pembantu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402A",
+      "label": "Jarak menuju Puskesmas pembantu terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402B1",
+      "label": "Kemudahan untuk mencapai Puskesmas pembantu terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402B2",
+      "label": "Jumlah Poliklinik/balai pengobatan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402C",
+      "label": "Jarak menuju Poliklinik/balai pengobatan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D1",
+      "label": "Kemudahan untuk mencapai Poliklinik/balai pengobatan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D2A",
+      "label": "Jumlah Tempat praktek dokter",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D2B",
+      "label": "Jarak menuju Tempat praktek dokter terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E1",
+      "label": "Kemudahan untuk mencapai Tempat praktek dokter terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E2A",
+      "label": "Jumlah Rumah bersalin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E2B",
+      "label": "Jarak menuju Rumah bersalin terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403A",
+      "label": "Kemudahan untuk mencapai Rumah bersalin terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403B1",
+      "label": "Jumlah Tempat praktek bidan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403B2",
+      "label": "Jarak menuju Tempat praktek bidan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403C1",
+      "label": "Kemudahan untuk mencapai Tempat praktek bidan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403C2",
+      "label": "Jumlah Poskesdes (pos kesehatan desa)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501A1",
+      "label": "Jarak menuju Poskesdes (pos kesehatan desa) terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501A2",
+      "label": "Kemudahan untuk mencapai Poskesdes (pos kesehatan desa) terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501B",
+      "label": "Jumlah Polindes (pondok bersalin desa)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501C",
+      "label": "Jarak menuju Polindes (pondok bersalin desa) terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502A",
+      "label": "Kemudahan untuk mencapai Polindes (pondok bersalin desa) terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502B",
+      "label": "Jumlah Apotek",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502C",
+      "label": "Jarak menuju Apotek terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A1",
+      "label": "Kemudahan untuk mencapai Apotek terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A10",
+      "label": "Jumlah Toko khusus obat/jamu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A11",
+      "label": "Jarak menuju Toko khusus obat/jamu terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A2",
+      "label": "Kemudahan untuk mencapai Toko khusus obat/jamu terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A3",
+      "label": "Jumlah posyandu aktif",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A4",
+      "label": "Jumlah posyandu dengan kegiatan/pelayanan setiap sebulan sekali",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A5",
+      "label": "Jumlah posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A6",
+      "label": "Jumlah Pos Pembinaan Terpadu (Posbindu)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A7",
+      "label": "Jumlah kader pelaksana (KB/Kesehatan ibu dan anak)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A8",
+      "label": "Tenaga dokter pria yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A9",
+      "label": "Tenaga dokter wanita yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503B",
+      "label": "Tenaga dokter gigi yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503C",
+      "label": "Tenaga bidan yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A1A",
+      "label": "Tenaga kesehatan lain yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A1B",
+      "label": "Keberadaan bidan desa (BDD) :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A2",
+      "label": "Dukun bayi/dukun bersalin/paraji yang tinggal/menetap di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A3",
+      "label": "Jumlah warga penderita gizi buruk (marasmus dan kwashiorkor) selama tahun 2023: ..................... Orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A4",
+      "label": "Jumlah surat miskin/SKTM yang dikeluarkan desa/kelurahan selama tahun 2023: ..................... Surat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A5",
+      "label": "Kejadian luar biasa (KLB) Muntaber/diare",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504B",
+      "label": "Jumlah penderita Muntaber/diare",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504C",
+      "label": "Jumlah penderita yang meninggal karena Muntaber/diare",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504D",
+      "label": "Kejadian luar biasa (KLB) Demam berdarah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504E",
+      "label": "Jumlah penderita Demam berdarah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504F1",
+      "label": "Jumlah penderita yang meninggal karena Demam berdarah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504F2",
+      "label": "Kejadian luar biasa (KLB) Campak",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R505",
+      "label": "Jumlah penderita Campak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R506A",
+      "label": "Jumlah penderita yang meninggal karena Campak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R506B",
+      "label": "Kejadian luar biasa (KLB) Malaria",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R507",
+      "label": "Jumlah penderita Malaria",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R508A",
+      "label": "Jumlah penderita yang meninggal karena Malaria",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R508B",
+      "label": "Kejadian luar biasa (KLB) Flu burung/SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509A",
+      "label": "Jumlah penderita Flu burung/SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509B",
+      "label": "Jumlah penderita yang meninggal karena Flu burung/SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C1",
+      "label": "Kejadian luar biasa (KLB) Hepatitis E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C2",
+      "label": "Jumlah penderita Hepatitis E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C3",
+      "label": "Jumlah penderita yang meninggal karena Hepatitis E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK2",
+      "label": "Kejadian luar biasa (KLB) Difteri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK3",
+      "label": "Jumlah penderita DPT Difteri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK4",
+      "label": "Jumlah penderita yang meninggal karena DPT Difteri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK5",
+      "label": "Kejadian luar biasa (KLB) Covid-19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K2",
+      "label": "Jumlah penderita Covid-19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K4",
+      "label": "Jumlah penderita yang meninggal karena Covid-19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K5",
+      "label": "Kejadian luar biasa (KLB) Lainnya ………………………(misalnya: chikungunya, leptospirosis, kolera, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K2",
+      "label": "Jumlah penderita Lainnya …………(misalnya: chikungunya, leptospirosis, kolera, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K3",
+      "label": "Jumlah penderita yang meninggal karena Lainnya ………………………(misalnya: chikungunya, leptospirosis, kolera, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K4",
+      "label": "Kejadian Kerawanan Pangan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K5",
+      "label": "Jumlah penderita Kerawanan Pangan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K2",
+      "label": "Jumlah penderita yang meninggal karena Kerawanan Pangan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K3",
+      "label": "Keberadaan warga yang menganut agama Islam",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K4",
+      "label": "Keberadaan warga yang menganut agama Kristen",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K5",
+      "label": "Keberadaan warga yang menganut agama Katolik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K2",
+      "label": "Keberadaan warga yang menganut agama Buddha",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K3",
+      "label": "Keberadaan warga yang menganut agama Hindu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K4",
+      "label": "Keberadaan warga yang menganut agama Konghucu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K5",
+      "label": "Keberadaan warga yang menganut aliran penghayat kepercayaan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K2",
+      "label": "Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K3",
+      "label": "Jumlah Masjid",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K4",
+      "label": "Jumlah Surau/Langgar/Musala",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K5",
+      "label": "Jumlah Gereja Kristen",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K2",
+      "label": "Jumlah Gereja Katolik",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K3",
+      "label": "Jumlah Kapel",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K4",
+      "label": "Jumlah Pura",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K5",
+      "label": "Jumlah Wihara",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K2",
+      "label": "Jumlah Klenteng",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K3",
+      "label": "Jumlah Balai Basarah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K4",
+      "label": "Jumlah lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K5",
+      "label": "Warga desa/kelurahan terdiri dari beberapa suku/etnis :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K2",
+      "label": "Suku 1",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K3",
+      "label": "Suku 2",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K4",
+      "label": "Suku 3",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K2",
+      "label": "Warga desa/kelurahan berkomunikasi sehari-hari menggunakan beberapa bahasa :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K3",
+      "label": "Bahasa sehari-hari sebagian besar warga di desa/kelurahan:.........................",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K4",
+      "label": "Banyaknya penyandan Tuna netra (buta)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K5",
+      "label": "Banyaknya penyandang Tuna rungu (tuli)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K2",
+      "label": "Banyaknya penyandang Tuna wicara (bisu)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K4",
+      "label": "Banyaknya penyandang Tuna rungu-wicara (tuli-bisu)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K5",
+      "label": "Banyaknya penyandang Tuna daksa (disabilitas tubuh) : kelumpuhan/kelainan/ketidaklengkapan anggota gerak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511A",
+      "label": "Banyaknya penyandang Tuna grahita (keterbelakangan mental)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B1",
+      "label": "Banyaknya penyandang Tuna laras (eks-sakit jiwa, mengalami hambatan/gangguan dalam mengendalikan emosi dan kontrol sosial)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B2",
+      "label": "Banyaknya penyandang Tuna eks-sakit kusta: pernah mengalami sakit kusta dan telah dinyatakan sembuh oleh dokter",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B3",
+      "label": "Banyaknya penyandang Tuna ganda (fisik-mental): fisik (buta, tuli, bisu, bisu-tuli atau tubuh) dan mental (tunagrahita atau tunalaras)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C1",
+      "label": "Jumlah orang yang dipasung di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2A",
+      "label": "Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun-alun, taman, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2B",
+      "label": "Ruang terbuka hijau",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2C",
+      "label": "Ruang terbuka non hijau",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C3",
+      "label": "Kebiasaan gotong royong warga di desa/kelurahan untuk kepentingan umum/komunitas:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R512A",
+      "label": "Kegiatan gotong royong warga untuk membantu warga yang sedang mengalami musibah:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R512B",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: PKK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513A",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: Karang taruna",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B1",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: Lembaga adat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B2",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: Kelompok tani",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B3",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: Lembaga pengelolaan air",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K2",
+      "label": "Jumlah jenis-jenis lembaga kemasyarakatan di desa/kelurahan: Kelompok masyarakat (pokmas)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K3",
+      "label": "Ketersediaan fasilitas/lapangan: Sepak bola",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K4",
+      "label": "Kelompok kegiatan: Sepak bola",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K2",
+      "label": "Ketersediaan fasilitas/lapangan: Bola voli",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K3",
+      "label": "Kelompok kegiatan: Bola voli",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K4",
+      "label": "Ketersediaan fasilitas/lapangan: Bulu tangkis",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K2",
+      "label": "Kelompok kegiatan: Bulu tangkis",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K3",
+      "label": "Ketersediaan fasilitas/lapangan: Bola basket",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K4",
+      "label": "Kelompok kegiatan: Bola basket",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515A",
+      "label": "Ketersediaan fasilitas/lapangan: Tenis lapangan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515B",
+      "label": "Kelompok kegiatan: Tenis lapangan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515C",
+      "label": "Ketersediaan fasilitas/lapangan: Tenis meja",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R516",
+      "label": "Kelompok kegiatan: Tenis meja",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R517",
+      "label": "Ketersediaan fasilitas/lapangan: Futsal",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R518",
+      "label": "Kelompok kegiatan: Futsal",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK2",
+      "label": "Ketersediaan fasilitas/lapangan: Renang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK3",
+      "label": "Kelompok kegiatan: Renang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK4",
+      "label": "Ketersediaan fasilitas/lapangan: Bela diri (pencak silat, karate, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK5",
+      "label": "Kelompok kegiatan: Bela diri (pencak silat, karate, dll.)",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK6",
+      "label": "Ketersediaan fasilitas/lapangan: Bilyard",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK7",
+      "label": "Kelompok kegiatan: Bilyard",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK8",
+      "label": "Ketersediaan fasilitas/lapangan: fitnes, aerobik, dll",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK2",
+      "label": "Kelompok kegiatan: fitness, aerobik, dll",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK3",
+      "label": "Ketersediaan fasilitas/lapangan: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK4",
+      "label": "Kelompok kegiatan: Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK5",
+      "label": "Keberadaan pub/diskotik/tempat karaoke yang masih berfungsi :",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK6",
+      "label": "Jika tidak ada pub/diskotik/tempat karaoke, perkiraan jarak ke pub/diskotik/tempat karaoke terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK7",
+      "label": "Lalu lintas dari/ke desa/kelurahan melalui:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK8",
+      "label": "Jenis permukaan jalan yang terluas:",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK2",
+      "label": "Jalan darat dapat dilalui kendaraan bermotor roda 4 atau lebih:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK3",
+      "label": "Keberadaan angkutan umum:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK4",
+      "label": "Operasional angkutan umum yang utama:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK5",
+      "label": "Jam operasi angkutan umum yang utama:",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK6",
+      "label": "Sarana transportasi yang biasa digunakan dari kantor kepala desa/lurah ke Kantor camat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK7",
+      "label": "Jenis angkutan umum dari kantor kepala desa/lurah ke Kantor camat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK8",
+      "label": "Jenis angkutan umum yang utama dari kantor kepala desa/lurah ke Kantor camat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK2",
+      "label": "Jarak tempuh dari kantor kepala desa/lurah ke Kantor camat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK3",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor camat (Jam)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK4",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor camat (Menit)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK5",
+      "label": "Biaya transportasi dari kantor kepala desa/lurah ke Kantor camat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK6",
+      "label": "Sarana transportasi yang biasa digunakan dari kantor kepala desa/lurah ke Kantor bupati/walikota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK7",
+      "label": "Jenis angkutan umum dari kantor kepala desa/lurah ke Kantor bupati/walikota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK8",
+      "label": "Jenis angkutan umum yang utama dari kantor kepala desa/lurah ke Kantor bupati/walikota",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK2",
+      "label": "Jarak tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK3",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota (Jam)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK4",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota (Menit)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK5",
+      "label": "Biaya transportasi dari kantor kepala desa/lurah ke Kantor bupati/walikota",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK6",
+      "label": "Sarana transportasi yang biasa digunakan dari kantor kepala desa/lurah ke Kantor camat lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK7",
+      "label": "Jenis angkutan umum dari kantor kepala desa/lurah ke Kantor camat lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK8",
+      "label": "Jenis angkutan umum yang utama dari kantor kepala desa/lurah ke Kantor camat lain terdekat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK2",
+      "label": "Jarak tempuh dari kantor kepala desa/lurah ke Kantor camat lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK3",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor camat lain terdekat (Jam)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK4",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor camat lain terdekat (Menit)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK5",
+      "label": "Biaya transportasi dari kantor kepala desa/lurah ke Kantor camat lain terdekat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK6",
+      "label": "Sarana transportasi yang biasa digunakan dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK7",
+      "label": "Jenis angkutan umum dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK8",
+      "label": "Jenis angkutan umum yang utama dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK2",
+      "label": "Jarak tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK3",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat (Jam)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK4",
+      "label": "Waktu tempuh dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat (Menit)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK5",
+      "label": "Biaya transportasi dari kantor kepala desa/lurah ke Kantor bupati/walikota lain terdekat",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK6",
+      "label": "Jumlah keluarga yang berlangganan telepon kabel",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK7",
+      "label": "Keberadaan warga yang menggunakan telepon seluler/handphone",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK8",
+      "label": "Keberadaan internet untuk warnet, game online, dan fasilitas lainnya di desa/kelurahan",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK2",
+      "label": "Jumlah menara Base Transceiver Station (BTS)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK3",
+      "label": "Jumlah operator layanan komunikasi telepon seluler/handphone yang menjangkau di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK4",
+      "label": "Sinyal telepon seluler/handphone di sebagian besar wilayah desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK5",
+      "label": "Sinyal internet telepon seluler/handphone di sebagian besar wilayah di desa/kelurahan:",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK6",
+      "label": "Komputer/PC/laptop yang masih berfungsi di kantor kepada desa/lurah:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK7",
+      "label": "Fasilitas internet di kantor kepala desa/lurah:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK8",
+      "label": "Keberadaan kantor pos/pos pembantu/rumah pos :",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK2",
+      "label": "Layanan pos keliling:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK3",
+      "label": "Perusahaan/agen jasa ekspedisi (pengiriman barang/dokumen) swasta:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK4",
+      "label": "Program/siaran televisi/radio: TVRI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK5",
+      "label": "Jika program/siaran televisi TVRI dapat diterima (kolom 2 berkode 1), apakah harus menggunakan parabola/TV kabel?",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK6",
+      "label": "Program/siaran televisi/radio: TVRI daerah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK7",
+      "label": "Jika program/siaran televisi TVRI daerah dapat diterima (kolom 2 berkode 1), apakah harus menggunakan parabola/TV kabel?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK8",
+      "label": "Program/siaran televisi/radio: TV swasta",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK2",
+      "label": "Jika program/siaran televisi TV swasta dapat diterima (kolom 2 berkode 1), apakah harus menggunakan parabola/TV kabel?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK3",
+      "label": "Program/siaran televisi/radio: TV luar negeri",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK4",
+      "label": "Jika program/siaran televisi TV luar negeri dapat diterima (kolom 2 berkode 1), apakah harus menggunakan parabola/TV kabel?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK5",
+      "label": "Program/siaran televisi/radio: RRI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK6",
+      "label": "Program/siaran televisi/radio: RRI daerah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK7",
+      "label": "Program/siaran televisi/radio: Radio swasta/komunitas",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK8",
+      "label": "Industri mikro dan kecil kulit, barang dari kulit dan alas kaki (tas, sepatu, sandal, ikat pinggang dll.)",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK2",
+      "label": "Industri mikro dan kecil furnitur dari kayu, rotan/bambu, plastik, logam (meja, kursi, tempat tidur, lemari, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK3",
+      "label": "Industri mikro dan kecil barang logam, bukan mesin dan peralatannya (teralis, pagar, sabit, pisau, parang, gunting, sendok, golok, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK4",
+      "label": "Industri mikro dan kecil tekstil (kain ulos, kain songket, kain tenun, dan percetakan batik, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK5",
+      "label": "Industri mikro dan kecil pakaian jadi (konveksi, pakaian, kemeja, rok, celana, mukena bordir)",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK6",
+      "label": "Industri mikro dan kecil barang galian bukan logam/industri gerabah/keramik/batu bata (genteng, batu bata, porselin,tegel, keramik, kaca patri, cangkir, guci, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK7",
+      "label": "Industri mikro dan kecil kayu, barang dari kayu, barang anyaman dari bambu, rotan dan sejenisnya (reng kayu, papan, anyaman tas dan tikar, kusen, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK8",
+      "label": "Industri mikro dan kecil makanan (pengolahan dan pengawetan daging, ikan, buah, sayuran, minyak dan lemak, susu, dll)",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R602",
+      "label": "Industri mikro dan kecil minuman (minuman kemasan, air mineral, air isi ulang, sopi dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R603",
+      "label": "Industri mikro dan kecil pengolahan tembakau (industri rokok, pengeringan dan perajangan tembakau)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R604A",
+      "label": "Industri mikro dan kecil kertas dan barang dari kertas (kantong kertas, post card, kardus, sak semen)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604B",
+      "label": "Industri mikro dan kecil percetakan dan reproduksi media rekaman (buku, brosur, kartu nama, kalender, spanduk, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604C",
+      "label": "Industri mikro dan kecil alat angkutan lainnya (perahu, klotok, rakit, kursi roda, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604D",
+      "label": "Industri mikro dan kecil kerajinan dan lainnya (kerajinan tangan, mainan anak-anak, batu akik, perhiasan emas/imitasi,)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604E",
+      "label": "Reparasi dan pemasangan mesin dan peralatan (las keliling, reparasi dinamo, reparasi mesin penggiling padi, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605A",
+      "label": "Industri mikro dan kecil lainnya …………………………………………… (tuliskan)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605B",
+      "label": "Jumlah Sentra Industri:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605C",
+      "label": "Tuliskan produk pada sentra industry yang mempunyai muatan usaha terbanyak",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605D",
+      "label": "Jumlah Lingkungan Industri Kecil (LIK) :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605E",
+      "label": "Jumlah Perkampungan Industri Kecil (PIK) :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6061",
+      "label": "Keberadaan produk barang unggulan/utama di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6062",
+      "label": "Produk barang unggulan makanan ........",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6063",
+      "label": "Produk barang unggulan non makanan ........",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK2",
+      "label": "Produk unggulan/utama desa/kelurahan ada yang diekspor ke negara lain",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK3",
+      "label": "Keberadaan pangkalan/agen/penjual minyak tanah (termasuk penjual minyak tanah keliling):",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK4",
+      "label": "Keberadaan pangkalan/agen/penjual LPG (warung, toko, supermarket, penjual gas keliling):",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK5",
+      "label": "Jumlah Bank Umum Pemerintah (BRI, BNI, MANDIRI, BPD, BTN) yang beroperasi di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK2",
+      "label": "Jumlah Bank Umum Swasta (BCA, Permata, Sinarmas, CIMB, dll) yang beroperasi di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK3",
+      "label": "Jumlah Bank Perkreditan Rakyat (BPR) yang beroperasi di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK4",
+      "label": "Jika tidak ada bank, perkiraan jarak ke bank terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK5",
+      "label": "Jumlah Koperasi Unit Desa (KUD) yang masih aktif: ........................ Unit",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK2",
+      "label": "Jumlah koperasi Industri Kecil dan Kerajinan Rakyat (Kopinkra) yang masih aktif: ........................ Unit",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK3",
+      "label": "Jumlah koperasi Simpan Pinjam (Kospin) yang masih aktif: ........................ Unit",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK4",
+      "label": "Jumlah koperasi lainnya yang masih aktif: ........................ Unit",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK5",
+      "label": "Keberadaan toko/kios yang menjual sarana produksi pertanian milik KUD:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK2",
+      "label": "Keberadaan toko/kios yang menjual sarana produksi pertanian milik BUM Desa:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK3",
+      "label": "Keberadaan toko/kios yang menjual sarana produksi pertanian selain milik KUD/BUM Desa:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK4",
+      "label": "Fasilitas Kredit Usaha Rakyat (KUR) yang diterima warga desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK5",
+      "label": "Fasilitas Kredit Ketahanan Pangan dan Energi (KKP-E) yang diterima warga desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK2",
+      "label": "Fasilitas Kredit Usaha Kecil (KUK) yang diterima warga desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK3",
+      "label": "Fasilitas Kredit Kelompok Usaha Bersama (KUBE) yang diterima warga desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK4",
+      "label": "Jumlah Baitul Maal Wa Tanwil (BMT)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK5",
+      "label": "Jarak ke BMT terdekat : ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK2",
+      "label": "Kemudahan untuk mencapai ke BMT terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK3",
+      "label": "jumlah ATM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK4",
+      "label": "Jarak ke ATM terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK5",
+      "label": "Kemudahan untuk mencapai ke ATM terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK2",
+      "label": "Jumlah agen bank",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK3",
+      "label": "Jarak ke agen bank terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK4",
+      "label": "Kemudahan untuk mencapai ke agen bank terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK5",
+      "label": "Jumlah Perusahaan Pembiayaan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK2",
+      "label": "Jarak ke Perusahaan Pembiayaan terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK3",
+      "label": "Kemudahan menuju Perusahaan Pembiayaan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK4",
+      "label": "Jumlah Pedagang Valuta Asing",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK5",
+      "label": "Jarak ke Pedagang Valuta Asing terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK2",
+      "label": "Kemudahan menuju Pedagang Valuta Asing terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK3",
+      "label": "Jumlah pergadaian",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK4",
+      "label": "Jarak ke Pergadaian terdekat : ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK5",
+      "label": "Kemudahan untuk mencapai ke pergadaian terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK2",
+      "label": "Jumlah agen tiket/travel/biro perjalanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK3",
+      "label": "Jarak ke agen tiket/travel/biro perjalanan terdekat : ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK4",
+      "label": "Kemudahan untuk mencapai ke agen tiket/travel/biro perjalanan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK5",
+      "label": "Jumlah bengkel mobil/motor",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK2",
+      "label": "Jarak ke bengkel mobil/motor terdekat : ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK3",
+      "label": "Kemudahan untuk mencapai ke bengkel mobil/motor terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK4",
+      "label": "Jumlah salon kecantikan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK5",
+      "label": "Jarak ke salon kecantikan terdekat : ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701LK2",
+      "label": "Kemudahan untuk mencapai ke salon kecantikan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701LK3",
+      "label": "Jumlah kelompok pertokoan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701MK2",
+      "label": "Jarak ke kelompok pertokoan terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701MK3",
+      "label": "Kemudahan untuk mencapai ke kelompok pertokoan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701NK2",
+      "label": "Jumlah Pasar dengan bangunan permanen",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701NK3",
+      "label": "Jarak ke Pasar dengan bangunan permanen terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701OK2",
+      "label": "Kemudahan untuk mencapai ke Pasar dengan bangunan permanen terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701OK3",
+      "label": "Jumlah Pasar dengan bangunan semi permanen",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701PK3",
+      "label": "Jarak ke Pasar dengan bangunan semi permanen terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701QK3",
+      "label": "Kemudahan untuk mencapai ke Pasar dengan bangunan semi permanen terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702A",
+      "label": "Jumlah Pasar tanpa bangunan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702B",
+      "label": "Jarak ke Pasar tanpa bangunan terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702C",
+      "label": "Kemudahan untuk mencapai ke Pasar tanpa bangunan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703AK2",
+      "label": "Jumlah minimarket/swalayan/supermarket",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703AK3",
+      "label": "Jarak ke minimarket/swalayan/supermarket terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703BK2",
+      "label": "Kemudahan untuk mencapai ke minimarket/swalayan/supermarket terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703BK3",
+      "label": "Jumlah Restoran/rumah makann",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703CK2",
+      "label": "Jarak ke Restoran/rumah makan terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703CK3",
+      "label": "Kemudahan untuk mencapai ke Restoran/rumah makan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703DK2",
+      "label": "Jumlah Warung/kedai makanan minuman",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703DK3",
+      "label": "Jarak ke Warung/kedai makanan minuman terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703EK2",
+      "label": "Kemudahan untuk mencapai ke Warung/kedai makanan minuman terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703EK3",
+      "label": "Jumlah Hotel",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703FK2",
+      "label": "Jarak ke Hotel terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703FK3",
+      "label": "Kemudahan untuk mencapai ke Hotel terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703GK2",
+      "label": "Jumlah Penginapan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703GK3",
+      "label": "Jarak ke Penginapan terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK2",
+      "label": "Kemudahan untuk mencapai ke Penginapan terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK3",
+      "label": "Jumlah Toko/warung kelontong",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK4",
+      "label": "Jarak ke Toko/warung kelontong terdekat: ................ km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK2",
+      "label": "Kemudahan untuk mencapai ke Toko/warung kelontong terdekat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK3",
+      "label": "Kejadian perkelahian massal di desa/kelurahan selama setahun terakhir :",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK4",
+      "label": "Jumlah Kejadian Perkelahian massal antar kelompok masyarakat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK2",
+      "label": "Korban meninggal akibat perkelahian massal antar kelompok masyarakat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK3",
+      "label": "Korban luka-luka akibat perkelahian massal antar kelompok masyarakat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK4",
+      "label": "Penyebab perkelahian massal antar kelompok masyarakat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK2",
+      "label": "Jumlah Kejadian Perkelahian massal kelompok masyarakat antar desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK3",
+      "label": "Korban meninggal akibat perkelahian massal kelompok masyarakat antar desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK4",
+      "label": "Korban luka-luka akibat perkelahian massal kelompok masyarakat antar desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK2",
+      "label": "Penyebab perkelahian massal kelompok masyarakat antar desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK3",
+      "label": "Jumlah Kejadian Perkelahian massal kelompok masyarakat dengan aparat keamanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK4",
+      "label": "Korban meninggal akibat perkelahian massal kelompok masyarakat dengan aparat keamanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK2",
+      "label": "Korban luka-luka akibat perkelahian massal kelompok masyarakat dengan aparat keamanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK3",
+      "label": "Penyebab perkelahian massal kelompok masyarakat dengan aparat keamanan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK4",
+      "label": "Jumlah Kejadian Perkelahian massal kelompok masyarakat dengan aparat pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK2",
+      "label": "Korban meninggal akibat perkelahian massal kelompok masyarakat dengan aparat pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK3",
+      "label": "Korban luka-luka akibat perkelahian massal kelompok masyarakat dengan aparat pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK4",
+      "label": "Penyebab perkelahian massal kelompok masyarakat dengan aparat pemerintah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK2",
+      "label": "Jumlah Kejadian Perkelahian massal pelajar/mahasiswa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK3",
+      "label": "Korban meninggal akibat perkelahian massal pelajar/mahasiswa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK4",
+      "label": "Korban luka-luka akibat perkelahian massal pelajar/mahasiswa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK2",
+      "label": "Penyebab perkelahian massal pelajar/mahasiswa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK3",
+      "label": "Jumlah Kejadian Perkelahian massal antar suku",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK4",
+      "label": "Korban meninggal akibat perkelahian massal antar suku",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK2",
+      "label": "Korban luka-luka akibat perkelahian massal antar suku",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK3",
+      "label": "Penyebab perkelahian massal antar suku",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK4",
+      "label": "Jumlah Kejadian Perkelahian massal lainnya ………………",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK2",
+      "label": "Korban meninggal akibat perkelahian massal lainnya …………",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK3",
+      "label": "Korban luka-luka akibat perkelahian massal lainnya ………",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK4",
+      "label": "Penyebab perkelahian massal lainnya",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK2",
+      "label": "Perkelahian massal yang paling sering terjadi di desa/kelurahan (R1301b kolom (2) yang isiannya paling besar), apakah dapat diselesaikan/didamaikan?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK3",
+      "label": "Upaya penyelesaian perkelahian massal dilakukan oleh: (Pilihan boleh lebih dari satu)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK4",
+      "label": "Kejadian tindak pencurian yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK2",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak pencurian yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK3",
+      "label": "Kejadian tindak pencurian dengan kekerasan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK4",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak pencurian dengan kekerasan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705A",
+      "label": "Kejadian tindak penipuan/penggelapan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705B",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak penipuan/penggelapan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705C",
+      "label": "Kejadian tindak penganiayaan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705D",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak penganiayaan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705E",
+      "label": "Kejadian tindak pembakaran yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706A1",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak pembakaran yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706A2",
+      "label": "Kejadian tindak perkosaan/kejahatan terhadap kesusilaan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706B",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak perkosaan/kejahatan terhadap kesusilaan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706C",
+      "label": "Kejadian tindak penyalahgunaan/peredaran narkoba yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706D",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak penyalahgunaan/peredaran narkoba yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R707",
+      "label": "Kejadian tindak perjudian yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R708",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak perjudian yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R709",
+      "label": "Kejadian tindak pembunuhan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R710",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak pembunuhan yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK2",
+      "label": "Kejadian tindak perdagangan orang (trafficking) yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK3",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak perdagangan orang (trafficking) yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK4",
+      "label": "Kejadian tindak Korupsi yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK2",
+      "label": "Kecenderungan dibanding dengan setahun yang lalu tindak korupsi yang terjadi di desa/kelurahan selama setahun terakhir:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK3",
+      "label": "Tindak kejahatan yang paling sering terjadi:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK4",
+      "label": "Pembangunan/pemeliharaan pos keamanan lingkungan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK2",
+      "label": "Pembentukan/pengaturan regu keamanan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK3",
+      "label": "Penambahan jumlah anggota hansip/linmas:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK4",
+      "label": "Pelaporan tamu yang menginap lebih dari 24 jam ke aparat lingkungan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK2",
+      "label": "Pengaktifan sistem keamanan lingkungan berasal dari inisiatif warga:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK3",
+      "label": "Jumlah anggota linmas/hansip di desa/kelurahan: ...................... orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK4",
+      "label": "Keberadaan pos polisi (termasuk kantor polisi) di desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK2",
+      "label": "Jumlah pos polisi (termasuk kantor polisi) yang digunakan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK3",
+      "label": "Jumlah pos polisi (termasuk kantor polisi) yang tidak digunakan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK4",
+      "label": "Perkiraan jarak ke pos polisi (termasuk kantor polisi) terdekat: ............................ Km",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK2",
+      "label": "Kemudahan untuk mencapai pos polisi (termasuk kantor polisi) terdekat:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK3",
+      "label": "Jumlah korban bunuh diri laki-laki (termasuk percobaan bunuh diri) yang terjadi di desa/kelurahan selama setahun terakhir: ............ Orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK4",
+      "label": "Jumlah korban bunuh diri perempuan (termasuk percobaan bunuh diri) yang terjadi di desa/kelurahan selama setahun terakhir: ............ Orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK2",
+      "label": "Jumlah korban pembunuhan laki-laki yang terjadi di desa/kelurahan selama setahun terakhir: ............ Orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK3",
+      "label": "Jumlah korban pembunuhan perempuan yang terjadi di desa/kelurahan selama setahun terakhir: ............ Orang",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK4",
+      "label": "Keberadaan lokasi berkumpul/mangkal anak jalanan di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK2",
+      "label": "Keberadaan tempat mangkal gelandangan/pengemis di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK3",
+      "label": "Keberadaan lokalisasi/lokasi/tempat mangkal Pekerja Seks Komersial (PSK) di desa/kelurahan:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK4",
+      "label": "Keberadaan sistem informasi desa:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK2",
+      "label": "Terakhir sistem informasi desa diperbaharui...bulan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK3",
+      "label": "Terakhir sistem informasi desa diperbaharui...tahun",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK4",
+      "label": "Penggunaan sistem keuangan desa:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK2",
+      "label": "Apakah desa mempunyai PADes",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK3",
+      "label": "Jumlah unit usaha BUMDes",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK4",
+      "label": "Tanah kas desa/ulayat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80101",
+      "label": "Tambatan Perahu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80102",
+      "label": "Pasar desa (pasar hewan, pelelangan ikan yang dikelola desa, pelelangan hasil pertanian, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80103",
+      "label": "Bangunan milik desa (balai desa, balai rakyat, lapangan olah raga, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80104",
+      "label": "Hutan milik desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80105",
+      "label": "Mata air milik desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80106",
+      "label": "Tempat wisata/pemandian umum",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80107",
+      "label": "Aset lainnya milik desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R802",
+      "label": "Rencana Pembangunan Jangka Menengah Desa (RPJM Desa) yang berlaku:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803A",
+      "label": "Periode RPJM Desa yang berlaku mulai:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803B",
+      "label": "Periode RPJM Desa yang berlaku hingga:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803C",
+      "label": "Rencana Kerja Pemerintah Desa (RKP Desa) tahun 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803D",
+      "label": "Jumlah peraturan desa tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803E",
+      "label": "Jumlah peraturan kepala desa tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803F",
+      "label": "Keberadaan kerjasama antar desa tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803G",
+      "label": "Keberadaan kerjasama desa dengan pihak ketiga tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803H",
+      "label": "Keberadaan pendamping lokal desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803I",
+      "label": "Keberadaan kader pembangunan manusia (KPM)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803J",
+      "label": "Jika ada, apakah ada KPM yang mendapatkan pembinaan dari pemerintah kabupaten/kota",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A1",
+      "label": "Penyaluran dana desa BLT (Tiga bulan pertama)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2A",
+      "label": "Jumlah keluarga yang menerima BLT (Tiga bulan pertama)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2B",
+      "label": "Nilai BLT (Tiga bulan pertama) setiap keluarga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2C",
+      "label": "Persentase jumlah dana BLT (Tiga bulan pertama) terhadap total dana desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804B1",
+      "label": "Penyaluran dana desa BLT (Tiga bulan kedua)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804B2",
+      "label": "Jumlah keluarga yang menerima BLT (Tiga bulan kedua)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805A",
+      "label": "Nilai BLT (Tiga bulan kedua) setiap keluarga",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805B",
+      "label": "Persentase jumlah dana BLT (Tiga bulan kedua) terhadap total dana desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805C",
+      "label": "Penyaluran dana desa padat karya tunai desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805D",
+      "label": "Jumlah orang yang menerima padat karya tunai desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805E",
+      "label": "Persentase jumlah dana padat karya tunai desa terhadap total dana desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805F",
+      "label": "Keberadaan paket layanan terkait stunting: kegiatan posyandu",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805G",
+      "label": "Keberadaan paket layanan terkait stunting: pemberian makanan tambahan PMT/penyuluhan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805H",
+      "label": "Keberadaan paket layanan terkait stunting: pelatihan kader",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805I",
+      "label": "Keberadaan paket layanan terkait stunting: insentif kader",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R806",
+      "label": "Keberadaan paket layanan terkait stunting: lain-lain",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807A",
+      "label": "Keberadaan paket layanan terkait stunting: kelas ibu hamil",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807B1",
+      "label": "Keberadaan paket layanan terkait stunting: kelas ibu balita",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807B2",
+      "label": "Keberadaan paket layanan terkait stunting: PMT ibu hamil KEK/ risiko tinggi dari keluarga miskin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R808A",
+      "label": "Keberadaan paket layanan terkait stunting: akses air minum aman",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R808B",
+      "label": "Keberadaan paket layanan terkait stunting: akses jamban sehat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809A",
+      "label": "Keberadaan paket layanan terkait stunting: jaminan kesehatan ibu hamil dari keluarga miskin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809B",
+      "label": "Keberadaan paket layanan terkait stunting: jaminan kesehatan untuk anak baduta dari keluarga miskin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809C",
+      "label": "Keberadaan paket layanan terkait stunting: akta kelahiran untuk bayi dari keluarga miskin",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809D",
+      "label": "Keberadaan paket layanan terkait stunting: kelas pengasuhan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809E",
+      "label": "Keberadaan paket layanan terkait stunting: pemanfaatan pekarangan keluarga dan tanah desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809F",
+      "label": "Keberadaan program kegiatan pembangunan masyarakat: Sarana prasarana energi",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901AK2",
+      "label": "Keberadaan program kegiatan pembangunan masyarakat: Sarana prasarana sanitasi dan air bersih",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901AK3",
+      "label": "Keberadaan program kegiatan pembangunan masyarakat: Sarana prasarana penanggulangan bencana dan pelestarian alam",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901BK2",
+      "label": "Keberadaan program kegiatan pemberdayaan masyarakat: Pengembangan energi terbarukan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901BK3",
+      "label": "Keberadaan program kegiatan pemberdayaan masyarakat: Pengelolaan lingkungan perumahan desa/kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901CK2",
+      "label": "Keberadaan program kegiatan pemberdayaan masyarakat: Peningkatan kesadaran dalam pelestarian alam dan penanggulangan bencana",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901CK3",
+      "label": "Keberadaan: Kepala Desa/Lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901DK2",
+      "label": "Umur Kepala Desa/Lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901DK3",
+      "label": "Jenis kelamin Kepala Desa/Lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901EK2",
+      "label": "Pendidikan tertinggi yang ditamatkan Kepala Desa/Lurah",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901EK3",
+      "label": "Tahun mulai menjabat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901FK2",
+      "label": "Keberadaan: Sekretaris Desa/Sekretaris Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901FK3",
+      "label": "Umur Sekretaris Desa/Sekretaris Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901GK2",
+      "label": "Jenis kelamin Sekretaris Desa/Sekretaris Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901GK3",
+      "label": "Pendidikan tertinggi yang ditamatkan Sekretaris Desa/Sekretaris Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901HK2",
+      "label": "Tahun mulai menjabat",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901HK3",
+      "label": "Jumlah aparatur pemerintahan: Sekretariat Desa/Kelurahan (kaur keuangan, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901IK2",
+      "label": "Jumlah aparatur pemerintahan: Pelaksana Teknis (kasi kesejahteraan, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901IK3",
+      "label": "Jumlah aparatur pemerintahan: Pelaksana Kewilayahan (Kadus, Ketua RT, dll.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901JK2",
+      "label": "Jumlah aparatur pemerintahan: Pegawai desa/kelurahan lainnya (hansip, dll)",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901JK3",
+      "label": "Keberadaan Badan Permusyawaratan Desa/Lembaga Musyawarah Kelurahan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901KK2",
+      "label": "Jika R1603a terisi ada, maka keberadaan anggota perempuan",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901KK3",
+      "label": "Jumlah kegiatan musyawarah desa/kelurahan yang dilakukan selama tahun 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901LK2",
+      "label": "Desa sudah menjalankan pemilihan kepala desa secara serentak:",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901LK3",
+      "label": "Tahun terakhir pelaksanaan pemilihan kepala desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R902A",
+      "label": "Jumlah calon pemilihan kepala desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R902B",
+      "label": "Persentase perolehan suara pemenang pemilihan kepala desa",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    }
+  ]
+}

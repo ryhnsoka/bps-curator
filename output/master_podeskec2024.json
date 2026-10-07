@@ -1,0 +1,761 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Kecamatan",
+  "source_file": "Master_PodesKec2024.xlsx",
+  "kamus_sheet": "Metadata",
+  "kamus_header_row": 1,
+  "n_variables": 92,
+  "partitions": [
+    "podes2024_kecamatan_diseminasi"
+  ],
+  "mandatory": [
+    "IDKEC",
+    "R101",
+    "R102",
+    "R103",
+    "NAMA_PROV",
+    "NAMA_KAB",
+    "NAMA_KEC",
+    "R301A_LAT",
+    "R301A_LAT2",
+    "R301A_LONG"
+  ],
+  "variables": [
+    {
+      "code": "IDKEC",
+      "label": "IDENTITAS KECAMATAN GABUNGAN DARI KODE PROVINSI KODE KABUPATEN KOTA DAN KODE KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_KAB",
+      "label": "NAMA KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_KEC",
+      "label": "NAMA KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "NAMA_PROV",
+      "label": "NAMA PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1001A",
+      "label": "KENDARAAN PEMADAM KEBAKARAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1001B",
+      "label": "SIMULASI BENCANA ALAM SELAMA 3 TAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101A_K2",
+      "label": "KEBERADAAN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101A_K3",
+      "label": "UMUR CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101A_K4",
+      "label": "JENIS KELAMIN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101A_K5",
+      "label": "PENDIDIKAN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101B_K2",
+      "label": "KEBERADAAN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101B_K3",
+      "label": "UMUR SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101B_K4",
+      "label": "JENIS KELAMIN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R1101B_K5",
+      "label": "PENDIDIKAN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R301A_LAT",
+      "label": "GARIS LINTANG KANTOR KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R301A_LAT2",
+      "label": "KETERANGAN LINTANG UTARA LINTANG SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R301A_LONG",
+      "label": "GARIS BUJUR TIMUR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R301B",
+      "label": "KETINGGIAN KANTOR KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R303",
+      "label": "KECAMATAN DITETAPKAN SEBAGAI KECAMATAN PESISIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R304A",
+      "label": "KEBERADAAN PERMUKIMAN DI ATAS PERMUKAAN AIR LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R304B",
+      "label": "KEBERADAAN PERMUKIMAN DI ATAS PERMUKAAN AIR SUNGAI DANAU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401AK2",
+      "label": "KEBERADAAN PANTI ASUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401AK3",
+      "label": "JUMLAH PANTI ASUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401BK2",
+      "label": "KEBERADAAN PANTI WREDA PANTI JOMPO",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401BK3",
+      "label": "JUMLAH PANTI WREDA PANTI JOMPO",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401CK2",
+      "label": "KEBERADAAN PANTI CACAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R401CK3",
+      "label": "JUMLAH PANTI CACAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R501A",
+      "label": "JUMLAH BINTARA PEMBINA DESA BABINSA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R501B",
+      "label": "JUMLAH BHAYANGKARA PEMBINA KEAMANAN DAN KETERTIBAN MASYARAKAT BHABINKAMTIBMAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601AK2",
+      "label": "KEBERADAAN GEDUNG BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601AK3",
+      "label": "JUMLAH GEDUNG BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601BK2",
+      "label": "KEBERADAAN JEMBATAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601BK3",
+      "label": "JUMLAH JEMBATAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601CK2",
+      "label": "KEBERADAAN CANDI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601CK3",
+      "label": "JUMLAH CANDI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601DK2",
+      "label": "KEBERADAAN PELABUHAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601DK3",
+      "label": "JUMLAH PELABUHAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601EK2",
+      "label": "KEBERADAAN STASIUN KERETA API BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601EK3",
+      "label": "JUMLAH STASIUN KERETA API BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601FK2",
+      "label": "KEBERADAAN TEMPAT IBADAH BERSEJARAH TEMPAT IBADAH KUNO PETILASAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601FK3",
+      "label": "JUMLAH TEMPAT IBADAH BERSEJARAH TEMPAT IBADAH KUNO PETILASAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601GK2",
+      "label": "KEBERADAAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R601GK3",
+      "label": "JUMLAH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R701A",
+      "label": "KEBERADAAN DESA WISATA YANG DITETAPKAN JUMLAH LIST",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R701B1",
+      "label": "JUMLAH DESA WISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702AK2",
+      "label": "KEBERADAAN KEBUN BINATANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702AK3",
+      "label": "JUMLAH KEBUN BINATANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702BK2",
+      "label": "KEBERADAAN WISATA TIRTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702BK3",
+      "label": "JUMLAH WISATA TIRTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702CK2",
+      "label": "KEBERADAAN AGROWISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702CK3",
+      "label": "JUMLAH AGROWISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702DK2",
+      "label": "KEBERADAAN WISATA BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702DK3",
+      "label": "JUMLAH WISATA BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702EK2",
+      "label": "KEBERADAAN TAMAN REKREASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702EK3",
+      "label": "JUMLAH TAMAN REKREASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702FK2",
+      "label": "KEBERADAAN WISATA ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702FK3",
+      "label": "JUMLAH WISATA ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702GK2",
+      "label": "KEBERADAAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R702GK3",
+      "label": "JUMLAH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R801A",
+      "label": "KEBERADAAN TERMINAL PENUMPANG KENDARAAN BERMOTOR RODA EMPAT ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R801B",
+      "label": "JUMLAH TERMINAL PENUMPANG KENDARAAN BERMOTOR RODA EMPAT ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R802AK2",
+      "label": "KEBERADAAN SUPERMARKET PASAR SWALAYAN TOSERBA MAL PLAZA PUSAT PERBELANJAAN MODERN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R802AK3",
+      "label": "JUMLAH SUPERMARKET PASAR SWALAYAN TOSERBA MAL PLAZA PUSAT PERBELANJAAN MODERN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R802BK2",
+      "label": "KEBERADAAN STASIUN PENGISIAN BAHAN BAKAR UMUM SPBU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R802BK3",
+      "label": "JUMLAH STASIUN PENGISIAN BAHAN BAKAR UMUM SPBU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803A",
+      "label": "KEBERADAAN PASAR TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B1_K2",
+      "label": "JUMLAH PASAR KHUSUS HEWAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B1K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS HEWAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B2_K2",
+      "label": "JUMLAH PASAR KHUSUS BUAH DAN SAYURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B2K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS BUAH DAN SAYURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B3_K2",
+      "label": "JUMLAH PASAR KHUSUS BERAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B3K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS BERAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B4_K2",
+      "label": "JUMLAH PASAR KHUSUS PALAWIJA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B4K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS PALAWIJA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B5_K2",
+      "label": "JUMLAH PASAR KHUSUS LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B5K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B6_K2",
+      "label": "JUMLAH PASAR KHUSUS CAMPURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R803B6K3",
+      "label": "JENIS BANGUNAN PASAR KHUSUS CAMPURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R804A",
+      "label": "PELABUHAN PERIKANAN PP ATAU PANGKALAN PENDARATAN IKAN PPI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R804B",
+      "label": "TEMPAT PELELANGAN IKAN TPI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901A",
+      "label": "ORGANISASI KEMASYARAKATAN NU MUHAMMADIYAH KNPI FATAYAT DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901B",
+      "label": "PARTAI POLITIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901C",
+      "label": "ORGANISASI SOSIAL PANTI ASUHAN PANTI WREDA PANTI REHABILITASI CACAT KARANG TARUNA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901D",
+      "label": "ORGANISASI PROFESI IDI ISEI ISI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901E",
+      "label": "PERKUMPULAN SOSIAL KEBUDAYAAN OLAHRAGA HOBI ORARI IMI PADEPOKAN SENI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901F",
+      "label": "LEMBAGA SWADAYA MASYARAKAT LSP WALHI YLBHI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901G",
+      "label": "LEMBAGA KEAGAMAAN MUI PGI KWI WALUBI PARISADHA HINDU DHARMA INDONESIA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R901H",
+      "label": "ORGANISASI BANTUAN KEMANUSIAAN BEASISWA PMI YAYASAN KANKER INDONESIA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    },
+    {
+      "code": "R902",
+      "label": "KEBERADAAN KANTOR URUSAN AGAMA DI WILAYAH KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_kecamatan_diseminasi"
+      ]
+    }
+  ]
+}

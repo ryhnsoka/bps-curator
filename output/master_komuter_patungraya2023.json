@@ -1,0 +1,1587 @@
+{
+  "survey_id": "KOMUTER",
+  "period": "Patungraya 2023",
+  "source_file": "Master_Komuter_Patungraya2023.xlsx",
+  "kamus_sheet": "Master Variabel dan Wilayah",
+  "kamus_header_row": 1,
+  "n_variables": 196,
+  "partitions": [
+    "patungraya_agung_ind_lps",
+    "patungraya_agung_rt_lps"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "B1R101",
+      "label": "Klasifikasi desa kelurahan",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps",
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B1R102",
+      "label": "Jumlah anggota rumah tangga ART",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps",
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B1R105",
+      "label": "Jumlah ART komuter",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps",
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B2R201",
+      "label": "Jumlah ART komuter bekerja",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R202",
+      "label": "Jumlah ART komuter sekolah kuliah kursus",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R203",
+      "label": "No urut ART",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R204",
+      "label": "Hubungan dengan Kepala Rumah Tangga KRT",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R401",
+      "label": "Jenis Kelamin",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R403",
+      "label": "Bulan Lahir",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R404",
+      "label": "Tahun Lahir",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R405_BUL",
+      "label": "Umur",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R405_TAH",
+      "label": "Status Perkawinan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R406",
+      "label": "Pendidikan Tertinggi Ditamatkan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R407",
+      "label": "Kegiatan Bekerja",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R408",
+      "label": "Kegiatan Sekolah Kuliah Kursus",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R409A",
+      "label": "Bekerja rutin PP setiap hari",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R409B",
+      "label": "Sekolah Kuliah Kursus rutin PP setiap hari",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R410A",
+      "label": "Bekerja luar kota",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R410B",
+      "label": "Sekolah Kuliah Kursus luar kota",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R411A",
+      "label": "Tempar Bekerja Kab",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R411B",
+      "label": "Tempat Bekerja Prov",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412A_KA",
+      "label": "Tempat Sekolah Kuliah Kursus Kab",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412A_PR",
+      "label": "Tempat Sekolah Kuliah Kursus Prov",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412B_KA",
+      "label": "Kegiatan Utama",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412B_PR",
+      "label": "Status kepemilikan tempat tinggal",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R413",
+      "label": "Luas lantai bangunan tempat tinggal m2",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B5R501",
+      "label": "Lebar ruas jalan di depan bangunan tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R502",
+      "label": "Jenis permukaan utama jalan menuju bangunan tempat tinggal radius 100 m",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R503",
+      "label": "Jarak berjalan kaki dari tempat tinggal menuju pemberhentian angkutan umum massal bertrayek terdekat",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R504",
+      "label": "Jenis angkutan umum massal bertrayek yang melewati tempat pemberhentian terdekat dari tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R505",
+      "label": "Jarak berjalan kaki dari tempat tinggal menuju pemberhentian angkutan kota angkutan umum bertrayek lainnya terdekat",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R506",
+      "label": "Alasan memilih tempat tinggal saat ini Biaya hidup lebih murah",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R507",
+      "label": "Alasan memilih tempat tinggal saat ini Warisan orang tua saudara",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_A",
+      "label": "Alasan memilih tempat tinggal saat ini Harga sewa rumah lebih terjangkau",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_B",
+      "label": "Alasan memilih tempat tinggal saat ini Lingkungan aman dan nyaman",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_C",
+      "label": "Alasan memilih tempat tinggal saat ini Dekat dengan keluarga",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_D",
+      "label": "Alasan memilih tempat tinggal saat ini Kemudahan akses ke fasilitas sosial umum",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_E",
+      "label": "Alasan memilih tempat tinggal saat ini Dekat dengan tempat kerja sekolah",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_F",
+      "label": "Alasan memilih tempat tinggal saat ini Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_G",
+      "label": "Manakah Alasan Utama memilih tempat tinggal saat ini",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_H",
+      "label": "Lama menempati tempat tinggal saat ini",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508B",
+      "label": "Jumlah kendaraan yang dimiliki dikuasai Unit Mobil",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R509",
+      "label": "Jumlah kendaraan yang dimiliki dikuasai Unit Sepeda Motor",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510A",
+      "label": "Jumlah kendaraan yang dimiliki dikuasai Unit Kendaraan bermotor lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510B",
+      "label": "Jumlah kendaraan yang dimiliki dikuasai Unit Sepeda",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510C",
+      "label": "Jumlah kendaraan yang dimiliki dikuasai Unit Kendaraan tidak bermotor lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510D",
+      "label": "Dimanakah tempat parkir kendaraan yang dimiliki dikuasai",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510E",
+      "label": "Rata rata pengeluaran rumah tangga per Bulan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R511",
+      "label": "Kode Lapangan usaha utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R512",
+      "label": "Status pekerjaan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R513B_KO",
+      "label": "No Urut ART",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R513C",
+      "label": "No Urut Pemberi Informasi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "B6_NAMA_UR",
+      "label": "Kabupaten Kota Tempat Lahir",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6_PEMBERI",
+      "label": "Provinsi Tempat Lahir",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R601_KAB",
+      "label": "Apakah pernah tinggal di luar Kab Kota Tempat Tinggal Saat Ini",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R601_PRO",
+      "label": "Kabupaten kota tempat tinggal terakhir sebelum tempat tinggal sekarang",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R602",
+      "label": "Provinsi tempat tinggal terakhir sebelum tempat tinggal sekarang",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R603_KAB",
+      "label": "Alasan utama pindah dari kabupaten kota tempat tinggal sebelumnya ke tempat tinggal yang sekarang",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R603_PRO",
+      "label": "Bulan pindah ke tempat tinggal sekarang",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R604",
+      "label": "Tahun pindah ke tempat tinggal sekarang",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R605_BUL",
+      "label": "Kabupaten Kota tempat tinggal 5 tahun yang lalu Oktober 2018",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R605_TAH",
+      "label": "Provinsi tempat tinggal 5 tahun yang lalu Oktober 2018",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R606_KAB",
+      "label": "Apakah mengalami kesulitan gangguan Penglihatan",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R606_PRO",
+      "label": "Apakah mengalami kesulitan gangguan Pendengaran",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607A",
+      "label": "Apakah mengalami kesulitan gangguan Berbicara dan atau memahami berkomunikasi dengan orang lain",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607B",
+      "label": "Apakah mengalami kesulitan gangguan Berjalan naik tangga mobilitas",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607C",
+      "label": "Apakah mengalami kesulitan gangguan Menggunakan menggerakkan jari tangan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607D",
+      "label": "Apakah mengalami kesulitan gangguan mengingat konsentrasi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607E",
+      "label": "Apakah mengalami kesulitan gangguan Berpikir dan belajar",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607F",
+      "label": "Apakah mengalami kesulitan gangguan Perilaku emosional",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607G",
+      "label": "Apakah mengalami kesulitan gangguan Mengurus diri",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607H",
+      "label": "Dalam 1 bulan terakhir apakah menggunakan Hand Phone HP",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607I",
+      "label": "Apa nama operator seluler yang aktif digunakan 1 bulan terakhir",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R608",
+      "label": "Dalam 1 bulan terakhir apakah HP digunakan untuk akses internet Contoh Whatsapp Facebook Youtube Instagram transportasi online aplikasi lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R609",
+      "label": "Kode Lapangan usaha bidang pekerjaan utama",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R610",
+      "label": "Apakah pekerjaan yang dilakukan memerlukan mobilitas tinggi setiap hari Contoh Supir awak angkutan orang barang driver online kurir pedagang keliling",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R611_KOD",
+      "label": "Status kedudukan dalam pekerjaan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R612",
+      "label": "Lokasi utama tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R613",
+      "label": "Dalam 1 bulan terakhir apakah di tempat kegiatan utama diterapkan kegiatan bekerja dari rumah work from home WFH atau di mana saja work from anywhere WFA",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R614",
+      "label": "Dalam 1 bulan terakhir seberapa sering melakukan kegiatan WFH WFA",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R615",
+      "label": "Dalam 1 bulan terakhir berapakah pendapatan penghasilan upah gaji dari pekerjaan utama tersebut",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R616",
+      "label": "Alasan bekerja di tempat sekarang Penghasilan tinggi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R617",
+      "label": "Alasan bekerja di tempat sekarang Transportasi mudah",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_A",
+      "label": "Alasan bekerja di tempat sekarang Sesuai pendidikan keahlian",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_B",
+      "label": "Alasan bekerja di tempat sekarang Koneksi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_C",
+      "label": "Alasan bekerja di tempat sekarang Terjamin",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_D",
+      "label": "Alasan bekerja di tempat sekarang Nyaman",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_E",
+      "label": "Alasan bekerja di tempat sekarang Dekat dengan lokasi tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_F",
+      "label": "Alasan bekerja di tempat sekarang Tidak ada pilihan lain",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_G",
+      "label": "Alasan bekerja di tempat sekarang Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_H",
+      "label": "Alasan utama bekerja di tempat sekarang",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_I",
+      "label": "Apakah pernah memiliki pengalaman bekerja sebelumnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618B",
+      "label": "Kode Lapangan usaha bidang pekerjaan utama sebelumnya",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R619",
+      "label": "Lokasi Kabupaten Kota tempat bekerja sebelumnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R620_KOD",
+      "label": "Provinsi tempat bekerja sebelumnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R621_KAB",
+      "label": "Status kedudukan dalam pekerjaan utama sebelumnya",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R621_PRO",
+      "label": "Jenjang pendidikan apa yang sedang diduduki",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R622",
+      "label": "Tingkat kelas yang sedang diduduki",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R623",
+      "label": "Penyelenggara pendidikan jenis sekolah",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R624",
+      "label": "Alasan utama sekolah kuliah kursus di tempat sekarang",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R625",
+      "label": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama km",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R626",
+      "label": "Jam biasanya berangkat dari tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R701",
+      "label": "Menit biasanya berangkat dari tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702A_JA",
+      "label": "Apakah ada tempat lokasi yang rutin didatangi atau dikunjungi terlebih dahulu untuk melakukan kegiatan lain sebelum tiba di tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702A_ME",
+      "label": "Lama perjalanan dari tempat tinggal ke tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702B",
+      "label": "Apakah ada tempat lokasi yang rutin didatangi atau dikunjungi terlebih dahulu untuk melakukan kegiatan lain sebelum tiba di tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702C",
+      "label": "Lama perjalanan dari tempat kegiatan utama ke tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702D",
+      "label": "Jam biasanya tiba di tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702E",
+      "label": "Menit biasanya tiba di tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702F_JA",
+      "label": "Jumlah hari melakukan kegiatan komuter",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702F_ME",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Senin",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R703",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Selasa",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704A",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Rabu",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704B",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Kamis",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704C",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Jumat",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704D",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Sabtu",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704E",
+      "label": "Hari biasanya melakukan perjalanan ke tempat kegiatan utama Minggu",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704F",
+      "label": "Berapa kali menggunakan moda transportasi untuk sampai ke tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704G",
+      "label": "Moda transportasi apa saja yang biasanya digunakan untuk pergi ke tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R705",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 1",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706A",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 2",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_1",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 3",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_2",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 4",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_3",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 5",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_4",
+      "label": "Urutan moda transportasi dari tempat tinggal ke tempat kegiatan utama 6",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_5",
+      "label": "Kode moda transportasi utama yang digunakan",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_6",
+      "label": "Apakah sebagai pengemudi atau penumpang",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706C_KO",
+      "label": "Alasan memilih moda transportasi utama tersebut Kecepatan waktu terukur",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706D",
+      "label": "Alasan memilih moda transportasi utama tersebut Kenyamanan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_A",
+      "label": "Alasan memilih moda transportasi utama tersebut Keamanan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_B",
+      "label": "Alasan memilih moda transportasi utama tersebut Biaya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_C",
+      "label": "Alasan memilih moda transportasi utama tersebut Kepraktisan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_D",
+      "label": "Alasan memilih moda transportasi utama tersebut Mobilitas tinggi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_E",
+      "label": "Alasan memilih moda transportasi utama tersebut Ramah lingkungan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_F",
+      "label": "Alasan memilih moda transportasi utama tersebut Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_G",
+      "label": "Alasan utama memilih moda transportasi utama tersebut",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_H",
+      "label": "Apakah menggunakan moda transportasi yang sama untuk pergi dan pulang ke dari tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707B",
+      "label": "Berapa kali menggunakan moda transportasi untuk sampai ke tempat tinggal",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R708",
+      "label": "Moda transportasi apa saja yang biasanya digunakan untuk pulang dari tempat kegiatan utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R709",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 1",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710A",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 2",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_1",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 3",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_2",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 4",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_3",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 5",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_4",
+      "label": "Urutan moda transportasi dari tempat kegiatan utama ke tempat tinggal 6",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_5",
+      "label": "Kode moda transportasi utama yang digunakan",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_6",
+      "label": "Apakah sebagai pengemudi atau penumpang",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710C_KO",
+      "label": "Alasan memilih moda transportasi utama tersebut Kecepatan waktu terukur",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710D",
+      "label": "Alasan memilih moda transportasi utama tersebut Kenyamanan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_A",
+      "label": "Alasan memilih moda transportasi utama tersebut Keamanan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_B",
+      "label": "Alasan memilih moda transportasi utama tersebut Biaya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_C",
+      "label": "Alasan memilih moda transportasi utama tersebut Kepraktisan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_D",
+      "label": "Alasan memilih moda transportasi utama tersebut Mobilitas tinggi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_E",
+      "label": "Alasan memilih moda transportasi utama tersebut Ramah lingkungan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_F",
+      "label": "Alasan memilih moda transportasi utama tersebut Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_G",
+      "label": "Alasan utama memilih moda transportasi utama tersebut",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_H",
+      "label": "Apakah ingin beralih menggunakan moda transportasi umum",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711B",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Tidak aman",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R714",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Tidak nyaman",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_A",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Tidak praktis",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_B",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Jauhnya akses ke kendaraan umum",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_C",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Waktu tempuh lama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_D",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Waktu tunggu",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_E",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Biaya yang lebih mahal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_F",
+      "label": "Alasan tidak ingin beralih menggunakan moda transportasi umum Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_G",
+      "label": "Alasan utama tidak ingin beralih menggunakan moda transportasi umum",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_H",
+      "label": "Apakah menggunakan kendaraan bermotor listrik hibrida",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715B",
+      "label": "Apakah ingin beralih menggunakan kendaraan bermotor listrik hibrida",
+      "type": "character",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R716",
+      "label": "Biaya transportasi untuk perjalanan pergi dan pulang dalam sehari Moda transportasi utama",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R717",
+      "label": "Biaya transportasi untuk perjalanan pergi dan pulang dalam sehari Moda transportasi penunjang",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718A",
+      "label": "Biaya transportasi untuk perjalanan pergi dan pulang dalam sehari Jumlah",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718B",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Demam",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718C",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Batuk pilek",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719A",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Sakit kepala",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719B",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Sakit tenggorokan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719C",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Sakit mata",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719D",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Sesak napas asma",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719E",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Masuk angin",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719F",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Pegal pegal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719G",
+      "label": "Dalam 1 bulan terakhir apakah mengalami keluhan kesehatan Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719H",
+      "label": "Apakah keluhan kesehatan tersebut mengganggu kegiatan sehari hari",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719X",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Kemacetan parah",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R720",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Kecelakaan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721A",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Gangguan pada moda transportasi",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721B",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Tindak kejahatan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721C",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Pelecehan seksual",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721D",
+      "label": "Selama menjadi komuter di tempat kegiatan apakah pernah mendapat pengalaman buruk dalam perjalanan seperti berikut Lainnya",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721E",
+      "label": "Dalam sebulan terakhir selama menjadi komuter di tempat kegiatan apakah merasakan stres akibat perjalanan ke dari tempat kegiatan",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721X",
+      "label": "Dalam 1 tahun ke depan apakah berencana untuk mencari tempat kegiatan utama yang lebih dekat",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R722",
+      "label": "Dalam 1 bulan terakhir apakah ikut serta dalam kegiatan kemasyarakatan di lingkungan tempat tinggal",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R723",
+      "label": "Dalam 1 bulan terakhir apakah melakukan kegiatan refreshing",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R724",
+      "label": "Renumbering",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R725",
+      "label": "Penimbang individu",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "Penimbang rumah tangga",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps",
+        "patungraya_agung_rt_lps"
+      ]
+    },
+    {
+      "code": "ROUNDW_FIN",
+      "label": "",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_ind_lps"
+      ]
+    },
+    {
+      "code": "ROUNDW_RT",
+      "label": "",
+      "type": "numeric",
+      "partitions": [
+        "patungraya_agung_rt_lps"
+      ]
+    }
+  ]
+}

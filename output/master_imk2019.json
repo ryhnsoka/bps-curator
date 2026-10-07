@@ -1,0 +1,1620 @@
+{
+  "survey_id": "IMK",
+  "period": "2019",
+  "source_file": "Master_IMK2019.xlsx",
+  "kamus_sheet": "Keterangan Data",
+  "kamus_header_row": 1,
+  "n_variables": 199,
+  "partitions": [
+    "imk_kbli_1_2019",
+    "imk_kbli_2_2019",
+    "imk_kbli_3_2019"
+  ],
+  "mandatory": [
+    "B2_202",
+    "B2_2042",
+    "FRAKSI",
+    "RENUM",
+    "TAHUN"
+  ],
+  "variables": [
+    {
+      "code": "B10_1001",
+      "label": "Penggunaan internet oleh usaha perusahaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1002",
+      "label": "Jika rincian 1001 berkode 2 jenis platform",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1003",
+      "label": "Jika rincian 1001 berkode 4 jenis platform",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1004A",
+      "label": "Bahan baku utama yang digunakan dibeli diperoleh dari Dalam satu kabupaten kota",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1004B",
+      "label": "Bahan baku utama yang digunakan dibeli diperoleh dari Luar kabupaten kota satu provinsi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1004C",
+      "label": "Bahan baku utama yang digunakan dibeli diperoleh dari Luar provinsi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1004D",
+      "label": "Bahan baku utama yang digunakan dibeli diperoleh dari Langsung luar negeri importir",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1005A",
+      "label": "Persentase produk yang dihasilkan untuk kebutuhan Perusahaan instansi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1005B",
+      "label": "Persentase produk yang dihasilkan untuk kebutuhan Pedagang",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1005C",
+      "label": "Persentase produk yang dihasilkan untuk kebutuhan Rumah tangga perorangan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1006A",
+      "label": "Alokasi pemasaran Persentase dari nilai produksi Dalam satu kabupaten kota",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1006B",
+      "label": "Alokasi pemasaran Persentase dari nilai produksi Luar kabupaten kota satu provinsi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1006C",
+      "label": "Alokasi pemasaran Persentase dari nilai produksi Luar provinsi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1006D",
+      "label": "Alokasi pemasaran Persentase dari nilai produksi Luar negeri",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1007",
+      "label": "Apakah usaha memiliki sertifikat merek dagang untuk memasarkan produknya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B10_1008",
+      "label": "Sertifikasi produk proses produksi yang dimiliki usaha perusahaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B2_201M",
+      "label": "KBLI 2 Digit dengan tambahan KBLI 19 yang dikonversi menjadi 32",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_202",
+      "label": "Klasifikasi Industri",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_2042",
+      "label": "KBLI 2 Digit",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_206A",
+      "label": "Lokasi Tempat Usaha",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_206B",
+      "label": "Status Tempat Usaha",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_207",
+      "label": "Tahun mulai berproduksi secara komersil",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_208",
+      "label": "Status Badan Usaha",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_209",
+      "label": "Aktivitas keuangan yang dapat dipisahkan oleh usaha dari kepentingan rumah tangga",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_212",
+      "label": "Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B2_213",
+      "label": "Pendidikan tertinggi yang ditamatkan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_10",
+      "label": "Banyaknya Pekerja termasuk pengusaha April Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_11",
+      "label": "Banyaknya Pekerja termasuk pengusaha Mei Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_12",
+      "label": "Banyaknya Pekerja termasuk pengusaha Juni Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_13",
+      "label": "Banyaknya Pekerja termasuk pengusaha Juli Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_14",
+      "label": "Banyaknya Pekerja termasuk pengusaha Agustus Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_3",
+      "label": "Banyaknya Pekerja termasuk pengusaha September Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_4",
+      "label": "Banyaknya Pekerja termasuk pengusaha Oktober Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_5",
+      "label": "Banyaknya Pekerja termasuk pengusaha November Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_6",
+      "label": "Banyaknya Pekerja termasuk pengusaha Desember Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_7",
+      "label": "Banyaknya Pekerja termasuk pengusaha Januari Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_8",
+      "label": "Banyaknya Pekerja termasuk pengusaha Februari Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_9",
+      "label": "Banyaknya Pekerja termasuk pengusaha Maret Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301A_LA",
+      "label": "Banyaknya pekerja di bulan terakhir berproduksi",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_10",
+      "label": "Banyaknya hari kerja April Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_11",
+      "label": "Banyaknya hari kerja Mei Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_12",
+      "label": "Banyaknya hari kerja Juni Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_13",
+      "label": "Banyaknya hari kerja Juli Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_14",
+      "label": "Banyaknya hari kerja Agustus Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_3",
+      "label": "Banyaknya hari kerja September Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_4",
+      "label": "Banyaknya hari kerja Oktober Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_5",
+      "label": "Banyaknya hari kerja November Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_6",
+      "label": "Banyaknya hari kerja Desember Tahun 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_7",
+      "label": "Banyaknya hari kerja Januari Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_8",
+      "label": "Banyaknya hari kerja Februari Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_9",
+      "label": "Banyaknya hari kerja Maret Tahun 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_LA",
+      "label": "Jumlah hari kerja di bulan terakhir berproduksi",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301B_TO",
+      "label": "Jumlah hari kerja selama 1 tahun",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_10",
+      "label": "Rata rata jam kerja April Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_11",
+      "label": "Rata rata jam kerja Mei Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_12",
+      "label": "Rata rata jam kerja Juni Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_13",
+      "label": "Rata rata jam kerja Juli Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_14",
+      "label": "Rata rata jam kerja Agustus Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_3",
+      "label": "Rata rata jam kerja September Tahun 2018",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_4",
+      "label": "Rata rata jam kerja Oktober Tahun 2018",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_5",
+      "label": "Rata rata jam kerja November Tahun 2018",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_6",
+      "label": "Rata rata jam kerja Desember Tahun 2018",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_7",
+      "label": "Rata rata jam kerja Januari Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_8",
+      "label": "Rata rata jam kerja Februari Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_9",
+      "label": "Rata rata jam kerja Maret Tahun 2019",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_301C_LA",
+      "label": "Jumlah jam kerja di bulan terakhir berproduksi",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A1_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki Kelompok umur Kurang dari 15 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A1_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan Kelompok umur Kurang dari 15 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A1_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki Kelompok umur Kurang dari 15 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A1_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan Kelompok umur Kurang dari 15 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A1_6",
+      "label": "Banyaknya Pekerja Kelompok umur Kurang dari 15 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A2_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki Kelompok umur 65 tahun keatas",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A2_3",
+      "label": "Banyaknya Pekerja Dibayar Laki laki menurut Kelompok Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A2_4",
+      "label": "Banyaknya Pekerja Dibayar Laki laki Kelompok umur 15 49 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A2_5",
+      "label": "Banyaknya Pekerja Dibayar Perempuan Kelompok umur 15 49 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A2_6",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki Kelompok umur 15 49 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A3_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan Kelompok umur 15 49 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A3_3",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan Kelompok umur 65 tahun keatas",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A3_4",
+      "label": "Banyaknya Pekerja Kelompok umur 15 49 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A3_5",
+      "label": "Banyaknya Pekerja Dibayar Perempuan menurut Kelompok Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A3_6",
+      "label": "Banyaknya Pekerja Dibayar Laki laki Kelompok umur 50 64 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A4_2",
+      "label": "Banyaknya Pekerja Dibayar Perempuan Kelompok umur 50 64 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A4_3",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki Kelompok umur 50 64 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A4_4",
+      "label": "Banyaknya Pekerja Kelompok umur 65 tahun keatas",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A4_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan Kelompok umur 50 64 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A4_6",
+      "label": "Banyaknya Pekerja Kelompok umur 50 64 tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki menurut Kelompok Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A_3",
+      "label": "Banyaknya Pekerja Dibayar Laki laki Kelompok umur 65 tahun keatas",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A_4",
+      "label": "Banyaknya Pekerja Dibayar Perempuan Kelompok umur 65 tahun keatas",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan menurut Kelompok Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302A_6",
+      "label": "Banyaknya Pekerja menurut Kelompok Umur",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B1_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Jenis Pekerjaan Pekerja Produksi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B1_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Jenis Pekerjaan Pekerja Produksi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B1_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Jenis Pekerjaan Pekerja Produksi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B1_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Jenis Pekerjaan Pekerja Produksi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B1_6",
+      "label": "Banyaknya Pekerja dengan Jenis Pekerjaan Pekerja Produksi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B2_2",
+      "label": "Banyaknya Pekerja dengan Jenis Pekerjaan Pekerja Lainnya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B2_3",
+      "label": "Banyaknya Pekerja Dibayar Laki laki menurut Jenis Pekerjaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B2_4",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Jenis Pekerjaan Pekerja Lainnya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B2_5",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Jenis Pekerjaan Pekerja Lainnya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B2_6",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Jenis Pekerjaan Pekerja Lainnya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Jenis Pekerjaan Pekerja Lainnya",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan menurut Jenis Pekerjaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki menurut Jenis Pekerjaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan menurut Jenis Pekerjaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302B_6",
+      "label": "Banyaknya Pekerja menurut Jenis Pekerjaan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C1_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi Tidak tamat SD",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C1_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi Tidak tamat SD",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C1_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi Tidak tamat SD",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C1_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi Tidak tamat SD",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C1_6",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi Tidak tamat SD",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C2_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi S2 S3",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C2_3",
+      "label": "Banyaknya Pekerja Dibayar Laki laki menurut Pendidikan tertinggi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C2_4",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi SD dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C2_5",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi SD dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C2_6",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi SD dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C3_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi SD dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C3_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi S2 S3",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C3_4",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi SD dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C3_5",
+      "label": "Banyaknya Pekerja Dibayar Perempuan menurut Pendidikan tertinggi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C3_6",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi SMP dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C4_2",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi SMP dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C4_3",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi SMP dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C4_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi S2 S3",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C4_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi SMP dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C4_6",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi SMP dan sederajat",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C5_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki menurut Pendidikan tertinggi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C5_3",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi SMA MA Paket C",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C5_4",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi SMA MA Paket C",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C5_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi S2 S3",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C5_6",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi SMA MA Paket C",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C6_2",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi SMA MA Paket C",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C6_3",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi SMA MA Paket C",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C6_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan menurut Pendidikan tertinggi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C6_5",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi SMK",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C6_6",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi S2 S3",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C7_2",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi SMK",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C7_3",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi SMK",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C7_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi SMK",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C7_5",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi SMK",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C7_6",
+      "label": "Banyaknya Pekerja menurut Pendidikan tertinggi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C8_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi Diploma I II III",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C8_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi Diploma I II III",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C8_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi Diploma I II III",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C8_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi Diploma I II III",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C8_6",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi Diploma I II III",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C_2",
+      "label": "Banyaknya Pekerja Dibayar Laki laki dengan Pendidikan tertinggi Diploma IV S1",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C_3",
+      "label": "Banyaknya Pekerja Dibayar Perempuan dengan Pendidikan tertinggi Diploma IV S1",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C_4",
+      "label": "Banyaknya Pekerja Tidak Dibayar Laki laki dengan Pendidikan tertinggi Diploma IV S1",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C_5",
+      "label": "Banyaknya Pekerja Tidak Dibayar Perempuan dengan Pendidikan tertinggi Diploma IV S1",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B3_302C_6",
+      "label": "Banyaknya Pekerja dengan Pendidikan tertinggi Diploma IV S1",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019"
+      ]
+    },
+    {
+      "code": "B5_504_5",
+      "label": "Jumlah nilai produksi dan pendapatan usaha perusahaan",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_2_2019"
+      ]
+    },
+    {
+      "code": "B6_1",
+      "label": "Pendapatan Usaha Perusahaan 504",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_2_2019"
+      ]
+    },
+    {
+      "code": "B6_2",
+      "label": "Biaya Pengeluaran Usaha Perusahaan 303 d Kol 4 401 u Kol 5 402 p Kol 5 403 f Kol 5",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_2_2019"
+      ]
+    },
+    {
+      "code": "B6_3",
+      "label": "Selisih Kol 1 Kol 2",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_2_2019"
+      ]
+    },
+    {
+      "code": "B8_801A_2",
+      "label": "Komposisi modal Milik sendiri termasuk hibah transfer per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801A_3",
+      "label": "Komposisi modal Milik sendiri termasuk hibah transfer per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801B_2",
+      "label": "Komposisi Penyertaan modal patungan Modal ventura per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801B_3",
+      "label": "Komposisi Penyertaan modal patungan Modal ventura per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801C_2",
+      "label": "Komposisi Pinjaman bank per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801C_3",
+      "label": "Komposisi Pinjaman bank per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801D_2",
+      "label": "Komposisi Pinjaman koperasi per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801D_3",
+      "label": "Komposisi Pinjaman koperasi per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801E_2",
+      "label": "Komposisi Pinjaman pegadaian per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801E_3",
+      "label": "Komposisi Pinjaman pegadaian per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801F_2",
+      "label": "Komposisi Pinjaman dari perorangan termasuk keluarga famili per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801F_3",
+      "label": "Komposisi Pinjaman dari perorangan termasuk keluarga famili per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801G_2",
+      "label": "Komposisi Pinjaman program pemerintah per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801G_3",
+      "label": "Komposisi Pinjaman program pemerintah per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801H_2",
+      "label": "Komposisi Pinjaman lembaga swasta per 31 Agustus 2018",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_801H_3",
+      "label": "Komposisi Pinjaman lembaga swasta per 31 Agustus 2019",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_802",
+      "label": "Jika rincian 801 c kolom 3 tidak terisi alasan utama tidak meminjam dari bank",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_803A",
+      "label": "Persentase nilai agunan yang digunakan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_803B1",
+      "label": "Besarnya pinjaman bank Kredit Usaha Rakyat KUR Rp",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_803B2",
+      "label": "Besarnya pinjaman bank Kredit subsidi lainnya Rp",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B8_803B3",
+      "label": "Besarnya pinjaman bank Kredit non subsidi Rp",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_901",
+      "label": "Kendala Kesulitan yang dialami oleh usaha perusahaan selama setahun yang lalu",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_902",
+      "label": "Jika rincian 901 kode 1 dilingkari alasan utama kendala bahan baku",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_903",
+      "label": "Jenis kemitraan yang pernah dilakukan oleh usaha perusahaan selama setahun yang lalu",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_904",
+      "label": "Badan lembaga yang pernah menjalin kemitraan selama setahun yang lalu",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_905",
+      "label": "Model bentuk kemitraan yang dijalankan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_906",
+      "label": "Apakah kemitraan yang sedang dijalankan sudah menguntungkan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_907",
+      "label": "Jika 906 berkode 2 hal apa yang perlu ditingkatkan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_908A",
+      "label": "Proporsi bagi hasil yang diinginkan Pengusaha",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_908B",
+      "label": "Proporsi bagi hasil yang diinginkan Mitra bagi hasil",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_909",
+      "label": "Apakah ada Memorandum of Understanding MoU perjanjian dalam menjalin kemitraan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_910",
+      "label": "Apakah usaha perusahaan saat ini menjadi anggota koperasi",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_911",
+      "label": "Jenis pelayanan bantuan yang pernah diterima usaha perusahaan dari koperasi selama setahun yang lalu",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_912",
+      "label": "Jika rincian 911 berkode 0 alasan utama tidak pernah memperoleh pelayanan bantuan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_913",
+      "label": "Badan lembaga selain koperasi yang pernah memberi pelayanan bantuan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_914",
+      "label": "Jenis bimbingan pelatihan penyuluhan yang pernah diikuti selama setahun yang lalu",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_915",
+      "label": "Penyelenggara bimbingan pelatihan penyuluhan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_916",
+      "label": "Apakah usaha menjadi anggota asosiasi paguyuban",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_917",
+      "label": "Sumber perolehan air yang digunakan untuk kegiatan usaha termasuk operasional",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_918",
+      "label": "Jika rincian 917 berkode 1 alat pompa air yang digunakan",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "B9_919",
+      "label": "Volume air yang digunakan tanpa biaya selama bulan Agustus 2019 atau bulan terakhir berproduksi",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "FRAKSI",
+      "label": "Penimbang",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019",
+        "imk_kbli_2_2019",
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "Identitas unik hasil renumbering",
+      "type": "numeric",
+      "partitions": [
+        "imk_kbli_1_2019",
+        "imk_kbli_2_2019",
+        "imk_kbli_3_2019"
+      ]
+    },
+    {
+      "code": "TAHUN",
+      "label": "Tahun",
+      "type": "character",
+      "partitions": [
+        "imk_kbli_1_2019",
+        "imk_kbli_2_2019",
+        "imk_kbli_3_2019"
+      ]
+    }
+  ]
+}

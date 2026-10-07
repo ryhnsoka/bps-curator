@@ -1,0 +1,69 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Terluar",
+  "source_file": "Master_PodesTerluar2024.xlsx",
+  "kamus_sheet": "Layout_PODES2024_2t_terluar",
+  "kamus_header_row": 1,
+  "n_variables": 6,
+  "partitions": [
+    "podes2024_desa_2t_terluar"
+  ],
+  "mandatory": [
+    "IDDESA",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R301"
+  ],
+  "variables": [
+    {
+      "code": "IDDESA",
+      "label": "IDENTITAS DESA/KELURAHAN (GABUNGAN DARI KODE PROVINSI, KODE KABUPATEN/KOTA, KODE KECAMATAN, DAN KODE DESA/KELURAHAN/NAGARI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN/KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "KODE DESA/KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    },
+    {
+      "code": "R301",
+      "label": "APAKAH TERDAPAT WILAYAH DESA/KELURAHAN (BAIK SEBAGIAN ATAUPUN SELURUHNYA) YANG BERADA DI PULAU TERLUAR SESUAI KEPUTUSAN PRESIDEN NOMOR 6 TAHUN 2017?",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_terluar"
+      ]
+    }
+  ]
+}

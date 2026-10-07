@@ -1,0 +1,1262 @@
+{
+  "survey_id": "KOMUTER",
+  "period": "Jabodetabek 2019",
+  "source_file": "Master_Komuter_Jabodetabek2019.xlsx",
+  "kamus_sheet": "Master Wilayah dan Variabel",
+  "kamus_header_row": 1,
+  "n_variables": 156,
+  "partitions": [
+    "komuter_jabodetabek2019"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "P101",
+      "label": "PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P102",
+      "label": "KABUPATEN/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P105",
+      "label": "KLASIFIKASI DESA/KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "WEIGHT",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "STRATA",
+      "label": "STRATA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P501",
+      "label": "STATUS KEPEMILIKAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P502",
+      "label": "ALASAN UTAMA MEMILIH TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P503",
+      "label": "JENIS LANTAI TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P504",
+      "label": "LUAS LANTAI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P505",
+      "label": "JENIS ATAP TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P506",
+      "label": "JENIS DINDING TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P507",
+      "label": "SUMBER PENERANGAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P508",
+      "label": "BAHAN BAKAR UTAMA MEMASAK",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P509A",
+      "label": "SUMBER UTAMA AIR MINUM",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P509B",
+      "label": "JARAK KE TEMPAT PENAMPUNGAN TINJA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P510A",
+      "label": "PENGGUNAAN FASILITAS TEMPAT BAB",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P510B",
+      "label": "JENIS KLOSET",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P510C",
+      "label": "TEMPAT PEMBUANGAN AKHIR TINJA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511A",
+      "label": "TABUNG GAS 5,5 KG ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511B",
+      "label": "LEMARI ES/KULKAS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511C",
+      "label": "AC",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511D",
+      "label": "PEMANAS AIR (WATER HEATER)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511E",
+      "label": "TELEPON RUMAH (PTSN)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511F",
+      "label": "KOMPUTER/LAPTOP",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511G",
+      "label": "EMAS/PERHIASAN (MINIMAL 10 GRAM)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511H",
+      "label": "SEPEDA MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511I",
+      "label": "PERAHU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511J",
+      "label": "PERAHU MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511K",
+      "label": "MOBIL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511L",
+      "label": "TELEVISI LAYAR DATAR (MINIMAL 30 INCHI)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P511M",
+      "label": "TANAH/LAHAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P512",
+      "label": "AKSES INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P513",
+      "label": "PENGELUARAN RT PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P514A_NO",
+      "label": "PENGHASILAN TERBESAR (NO. URUT ART)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P514B_KODE",
+      "label": "LAPANGAN USAHA (KODE)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P514C",
+      "label": "STATUS PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P515",
+      "label": "SARINGAN KEBERADAAN KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P201",
+      "label": "JUMLAH ANGGOTA RUMAH TANGGA (ART)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P202",
+      "label": "JUMLAH ART KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P203",
+      "label": "JUMLAH ART KOMUTER BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P204",
+      "label": "JUMLAH ART KOMUTER SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P205",
+      "label": "JUMLAH ART KOMUTER KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P401",
+      "label": "NOMOR URUT ART",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P403",
+      "label": "HUBUNGAN DG KRT",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P404",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P405",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P406",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P407",
+      "label": "UNIT HP",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P408_TELKO",
+      "label": "TELKOMSEL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P408_INDOS",
+      "label": "INDOSAT",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P408_XL",
+      "label": "XL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P408_THREE",
+      "label": "THREE",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P408_LAINN",
+      "label": "SIM CARD LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P409",
+      "label": "PENDIDIKAN TERTINGGI DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P410A",
+      "label": "KERJA DI LUAR KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P410B",
+      "label": "SEKOLAH DI LUAR KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P410C",
+      "label": "KURSUS DI LUAR KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P411",
+      "label": "KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P412_PROV",
+      "label": "PROVINSI KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P412_KAB",
+      "label": "KAB/KOTA KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P413",
+      "label": "KERUTINAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P414",
+      "label": "TANDA CENTANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "NO_KOMUTER",
+      "label": "NO. URUT ART UNTUK KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "NO_PEMBERI",
+      "label": "NO. URUT ART UNTUK PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P601A_BULA",
+      "label": "BULAN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P601A_TAHU",
+      "label": "TAHUN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P601B",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P602_PROV",
+      "label": "PROVINSI LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P602_KAB",
+      "label": "KABUPATEN/KOTA LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P603",
+      "label": "PERNAH TINGGAL DI LUAR KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P604_PROV",
+      "label": "PROVINSI TINGGAL TERAKHIR SEBELUM SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P604_KAB",
+      "label": "KABUPATEN/KOTA TINGGAL TERAKHIR SEBELUM SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P605",
+      "label": "ALASAN UTAMA PINDAH KE TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P606",
+      "label": "LAMA TINGGAL DI TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P607_PROV",
+      "label": "PROVINSI TINGGAL 5 TAHUN LALU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P607_KAB",
+      "label": "KABUPATEN TINGGAL 5 TAHUN LALU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608A",
+      "label": "PENGLIHATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608B",
+      "label": "PENDENGARAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608C",
+      "label": "BERJALAN/NAIK TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608D",
+      "label": "MENGGUNAKAN/MENGGERAKKAN JARI/TANGAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608E",
+      "label": "BERBICARA DAN ATAU MEMAHAMI/BERKOMUNIKASI DENGAN ORANG LAIN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P608F",
+      "label": "LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P609",
+      "label": "KEGIATAN UTAMA KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P611",
+      "label": "JARAK TEMPUH DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612A",
+      "label": "PUKUL BERANGKAT",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612A_JAM",
+      "label": "PUKUL BERANGKAT (JAM)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612A_MENI",
+      "label": "PUKUL BERANGKAT (MENIT)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612B_1",
+      "label": "LAMA PERJALANAN DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN (MENIT)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612B_2",
+      "label": "LAMA PERJALANAN DARI TEMPAT KEGIATAN KE TEMPAT TINGGAL (MENIT)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612C",
+      "label": "PUKUL TIBA DI RUMAH",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612C_JAM",
+      "label": "PUKUL TIBA DI RUMAH (JAM)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P612C_MENI",
+      "label": "PUKUL TIBA DI RUMAH (MENIT)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613A",
+      "label": "SENIN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613B",
+      "label": "SELASA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613C",
+      "label": "RABU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613D",
+      "label": "KAMIS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613E",
+      "label": "JUMAT",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613F",
+      "label": "SABTU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P613G",
+      "label": "MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P614",
+      "label": "KALI MENGGUNAKAN MODA TRANSPORTASI UNTUK SAMPAI KE TEMPAT KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P615A_J",
+      "label": "MODA TRANSPORTASI UNTUK PERGI KE TEMPAT KEGIATAN_JABODETABEK",
+      "type": "character",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P615B_J",
+      "label": "MODA TRANSPORTASI UTAMA UNTUK PERGI KE TEMPAT KEGIATAN_JABODETABEK",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P615C",
+      "label": "PENGEMUDI/PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P616",
+      "label": "ALASAN UTAMA MEMILIH MODA TRANSPORTASI UTAMA (PERGI)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P617",
+      "label": "MENGGUNAKAN MODA TRANSPORTASI YANG SAMA UNTUK PERGI DAN PULANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P618",
+      "label": "KALI MENGGUNAKAN MODA TRANSPORTASI UNTUK SAMPAI KE RUMAH",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P619A_J",
+      "label": "MODA TRANSPORTASI UNTUK PULANG DARI TEMPAT KEGIATAN_JABODETABEK",
+      "type": "character",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P619B_J",
+      "label": "MODA TRANSPORTASI UTAMA UNTUK PULANG DARI TEMPAT KEGIATAN_JABODETABEK",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P619C",
+      "label": "PENGEMUDI/PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P620",
+      "label": "ALASAN UTAMA MEMILIH MODA TRANSPORTASI UTAMA (PULANG)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P623",
+      "label": "BERALIH KE MODA TRANSPORTASI UMUM",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624A",
+      "label": "TIDAK AMAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624B",
+      "label": "TIDAK NYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624C",
+      "label": "TIDAK PRAKTIS",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624D",
+      "label": "JAUHNYA AKSES KE KENDARAAN UMUM",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624E",
+      "label": "WAKTU TEMPUH LAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624F",
+      "label": "WAKTU TUNGGU LAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624G",
+      "label": "BIAYA LEBIH MAHAL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624H",
+      "label": "ALASAN TIDAK INGIN BERALIH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P624_UTAMA",
+      "label": "ALASAN UTAMA TIDAK INGIN BERALIH",
+      "type": "character",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P625A",
+      "label": "BIAYA TRANSPORTASI UTAMA (PP)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P625B",
+      "label": "BIAYA TRANSPORTASI PENUNJANG (PP)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P625C",
+      "label": "JUMLAH BIAYA TRANSPORTASI (PP)",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626A",
+      "label": "DEMAM",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626B",
+      "label": "BATUK/PILEK",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626C",
+      "label": "SAKIT KEPALA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626D",
+      "label": "SAKIT TENGGOROKAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626E",
+      "label": "SAKIT MATA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626F",
+      "label": "SESAK NAPAS/ASMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626G",
+      "label": "MASUK ANGIN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626H",
+      "label": "PEGAL-PEGAL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P626X",
+      "label": "KELUHAN KESEHATAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P627",
+      "label": "KELUHAN MENGGANGGU KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628A",
+      "label": "KEMACETAN PARAH",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628B",
+      "label": "KECELAKAAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628C",
+      "label": "GANGGUAN PADA MODA TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628D",
+      "label": "TINDAK KEJAHATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628E",
+      "label": "PELECEHAN SEKSUAL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P628X",
+      "label": "PENGALAMAN BURUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P629",
+      "label": "STRES AKIBAT PERJALANAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P630",
+      "label": "MEMPUNYAI RENCANA UNTUK BERHENTI KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P631",
+      "label": "KEIKUTSERTAAN DALAM KEGIATAN KEMASYARAKATAN",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P632",
+      "label": "MELAKUKAN KEGIATAN REFRESHING",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P701",
+      "label": "LAPANGAN USAHA PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P702A",
+      "label": "STATUS PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P702B",
+      "label": "PIHAK PENGATUR",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P702C_1",
+      "label": "PIHAK MENENTUKAN HARGA BARANG/TARIF JASA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P702C_2",
+      "label": "PIHAK MENGONTROL BAHAN BAKU, MESIN DAN PERALATAN ATAU BARANG MODAL",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P703",
+      "label": "PENGHASILAN PER BULAN DARI PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P704",
+      "label": "ALASAN UTAMA MEMILIH BEKERJA DI TEMPAT SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P801",
+      "label": "JENJANG PENDIDIKAN YANG SEDANG DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P802",
+      "label": "TINGKAT/KELAS YANG SEDANG DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P803",
+      "label": "ALASAN UTAMA SEKOLAH DI TEMPAT SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P901",
+      "label": "JENIS KURSUS YANG SEDANG DIIKUTI",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "P902",
+      "label": "ALASAN UTAMA MENGIKUTI KURSUS DI TEMPAT SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "RENUMBERING",
+      "type": "numeric",
+      "partitions": [
+        "komuter_jabodetabek2019"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "survey_id": "SPAK",
+  "period": "2024",
+  "source_file": "Master_SPAK2024.xlsx",
+  "kamus_sheet": "Master Variabel dan Wilayah",
+  "kamus_header_row": 1,
+  "n_variables": 95,
+  "partitions": [
+    "spak2024"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "KODE_R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "NAMA PROVINSI",
+      "type": "character",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R105",
+      "label": "KLASIFIKASI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R302",
+      "label": "HUBUNGAN DENGAN KRT",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R303",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R304",
+      "label": "UMUR TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R305",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R306",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R307",
+      "label": "LAPANGAN USAHA PEKERJAAN RESPONDEN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R308",
+      "label": "STATUS DALAM USAHA PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R309",
+      "label": "BERAPA TOTAL PENDAPATAN RUMAH TANGGA DALAM SEBULAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R401",
+      "label": "SIKAP SESEORANG YANG MENERIMA UANG TAMBAHAN DARI PASANGAN SUAMI ISTRI DI LUAR GAJI PENGHASILAN YANG BIASA DITERIMA TANPA MEMPERTANYAKAN ASAL USUL UANG TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R402",
+      "label": "SEORANG PEGAWAI NEGERI MENGGUNAKAN KENDARAAN DINAS UNTUK KEPERLUAN KELUARGA PRIBADI",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R403",
+      "label": "SESEORANG MENGAJAK ANGGOTA KELUARGA DALAM KAMPANYE PILKADES PILKADA PEMILU DEMI MENDAPATKAN LEBIH BANYAK IMBALAN UANG BARANG SEMBAKO PULSA DLL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R404",
+      "label": "SESEORANG MENGGUNAKAN UANG MILIK ANGGOTA KELUARGA TANPA SEIZIN PEMILIKNYA CONTOH UANG KEMBALIAN BELANJA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R405",
+      "label": "SESEORANG MENGGUNAKAN BARANG MILIK ANGGOTA KELUARGA TANPA SEIZIN PEMILIKNYA CONTOH SEPATU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R406",
+      "label": "SESEORANG MEMANFAATKAN HUBUNGAN KELUARGA YANG MEMPUNYAI KEWENANGAN AGAR DIPERMUDAH DALAM SELEKSI PENERIMAAN MURID MAHASISWA BARU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R407",
+      "label": "SESEORANG BERGAYA HIDUP MEWAH DI LUAR DARI KEMAMPUANNYA AGAR DIAKUI DISEGANI DIANGGAP BERADA OLEH MASYARAKAT SEKITAR",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R408",
+      "label": "SESEORANG TIDAK MENGINGATKAN ANGGOTA KELUARGANYA KETIKA ADA YANG MELANGGAR ATURAN CONTOH MENEROBOS LAMPU MERAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R409",
+      "label": "SUATU KELUARGA MEMBERI UANG BARANG FASILITAS YANG LEBIH KEPADA PEJABAT ATAU PERANGKAT DAERAH DESA KETIKA MELAKSANAKAN HAJATAN PERNIKAHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R410",
+      "label": "PENGURUS RT RW MEMBANTU CALON KEPALA DESA KEPALA DAERAH LEGISLATIF UNTUK MEMBAGIKAN UANG BARANG FASILITAS KEPADA MASYARAKATAGAR DIPILIH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R411",
+      "label": "KELOMPOK LEMBAGA MASYARAKAT MENERIMA BANTUAN SUMBANGAN PEMBERIAN HIBAH DARI SESEORANG TANPA MEMPERTANYAKAN ASAL USULNYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R412",
+      "label": "PEJABAT ATAU MANTAN PEJABAT PEMERINTAH YANG SERING MEMBAGIKANSANTUNAN BANTUAN SUMBANGAN TETAP DIBELA MASYARAKAT MESKIPUNTERLIBAT KASUS KORUPSI",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R413",
+      "label": "KETUA RT RW KADES LURAH MENGUSULKAN WARGANYA YANG TIDAK SESUAIKRITERIA UNTUK MENDAPATKAN DANA BANTUAN SOSIAL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R414",
+      "label": "SESEORANG DENGAN KEWENANGAN ATAU PENGARUHNYA MENJAMINKELUARGA SAUDARA TEMAN AGAR DITERIMA MENJADI PEGAWAI PEGAWAINEGERI SWASTA TNI POLRI DAN PENYELENGGARA NEGARA LAINNYA DI LUARPROSEDUR RESMI DAN KETENTUAN YANG BERLAKU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R415",
+      "label": "MEMBERI UANG BARANG FASILITAS DALAM PROSES PENERIMAAN MENJADIPEGAWAI PEGAWAI NEGERI SWASTA TNI POLRI DAN PENYELENGGARANEGARA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R416",
+      "label": "MEMBERI UANG BARANG FASILITAS KEPADA PETUGAS PELAYANAN PUBLIKUNTUK MEMPERMUDAH URUSAN ADMINISTRASI KEPENDUDUKAN KTP",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R417",
+      "label": "MEMBERI UANG BARANG FASILITAS KEPADA PENEGAK HUKUM UNTUKMEMPERMUDAH PENGURUSAN SIM",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R418",
+      "label": "PELANGGAR LALU LINTAS YANG MEMBERI UANG DAMAI KEPADA PETUGAS",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R419",
+      "label": "PETUGAS KANTOR URUSAN AGAMA KUA MEMINTA UANG TAMBAHAN UNTUKTRANSPOR KE TEMPAT ACARA AKAD NIKAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R420",
+      "label": "GURU DOSEN TENAGA KEPENDIDIKAN MEMBANTU ORANG LAIN YANG BUKANANAK KANDUNGNYA MENDAPAT JAMINAN DITERIMA MASUK SEKOLAH KAMPUSTEMPAT DIA BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R421",
+      "label": "GURU DOSEN TENAGA KEPENDIDIKAN SECARA LANGSUNG ATAUPUN MELALUIKOMITE SEKOLAH MEMINTA UANG BARANG FASILITAS KEPADA ORANG TUA WALIMURID MAHASISWA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R422",
+      "label": "ORANG TUA WALI MURID MAHASISWA MEMBERIKAN UANG BARANG FASILITASKEPADA PIHAK SEKOLAH KAMPUS PADA SAAT PENERIMAAN RAPOR KENAIKANKELAS SIDANG AKHIR KELULUSAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R423",
+      "label": "ORANG TUA WALI MURID MEMBERIKAN UANG BARANG FASILITAS DI LUAR ATURANRESMI KEPADA PIHAK SEKOLAH KAMPUS AGAR ANAKNYA DAPAT DITERIMA DISEKOLAH KAMPUS TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R424",
+      "label": "PESERTA PILKADES PILKADA PEMILU MEMBAGIKAN UANG BARANG FASILITAS KECALON PEMILIH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R425",
+      "label": "CALON PEMILIH MENERIMA PEMBAGIAN UANG BARANG FASILITAS PADAPENYELENGGARAAN PILKADES PILKADA PEMILU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R426",
+      "label": "PERUSAHAAN YANG MENGERJAKAN PROYEK PEMERINTAH MEMBERIKAN UANG BARANG FASILITAS KEPADA PEGAWAI PEJABAT PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R427",
+      "label": "TOKO BANGUNAN MATERIAL MEMBERIKAN HADIAH BERUPA UANG BARANG FASILITAS KEPADA PEGAWAI PEMERINTAH KARENA TELAH MEMBELI BAHANBANGUNAN UNTUK PEMBANGUNAN DESA KELURAHAN SEKOLAH UNIVERSITASMILIK PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R502",
+      "label": "APAKAH KETIKA BERURUSANDENGAN LAYANAN PUBLIK TERSEBUT BAPAK IBU SAUDARA I MENGELUARKAN UANG BARANG FASILITAS MELEBIHI KETENTUAN TERMASUK DENGAN DISEDIAKAN KOTAK SUMBANGAN SUKARELA UANG ROKOK UANG TERIMA KASIH MEMBERIKAN HADIAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R503",
+      "label": "MENGAPA BAPAK IBU SAUDARA I TIDAK PERNAH MENGELUARKAN UANG BARANG FASILITASMELEBIHI KETENTUAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R504",
+      "label": "PADA KEJADIAN TERSEBUT APA JENIS KELAMIN PETUGAS YANG MENERIMANYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R505",
+      "label": "PADA KEJADIAN TERSEBUT KAPAN PENGELUARAN UANG BARANG FASILITAS DILAKUKAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R506_A",
+      "label": "BENTUK PENGELUARAN YANG BAPAK IBU SAUDARA I BERIKAN UANG",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R506_B",
+      "label": "BENTUK PENGELUARAN YANG BAPAK IBU SAUDARA I BERIKAN MAKANAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R506_C",
+      "label": "BENTUK PENGELUARAN YANG BAPAK IBU SAUDARA I BERIKAN BARANG LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R506_D",
+      "label": "BENTUK PENGELUARAN YANG BAPAK IBU SAUDARA I BERIKAN FASILITAS",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R507",
+      "label": "APAKAH ALASAN BAPAK IBU SAUDARA I MENGELUARKAN UANG BARANG FASILITAS MELEBIHI KETENTUAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R508",
+      "label": "BAGAIMANA BAPAK IBU SAUDARA I MENGETAHUI BAHWA HARUS MENGELUARKAN UANG BARANG FASILITAS MELEBIHI KETENTUAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R509",
+      "label": "BAGAIMANA TANGGAPAN BAPAK IBU SAUDARA I KETIKA MENGELUARKAN UANG BARANG FASILITAS MELEBIHI KETENTUAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R510",
+      "label": "APAKAH BAPAK IBU SAUDARA I MELAPORKAN MENYAMPAIKAN KELUHAN ATASKEJADIAN MENGELUARKAN UANG BARANG FASILITAS MELEBIHI KETENTUAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R511",
+      "label": "MENGAPA BAPAK IBU SAUDARA I TIDAK MELAPOR MENYAMPAIKAN KELUHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R512",
+      "label": "KEPADA SIAPA BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN ATAS KEJADIAN TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R513",
+      "label": "APAKAH ALASAN BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_A",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN DITINDAKLANJUTI SESUAI PROSEDUR RESMI TERHADAP PETUGAS YANG MELAKUKAN PELAYANAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_B",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN DISELESAIKAN SECARA TIDAK RESMI DAN UANG BARANG FASILITAS DIKEMBALIKAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_C",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN DISARANKAN UNTUK TIDAK MELANJUTKAN LAPORAN KELUHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_D",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN TIDAK ADA TINDAK LANJUT TERHADAP LAPORAN KELUHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_E",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN MENDAPATKAN RESPON NEGATIF TERKAIT LAPORAN KELUHAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R514_F",
+      "label": "YANG TERJADI SETELAH BAPAK IBU SAUDARA I MELAPOR MENYAMPAIKAN KELUHAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R601A",
+      "label": "PERNAHKAH BAPAK IBU SAUDARA I DITAWARI UANG BARANG FASILITAS UNTUKMEMILIH KANDIDAT TERTENTU DALAM PILKADES PILKADA PEMILU YANGTERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R601B",
+      "label": "JIKA KOLOM 2 BERKODE 1 BAGAIMANA TANGGAPAN BAPAK IBU DALAM SITUASI TERSEBUT DITAWARI UANG BARANG FASILITAS UNTUKMEMILIH KANDIDAT TERTENTU DALAM PILKADES PILKADA PEMILU YANGTERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R602A",
+      "label": "PERNAHKAH BAPAK IBU SAUDARA I DITAWARI OLEH SESEORANG UNTUKMEMASUKKAN ANGGOTA KELUARGA KERABAT AGAR DITERIMA MENJADIPEGAWAI NEGERI SWASTA TNI POLRI DENGAN KEHARUSAN MEMBAYARSEJUMLAH UANG TERTENTU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R602B",
+      "label": "JIKA KOLOM 2 BERKODE 1 BAGAIMANA TANGGAPAN BAPAK IBU DALAM SITUASI TERSEBUT DITAWARI OLEH SESEORANG UNTUKMEMASUKKAN ANGGOTA KELUARGA KERABAT AGAR DITERIMA MENJADIPEGAWAI NEGERI SWASTA TNI POLRI DENGAN KEHARUSAN MEMBAYARSEJUMLAH UANG TERTENTU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R603A",
+      "label": "PERNAHKAH BAPAK IBU SAUDARA I DITAWARI BANTUAN JAMINAN DITERIMAOLEH SAUDARA TEMAN AGAR ANGGOTA KELUARGA KERABAT MENJADI PEGAWAI NEGERI SWASTA TNI POLRI",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R603B",
+      "label": "JIKA KOLOM 2 BERKODE 1 BAGAIMANA TANGGAPAN BAPAK IBU DALAM SITUASI TERSEBUT DITAWARI BANTUAN JAMINAN DITERIMAOLEH SAUDARA TEMAN AGAR ANGGOTA KELUARGA KERABAT MENJADI PEGAWAI NEGERI SWASTA TNI POLRI",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R604A",
+      "label": "PERNAHKAH BAPAK IBU SAUDARA I DITAWARI BANTUAN JAMINAN DITERIMAOLEH SAUDARA TEMAN AGAR ANGGOTA KELUARGA KERABAT LOLOS SELEKSIPENERIMAAN MURID MAHASISWA BARU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R604B",
+      "label": "JIKA KOLOM 2 BERKODE 1 BAGAIMANA TANGGAPAN BAPAK IBU DALAM SITUASI TERSEBUT DITAWARI BANTUAN JAMINAN DITERIMAOLEH SAUDARA TEMAN AGAR ANGGOTA KELUARGA KERABAT LOLOS SELEKSIPENERIMAAN MURID MAHASISWA BARU",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R605A",
+      "label": "PERNAHKAH BAPAK IBU SAUDARA I DITAWARI UNTUK MEMBAYAR UANG DAMAI SAAT DITILANG OLEH PETUGAS POLISI LALU LINTAS",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R605B",
+      "label": "JIKA KOLOM 2 BERKODE 1 BAGAIMANA TANGGAPAN BAPAK IBU DALAM SITUASI TERSEBUT DITAWARI UNTUK MEMBAYAR UANG DAMAI SAAT DITILANG OLEH PETUGAS POLISI LALU LINTAS",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R701",
+      "label": "DALAM 12 BULAN TERAKHIR SEJAK APRIL 2023 SEBERAPA SERING BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI BAIK SECARA LANGSUNG MAUPUN TIDAK LANGSUNG MISALNYA DALAM BENTUK ACARA TV RADIO BERITA INTERNET MEDIA SOSIAL FILM IKLAN PAMERAN SEMINAR DLL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_A",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI TV",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_B",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI PORTAL BERITA ONLINE INTERNET APLIKASI WEB WEBSITEKPK DAN WEBSITE MITRA KPK IKLAN DIGITAL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_C",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI MEDIA SOSIAL FACEBOOK TWITTER INSTAGRAM TIKTOK WA YOUTUBE",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_D",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI RADIO",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_E",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI SURAT KABAR MAJALAH CETAK",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_F",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI BALIHO SPANDUK POSTER BANNER SELEBARAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_G",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI VIDEOTRON TV LEMBAGA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_H",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI PAMERAN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_I",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI ACARA PAGELARAN SENI PERTUNJUKAN SENI FILM",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_J",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI SURAT EDARAN SUREL SMS",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_K",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI SEKOLAH PERKULIAHAN FORMAL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_L",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI PENDIDIKAN DAN PELATIHAN NONFORMAL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R702_M",
+      "label": "DARI MANA BAPAK IBU SAUDARA I MENDAPATKAN IMBAUAN KAMPANYE MENGENAI INFORMASI ANTI KORUPSI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R703",
+      "label": "MENURUT PENGETAHUAN DAN PENGALAMAN BAPAK IBU SAUDARA I APAKAH PERILAKU ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA SUDAH MENCERMINKAN NILAI ANTI KORUPSI SEPERTI JUJUR TANGGUNG JAWAB DISIPLIN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_A",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT RUMAH ORANG TUA ANGGOTA KELUARGA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_B",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT PENGAJARAN DI SEKOLAH MATA PELAJARAN EKSTRAKURIKULER",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_C",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT TEMAN SEPERMAINAN SEBAYA PEER GROUP",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_D",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT LINGKUNGAN SEKITAR RUMAH UNSUR MASYARAKAT TOKOH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_E",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT LINGKUNGAN SEKOLAH KETELADANAN GURU KEPALA SEKOLAH PEMBIASAAN DI SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_F",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT MEDIA ONLINE YANG BANYAK DIAKSES OLEH ANAK ANAK YOUTUBE FILM INFLUENCER DLL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_G",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT MEDIA BACAAN ANAK BUKU MAJALAH KOMIK DLL",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R704_H",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN NILAI ANTI KORUPSI DIAJARKAN KEPADA ANAK ANAK USIA SEKOLAH DI LINGKUNGAN ANDA TERSEBUT PERMAINAN PERMAINAN TRADISIONAL GAMES ONLINE GAMES ONLINE BOARD GAME",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "R705",
+      "label": "MENURUT BAPAK IBU SAUDARA I DARI MANA SUMBER PENGAJARAN UTAMA NILAI ANTIKORUPSI YANG PALING EFEKTIF",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "IDENTITAS UNIK",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    },
+    {
+      "code": "WEIGHT_FIN",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "spak2024"
+      ]
+    }
+  ]
+}
