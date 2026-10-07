@@ -25,7 +25,7 @@ def test_ui_flow():
     assert any("TIDAKADA" in str(w.value) for w in at.warning), "missing dilaporkan"
     do_text = at.tabs[0].code[0].value
     assert "keep " in do_text and "K10" in do_text, do_text[:200]
-    assert any("Variabel request user" in m.value for m in at.markdown)
+    assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown)
     print("UI OK: katalog-search, kurasi-tempel, preview, 2 unduhan")
 
 

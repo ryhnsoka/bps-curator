@@ -6,11 +6,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
 import json
+import re
 import sqlite3
 
 import streamlit as st
 
-from bps_curator.curator import curate, generate_do, generate_readme
+from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list
 from bps_curator.normalize import normalize_code
 
 OUT_DIR = ROOT / "output"
@@ -35,13 +36,14 @@ CSS = f"""
   padding: 1.2rem 1.3rem; box-shadow: 0 2px 10px rgba(17,24,39,.06);
   margin-bottom: 1.1rem;
 }}
-.card h3 {{ color: {INK} !important; margin-top: 0; font-size: 1.05rem; }}
+.card h3, .card h4 {{ color: {INK} !important; margin-top: 0; }}
 .card h3 .ico {{ color: {GOLD_DARK}; margin-right: .4rem; }}
 .stButton > button {{
   background: {GOLD}; color: #fff; border-radius: 999px;
   border: 1px solid {GOLD}; font-weight: 700; padding: .45rem 1.8rem;
 }}
 .stButton > button:hover {{ background: {GOLD_DARK}; border-color: {GOLD_DARK}; color: #fff; }}
+.stButton > button:disabled {{ background: #E5E7EB; border-color: #E5E7EB; color: #9CA3AF; }}
 .stDownloadButton > button {{
   background: #fff; color: {GOLD_DARK}; border-radius: 999px;
   border: 1.5px solid {GOLD}; font-weight: 700;
@@ -59,11 +61,6 @@ CSS = f"""
   font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
   color: {INK}; word-spacing: .15rem; line-height: 1.7;
 }}
-.kv {{ display: flex; justify-content: space-between; padding: .45rem 0; border-bottom: 1px solid {LINE}; }}
-.kv:last-child {{ border-bottom: none; }}
-.kv .k {{ color: {MUTED}; font-size: .88rem; }}
-.kv .v {{ color: {INK}; font-size: .88rem; font-weight: 600; }}
-.skip {{ color: {MUTED}; font-style: italic; }}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
 div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
@@ -73,7 +70,6 @@ thead th {{
 }}
 tbody td {{ color: {INK} !important; }}
 .stAlert {{ border-radius: 12px; }}
-section[data-testid="stSidebar"] {{ background: #fff; }}
 input[type="text"], textarea {{
   background: #fff !important; border: 1px solid #D1D5DB !important;
   border-radius: 12px !important; color: {INK} !important;
@@ -93,8 +89,8 @@ div[data-testid="stSelectbox"] label p {{
 
 @st.cache_resource
 def init_db():
-    import sys
-    sys.path.insert(0, str(ROOT / "db"))
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "db"))
     if not DB_PATH.exists():
         import seed
         seed.seed(str(DB_PATH), str(OUT_DIR))
@@ -126,6 +122,14 @@ def log_request(con, master_id, profile, req, curated):
     return rid
 
 
+def kept_partitions(curated, master):
+    """Partisi yang lolos aturan SKIP (isi wajib saja dibuang bila multi-partisi)."""
+    mset = {normalize_code(x) for x in get_mandatory_list(master)}
+    multi = len(curated["grouped"]) > 1
+    return [p for p in sorted(curated["grouped"])
+            if [v for v in curated["grouped"][p] if normalize_code(v) not in mset] or not multi]
+
+
 st.set_page_config(page_title="BPS Curator — Lab Digital FEB Undip", layout="wide")
 st.markdown(CSS, unsafe_allow_html=True)
 st.markdown(
@@ -142,17 +146,8 @@ if menu == "Katalog":
     st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
     q = st.text_input("Cari survei / periode / variabel / label",
                       "", help="Label ikut dicari, bukan cuma kode variabel")
-    def wajib_str(w):
-        if isinstance(w, dict):
-            total = set()
-            for vals in w.values():
-                for v in vals:
-                    total.add(v)
-            return str(len(total))
-        return str(w) if w else "-"
-
-    rows = [{"Survei": c["survey"], "Periode": c["period"], "Vars": c["n_vars"],
-             "Partisi": c["n_partitions"], "Wajib": wajib_str(c["mandatory"])} for c in catalog]
+    rows = [{"Survei": c["survey"], "Periode": c["period"], "Jumlah Variabel": c["n_vars"],
+             "Jumlah Partisi": c["n_partitions"], "Wajib": c["mandatory"]} for c in catalog]
     if q:
         qf, ql = normalize_code(q), q.lower()
         hit = set()
@@ -174,79 +169,60 @@ if menu == "Katalog":
                    unsafe_allow_html=True)
         if var_hits:
             st.write("**Variabel cocok (nama + label):**")
-            st.dataframe(var_hits, use_container_width=True)
-    st.dataframe(rows, use_container_width=True)
+            st.dataframe(var_hits, use_container_width=True, hide_index=True)
+    st.dataframe(rows, use_container_width=True, hide_index=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------------- KURASI ----------------
 else:
     labels = [f"{c['survey']} — {c['period']}" for c in catalog]
-    pick = st.selectbox("Master", labels)
+    pick = st.selectbox("Pilih Survei Master", labels)
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])
-    st.markdown(f"<div class='card'><h3><span class='ico'>●</span> {m['survey_id']} {m['period']}</h3>"
-                f"<span class='badge'>{m['n_variables']} variabel</span> "
-                f"<span class='badge'>{', '.join(m['partitions'])}</span></div>",
+    st.markdown(f"<div class='card'><h4 style='margin-top:0;'>Informasi Dataset</h4>"
+                f"<span class='badge'>Total Variabel: {m['n_variables']}</span> "
+                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span></div>",
                 unsafe_allow_html=True)
-    mand = m.get("mandatory", [])
-    profile = None
-    if isinstance(mand, dict):
-        total = set()
-        for vals in mand.values():
-            total.update(vals)
-        profile = None
-    elif mand:
-        pass
-    else:
-        pass
 
-    req_text = st.text_area("Tempel daftar variabel",
-                              placeholder="TAHUN URUTAN K1 K3 K4 … (spasi, koma, atau baris baru)",
-                              height=130,
-                              help="Tak perlu centang — tempel daftar lalu tekan Proses")
-    import re as _re
-    req = [t for t in _re.split(r"[\s,;]+", req_text) if t]
+    req_text = st.text_area("Tempel Daftar Variabel (pisahkan dengan spasi, koma, atau baris baru)",
+                            height=130,
+                            help="Tak perlu centang — tempel daftar lalu tekan Proses")
+    req = [t for t in re.split(r"[\s,;]+", req_text) if t]
     if req:
         st.caption(f"<span class='badge'>{len(req)} variabel ditempel</span>", unsafe_allow_html=True)
-    if st.button("Proses", disabled=not req):
-        c = curate(req, m, profile=profile)
-        do, md = generate_do(c, m), generate_readme(c, m)
+    if st.button("Proses Kurasi", disabled=not req):
+        c = curate(req, m)
+        do, txt = generate_do(c, m), generate_readme(c, m)
         mid = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
                           (m["survey_id"], m["period"])).fetchone()
-        log_request(con, mid["drive_id"] if mid else "", profile, req, c)
+        log_request(con, mid["drive_id"] if mid else "", None, req, c)
         s1, s2, s3 = st.columns(3)
-        s1.metric("Ditemukan", len(c["found"])); s2.metric("Hilang", len(c["missing"]))
+        s1.metric("Ditemukan", len(c["found"]))
+        s2.metric("Hilang", len(c["missing"]))
         s3.metric("Wajib ditambah", len(c["mandatory_added"]))
         if c["missing"]:
             st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
-        by_code = {v["code"]: v for v in c["found"]}
-        rows = [{"Kode": v["code"], "Label": v["label"]}
-                for v in sorted(c["found"], key=lambda x: x["code"])]
-        st.write("**Hasil pemetaan:**")
-        st.dataframe(rows, use_container_width=True)
-        st.write("**Dataset per partisi:**")
-        from bps_curator.curator import get_mandatory_list
-        _mset = {normalize_code(x) for x in get_mandatory_list(m)}
-        _multi = len(c["grouped"]) > 1
-        for p in sorted(c["grouped"]):
-            _vars = c["grouped"][p]
-            if _multi and not [v for v in _vars if normalize_code(v) not in _mset]:
-                st.caption(f"SKIP {p}: hanya berisi variabel wajib")
-                continue
+        st.markdown("<div class='card'>", unsafe_allow_html=True)
+        st.markdown("#### Pemetaan Variabel Valid")
+        st.dataframe([{"Kode": v["code"], "Label": v["label"]}
+                      for v in sorted(c["found"], key=lambda x: x["code"])],
+                     use_container_width=True, hide_index=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+        st.markdown("#### Detail Partisi")
+        for p in kept_partitions(c, m):
             st.markdown(
-                f"<div class='card'><div style='color:{MUTED};font-size:.78rem;'>"
-                f"{m['survey_id']} — {m['period']}</div>"
-                f"<div style='font-weight:700;margin:.15rem 0 .3rem;'>{p}</div>"
+                f"<div class='card'><div style='font-weight:700;margin-bottom:.3rem;'>Partisi: {p}</div>"
                 f"<div class='codebox'><div class='lbl'>Kode Variabel:</div>"
-                f"<code>{' '.join(_vars)}</code></div></div>", unsafe_allow_html=True)
-        st.subheader("Preview — baca dulu sebelum unduh")
-        t1, t2 = st.tabs([".do (keep)", "README"])
+                f"<code>{' '.join(c['grouped'][p])}</code></div></div>", unsafe_allow_html=True)
+        st.markdown("#### Preview Output")
+        t1, t2 = st.tabs(["Kode Stata (.do)", "README (.txt)"])
         with t1:
             st.code(do, language="stata")
         with t2:
-            st.markdown(md)
-        c1, c2 = st.columns(2)
-        with c1:
-            st.download_button("Unduh .do", do, file_name="kurasi.do")
-        with c2:
-            st.download_button("Unduh README", md, file_name="kurasi_README.txt")
+            st.text(txt)
+        st.markdown("#### Unduh Hasil")
+        d1, d2 = st.columns(2)
+        with d1:
+            st.download_button("Unduh Kode Stata (.do)", do, file_name="kurasi.do")
+        with d2:
+            st.download_button("Unduh Metadata (README.txt)", txt, file_name="kurasi_README.txt")
