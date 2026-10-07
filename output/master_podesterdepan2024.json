@@ -3,7 +3,6 @@
   "period": "2024 Terdepan",
   "source_file": "Master_PodesTerdepan2024.xlsx",
   "kamus_sheet": "KETERANGAN DATA",
-  "kamus_header_row": 1,
   "n_variables": 11,
   "partitions": [
     "podes2024_desa_2t_terdepan"

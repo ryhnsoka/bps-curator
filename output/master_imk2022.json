@@ -3,7 +3,6 @@
   "period": "2022",
   "source_file": "Master_IMK2022.xlsx",
   "kamus_sheet": "kETERANGAN DATA",
-  "kamus_header_row": 1,
   "n_variables": 255,
   "partitions": [
     "dataimk_1_kbli_2022_diseminasi",
@@ -21,7 +20,7 @@
   "variables": [
     {
       "code": "KBLI",
-      "label": "Klasifikasi Usaha",
+      "label": "KODE BAKU KLASIFIKASI INDONESIA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -29,7 +28,7 @@
     },
     {
       "code": "KLAS",
-      "label": "Kode KBLI 2 digit",
+      "label": "KLASIFIKASI USAHA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -37,7 +36,7 @@
     },
     {
       "code": "R204B",
-      "label": "Umur Pengusaha Penanggungjawab Usaha Perusahaan",
+      "label": "KODE KBLI 2 DIGIT",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -45,7 +44,7 @@
     },
     {
       "code": "R206B",
-      "label": "Izin usaha yang dimiliki Nomor Induk Berusaha NIB",
+      "label": "JENIS KELAMIN PENGUSAHA PENANGGUNGJAWAB USAHA PERUSAHAAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -53,7 +52,7 @@
     },
     {
       "code": "R206C",
-      "label": "Izin usaha yang dimiliki Izin Usaha Industri IUI",
+      "label": "UMUR PENGUSAHA PENANGGUNGJAWAB USAHA PERUSAHAAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -61,7 +60,7 @@
     },
     {
       "code": "R206D",
-      "label": "Izin usaha yang dimiliki Surat Izin Usaha Perdagangan SIUP",
+      "label": "JENJANG PENDIDIKAN TERTINGGI YANG DITAMATKAN PENGUSAHA PENANGGUNGJAWAB USAHA PERUSAHAAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -69,7 +68,7 @@
     },
     {
       "code": "R207A1",
-      "label": "Status badan hukum Usaha",
+      "label": "IZIN USAHA YANG DIMILIKI NOMOR INDUK BERUSAHA NIB",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -77,7 +76,7 @@
     },
     {
       "code": "R207A2",
-      "label": "Dapat memisahkan pencatatan keuangan pendapatan",
+      "label": "IZIN USAHA YANG DIMILIKI IZIN USAHA INDUSTRI IUI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -85,7 +84,7 @@
     },
     {
       "code": "R207A3",
-      "label": "Dapat memisahkan pencatatan keuangan tabungan hutang",
+      "label": "IZIN USAHA YANG DIMILIKI SURAT IZIN USAHA PERDAGANGAN SIUP",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -93,7 +92,7 @@
     },
     {
       "code": "R207A4",
-      "label": "Kepemilikan Peralatan Produksi Utama Usaha Perusahaan",
+      "label": "IZIN USAHA YANG DIMILIKI IZIN USAHA TETAP IUT",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -101,7 +100,7 @@
     },
     {
       "code": "R207B",
-      "label": "Apakah Usaha Perusahaan menjadi Anggota Asosiasi Paguyuban",
+      "label": "STATUS BADAN HUKUM USAHA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -109,7 +108,7 @@
     },
     {
       "code": "R207C1",
-      "label": "Apakah Usaha Perusahaan menjadi Anggota Koperasi",
+      "label": "DAPAT MEMISAHKAN PENCATATAN KEUANGAN PENDAPATAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -117,7 +116,7 @@
     },
     {
       "code": "R207C2",
-      "label": "Apakah IMK ini merupakan sumber penghasilan utama dirumah tangga",
+      "label": "DAPAT MEMISAHKAN PENCATATAN KEUANGAN PENGELUARAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -125,7 +124,7 @@
     },
     {
       "code": "R207C3",
-      "label": "Penggunaan teknolog digital Internet untuk Promosi Iklan",
+      "label": "DAPAT MEMISAHKAN PENCATATAN KEUANGAN ASET",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -133,7 +132,7 @@
     },
     {
       "code": "R207C4",
-      "label": "Penggunaan teknolog digital Internet untuk Pinjaman Fintech",
+      "label": "DAPAT MEMISAHKAN PENCATATAN KEUANGAN TABUNGAN HUTANG",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -141,7 +140,7 @@
     },
     {
       "code": "R208A",
-      "label": "Penggunaan teknolog digital Internet untuk Pencarian Informasi Terkait Pengembangan Usaha Perusahaan",
+      "label": "JENIS TEMPAT USAHA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -149,7 +148,7 @@
     },
     {
       "code": "R208B",
-      "label": "Jenis Platform Pemasaran Market place Tokopedia Bukalapak Shopee dll",
+      "label": "STATUS KEPEMILIKAN TEMPAT USAHA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -157,7 +156,7 @@
     },
     {
       "code": "R209",
-      "label": "Jenis Platform Pemasaran Media sosial fb twitter instagram dll",
+      "label": "KEPEMILIKAN PERALATAN PRODUKSI UTAMA USAHA PERUSAHAAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -165,7 +164,7 @@
     },
     {
       "code": "R210",
-      "label": "Jenis Platform Pemasaran Direct web",
+      "label": "TAHUN MULAI BERPRODUKSI SECARA KOMERSIAL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -173,7 +172,7 @@
     },
     {
       "code": "R211A",
-      "label": "Jenis Platform Pemasaran E katalog LKPP",
+      "label": "APAKAH USAHA PERUSAHAAN MENJADI ANGGOTA ASOSIASI PAGUYUBAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -181,7 +180,7 @@
     },
     {
       "code": "R211B",
-      "label": "Jenis Platform Pembelian Bahan Baku Market place Tokopedia Bukalapak Shopee dll",
+      "label": "APAKAH USAHA PERUSAHAAN MENJADI ANGGOTA KOPERASI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -189,7 +188,7 @@
     },
     {
       "code": "R212",
-      "label": "Jenis Platform Pembelian Bahan Baku E mail gmail yahoo outlook dll",
+      "label": "APAKAH LOKASI USAHA BERADA PADA KUMPULAN USAHA SEJENIS SENTRA INDUSTRI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -197,7 +196,7 @@
     },
     {
       "code": "R213",
-      "label": "Jenis Platform Pembelian Bahan Baku Direct web",
+      "label": "APAKAH IMK INI MERUPAKAN SUMBER PENGHASILAN UTAMA DIRUMAH TANGGA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -205,7 +204,7 @@
     },
     {
       "code": "R301A1",
-      "label": "Jenis Platform Pembelian Bahan Baku E katalog LKPP",
+      "label": "PENGGUNAAN TEKNOLOG DIGITAL INTERNET UNTUK PROMOSI IKLAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -213,7 +212,7 @@
     },
     {
       "code": "R301A2",
-      "label": "Persentase penjualan produk dengan metode online dari total nilai penjualan pembelian",
+      "label": "PENGGUNAAN TEKNOLOG DIGITAL INTERNET UNTUK PEMASARAN PENJUALAN PRODUK",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -221,7 +220,7 @@
     },
     {
       "code": "R301A3",
-      "label": "Jenis sertifikasi standar nasional internasional pada produk yang dihasilkan Sertifikasi Standar Nasional Indonesia SNI",
+      "label": "PENGGUNAAN TEKNOLOG DIGITAL INTERNET UNTUK PEMBELIAN BAHAN BAKU",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -229,7 +228,7 @@
     },
     {
       "code": "R301A4",
-      "label": "Jenis sertifikasi standar nasional internasional pada produk yang dihasilkan lainnya",
+      "label": "PENGGUNAAN TEKNOLOG DIGITAL INTERNET UNTUK PINJAMAN FINTECH",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -237,7 +236,7 @@
     },
     {
       "code": "R301A5",
-      "label": "Inovasi Produk",
+      "label": "PENGGUNAAN TEKNOLOG DIGITAL INTERNET UNTUK PENCARIAN INFORMASI TERKAIT PENGEMBANGAN USAHA PERUSAHAAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -245,7 +244,7 @@
     },
     {
       "code": "R301B1",
-      "label": "Inovasi Pemasaran dan Distribusi",
+      "label": "JENIS PLATFORM PEMASARAN INSTANT MESSAGING WHATSAPP YAHOO MESSENGER DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -253,7 +252,7 @@
     },
     {
       "code": "R301B2",
-      "label": "Inovasi Teknologi Proses Produksi",
+      "label": "JENIS PLATFORM PEMASARAN MARKET PLACE TOKOPEDIA BUKALAPAK SHOPEE DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -261,7 +260,7 @@
     },
     {
       "code": "R301B3",
-      "label": "Inovasi Lainnya",
+      "label": "JENIS PLATFORM PEMASARAN MEDIA SOSIAL FB TWITTER INSTAGRAM DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -269,7 +268,7 @@
     },
     {
       "code": "R301B4",
-      "label": "Sumber perolehan air yang digunakan untuk kegiatan usaha perusahaan termasuk operasional Air Tanah Mata Air",
+      "label": "JENIS PLATFORM PEMASARAN E MAIL GMAIL YAHOO OUTLOOK DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -277,7 +276,7 @@
     },
     {
       "code": "R301B5",
-      "label": "Sumber perolehan air yang digunakan untuk kegiatan usaha perusahaan termasuk operasional Usaha Perusahaan Air Bersih",
+      "label": "JENIS PLATFORM PEMASARAN DIRECT WEB",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -285,7 +284,7 @@
     },
     {
       "code": "R301B6",
-      "label": "Kendala Kesulitan Bahan Baku",
+      "label": "JENIS PLATFORM PEMASARAN E KATALOG LKPP",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -293,7 +292,7 @@
     },
     {
       "code": "R301C1",
-      "label": "Kendala Kesulitan Permodalan",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU INSTANT MESSAGING WHATSAPP YAHOO MESSENGER DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -301,7 +300,7 @@
     },
     {
       "code": "R301C2",
-      "label": "Kendala Kesulitan Pemasaran Penjualan Produk",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU MARKET PLACE TOKOPEDIA BUKALAPAK SHOPEE DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -309,7 +308,7 @@
     },
     {
       "code": "R301C3",
-      "label": "Kendala Kesulitan BBM Listrik dan Gas",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU MEDIA SOSIAL FB TWITTER INSTAGRAM DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -317,7 +316,7 @@
     },
     {
       "code": "R301C4",
-      "label": "Kendala Kesulitan Tenaga Kerja",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU E MAIL GMAIL YAHOO OUTLOOK DLL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -325,7 +324,7 @@
     },
     {
       "code": "R301C5",
-      "label": "Kendala Kesulitan Cuaca",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU DIRECT WEB",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -333,7 +332,7 @@
     },
     {
       "code": "R301C6",
-      "label": "Kendala Kesulitan Lainnya",
+      "label": "JENIS PLATFORM PEMBELIAN BAHAN BAKU E KATALOG LKPP",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -341,7 +340,7 @@
     },
     {
       "code": "R301D",
-      "label": "Jenis Kemitraan yang Pernah Dilakukan oleh Usaha Perusahaan selama Setahun yang lalu Permodalan",
+      "label": "ALASAN TIDAK MEMANFAATKAN TEKNOLOGI DIGITAL INTERNET",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -349,7 +348,7 @@
     },
     {
       "code": "R301E1",
-      "label": "Jenis Kemitraan yang Pernah Dilakukan oleh Usaha Perusahaan selama Setahun yang lalu Pemasaran",
+      "label": "PERSENTASE PENJUALAN PRODUK DENGAN METODE ONLINE DARI TOTAL NILAI PENJUALAN PEMBELIAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -357,7 +356,7 @@
     },
     {
       "code": "R301E2",
-      "label": "Jenis Kemitraan yang Pernah Dilakukan oleh Usaha Perusahaan selama Setahun yang lalu Lainnya",
+      "label": "PERSENTASE PEMBELIAN BAHAN BAKU DENGAN METODE ONLINE DARI TOTAL NILAI PENJUALAN PEMBELIAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -365,7 +364,7 @@
     },
     {
       "code": "R3021",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Pemerintah Daerah Dinas",
+      "label": "JENIS SERTIFIKASI STANDAR NASIONAL INTERNASIONAL PADA PRODUK YANG DIHASILKAN SERTIFIKASI STANDAR NASIONAL INDONESIA SNI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -373,7 +372,7 @@
     },
     {
       "code": "R3022",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Perusahaan Swasta",
+      "label": "JENIS SERTIFIKASI STANDAR NASIONAL INTERNASIONAL PADA PRODUK YANG DIHASILKAN SERTIFIKAT HALAL SPP IRT",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -381,7 +380,7 @@
     },
     {
       "code": "R3023",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Perbankan Swasta",
+      "label": "JENIS SERTIFIKASI STANDAR NASIONAL INTERNASIONAL PADA PRODUK YANG DIHASILKAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -389,7 +388,7 @@
     },
     {
       "code": "R303",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Koperasi",
+      "label": "APAKAH USAHA PERUSAHAAN MEMILIKI SERTIFIKAT MEREK ATAS HAK PATEN HAK CIPTA HAK ATAS KEKAYAAN INTELEKTUAL HAKI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -397,7 +396,7 @@
     },
     {
       "code": "R304A1",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Lainnya",
+      "label": "INOVASI PRODUK",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -405,7 +404,7 @@
     },
     {
       "code": "R304A2",
-      "label": "Model bentuk kemitraan yang dijalankan Perdagangan Umum Konsinyasi",
+      "label": "INOVASI PEMASARAN DAN DISTRIBUSI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -413,7 +412,7 @@
     },
     {
       "code": "R304A3",
-      "label": "Model bentuk kemitraan yang dijalankan Kerja Sama Operasional",
+      "label": "INOVASI TEKNOLOGI PROSES PRODUKSI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -421,7 +420,7 @@
     },
     {
       "code": "R304A4",
-      "label": "Model bentuk kemitraan yang dijalankan Usaha Patungan JV",
+      "label": "INOVASI LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -429,7 +428,7 @@
     },
     {
       "code": "R304B",
-      "label": "Apakah Ada Perjanjian Formal dalam Menjalin Kemitraan",
+      "label": "SIAPAKAH YANG MENGEMBANGKAN INOVASI TERSEBUT",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -437,7 +436,7 @@
     },
     {
       "code": "R3051",
-      "label": "Apakah Kemitraan yang Sedang Dijalankan Sudah Saling Menguntungkan",
+      "label": "SUMBER PEROLEHAN AIR YANG DIGUNAKAN UNTUK KEGIATAN USAHA PERUSAHAAN TERMASUK OPERASIONAL AIR TANAH MATA AIR",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -445,7 +444,7 @@
     },
     {
       "code": "R3052",
-      "label": "Jenis Pelayanan Bantuan Bahan Baku",
+      "label": "SUMBER PEROLEHAN AIR YANG DIGUNAKAN UNTUK KEGIATAN USAHA PERUSAHAAN TERMASUK OPERASIONAL AIR KEMASAN ISI ULANG",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -453,7 +452,7 @@
     },
     {
       "code": "R3053",
-      "label": "Jenis Pelayanan Bantuan Pemasaran",
+      "label": "SUMBER PEROLEHAN AIR YANG DIGUNAKAN UNTUK KEGIATAN USAHA PERUSAHAAN TERMASUK OPERASIONAL USAHA PERUSAHAAN AIR BERSIH",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -461,7 +460,7 @@
     },
     {
       "code": "R3054",
-      "label": "Jenis Pelayanan Bantuan Mesin",
+      "label": "SUMBER PEROLEHAN AIR YANG DIGUNAKAN UNTUK KEGIATAN USAHA PERUSAHAAN TERMASUK OPERASIONAL SUNGAI DANAU WADUK AIR HUJAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -469,7 +468,7 @@
     },
     {
       "code": "R306A1",
-      "label": "Jenis Pelayanan Bantuan Lainnya",
+      "label": "KENDALA KESULITAN BAHAN BAKU",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -477,7 +476,7 @@
     },
     {
       "code": "R306A2",
-      "label": "Alasan Utamanya tidak pernah menerima pelayanan bantuan",
+      "label": "KENDALA KESULITAN PERMODALAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -485,7 +484,7 @@
     },
     {
       "code": "R306A3",
-      "label": "Badan Lembaga selain Koperasi yang Pernah Memberi Pelayanan Bantuan Perusahaan Swasta",
+      "label": "KENDALA KESULITAN PEMASARAN PENJUALAN PRODUK",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -493,7 +492,7 @@
     },
     {
       "code": "R306A4",
-      "label": "Badan Lembaga selain Koperasi yang Pernah Memberi Pelayanan Bantuan Yayasan LSM",
+      "label": "KENDALA KESULITAN BBM LISTRIK DAN GAS",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -501,7 +500,7 @@
     },
     {
       "code": "R306A5",
-      "label": "Jenis bimbingan pelatihan penyuluhan Manajerial",
+      "label": "KENDALA KESULITAN INFRASTRUKTUR JALAN AIR KOMUNIKASI DAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -509,7 +508,7 @@
     },
     {
       "code": "R306A6",
-      "label": "Jenis bimbingan pelatihan penyuluhan Pemasaran",
+      "label": "KENDALA KESULITAN TENAGA KERJA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -517,7 +516,7 @@
     },
     {
       "code": "R306A7",
-      "label": "Jenis bimbingan pelatihan penyuluhan AMDAL",
+      "label": "KENDALA KESULITAN CUACA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -525,7 +524,7 @@
     },
     {
       "code": "R306A8",
-      "label": "Penyelenggara Bimbingan Pelatihan Penyuluhan Instansi Pemerintah",
+      "label": "KENDALA KESULITAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -533,7 +532,7 @@
     },
     {
       "code": "R306B",
-      "label": "Penyelenggara Bimbingan Pelatihan Penyuluhan Perusahaan Swasta",
+      "label": "ALASAN UTAMA KENDALA BAHAN BAKU",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -541,7 +540,7 @@
     },
     {
       "code": "R307A1",
-      "label": "Banyaknya pekerja April 2022",
+      "label": "JENIS KEMITRAAN YANG PERNAH DILAKUKAN OLEH USAHA PERUSAHAAN SELAMA SETAHUN YANG LALU PERMODALAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -549,7 +548,7 @@
     },
     {
       "code": "R307A2",
-      "label": "Banyaknya pekerja Juni 2022",
+      "label": "JENIS KEMITRAAN YANG PERNAH DILAKUKAN OLEH USAHA PERUSAHAAN SELAMA SETAHUN YANG LALU BAHAN BAKU",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -557,7 +556,7 @@
     },
     {
       "code": "R307A3",
-      "label": "Banyaknya pekerja Juli 2022",
+      "label": "JENIS KEMITRAAN YANG PERNAH DILAKUKAN OLEH USAHA PERUSAHAAN SELAMA SETAHUN YANG LALU PEMASARAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -565,7 +564,7 @@
     },
     {
       "code": "R307A4",
-      "label": "Banyaknya pekerja Agustus 2022",
+      "label": "JENIS KEMITRAAN YANG PERNAH DILAKUKAN OLEH USAHA PERUSAHAAN SELAMA SETAHUN YANG LALU BARANG MODAL MESIN SARANA PRASARANA PERALATAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -573,7 +572,7 @@
     },
     {
       "code": "R307A5",
-      "label": "Banyaknya pekerja September 2021",
+      "label": "JENIS KEMITRAAN YANG PERNAH DILAKUKAN OLEH USAHA PERUSAHAAN SELAMA SETAHUN YANG LALU LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -581,7 +580,7 @@
     },
     {
       "code": "R307B1",
-      "label": "Banyaknya pekerja Oktober 2021",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN PEMERINTAH DAERAH DINAS",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -589,7 +588,7 @@
     },
     {
       "code": "R307B2",
-      "label": "Banyaknya pekerja November 2021",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN BUMN BUMD",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -597,7 +596,7 @@
     },
     {
       "code": "R307B3",
-      "label": "Banyaknya pekerja Desember 2021",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN PERUSAHAAN SWASTA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -605,7 +604,7 @@
     },
     {
       "code": "R307B4",
-      "label": "Banyaknya pekerja Februari 2022",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN PERBANKAN SWASTA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -613,7 +612,7 @@
     },
     {
       "code": "R307B5",
-      "label": "Banyaknya pekerja Maret 2022",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN YAYASAN LSM",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -621,7 +620,7 @@
     },
     {
       "code": "R307B6",
-      "label": "Banyaknya pekerja termasuk pengusaha pada bulan terakhir berproduksi",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN KOPERASI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -629,7 +628,7 @@
     },
     {
       "code": "R307B7",
-      "label": "Hari kerja per bulan April 2022",
+      "label": "BADAN LEMBAGA YANG PERNAH MENJALIN KEMITRAAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -637,7 +636,7 @@
     },
     {
       "code": "R307C1",
-      "label": "Hari kerja per bulan Mei 2022",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN INTI PLASMA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -645,7 +644,7 @@
     },
     {
       "code": "R307C2",
-      "label": "Hari kerja per bulan Juni 2022",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN SUB KONTRAK",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -653,7 +652,7 @@
     },
     {
       "code": "R307C3",
-      "label": "Hari kerja per bulan Juli 2022",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN PERDAGANGAN UMUM KONSINYASI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -661,7 +660,7 @@
     },
     {
       "code": "R307C4",
-      "label": "Hari kerja per bulan September 2021",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN BAGI HASIL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -669,7 +668,7 @@
     },
     {
       "code": "R307C5",
-      "label": "Hari kerja per bulan November 2021",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN KERJA SAMA OPERASIONAL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -677,7 +676,7 @@
     },
     {
       "code": "R307C6",
-      "label": "Hari kerja per bulan Desember 2021",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN USAHA PATUNGAN JV",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -685,7 +684,7 @@
     },
     {
       "code": "R307C7",
-      "label": "Hari kerja per bulan Januari 2022",
+      "label": "MODEL BENTUK KEMITRAAN YANG DIJALANKAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -693,7 +692,7 @@
     },
     {
       "code": "R308A",
-      "label": "r401bktota",
+      "label": "APAKAH ADA PERJANJIAN FORMAL DALAM MENJALIN KEMITRAAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -701,7 +700,7 @@
     },
     {
       "code": "R308B",
-      "label": "Rata rata jam kerja per hari April 2022",
+      "label": "APAKAH KEMITRAAN YANG SEDANG DIJALANKAN SUDAH SALING MENGUNTUNGKAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -709,7 +708,7 @@
     },
     {
       "code": "R309A1",
-      "label": "Rata rata jam kerja per hari Mei 2022",
+      "label": "JENIS PELAYANAN BANTUAN PERMODALAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -717,7 +716,7 @@
     },
     {
       "code": "R309A2",
-      "label": "Rata rata jam kerja per hari Juni 2022",
+      "label": "JENIS PELAYANAN BANTUAN BAHAN BAKU",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -725,7 +724,7 @@
     },
     {
       "code": "R309A3",
-      "label": "Rata rata jam kerja per hari Agustus 2022",
+      "label": "JENIS PELAYANAN BANTUAN PEMASARAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -733,7 +732,7 @@
     },
     {
       "code": "R309A4",
-      "label": "Rata rata jam kerja per hari September 2021",
+      "label": "JENIS PELAYANAN BANTUAN MESIN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -741,7 +740,7 @@
     },
     {
       "code": "R309A5",
-      "label": "Rata rata jam kerja per hari Oktober 2021",
+      "label": "JENIS PELAYANAN BANTUAN BARANG MODAL PERALATAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -749,7 +748,7 @@
     },
     {
       "code": "R309A6",
-      "label": "Rata rata jam kerja per hari Desember 2021",
+      "label": "JENIS PELAYANAN BANTUAN LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -757,7 +756,7 @@
     },
     {
       "code": "R309B",
-      "label": "Rata rata jam kerja per hari Januari 2022",
+      "label": "ALASAN UTAMANYA TIDAK PERNAH MENERIMA PELAYANAN BANTUAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -765,7 +764,7 @@
     },
     {
       "code": "R3101",
-      "label": "Rata rata jam kerja per hari Februari 2022",
+      "label": "BADAN LEMBAGA SELAIN KOPERASI YANG PERNAH MEMBERI PELAYANAN BANTUAN INSTANSI PEMERINTAH",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -773,7 +772,7 @@
     },
     {
       "code": "R3102",
-      "label": "Rata rata jam kerja per hari pada bulan terakhir berproduksi",
+      "label": "BADAN LEMBAGA SELAIN KOPERASI YANG PERNAH MEMBERI PELAYANAN BANTUAN PERUSAHAAN SWASTA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -781,7 +780,7 @@
     },
     {
       "code": "R3103",
-      "label": "Pekerja dibayar perempuan",
+      "label": "BADAN LEMBAGA SELAIN KOPERASI YANG PERNAH MEMBERI PELAYANAN BANTUAN PERBANKAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -789,7 +788,7 @@
     },
     {
       "code": "R3104",
-      "label": "Jumlah pekerja dibayar",
+      "label": "BADAN LEMBAGA SELAIN KOPERASI YANG PERNAH MEMBERI PELAYANAN BANTUAN YAYASAN LSM",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -797,7 +796,7 @@
     },
     {
       "code": "R311A1",
-      "label": "Pekerja tidak dibayar laki laki",
+      "label": "JENIS BIMBINGAN PELATIHAN PENYULUHAN MANAJERIAL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -805,7 +804,7 @@
     },
     {
       "code": "R311A2",
-      "label": "Pekerja tidak dibayar perempuan",
+      "label": "JENIS BIMBINGAN PELATIHAN PENYULUHAN KETERAMPILAN TEKNIK PRODUKSI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -813,7 +812,7 @@
     },
     {
       "code": "R311A3",
-      "label": "Jenis pekerja laki laki",
+      "label": "JENIS BIMBINGAN PELATIHAN PENYULUHAN PEMASARAN",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -821,7 +820,7 @@
     },
     {
       "code": "R311A4",
-      "label": "Jenis pekerja perempuan",
+      "label": "JENIS BIMBINGAN PELATIHAN PENYULUHAN AMDAL",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -829,7 +828,7 @@
     },
     {
       "code": "R311B1",
-      "label": "Jenis pekerja jumlah",
+      "label": "PENYELENGGARA BIMBINGAN PELATIHAN PENYULUHAN SENDIRI",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -837,7 +836,7 @@
     },
     {
       "code": "R311B2",
-      "label": "Pekerja perempuan kelompok umur kurang dari 15 tahun",
+      "label": "PENYELENGGARA BIMBINGAN PELATIHAN PENYULUHAN INSTANSI PEMERINTAH",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -845,7 +844,7 @@
     },
     {
       "code": "R311B3",
-      "label": "Jumlah pekerja kelompok umur kurang dari 15 tahun",
+      "label": "PENYELENGGARA BIMBINGAN PELATIHAN PENYULUHAN PERUSAHAAN SWASTA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -853,7 +852,7 @@
     },
     {
       "code": "R311B4",
-      "label": "Pekerja laki laki kelompok umur 15 24 tahun",
+      "label": "PENYELENGGARA BIMBINGAN PELATIHAN PENYULUHAN YAYASAN LSM",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -861,7 +860,7 @@
     },
     {
       "code": "R401AK10",
-      "label": "Jumlah pekerja kelompok umur 15 24 tahun",
+      "label": "BANYAKNYA PEKERJA APRIL 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -869,7 +868,7 @@
     },
     {
       "code": "R401AK11",
-      "label": "Pekerja laki laki kelompok umur 25 64 tahun",
+      "label": "BANYAKNYA PEKERJA MEI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -877,7 +876,7 @@
     },
     {
       "code": "R401AK12",
-      "label": "Jumlah pekerja kelompok umur 25 64 tahun",
+      "label": "BANYAKNYA PEKERJA JUNI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -885,7 +884,7 @@
     },
     {
       "code": "R401AK13",
-      "label": "Pekerja laki laki kelompok umur 65 tahun keatas",
+      "label": "BANYAKNYA PEKERJA JULI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -893,7 +892,7 @@
     },
     {
       "code": "R401AK14",
-      "label": "Pekerja perempuan kelompok umur 65 tahun keatas",
+      "label": "BANYAKNYA PEKERJA AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -901,7 +900,7 @@
     },
     {
       "code": "R401AK3",
-      "label": "Kelompok umur pekerja laki laki",
+      "label": "BANYAKNYA PEKERJA SEPTEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -909,7 +908,7 @@
     },
     {
       "code": "R401AK4",
-      "label": "Kelompok umur pekerja perempuan",
+      "label": "BANYAKNYA PEKERJA OKTOBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -917,7 +916,7 @@
     },
     {
       "code": "R401AK5",
-      "label": "Kelompok umur pekerja jumlah",
+      "label": "BANYAKNYA PEKERJA NOVEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -925,7 +924,7 @@
     },
     {
       "code": "R401AK6",
-      "label": "Pekerja laki laki berpendidikan tidak tamat SD",
+      "label": "BANYAKNYA PEKERJA DESEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -933,7 +932,7 @@
     },
     {
       "code": "R401AK7",
-      "label": "Pekarja perempuan berpendidikan tidak tamat SD",
+      "label": "BANYAKNYA PEKERJA JANUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -941,7 +940,7 @@
     },
     {
       "code": "R401AK8",
-      "label": "Jumlah pekerja berpendidikan tidak tamat SD",
+      "label": "BANYAKNYA PEKERJA FEBRUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -949,7 +948,7 @@
     },
     {
       "code": "R401AK9",
-      "label": "Pekerja perempuan berpendidikan SD dan sederajat",
+      "label": "BANYAKNYA PEKERJA MARET 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -957,7 +956,7 @@
     },
     {
       "code": "R401AKLAST",
-      "label": "Jumlah pekerja berpendidikan SD dan sederajat",
+      "label": "BANYAKNYA PEKERJA TERMASUK PENGUSAHA PADA BULAN TERAKHIR BERPRODUKSI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -965,7 +964,7 @@
     },
     {
       "code": "R401BK10",
-      "label": "Pekerja perempuan berpendidikan SMP dan sederajat",
+      "label": "HARI KERJA PER BULAN APRIL 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -973,7 +972,7 @@
     },
     {
       "code": "R401BK11",
-      "label": "Jumlah pekerja berpendidikan SMP dan sederajat",
+      "label": "HARI KERJA PER BULAN MEI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -981,7 +980,7 @@
     },
     {
       "code": "R401BK12",
-      "label": "Pekerja laki laki berpendidikan SMA MA Paket C",
+      "label": "HARI KERJA PER BULAN JUNI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -989,7 +988,7 @@
     },
     {
       "code": "R401BK13",
-      "label": "Jumlah pekerja berpendidikan SMA MA Paket C",
+      "label": "HARI KERJA PER BULAN JULI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -997,7 +996,7 @@
     },
     {
       "code": "R401BK14",
-      "label": "Pekerja laki laki berpendidikan SMK",
+      "label": "HARI KERJA PER BULAN AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1005,7 +1004,7 @@
     },
     {
       "code": "R401BK3",
-      "label": "Pekerja perempuan berpendidikan SMK",
+      "label": "HARI KERJA PER BULAN SEPTEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1013,7 +1012,7 @@
     },
     {
       "code": "R401BK4",
-      "label": "Jumlah perkeja berpendidikan SMK",
+      "label": "HARI KERJA PER BULAN OKTOBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1021,7 +1020,7 @@
     },
     {
       "code": "R401BK5",
-      "label": "Pekerja laki laki berpendidikan DI II III",
+      "label": "HARI KERJA PER BULAN NOVEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1029,7 +1028,7 @@
     },
     {
       "code": "R401BK6",
-      "label": "Pekerja perempuan berpendidikan DI II III",
+      "label": "HARI KERJA PER BULAN DESEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1037,7 +1036,7 @@
     },
     {
       "code": "R401BK7",
-      "label": "Pekerja laki laki berpendidikan DIV S1",
+      "label": "HARI KERJA PER BULAN JANUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1045,7 +1044,7 @@
     },
     {
       "code": "R401BK8",
-      "label": "Pekerja perempuan berpendidikan DIV S1",
+      "label": "HARI KERJA PER BULAN FEBRUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1053,7 +1052,7 @@
     },
     {
       "code": "R401BK9",
-      "label": "Jumlah pekerja berpendidikan DIV S1",
+      "label": "HARI KERJA PER BULAN MARET 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1061,7 +1060,7 @@
     },
     {
       "code": "R401BKLAST",
-      "label": "Pekerja perempuan berpendidikan S2 S3",
+      "label": "BANYAKNYA HARI KERJA PER BULAN PADA BULAN TERAKHIR BERPRODUKSI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1069,7 +1068,7 @@
     },
     {
       "code": "R401BKTOTA",
-      "label": "Jumlah pekerja berpendidikan S2 S3",
+      "label": "R401BKTOTA",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1077,7 +1076,7 @@
     },
     {
       "code": "R401CK10",
-      "label": "Pendidikan tertinggi yang ditamatkan pekerja perempuan",
+      "label": "RATA RATA JAM KERJA PER HARI APRIL 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1085,7 +1084,7 @@
     },
     {
       "code": "R401CK11",
-      "label": "Jumlah balas jasa pekerja",
+      "label": "RATA RATA JAM KERJA PER HARI MEI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1093,7 +1092,7 @@
     },
     {
       "code": "R401CK12",
-      "label": "Jumlah nilai Rp biaya pengeluaran produksi selama Agustus 2022 atau bulan terakhir produksi",
+      "label": "RATA RATA JAM KERJA PER HARI JUNI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1101,7 +1100,7 @@
     },
     {
       "code": "R401CK13",
-      "label": "Nilai Rp Jumlah pengeluaran umum",
+      "label": "RATA RATA JAM KERJA PER HARI JULI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1109,7 +1108,7 @@
     },
     {
       "code": "R401CK14",
-      "label": "Jumlah pengeluaran non operasional",
+      "label": "RATA RATA JAM KERJA PER HARI AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1117,7 +1116,7 @@
     },
     {
       "code": "R401CK3",
-      "label": "Komposisi permodalan Milik sendiri per 31 Agustus 2022",
+      "label": "RATA RATA JAM KERJA PER HARI SEPTEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1125,7 +1124,7 @@
     },
     {
       "code": "R401CK4",
-      "label": "Komposisi permodalan Pinjaman bank per 31 Agustus 2021",
+      "label": "RATA RATA JAM KERJA PER HARI OKTOBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1133,7 +1132,7 @@
     },
     {
       "code": "R401CK5",
-      "label": "Komposisi permodalan Pinjaman koperasi per 31 Agustus 2021",
+      "label": "RATA RATA JAM KERJA PER HARI NOVEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1141,7 +1140,7 @@
     },
     {
       "code": "R401CK6",
-      "label": "Komposisi permodalan Pinjaman koperasi per 31 Agustus 2022",
+      "label": "RATA RATA JAM KERJA PER HARI DESEMBER 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1149,7 +1148,7 @@
     },
     {
       "code": "R401CK7",
-      "label": "Komposisi permodalan Lembaga keuangan bukan bank per 31 Agustus 2022",
+      "label": "RATA RATA JAM KERJA PER HARI JANUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1157,7 +1156,7 @@
     },
     {
       "code": "R401CK8",
-      "label": "Komposisi permodalan Pinjaman dari perorangan per 31 Agustus 2021",
+      "label": "RATA RATA JAM KERJA PER HARI FEBRUARI 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1165,7 +1164,7 @@
     },
     {
       "code": "R401CK9",
-      "label": "Komposisi permodalan Pinjaman program pemerintah subsidi per 31 Agustus 2021",
+      "label": "RATA RATA JAM KERJA PER HARI MARET 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1173,7 +1172,7 @@
     },
     {
       "code": "R401CKLAST",
-      "label": "Komposisi permodalan Pinjaman lembaga swastai per 31 Agustus 2021",
+      "label": "RATA RATA JAM KERJA PER HARI PADA BULAN TERAKHIR BERPRODUKSI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1181,7 +1180,7 @@
     },
     {
       "code": "R402A1K2",
-      "label": "Komposisi permodalan Pinjaman lembaga swasta per 31 Agustus 2022",
+      "label": "PEKERJA DIBAYAR LAKI LAKI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1189,7 +1188,7 @@
     },
     {
       "code": "R402A1K3",
-      "label": "Jika rincian 703 b kolom 3 tidak terisi alasan utama tidak meminjam dari bank",
+      "label": "PEKERJA DIBAYAR PEREMPUAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1197,7 +1196,7 @@
     },
     {
       "code": "R402A1K4",
-      "label": "Jumlah besarnya pinjaman bank",
+      "label": "JUMLAH PEKERJA DIBAYAR",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1205,7 +1204,7 @@
     },
     {
       "code": "R402A2K2",
-      "label": "Besarnya Pinjaman Kredit Usaha Rakyat KUR",
+      "label": "PEKERJA TIDAK DIBAYAR LAKI LAKI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1213,7 +1212,7 @@
     },
     {
       "code": "R402A2K3",
-      "label": "Besarnya Pinjaman Kredit subsidi lainnya",
+      "label": "PEKERJA TIDAK DIBAYAR PEREMPUAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1221,7 +1220,7 @@
     },
     {
       "code": "R402A2K4",
-      "label": "Ringkasan Pendapatan",
+      "label": "JUMLAH PEKERJA TIDAK PEKERJA DIBAYAR",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1229,7 +1228,7 @@
     },
     {
       "code": "R402AK2",
-      "label": "Ringkasan Biaya Pengeluaran",
+      "label": "JENIS PEKERJA LAKI LAKI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1237,7 +1236,7 @@
     },
     {
       "code": "R402AK3",
-      "label": "Ringkasan Selisih",
+      "label": "JENIS PEKERJA PEREMPUAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1245,7 +1244,7 @@
     },
     {
       "code": "R402AK4",
-      "label": "Bahan baku utama dibeli diperoleh dari Luar kabupaten kota satu provinsi",
+      "label": "JENIS PEKERJA JUMLAH",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1253,7 +1252,7 @@
     },
     {
       "code": "R402B1K2",
-      "label": "Bahan baku utama dibeli diperoleh dari Luar provinsi",
+      "label": "PEKERJA LAKI LAKI KELOMPOK UMUR KURANG DARI 15 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1261,7 +1260,7 @@
     },
     {
       "code": "R402B1K3",
-      "label": "Persentase penjualan produk yang dihasilkan Konsumen akhir rumah tangga",
+      "label": "PEKERJA PEREMPUAN KELOMPOK UMUR KURANG DARI 15 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1269,7 +1268,7 @@
     },
     {
       "code": "R402B1K4",
-      "label": "Persentase penjualan produk yang dihasilkan Pedangan besar",
+      "label": "JUMLAH PEKERJA KELOMPOK UMUR KURANG DARI 15 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1277,7 +1276,7 @@
     },
     {
       "code": "R402B2K2",
-      "label": "Persentase penjualan produk yang dihasilkan Industri dan pelaku komersial lainnya",
+      "label": "PEKERJA LAKI LAKI KELOMPOK UMUR 15 24 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1285,7 +1284,7 @@
     },
     {
       "code": "R402B2K3",
-      "label": "Persentase alokasi wilayah pemasaran terbesar",
+      "label": "PEKERJA PEREMPUAN KELOMPOK UMUR 15 24 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1293,7 +1292,7 @@
     },
     {
       "code": "R402B2K4",
-      "label": "Dampak Penundaan pembayaran pembeli",
+      "label": "JUMLAH PEKERJA KELOMPOK UMUR 15 24 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1301,7 +1300,7 @@
     },
     {
       "code": "R402B3K2",
-      "label": "Dampak Bahan baku langka",
+      "label": "PEKERJA LAKI LAKI KELOMPOK UMUR 25 64 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1309,7 +1308,7 @@
     },
     {
       "code": "R402B3K3",
-      "label": "Dampak Bahan baku mahal",
+      "label": "PEKERJA PEREMPUAN KELOMPOK UMUR25 64 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1317,7 +1316,7 @@
     },
     {
       "code": "R402B3K4",
-      "label": "Dampak Tingkat kehadiran pekerja berkurang",
+      "label": "JUMLAH PEKERJA KELOMPOK UMUR 25 64 TAHUN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1325,7 +1324,7 @@
     },
     {
       "code": "R402B4K2",
-      "label": "Dampak Lainnya",
+      "label": "PEKERJA LAKI LAKI KELOMPOK UMUR 65 TAHUN KEATAS",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1333,7 +1332,7 @@
     },
     {
       "code": "R402B4K3",
-      "label": "Strategi usaha Menghentikan mengurangi produksi",
+      "label": "PEKERJA PEREMPUAN KELOMPOK UMUR 65 TAHUN KEATAS",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1341,7 +1340,7 @@
     },
     {
       "code": "R402B4K4",
-      "label": "Strategi usaha Mengurangi jumlah pekerja",
+      "label": "JUMLAH PEKERJA KELOMPOK UMUR 65 TAHUN KEATAS",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1349,7 +1348,7 @@
     },
     {
       "code": "R402BK2",
-      "label": "Strategi usaha Mengurangi hari jam kerja",
+      "label": "KELOMPOK UMUR PEKERJA LAKI LAKI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1357,7 +1356,7 @@
     },
     {
       "code": "R402BK3",
-      "label": "Strategi usaha Pemasaran secara online",
+      "label": "KELOMPOK UMUR PEKERJA PEREMPUAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1365,7 +1364,7 @@
     },
     {
       "code": "R402BK4",
-      "label": "Strategi usaha Berganti jenis produk",
+      "label": "KELOMPOK UMUR PEKERJA JUMLAH",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1373,7 +1372,7 @@
     },
     {
       "code": "R402C1K2",
-      "label": "Strategi usaha Pindah lapangan usaha kategori",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN TIDAK TAMAT SD",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1381,7 +1380,7 @@
     },
     {
       "code": "R402C1K3",
-      "label": "Identitas Unik Hasil Renumbering",
+      "label": "PEKARJA PEREMPUAN BERPENDIDIKAN TIDAK TAMAT SD",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1389,7 +1388,7 @@
     },
     {
       "code": "R402C1K4",
-      "label": "Tahun data",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN TIDAK TAMAT SD",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1397,7 +1396,7 @@
     },
     {
       "code": "R402C2K2",
-      "label": "Penimbang",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN SD DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1405,7 +1404,7 @@
     },
     {
       "code": "R402C2K3",
-      "label": "Kode Baku Klasifikasi Indonesia",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN SD DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1413,7 +1412,7 @@
     },
     {
       "code": "R402C2K4",
-      "label": "Jenis Kelamin Pengusaha Penanggungjawab Usaha Perusahaan",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN SD DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1421,7 +1420,7 @@
     },
     {
       "code": "R402C3K2",
-      "label": "Jenjang Pendidikan Tertinggi yang Ditamatkan Pengusaha Penanggungjawab Usaha Perusahaan",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN SMP DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1429,7 +1428,7 @@
     },
     {
       "code": "R402C3K3",
-      "label": "Izin usaha yang dimiliki Izin Usaha Tetap IUT",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN SMP DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1437,7 +1436,7 @@
     },
     {
       "code": "R402C3K4",
-      "label": "Dapat memisahkan pencatatan keuangan pengeluaran",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN SMP DAN SEDERAJAT",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1445,7 +1444,7 @@
     },
     {
       "code": "R402C4K2",
-      "label": "Dapat memisahkan pencatatan keuangan aset",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN SMA MA PAKET C",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1453,7 +1452,7 @@
     },
     {
       "code": "R402C4K3",
-      "label": "Jenis Tempat Usaha",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN SMA MA PAKET C",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1461,7 +1460,7 @@
     },
     {
       "code": "R402C4K4",
-      "label": "Status Kepemilikan Tempat Usaha",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN SMA MA PAKET C",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1469,7 +1468,7 @@
     },
     {
       "code": "R402C5K2",
-      "label": "Tahun Mulai Berproduksi secara Komersial",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN SMK",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1477,7 +1476,7 @@
     },
     {
       "code": "R402C5K3",
-      "label": "Apakah Lokasi Usaha Berada pada Kumpulan Usaha Sejenis Sentra Industri",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN SMK",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1485,7 +1484,7 @@
     },
     {
       "code": "R402C5K4",
-      "label": "Penggunaan teknolog digital Internet untuk Pemasaran Penjualan Produk",
+      "label": "JUMLAH PERKEJA BERPENDIDIKAN SMK",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1493,7 +1492,7 @@
     },
     {
       "code": "R402C6K2",
-      "label": "Penggunaan teknolog digital Internet untuk Pembelian Bahan Baku",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN DI II III",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1501,7 +1500,7 @@
     },
     {
       "code": "R402C6K3",
-      "label": "Jenis Platform Pemasaran Instant messaging whatsapp yahoo messenger dll",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN DI II III",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1509,7 +1508,7 @@
     },
     {
       "code": "R402C6K4",
-      "label": "Jenis Platform Pemasaran E mail gmail yahoo outlook dll",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN DI II III",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1517,7 +1516,7 @@
     },
     {
       "code": "R402C7K2",
-      "label": "Jenis Platform Pembelian Bahan Baku Instant messaging whatsapp yahoo messenger dll",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN DIV S1",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1525,7 +1524,7 @@
     },
     {
       "code": "R402C7K3",
-      "label": "Jenis Platform Pembelian Bahan Baku Media sosial fb twitter instagram dll",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN DIV S1",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1533,7 +1532,7 @@
     },
     {
       "code": "R402C7K4",
-      "label": "Alasan tidak memanfaatkan teknologi digital internet",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN DIV S1",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1541,7 +1540,7 @@
     },
     {
       "code": "R402C8K2",
-      "label": "Persentase pembelian bahan baku dengan metode online dari total nilai penjualan pembelian",
+      "label": "PEKERJA LAKI LAKI BERPENDIDIKAN S2 S3",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1549,7 +1548,7 @@
     },
     {
       "code": "R402C8K3",
-      "label": "Jenis sertifikasi standar nasional internasional pada produk yang dihasilkan Sertifikat Halal SPP IRT",
+      "label": "PEKERJA PEREMPUAN BERPENDIDIKAN S2 S3",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1557,7 +1556,7 @@
     },
     {
       "code": "R402C8K4",
-      "label": "Apakah usaha perusahaan memiliki sertifikat merek atas hak paten hak cipta Hak atas Kekayaan Intelektual HaKI",
+      "label": "JUMLAH PEKERJA BERPENDIDIKAN S2 S3",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1565,7 +1564,7 @@
     },
     {
       "code": "R402CK2",
-      "label": "Siapakah yang mengembangkan inovasi tersebut",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN PEKERJA LAKI LAKI",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1573,7 +1572,7 @@
     },
     {
       "code": "R402CK3",
-      "label": "Sumber perolehan air yang digunakan untuk kegiatan usaha perusahaan termasuk operasional Air Kemasan Isi Ulang",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN PEKERJA PEREMPUAN",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1581,7 +1580,7 @@
     },
     {
       "code": "R402CK4",
-      "label": "Sumber perolehan air yang digunakan untuk kegiatan usaha perusahaan termasuk operasional Sungai Danau Waduk air hujan",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN JUMLAH PEKERJA",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1589,7 +1588,7 @@
     },
     {
       "code": "R403DK4",
-      "label": "Kendala Kesulitan Infrastruktur Jalan Air Komunikasi dan Lainnya",
+      "label": "JUMLAH BALAS JASA PEKERJA",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -1597,7 +1596,7 @@
     },
     {
       "code": "R504K6",
-      "label": "Alasan utama kendala bahan baku",
+      "label": "JUMLAH NILAI RP PRODUKSI DAN PENDAPATAN SELAMA AGUSTUS 2022 ATAU BULAN TERAKHIR PRODUKSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1605,7 +1604,7 @@
     },
     {
       "code": "R601VK6",
-      "label": "Jenis Kemitraan yang Pernah Dilakukan oleh Usaha Perusahaan selama Setahun yang lalu Bahan Baku",
+      "label": "JUMLAH NILAI RP BIAYA PENGELUARAN PRODUKSI SELAMA AGUSTUS 2022 ATAU BULAN TERAKHIR PRODUKSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1613,7 +1612,7 @@
     },
     {
       "code": "R602PK5",
-      "label": "Jenis Kemitraan yang Pernah Dilakukan oleh Usaha Perusahaan selama Setahun yang lalu Barang modal Mesin sarana prasarana peralatan",
+      "label": "NILAI RP JUMLAH PENGELUARAN UMUM",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1621,7 +1620,7 @@
     },
     {
       "code": "R603FK3",
-      "label": "Badan lembaga yang pernah menjalin kemitraan BUMN BUMD",
+      "label": "JUMLAH PENGELUARAN NON OPERASIONAL",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1629,7 +1628,7 @@
     },
     {
       "code": "R703AK2",
-      "label": "Badan lembaga yang pernah menjalin kemitraan Yayasan LSM",
+      "label": "KOMPOSISI PERMODALAN MILIK SENDIRI PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1637,7 +1636,7 @@
     },
     {
       "code": "R703AK3",
-      "label": "Model bentuk kemitraan yang dijalankan Inti Plasma",
+      "label": "KOMPOSISI PERMODALAN MILIK SENDIRI PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1645,7 +1644,7 @@
     },
     {
       "code": "R703BK2",
-      "label": "Model bentuk kemitraan yang dijalankan Sub Kontrak",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN BANK PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1653,7 +1652,7 @@
     },
     {
       "code": "R703BK3",
-      "label": "Model bentuk kemitraan yang dijalankan Bagi Hasil",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN BANK PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1661,7 +1660,7 @@
     },
     {
       "code": "R703CK2",
-      "label": "Model bentuk kemitraan yang dijalankan Lainnya",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN KOPERASI PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1669,7 +1668,7 @@
     },
     {
       "code": "R703CK3",
-      "label": "Jenis Pelayanan Bantuan Permodalan",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN KOPERASI PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1677,7 +1676,7 @@
     },
     {
       "code": "R703DK2",
-      "label": "Jenis Pelayanan Bantuan Barang Modal Peralatan",
+      "label": "KOMPOSISI PERMODALAN LEMBAGA KEUANGAN BUKAN BANK PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1685,7 +1684,7 @@
     },
     {
       "code": "R703DK3",
-      "label": "Badan Lembaga selain Koperasi yang Pernah Memberi Pelayanan Bantuan Instansi Pemerintah",
+      "label": "KOMPOSISI PERMODALAN LEMBAGA KEUANGAN BUKAN BANK PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1693,7 +1692,7 @@
     },
     {
       "code": "R703EK2",
-      "label": "Badan Lembaga selain Koperasi yang Pernah Memberi Pelayanan Bantuan Perbankan",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN DARI PERORANGAN PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1701,7 +1700,7 @@
     },
     {
       "code": "R703EK3",
-      "label": "Jenis bimbingan pelatihan penyuluhan Keterampilan Teknik Produksi",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN DARI PERORANGAN PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1709,7 +1708,7 @@
     },
     {
       "code": "R703FK2",
-      "label": "Penyelenggara Bimbingan Pelatihan Penyuluhan Sendiri",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN PROGRAM PEMERINTAH SUBSIDI PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1717,7 +1716,7 @@
     },
     {
       "code": "R703FK3",
-      "label": "Penyelenggara Bimbingan Pelatihan Penyuluhan Yayasan LSM",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN PROGRAM PEMERINTAH SUBSIDI PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1725,7 +1724,7 @@
     },
     {
       "code": "R703GK2",
-      "label": "Banyaknya pekerja Januari 2022",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN LEMBAGA SWASTAI PER 31 AGUSTUS 2021",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1733,7 +1732,7 @@
     },
     {
       "code": "R703GK3",
-      "label": "Banyaknya pekerja Mei 2022",
+      "label": "KOMPOSISI PERMODALAN PINJAMAN LEMBAGA SWASTA PER 31 AGUSTUS 2022",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1741,7 +1740,7 @@
     },
     {
       "code": "R703MK3",
-      "label": "Hari kerja per bulan Oktober 2021",
+      "label": "PERSENTASE KOMPOSISI PERMODALAN TERBESAR",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1749,7 +1748,7 @@
     },
     {
       "code": "R704",
-      "label": "Hari kerja per bulan Februari 2022",
+      "label": "JIKA RINCIAN 703 B KOLOM 3 TIDAK TERISI ALASAN UTAMA TIDAK MEMINJAM DARI BANK",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1757,7 +1756,7 @@
     },
     {
       "code": "R705",
-      "label": "Hari kerja per bulan Maret 2022",
+      "label": "BERAPA PERSENTASE NILAI AGUNAN DARI NILAI AWAL PINJAMAN",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1765,7 +1764,7 @@
     },
     {
       "code": "R706",
-      "label": "Hari kerja per bulan Agustus 2022",
+      "label": "JUMLAH BESARNYA PINJAMAN BANK",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1773,7 +1772,7 @@
     },
     {
       "code": "R7061",
-      "label": "Rata rata jam kerja per hari November 2021",
+      "label": "BESARNYA PINJAMAN KREDIT USAHA RAKYAT KUR",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1781,7 +1780,7 @@
     },
     {
       "code": "R7062",
-      "label": "Rata rata jam kerja per hari Maret 2022",
+      "label": "BESARNYA PINJAMAN KREDIT SUBSIDI LAINNYA",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1789,7 +1788,7 @@
     },
     {
       "code": "R7063",
-      "label": "Rata rata jam kerja per hari Juli 2022",
+      "label": "BESARNYA PINJAMAN KREDIT NONSUBSIDI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1797,7 +1796,7 @@
     },
     {
       "code": "R801",
-      "label": "Pekerja dibayar laki laki",
+      "label": "RINGKASAN PENDAPATAN",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1805,7 +1804,7 @@
     },
     {
       "code": "R802",
-      "label": "Jumlah pekerja tidak pekerja dibayar",
+      "label": "RINGKASAN BIAYA PENGELUARAN",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1813,7 +1812,7 @@
     },
     {
       "code": "R803",
-      "label": "Pekerja Laki laki kelompok umur kurang dari 15 tahun",
+      "label": "RINGKASAN SELISIH",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1821,7 +1820,7 @@
     },
     {
       "code": "R901A",
-      "label": "Pekerja perempuan kelompok umur 15 24 tahun",
+      "label": "BAHAN BAKU UTAMA DIBELI DIPEROLEH DARI DALAM SATU KABUPATEN KOTA",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1829,7 +1828,7 @@
     },
     {
       "code": "R901B",
-      "label": "Pekerja perempuan kelompok umur25 64 tahun",
+      "label": "BAHAN BAKU UTAMA DIBELI DIPEROLEH DARI LUAR KABUPATEN KOTA SATU PROVINSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1837,7 +1836,7 @@
     },
     {
       "code": "R901C",
-      "label": "Jumlah pekerja kelompok umur 65 tahun keatas",
+      "label": "BAHAN BAKU UTAMA DIBELI DIPEROLEH DARI LUAR PROVINSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1845,7 +1844,7 @@
     },
     {
       "code": "R901D",
-      "label": "Pendidikan tertinggi yang ditamatkan pekerja laki laki",
+      "label": "BAHAN BAKU UTAMA DIBELI DIPEROLEH DARI LANGSUNG LUAR NEGERI IMPORTIR",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1853,7 +1852,7 @@
     },
     {
       "code": "R902A",
-      "label": "Pendidikan tertinggi yang ditamatkan jumlah pekerja",
+      "label": "PERSENTASE PENJUALAN PRODUK YANG DIHASILKAN KONSUMEN AKHIR RUMAH TANGGA",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1861,7 +1860,7 @@
     },
     {
       "code": "R902B",
-      "label": "Pekerja laki laki berpendidikan SD dan sederajat",
+      "label": "PERSENTASE PENJUALAN PRODUK YANG DIHASILKAN PEDAGANG ECERAN",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1869,7 +1868,7 @@
     },
     {
       "code": "R902C",
-      "label": "Pekerja laki laki berpendidikan SMP dan sederajat",
+      "label": "PERSENTASE PENJUALAN PRODUK YANG DIHASILKAN PEDANGAN BESAR",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1877,7 +1876,7 @@
     },
     {
       "code": "R902D",
-      "label": "Pekerja perempuan berpendidikan SMA MA Paket C",
+      "label": "PERSENTASE PENJUALAN PRODUK YANG DIHASILKAN INDUSTRI DAN PELAKU KOMERSIAL LAINNYA",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1885,7 +1884,7 @@
     },
     {
       "code": "R902E",
-      "label": "Jumlah pekerja berpendidikan DI II III",
+      "label": "PERSENTASE PENJUALAN PRODUK YANG DIHASILKAN PEMERINTAH INSTITUSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1893,7 +1892,7 @@
     },
     {
       "code": "R902M",
-      "label": "Pekerja laki laki berpendidikan S2 S3",
+      "label": "PERSENTASE NILAI PENJUALANI PRODUK TERBESAR",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1901,7 +1900,7 @@
     },
     {
       "code": "R903A",
-      "label": "Banyaknya hari kerja per bulan pada bulan terakhir berproduksi",
+      "label": "ALOKASI PEMASARAN DALAM SATU KABUPATEN KOTA",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1909,7 +1908,7 @@
     },
     {
       "code": "R903B",
-      "label": "Jumlah nilai Rp produksi dan pendapatan selama Agustus 2022 atau bulan terakhir produksi",
+      "label": "ALOKASI PEMASARAN LUAR KABUPATEN KOTA SATU PROVINSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1917,7 +1916,7 @@
     },
     {
       "code": "R903C",
-      "label": "Komposisi permodalan Milik sendiri per 31 Agustus 2021",
+      "label": "ALOKASI PEMASARAN LUAR PROVINSI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1925,7 +1924,7 @@
     },
     {
       "code": "R903D",
-      "label": "Komposisi permodalan Pinjaman bank per 31 Agustus 2022",
+      "label": "ALOKASI PEMASARAN LUAR NEGERI",
       "type": "numeric",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1933,7 +1932,7 @@
     },
     {
       "code": "R903M",
-      "label": "Komposisi permodalan Lembaga keuangan bukan bank per 31 Agustus 2021",
+      "label": "PERSENTASE ALOKASI WILAYAH PEMASARAN TERBESAR",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1941,7 +1940,7 @@
     },
     {
       "code": "R904A1",
-      "label": "Komposisi permodalan Pinjaman dari perorangan per 31 Agustus 2022",
+      "label": "DAMPAK PERMINTAAN PENJUALAN MENURUN",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1949,7 +1948,7 @@
     },
     {
       "code": "R904A2",
-      "label": "Komposisi permodalan Pinjaman program pemerintah subsidi per 31 Agustus 2022",
+      "label": "DAMPAK PENUNDAAN PEMBAYARAN PEMBELI",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1957,7 +1956,7 @@
     },
     {
       "code": "R904A3",
-      "label": "Berapa persentase nilai agunan dari nilai awal pinjaman",
+      "label": "DAMPAK BAHAN BAKU LANGKA",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1965,7 +1964,7 @@
     },
     {
       "code": "R904A4",
-      "label": "Besarnya Pinjaman Kredit nonsubsidi",
+      "label": "DAMPAK BAHAN BAKU MAHAL",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1973,7 +1972,7 @@
     },
     {
       "code": "R904A5",
-      "label": "Bahan baku utama dibeli diperoleh dari Dalam satu kabupaten kota",
+      "label": "DAMPAK TINGKAT KEHADIRAN PEKERJA BERKURANG",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1981,7 +1980,7 @@
     },
     {
       "code": "R904A6",
-      "label": "Bahan baku utama dibeli diperoleh dari Langsung luar negeri importir",
+      "label": "DAMPAK LAINNYA",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1989,7 +1988,7 @@
     },
     {
       "code": "R904B1",
-      "label": "Persentase penjualan produk yang dihasilkan Pedagang eceran",
+      "label": "STRATEGI USAHA MENGHENTIKAN MENGURANGI PRODUKSI",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -1997,7 +1996,7 @@
     },
     {
       "code": "R904B2",
-      "label": "Persentase penjualan produk yang dihasilkan Pemerintah institusi",
+      "label": "STRATEGI USAHA MENGURANGI JUMLAH PEKERJA",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -2005,7 +2004,7 @@
     },
     {
       "code": "R904B3",
-      "label": "Alokasi pemasaran dalam satu kabupaten kota",
+      "label": "STRATEGI USAHA MENGURANGI HARI JAM KERJA",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -2013,7 +2012,7 @@
     },
     {
       "code": "R904B4",
-      "label": "Alokasi pemasaran luar kabupaten kota satu provinsi",
+      "label": "STRATEGI USAHA PEMASARAN SECARA ONLINE",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -2021,7 +2020,7 @@
     },
     {
       "code": "R904B5",
-      "label": "Alokasi pemasaran luar provinsi",
+      "label": "STRATEGI USAHA BERGANTI JENIS PRODUK",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -2029,7 +2028,7 @@
     },
     {
       "code": "R904B6",
-      "label": "Alokasi pemasaran luar negeri",
+      "label": "STRATEGI USAHA PINDAH LAPANGAN USAHA KATEGORI",
       "type": "character",
       "partitions": [
         "dataimk_2_kbli_2022_diseminasi"
@@ -2037,7 +2036,7 @@
     },
     {
       "code": "RENUM",
-      "label": "Dampak Permintaan penjualan menurun",
+      "label": "IDENTITAS UNIK HASIL RENUMBERING",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi",
@@ -2046,7 +2045,7 @@
     },
     {
       "code": "TAHUN",
-      "label": "Persentase komposisi permodalan terbesar",
+      "label": "TAHUN DATA",
       "type": "character",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi"
@@ -2054,7 +2053,7 @@
     },
     {
       "code": "WEIGHT",
-      "label": "Persentase nilai penjualani produk terbesar",
+      "label": "PENIMBANG",
       "type": "numeric",
       "partitions": [
         "dataimk_1_kbli_2022_diseminasi",

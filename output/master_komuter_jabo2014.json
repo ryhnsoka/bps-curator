@@ -3,7 +3,6 @@
   "period": "Jabodetabek 2014",
   "source_file": "Master_Komuter_Jabodetabek2014.xlsx",
   "kamus_sheet": "KETERANGAN DATA",
-  "kamus_header_row": 1,
   "n_variables": 126,
   "partitions": [
     "kmtr14_art",

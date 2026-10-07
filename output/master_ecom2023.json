@@ -3,7 +3,6 @@
   "period": "2023",
   "source_file": "Master_ECOM2023.xlsx",
   "kamus_sheet": "Master Variabel dan Wilayah",
-  "kamus_header_row": 1,
   "n_variables": 54,
   "partitions": [
     "ecom2023"

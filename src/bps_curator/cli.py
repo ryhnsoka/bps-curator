@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from .parser import parse_master
-from .curator import curate, generate_do
+from .curator import curate, generate_do, generate_readme
 
 
 def cmd_parse(a):
@@ -26,8 +26,10 @@ def cmd_curate(a):
     c = curate(req, master, profile=a.profile)
     do = generate_do(c, master)
     Path(a.out).write_text(do, encoding="utf-8")
+    readme = Path(a.out).with_name(Path(a.out).stem + "_README.md")
+    readme.write_text(generate_readme(c, master), encoding="utf-8")
     print(f"found={len(c['found'])} missing={c['missing']} wajib+={c['mandatory_added']}")
-    print(f"-> {a.out}")
+    print(f"-> {a.out} + {readme}")
 
 
 def main():

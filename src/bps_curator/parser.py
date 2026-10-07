@@ -23,22 +23,23 @@ def find_kamus_sheet(wb):
             vals = [str(c).strip() if c is not None else "" for c in r]
             low = [v.lower() for v in vals]
             if "variabel" in low and any("partisi" in v for v in low):
-                col = {}
-                for i, v in enumerate(vals):
-                    if v and v.lower() not in col:
-                        col[v.lower()] = i
+                # blok kamus = kolom 'Variabel' yang punya 'Partisi' di kanannya;
+                # Label/Tipe/Partisi = kemunculan pertama di kanan blok itu
+                # (kamus bisa di kiri ex Jabo, atau kanan ex SAK)
+                var_idx = [i for i, v in enumerate(low) if v == "variabel"]
+                iv = next((i for i in var_idx if any("partisi" in v for v in low[i:])), var_idx[0])
 
-                def idx(names):
-                    for n in names:
-                        if n in col:
-                            return col[n]
+                def right(names):
+                    for i in range(iv + 1, len(low)):
+                        if low[i] in names:
+                            return i
                     return None
 
                 return sn, ri, {
-                    "variabel": idx(["variabel"]),
-                    "label": idx(["label"]),
-                    "tipe": idx(["tipe data", "tipe", "type"]),
-                    "partisi": next((col[k] for k in col if "partisi" in k), None),
+                    "variabel": iv,
+                    "label": right(["label"]),
+                    "tipe": right(["tipe data", "tipe", "type"]),
+                    "partisi": next((i for i in range(iv + 1, len(low)) if "partisi" in low[i]), None),
                 }
     raise ValueError(f"Kamus (Variabel+Partisi) tidak ditemukan: {wb.sheetnames}")
 

@@ -3,7 +3,6 @@
   "period": "2021 Kecamatan",
   "source_file": "Master_PodesKec2021.xlsx",
   "kamus_sheet": "KETERANGAN DATA",
-  "kamus_header_row": 1,
   "n_variables": 77,
   "partitions": [
     "podes2021_kec"

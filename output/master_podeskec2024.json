@@ -3,7 +3,6 @@
   "period": "2024 Kecamatan",
   "source_file": "Master_PodesKec2024.xlsx",
   "kamus_sheet": "Metadata",
-  "kamus_header_row": 1,
   "n_variables": 92,
   "partitions": [
     "podes2024_kecamatan_diseminasi"

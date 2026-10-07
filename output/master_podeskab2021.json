@@ -3,7 +3,6 @@
   "period": "2021 Kabupaten",
   "source_file": "Master_PodesKab2021.xlsx",
   "kamus_sheet": "KETERANGAN DATA",
-  "kamus_header_row": 1,
   "n_variables": 35,
   "partitions": [
     "podes2021_kab"

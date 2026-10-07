@@ -3,7 +3,6 @@
   "period": "2023 KP",
   "source_file": "Master_SUSENAS2023_KP.xlsx",
   "kamus_sheet": "Master",
-  "kamus_header_row": 3,
   "n_variables": 41,
   "partitions": [
     "ssn202303kp_blok41_11_31",
@@ -36,7 +35,7 @@
   "variables": [
     {
       "code": "B41K10",
-      "label": "Nilai Pengeluaran Seminggu Satu Rumah Tangga Makanan",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -47,7 +46,7 @@
     },
     {
       "code": "B41K5",
-      "label": "Banyaknya Konsumsi Seminggu Satu Rumah Tangga yang Berasal dari Pembelian Makanan",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PEMBELIAN MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -58,7 +57,7 @@
     },
     {
       "code": "B41K6",
-      "label": "Nilai Pengeluaran Seminggu Satu Rumah Tangga yang Berasal dari Pembelian Makanan",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PEMBELIAN MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -69,7 +68,7 @@
     },
     {
       "code": "B41K7",
-      "label": "Banyaknya Konsumsi Seminggu Satu Rumah Tangga yang Berasal dari Produksi Sendiri Pemberian dsb Makanan",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PRODUKSI SENDIRI PEMBERIAN DSB MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -80,7 +79,7 @@
     },
     {
       "code": "B41K8",
-      "label": "Nilai Pengeluaran Seminggu Satu Rumah Tangga yang Berasal dari Produksi Sendiri Pemberian dsb Makanan",
+      "label": "NILAI PENGELUARAN SEMINGGU SATU RUMAH TANGGA YANG BERASAL DARI PRODUKSI SENDIRI PEMBERIAN DSB MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -91,7 +90,7 @@
     },
     {
       "code": "B41K9",
-      "label": "Banyaknya Konsumsi Seminggu Satu Rumah Tangga Makanan",
+      "label": "BANYAKNYA KONSUMSI SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -102,7 +101,7 @@
     },
     {
       "code": "B42K3",
-      "label": "Banyaknya Penggunaan Nonmakanan",
+      "label": "BANYAKNYA PENGGUNAAN NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -112,7 +111,7 @@
     },
     {
       "code": "B42K3A",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga yang Dibayar Tunai Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -122,7 +121,7 @@
     },
     {
       "code": "B42K3B",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga yang Dibayar Tunai Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -132,7 +131,7 @@
     },
     {
       "code": "B42K3C",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga yang Dibayar Tunai Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -142,7 +141,7 @@
     },
     {
       "code": "B42K3D",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga yang Dibayar Tunai Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -152,7 +151,7 @@
     },
     {
       "code": "B42K3E",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga yang Dibayar Tunai Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA YANG DIBAYAR TUNAI NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -162,7 +161,7 @@
     },
     {
       "code": "B42K4",
-      "label": "Nilai Pengeluaran Sebulan Terakhir Rumah Tangga Nonmakanan",
+      "label": "NILAI PENGELUARAN SEBULAN TERAKHIR RUMAH TANGGA NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -172,7 +171,7 @@
     },
     {
       "code": "B42K5",
-      "label": "Nilai Pengeluaran Setahun Terakhir Rumah Tangga Nonmakanan",
+      "label": "NILAI PENGELUARAN SETAHUN TERAKHIR RUMAH TANGGA NONMAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -182,7 +181,7 @@
     },
     {
       "code": "COICOP",
-      "label": "Kode COICOP",
+      "label": "KODE COICOP",
       "type": "character",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -196,7 +195,7 @@
     },
     {
       "code": "EXPEND",
-      "label": "Rata rata Pengeluaran Rumah Tangga Sebulan",
+      "label": "RATA RATA PENGELUARAN RUMAH TANGGA SEBULAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -206,7 +205,7 @@
     },
     {
       "code": "FOOD",
-      "label": "Rata rata Pengeluaran Makanan Rumah Tangga Sebulan",
+      "label": "RATA RATA PENGELUARAN MAKANAN RUMAH TANGGA SEBULAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -216,7 +215,7 @@
     },
     {
       "code": "KALORI",
-      "label": "Banyaknya Konsumsi Kalori Seminggu satu rumah tangga Makanan",
+      "label": "BANYAKNYA KONSUMSI KALORI SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -227,7 +226,7 @@
     },
     {
       "code": "KALORI_KAP",
-      "label": "Banyaknya Konsumsi Kalori Perkapita Sehari",
+      "label": "BANYAKNYA KONSUMSI KALORI PERKAPITA SEHARI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -237,7 +236,7 @@
     },
     {
       "code": "KAPITA",
-      "label": "Rata rata Pengeluaran Perkapita Sebulan",
+      "label": "RATA RATA PENGELUARAN PERKAPITA SEBULAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -247,7 +246,7 @@
     },
     {
       "code": "KARBO",
-      "label": "Banyaknya Konsumsi Karbo Seminggu satu rumah tangga Makanan",
+      "label": "BANYAKNYA KONSUMSI KARBO SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -258,7 +257,7 @@
     },
     {
       "code": "KARBO_KAP",
-      "label": "Banyaknya Konsumsi Karbohidrat Perkapita Sehari",
+      "label": "BANYAKNYA KONSUMSI KARBOHIDRAT PERKAPITA SEHARI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -268,7 +267,7 @@
     },
     {
       "code": "KLP",
-      "label": "Kode Subkelompok",
+      "label": "KODE SUBKELOMPOK",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -282,7 +281,7 @@
     },
     {
       "code": "KODE",
-      "label": "No urut Rincian Komoditi",
+      "label": "NO URUT RINCIAN KOMODITI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -296,7 +295,7 @@
     },
     {
       "code": "LEMAK",
-      "label": "Banyaknya Konsumsi Lemak Seminggu satu rumah tangga Makanan",
+      "label": "BANYAKNYA KONSUMSI LEMAK SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -307,7 +306,7 @@
     },
     {
       "code": "LEMAK_KAP",
-      "label": "Banyaknya Konsumsi Lemak Perkapita Sehari",
+      "label": "BANYAKNYA KONSUMSI LEMAK PERKAPITA SEHARI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -317,7 +316,7 @@
     },
     {
       "code": "NONFOOD",
-      "label": "Rata rata Pengeluaran Bukan Makanan Rumah Tangga Sebulan",
+      "label": "RATA RATA PENGELUARAN BUKAN MAKANAN RUMAH TANGGA SEBULAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -327,7 +326,7 @@
     },
     {
       "code": "PROTEIN",
-      "label": "Banyaknya Konsumsi Protein Seminggu satu rumah tangga Makanan",
+      "label": "BANYAKNYA KONSUMSI PROTEIN SEMINGGU SATU RUMAH TANGGA MAKANAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok41_11_31",
@@ -338,7 +337,7 @@
     },
     {
       "code": "PROTE_KAP",
-      "label": "Banyaknya Konsumsi Protein Perkapita Sehari",
+      "label": "BANYAKNYA KONSUMSI PROTEIN PERKAPITA SEHARI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -348,7 +347,7 @@
     },
     {
       "code": "PSU",
-      "label": "Primary Sampling Unit",
+      "label": "PRIMARY SAMPLING UNIT",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -365,7 +364,7 @@
     },
     {
       "code": "R101",
-      "label": "Klasifikasi perkotaan perdesaan",
+      "label": "KODE PROVINSI",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -382,7 +381,7 @@
     },
     {
       "code": "R102",
-      "label": "Jumlah anggota rumah tangga",
+      "label": "KODE KABUPATEN KOTA",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -399,7 +398,7 @@
     },
     {
       "code": "R105",
-      "label": "Rata Rata Nilai Pengeluaran Bukan Makanan Sebulan Rumah Tangga (per komoditas)",
+      "label": "KLASIFIKASI PERKOTAAN PERDESAAN",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -416,7 +415,7 @@
     },
     {
       "code": "R301",
-      "label": "Secondary Sampling Unit",
+      "label": "JUMLAH ANGGOTA RUMAH TANGGA",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -433,7 +432,7 @@
     },
     {
       "code": "SEBULAN",
-      "label": "Nomor urut RT",
+      "label": "RATA RATA NILAI PENGELUARAN BUKAN MAKANAN SEBULAN RUMAH TANGGA (PER KOMODITAS)",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok42_11_31",
@@ -443,7 +442,7 @@
     },
     {
       "code": "SSU",
-      "label": "Penimbang untuk Estimasi Penduduk",
+      "label": "SECONDARY SAMPLING UNIT",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -460,7 +459,7 @@
     },
     {
       "code": "URUT",
-      "label": "Penimbang untuk Estimasi Rumah Tangga",
+      "label": "NOMOR URUT RT",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -477,7 +476,7 @@
     },
     {
       "code": "WEIND",
-      "label": "Renumbering NKS",
+      "label": "PENIMBANG UNTUK ESTIMASI PENDUDUK",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -494,7 +493,7 @@
     },
     {
       "code": "WERT",
-      "label": "Renumbering NURT",
+      "label": "PENIMBANG UNTUK ESTIMASI RUMAH TANGGA",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -511,7 +510,7 @@
     },
     {
       "code": "WI1",
-      "label": "",
+      "label": "RENUMBERING NKS",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",
@@ -528,7 +527,7 @@
     },
     {
       "code": "WI2",
-      "label": "",
+      "label": "RENUMBERING NURT",
       "type": "numeric",
       "partitions": [
         "ssn202303kp_blok43_11_31",

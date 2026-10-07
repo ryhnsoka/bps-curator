@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 from bps_curator.normalize import normalize_code
-from bps_curator.curator import curate, generate_do
+from bps_curator.curator import curate, generate_do, generate_readme
 import json
 
 SAK = json.loads(Path("output/master_sak2024.json").read_text(encoding="utf-8"))
@@ -31,3 +31,16 @@ def test_skip_partition_only_mandatory():
 def test_missing_reported():
     c = curate(["K1", "TIDAKADA"], SAK)
     assert c["missing"] == ["TIDAKADA"]
+
+
+def test_labels_from_kamus_block():
+    by_code = {v["code"]: v for v in SAK["variables"]}
+    assert by_code["K10"]["label"] == "K10 UMUR"
+    assert by_code["URUTAN"]["label"] == "IDENTITAS UNIK"
+
+
+def test_readme_maps_mandatory_vs_request():
+    c = curate("K1 K10".split(), SAK)
+    md = generate_readme(c, SAK)
+    assert "## Variabel wajib" in md and "KLASIFIKAS" in md
+    assert "| K1 |" in md and "## Tidak ditemukan (0)" in md

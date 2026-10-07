@@ -3,7 +3,6 @@
   "period": "Jabodetabek 2019",
   "source_file": "Master_Komuter_Jabodetabek2019.xlsx",
   "kamus_sheet": "Master Wilayah dan Variabel",
-  "kamus_header_row": 1,
   "n_variables": 156,
   "partitions": [
     "komuter_jabodetabek2019"

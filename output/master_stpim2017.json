@@ -3,7 +3,6 @@
   "period": "2017",
   "source_file": "Master_STPIM2017.xlsx",
   "kamus_sheet": "Master Survei STPIM 2017 & KBLI",
-  "kamus_header_row": 2,
   "n_variables": 187,
   "partitions": [
     "mfg17_kbli_diseminasi"

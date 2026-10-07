@@ -3,7 +3,6 @@
   "period": "2024 Terluar",
   "source_file": "Master_PodesTerluar2024.xlsx",
   "kamus_sheet": "Layout_PODES2024_2t_terluar",
-  "kamus_header_row": 1,
   "n_variables": 6,
   "partitions": [
     "podes2024_desa_2t_terluar"

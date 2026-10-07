@@ -3,7 +3,6 @@
   "period": "2024 Infrastruktur",
   "source_file": "Master_PodesInfra2024.xlsx",
   "kamus_sheet": "Layout_Jenis_Infrastruktur",
-  "kamus_header_row": 1,
   "n_variables": 10,
   "partitions": [
     "podes2024_desa_infrastruktur__diseminasi"
