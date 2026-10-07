@@ -220,8 +220,7 @@ else:
         if c["missing"]:
             st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
         by_code = {v["code"]: v for v in c["found"]}
-        rows = [{"Kode": v["code"], "Label": v["label"],
-                 "Partisi": ", ".join(v["partitions"])}
+        rows = [{"Kode": v["code"], "Label": v["label"]}
                 for v in sorted(c["found"], key=lambda x: x["code"])]
         st.write("**Hasil pemetaan:**")
         st.dataframe(rows, use_container_width=True)
