@@ -49,6 +49,15 @@ CSS = f"""
 }}
 .skip {{ color: {MUTED}; font-style: italic; }}
 table {{ font-size: .9rem; }}
+html, body, [class*="st-"] {{ color: {INK}; }}
+label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
+div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
+button[data-baseweb="tab"] {{ color: {INK} !important; font-weight: 600; }}
+thead th {{
+  background: #FBF3D9 !important; color: {GOLD_DARK} !important; font-weight: 700 !important;
+}}
+tbody td {{ color: {INK} !important; }}
+.stAlert {{ border-radius: 12px; }}
 </style>
 """
 
@@ -157,29 +166,32 @@ else:
     else:
         st.write("Master tanpa variabel wajib.")
 
-    qv = st.text_input("Cari variabel / label", "",
-                       help="Satu kata (filter) atau tempel daftar variabel dipisah spasi/koma")
-    pool = sorted(m["variables"], key=lambda v: v["code"])
-    if qv:
-        toks = [t for t in __import__("re").split(r"[\s,;]+", qv) if t]
-        folds = [normalize_code(t) for t in toks if normalize_code(t)]
-        if len(folds) > 1:
-            pool = [v for v in pool if normalize_code(v["code"]) in folds
-                    or any(t.lower() in v["label"].lower() for t in toks)]
-        else:
-            qf, ql = folds[0] if folds else "", qv.lower()
-            pool = [v for v in pool if qf in normalize_code(v["code"]) or ql in v["label"].lower()]
-        st.caption(f"{len(pool)} cocok")
-    by_code = {v["code"]: v for v in pool}
-    sel = st.multiselect("Centang variabel",
-                         [v["code"] for v in pool],
-                         format_func=lambda c: f"{c} — {by_code[c]['label']} [{', '.join(by_code[c]['partitions'])}]")
-    if st.button("Proses", disabled=not sel):
-        c = curate(sel, m, profile=profile)
+    req_text = st.text_area("Tempel daftar variabel",
+                              placeholder="TAHUN URUTAN K1 K3 K4 … (spasi, koma, atau baris baru)",
+                              height=130,
+                              help="Tak perlu centang — tempel daftar lalu tekan Proses")
+    import re as _re
+    req = [t for t in _re.split(r"[\s,;]+", req_text) if t]
+    if req:
+        st.caption(f"<span class='badge'>{len(req)} variabel ditempel</span>", unsafe_allow_html=True)
+    if st.button("Proses", disabled=not req):
+        c = curate(req, m, profile=profile)
         do, md = generate_do(c, m), generate_readme(c, m)
         mid = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
                           (m["survey_id"], m["period"])).fetchone()
-        log_request(con, mid["drive_id"] if mid else "", profile, sel, c)
+        log_request(con, mid["drive_id"] if mid else "", profile, req, c)
+        s1, s2, s3 = st.columns(3)
+        s1.metric("Ditemukan", len(c["found"])); s2.metric("Hilang", len(c["missing"]))
+        s3.metric("Wajib ditambah", len(c["mandatory_added"]))
+        if c["missing"]:
+            st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
+        by_code = {v["code"]: v for v in c["found"]}
+        rows = [{"Kode": v["code"], "Label": v["label"],
+                 "Partisi": ", ".join(v["partitions"]),
+                 "Jenis": "wajib" if v["code"] in c["mandatory_added"] else "request"}
+                for v in sorted(c["found"], key=lambda x: x["code"])]
+        st.write("**Hasil pemetaan:**")
+        st.dataframe(rows, use_container_width=True)
         st.subheader("Preview — baca dulu sebelum unduh")
         t1, t2 = st.tabs([".do (keep)", "README"])
         with t1:
@@ -191,5 +203,3 @@ else:
             st.download_button("Unduh .do", do, file_name="kurasi.do")
         with c2:
             st.download_button("Unduh README", md, file_name="kurasi_README.md")
-        if c["missing"]:
-            st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
