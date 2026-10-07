@@ -28,6 +28,18 @@ python db/seed.py --db bps.db --json-dir output   # bangun database
 Aturan: partisi berisi wajib saja di-SKIP (multi-partisi); output hanya `keep`;
 input dinormalisasi (kapital/spasi/strip diabaikan), output kode standar master.
 
+## Web UI (Streamlit, tone emas-putih labdigital)
+
+```
+pip install -r requirements.txt
+streamlit run web/app.py
+```
+
+Menu **Katalog**: cari survei/periode/variabel/label lintas 34 master.
+Menu **Kurasi**: pilih master → cari + centang variabel (kode+label+partisi) →
+pilih profil wajib bila ada → **preview `.do` dan README dulu** → unduh.
+Tiap proses tercatat di `requests`/`request_items` (audit).
+
 ## Branch (GitHub)
 
 - `main` — stabil, rilis
