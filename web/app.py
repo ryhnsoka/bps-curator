@@ -144,7 +144,11 @@ if menu == "Katalog":
                       "", help="Label ikut dicari, bukan cuma kode variabel")
     def wajib_str(w):
         if isinstance(w, dict):
-            return ", ".join(f"{k}:{v}" for k, v in w.items())
+            total = set()
+            for vals in w.values():
+                for v in vals:
+                    total.add(v)
+            return str(len(total))
         return str(w) if w else "-"
 
     rows = [{"Survei": c["survey"], "Periode": c["period"], "Vars": c["n_vars"],
@@ -187,14 +191,14 @@ else:
     mand = m.get("mandatory", [])
     profile = None
     if isinstance(mand, dict):
-        st.write("Wajib per profil:", {k: len(v) for k, v in mand.items()})
-        profile = st.selectbox("Profil wajib", ["(gabungan)"] + list(mand.keys()))
-        profile = None if profile == "(gabungan)" else profile
+        total = set()
+        for vals in mand.values():
+            total.update(vals)
+        profile = None
     elif mand:
-        st.caption(f"<span class='badge'>{len(mand)} variabel wajib (otomatis)</span>",
-                   unsafe_allow_html=True)
+        pass
     else:
-        st.caption("<span class='badge'>tanpa variabel wajib</span>", unsafe_allow_html=True)
+        pass
 
     req_text = st.text_area("Tempel daftar variabel",
                               placeholder="TAHUN URUTAN K1 K3 K4 … (spasi, koma, atau baris baru)",
@@ -246,4 +250,4 @@ else:
         with c1:
             st.download_button("Unduh .do", do, file_name="kurasi.do")
         with c2:
-            st.download_button("Unduh README", md, file_name="kurasi_README.md")
+            st.download_button("Unduh README", md, file_name="kurasi_README.txt")

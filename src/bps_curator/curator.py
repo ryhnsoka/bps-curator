@@ -48,32 +48,33 @@ def curate(requested, master, add_mandatory=True, profile=None):
 
 
 def generate_readme(curated, master):
-    """README pemetaan: wajib vs request user, beserta label + partisi."""
+    """README pemetaan: wajib vs request user, beserta label + partisi. Format TXT."""
     by_code = {v["code"]: v for v in curated["found"]}
     madd = set(curated["mandatory_added"])
     req_vars = [v for v in curated["found"] if v["code"] not in madd]
     w_vars = [by_code[c] for c in curated["mandatory_added"] if c in by_code]
-    L = [f"# Kurasi {master.get('survey_id', '')} {master.get('period', '')}".rstrip(),
-         f"- Found: {len(curated['found'])}, Missing: {len(curated['missing'])}",
+    L = [f"Kurasi {master.get('survey_id', '')} {master.get('period', '')}".rstrip(),
+         f"Found: {len(curated['found'])}, Missing: {len(curated['missing'])}",
          ""]
-    L.append(f"## Variabel wajib ({len(w_vars)})")
+    L.append(f"Variabel wajib ({len(w_vars)}):")
     if w_vars:
-        L += ["| Kode | Label | Partisi |", "|---|---|---|"]
         for v in sorted(w_vars, key=lambda x: x["code"]):
-            L.append(f"| {v['code']} | {v['label']} | {', '.join(v['partitions'])} |")
+            L.append(f"  {v['code']} | {v['label']} | {', '.join(v['partitions'])}")
     elif get_mandatory_list(master):
-        L.append("Semua variabel wajib sudah termasuk dalam request (tidak ada tambahan).")
+        L.append("  Semua variabel wajib sudah termasuk dalam request (tidak ada tambahan).")
     else:
-        L.append("Tidak ada (master tanpa variabel wajib).")
-    L += ["", f"## Variabel request user ({len(req_vars)})"]
+        L.append("  Tidak ada (master tanpa variabel wajib).")
+    L += ["", f"Variabel request user ({len(req_vars)}):"]
     if req_vars:
-        L += ["| Kode | Label | Partisi |", "|---|---|---|"]
         for v in sorted(req_vars, key=lambda x: x["code"]):
-            L.append(f"| {v['code']} | {v['label']} | {', '.join(v['partitions'])} |")
+            L.append(f"  {v['code']} | {v['label']} | {', '.join(v['partitions'])}")
     else:
-        L.append("Tidak ada.")
-    L += ["", f"## Tidak ditemukan ({len(curated['missing'])})"]
-    L += [f"- {m}" for m in curated["missing"]] or ["Tidak ada."]
+        L.append("  Tidak ada.")
+    L += ["", f"Tidak ditemukan ({len(curated['missing'])}):"]
+    for m in curated["missing"]:
+        L.append(f"  - {m}")
+    if not curated["missing"]:
+        L.append("  Tidak ada.")
     return "\n".join(L).rstrip() + "\n"
 
 
