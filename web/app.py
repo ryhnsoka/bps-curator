@@ -16,27 +16,30 @@ from bps_curator.normalize import normalize_code
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
 
-GOLD, GOLD_DARK, INK, MUTED = "#B8860B", "#8F6A08", "#1F2937", "#6B7280"
+GOLD, GOLD_DARK, INK, MUTED, LINE, PANEL = "#B8860B", "#8F6A08", "#111827", "#6B7280", "#E5E7EB", "#F4F5F7"
 
 CSS = f"""
 <style>
 .block-container {{ max-width: 1100px; padding-top: 1.2rem; }}
+[data-testid="stAppViewContainer"] {{ background: {PANEL}; }}
 .hero {{
   background: linear-gradient(135deg, #C9970D 0%, #B8860B 60%, #9A7209 100%);
-  border-radius: 22px; padding: 2.2rem 2rem; color: #fff;
-  box-shadow: 0 10px 30px rgba(184,134,11,.35); margin-bottom: 1.4rem;
+  border-radius: 22px; padding: 2rem 2rem; color: #fff;
+  box-shadow: 0 10px 30px rgba(184,134,11,.30); margin-bottom: 1.4rem;
+  border-top: 4px solid #E9C767;
 }}
-.hero h1 {{ color: #fff !important; font-size: 1.9rem; margin: 0; }}
+.hero h1 {{ color: #fff !important; font-size: 1.8rem; margin: 0; }}
 .hero p {{ color: #FFF6DC !important; margin: .4rem 0 0; }}
 .card {{
-  background: #fff; border: 1px solid #F0E2B6; border-radius: 16px;
-  padding: 1.1rem 1.2rem; box-shadow: 0 4px 14px rgba(184,134,11,.10);
-  margin-bottom: 1rem;
+  background: #fff; border: 1px solid {LINE}; border-radius: 18px;
+  padding: 1.2rem 1.3rem; box-shadow: 0 2px 10px rgba(17,24,39,.06);
+  margin-bottom: 1.1rem;
 }}
-.card h3 {{ color: {GOLD_DARK} !important; margin-top: 0; }}
+.card h3 {{ color: {INK} !important; margin-top: 0; font-size: 1.05rem; }}
+.card h3 .ico {{ color: {GOLD_DARK}; margin-right: .4rem; }}
 .stButton > button {{
   background: {GOLD}; color: #fff; border-radius: 999px;
-  border: 1px solid {GOLD}; font-weight: 700; padding: .45rem 1.6rem;
+  border: 1px solid {GOLD}; font-weight: 700; padding: .45rem 1.8rem;
 }}
 .stButton > button:hover {{ background: {GOLD_DARK}; border-color: {GOLD_DARK}; color: #fff; }}
 .stDownloadButton > button {{
@@ -47,8 +50,20 @@ CSS = f"""
   display: inline-block; background: #FBEFCB; color: {GOLD_DARK};
   border-radius: 999px; padding: .1rem .7rem; font-size: .8rem; font-weight: 700;
 }}
+.codebox {{
+  border: 1px solid {LINE}; border-radius: 12px; background: #FAFAF9;
+  padding: .8rem .95rem; margin-top: .5rem;
+}}
+.codebox .lbl {{ color: {MUTED}; font-size: .78rem; margin-bottom: .3rem; }}
+.codebox code {{
+  font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
+  color: {INK}; word-spacing: .15rem; line-height: 1.7;
+}}
+.kv {{ display: flex; justify-content: space-between; padding: .45rem 0; border-bottom: 1px solid {LINE}; }}
+.kv:last-child {{ border-bottom: none; }}
+.kv .k {{ color: {MUTED}; font-size: .88rem; }}
+.kv .v {{ color: {INK}; font-size: .88rem; font-weight: 600; }}
 .skip {{ color: {MUTED}; font-style: italic; }}
-table {{ font-size: .9rem; }}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
 div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
@@ -58,6 +73,7 @@ thead th {{
 }}
 tbody td {{ color: {INK} !important; }}
 .stAlert {{ border-radius: 12px; }}
+section[data-testid="stSidebar"] {{ background: #fff; }}
 </style>
 """
 
@@ -110,7 +126,7 @@ menu = st.radio("Navigasi", ["Katalog", "Kurasi"], horizontal=True, label_visibi
 
 # ---------------- KATALOG ----------------
 if menu == "Katalog":
-    st.markdown("<div class='card'><h3>Katalog master</h3>", unsafe_allow_html=True)
+    st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
     q = st.text_input("Cari survei / periode / variabel / label",
                       "", help="Label ikut dicari, bukan cuma kode variabel")
     def wajib_str(w):
@@ -151,7 +167,7 @@ else:
     pick = st.selectbox("Master", labels)
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])
-    st.markdown(f"<div class='card'><h3>{m['survey_id']} {m['period']}</h3>"
+    st.markdown(f"<div class='card'><h3><span class='ico'>●</span> {m['survey_id']} {m['period']}</h3>"
                 f"<span class='badge'>{m['n_variables']} variabel</span> "
                 f"<span class='badge'>{', '.join(m['partitions'])}</span></div>",
                 unsafe_allow_html=True)
@@ -192,6 +208,21 @@ else:
                 for v in sorted(c["found"], key=lambda x: x["code"])]
         st.write("**Hasil pemetaan:**")
         st.dataframe(rows, use_container_width=True)
+        st.write("**Dataset per partisi:**")
+        from bps_curator.curator import get_mandatory_list
+        _mset = {normalize_code(x) for x in get_mandatory_list(m)}
+        _multi = len(c["grouped"]) > 1
+        for p in sorted(c["grouped"]):
+            _vars = c["grouped"][p]
+            if _multi and not [v for v in _vars if normalize_code(v) not in _mset]:
+                st.caption(f"SKIP {p}: hanya berisi variabel wajib")
+                continue
+            st.markdown(
+                f"<div class='card'><div style='color:{MUTED};font-size:.78rem;'>"
+                f"{m['survey_id']} — {m['period']}</div>"
+                f"<div style='font-weight:700;margin:.15rem 0 .3rem;'>{p}</div>"
+                f"<div class='codebox'><div class='lbl'>Kode Variabel:</div>"
+                f"<code>{' '.join(_vars)}</code></div></div>", unsafe_allow_html=True)
         st.subheader("Preview — baca dulu sebelum unduh")
         t1, t2 = st.tabs([".do (keep)", "README"])
         with t1:
