@@ -74,6 +74,19 @@ thead th {{
 tbody td {{ color: {INK} !important; }}
 .stAlert {{ border-radius: 12px; }}
 section[data-testid="stSidebar"] {{ background: #fff; }}
+input[type="text"], textarea {{
+  background: #fff !important; border: 1px solid #D1D5DB !important;
+  border-radius: 12px !important; color: {INK} !important;
+}}
+input[type="text"]::placeholder, textarea::placeholder {{ color: #9CA3AF !important; }}
+div[data-baseweb="select"] > div {{
+  background: #fff !important; border: 1px solid #D1D5DB !important;
+  border-radius: 12px !important; color: {INK} !important;
+}}
+div[data-testid="stTextInput"] label p, div[data-testid="stTextArea"] label p,
+div[data-testid="stSelectbox"] label p {{
+  color: {INK} !important; font-weight: 600 !important;
+}}
 </style>
 """
 
@@ -178,9 +191,10 @@ else:
         profile = st.selectbox("Profil wajib", ["(gabungan)"] + list(mand.keys()))
         profile = None if profile == "(gabungan)" else profile
     elif mand:
-        st.write(f"Wajib otomatis ({len(mand)}):", " ".join(mand[:12]) + (" …" if len(mand) > 12 else ""))
+        st.caption(f"<span class='badge'>{len(mand)} variabel wajib (otomatis)</span>",
+                   unsafe_allow_html=True)
     else:
-        st.write("Master tanpa variabel wajib.")
+        st.caption("<span class='badge'>tanpa variabel wajib</span>", unsafe_allow_html=True)
 
     req_text = st.text_area("Tempel daftar variabel",
                               placeholder="TAHUN URUTAN K1 K3 K4 … (spasi, koma, atau baris baru)",
@@ -203,8 +217,7 @@ else:
             st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
         by_code = {v["code"]: v for v in c["found"]}
         rows = [{"Kode": v["code"], "Label": v["label"],
-                 "Partisi": ", ".join(v["partitions"]),
-                 "Jenis": "wajib" if v["code"] in c["mandatory_added"] else "request"}
+                 "Partisi": ", ".join(v["partitions"])}
                 for v in sorted(c["found"], key=lambda x: x["code"])]
         st.write("**Hasil pemetaan:**")
         st.dataframe(rows, use_container_width=True)

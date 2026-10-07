@@ -44,9 +44,7 @@
       "dataimk_1_kbli_2022_diseminasi",
       "dataimk_2_kbli_2022_diseminasi"
     ],
-    "mandatory": {
-      "dataimk_1": 5
-    }
+    "mandatory": 5
   },
   {
     "file": "master_imk2023.json",
@@ -58,9 +56,7 @@
       "dataimk_1_kbli_2023_diseminasi",
       "dataimk_2_kbli_2023_diseminasi"
     ],
-    "mandatory": {
-      "dataimk_1": 5
-    }
+    "mandatory": 5
   },
   {
     "file": "master_komuter_banjarbakula2023.json",
@@ -350,10 +346,7 @@
       "ssn202303kor_ind_2",
       "ssn202303kor_rt"
     ],
-    "mandatory": {
-      "RT": 11,
-      "IND": 21
-    }
+    "mandatory": 23
   },
   {
     "file": "master_susenas2023kp.json",
@@ -387,11 +380,7 @@
       "ssn202403_kor_mig",
       "ssn202403_kor_rt"
     ],
-    "mandatory": {
-      "RT": 11,
-      "IND": 20,
-      "Mig": 10
-    }
+    "mandatory": 21
   },
   {
     "file": "master_susenas2024msbp.json",
