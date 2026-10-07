@@ -1,5 +1,10 @@
 """BPS Curator — Lab Digital FEB Undip. Tone emas-putih situs utama lab."""
 from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
+
 import json
 import sqlite3
 
@@ -8,12 +13,8 @@ import streamlit as st
 from bps_curator.curator import curate, generate_do, generate_readme
 from bps_curator.normalize import normalize_code
 
-ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
-
-import sys
-sys.path.insert(0, str(ROOT / "src"))
 
 GOLD, GOLD_DARK, INK, MUTED = "#B8860B", "#8F6A08", "#1F2937", "#6B7280"
 
@@ -96,8 +97,7 @@ st.markdown(
 
 con = init_db()
 catalog = load_catalog()
-menu = st.sidebar.radio("Navigasi", ["Katalog", "Kurasi"])
-st.sidebar.caption("Tone emas-putih situs utama labdigital.")
+menu = st.radio("Navigasi", ["Katalog", "Kurasi"], horizontal=True, label_visibility="collapsed")
 
 # ---------------- KATALOG ----------------
 if menu == "Katalog":
@@ -114,17 +114,25 @@ if menu == "Katalog":
     if q:
         qf, ql = normalize_code(q), q.lower()
         hit = set()
+        var_hits = []
         if qf:
             for r in con.execute(
-                    "SELECT m.survey_id, m.period FROM variables v "
+                    "SELECT m.survey_id, m.period, v.code, v.label FROM variables v "
                     "JOIN masters m ON m.drive_id = v.master_id "
-                    "WHERE v.fold LIKE '%' || ? || '%' OR LOWER(v.label) LIKE '%' || ? || '%'",
+                    "WHERE v.fold LIKE '%' || ? || '%' OR LOWER(v.label) LIKE '%' || ? || '%'"
+                    " ORDER BY m.survey_id, m.period, v.code LIMIT 200",
                     (qf, ql)):
                 hit.add((r["survey_id"], r["period"]))
+                var_hits.append({"Variabel": r["code"], "Label": r["label"],
+                                 "Survei": r["survey_id"], "Periode": r["period"]})
         rows = [r for r in rows
                 if q.lower() in (r["Survei"] + " " + r["Periode"]).lower()
                 or (r["Survei"], r["Periode"]) in hit]
-        st.caption(f"<span class='badge'>{len(rows)} cocok untuk '{q}'</span>", unsafe_allow_html=True)
+        st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
+                   unsafe_allow_html=True)
+        if var_hits:
+            st.write("**Variabel cocok (nama + label):**")
+            st.dataframe(var_hits, use_container_width=True)
     st.dataframe(rows, use_container_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 

@@ -7,11 +7,14 @@ def test_ui_flow():
     at.run()
     assert not at.exception, at.exception
     assert any("BPS Curator" in m.value for m in at.markdown), [m.value[:40] for m in at.markdown]
-    # Katalog: cari label 'umur' -> SAK2024 harus cocok
-    at.sidebar.radio[0].set_value("Katalog").run()
+    # Katalog: cari label 'umur' -> tabel variabel wajib tampil nama + label
+    at.radio[0].set_value("Katalog").run()
     at.text_input[0].set_value("umur").run()
+    frames = [df.value for df in at.dataframe]
+    assert any(((fr["Variabel"] == "K10") & (fr["Label"] == "K10 UMUR")).any()
+               for fr in frames if "Variabel" in list(fr.columns)), "tabel variabel cocok"
     # Kurasi: pilih SAK2024, cari, centang, proses
-    at.sidebar.radio[0].set_value("Kurasi").run()
+    at.radio[0].set_value("Kurasi").run()
     idx = next(i for i, o in enumerate(at.selectbox[0].options) if "2024 Agustus" in o and "SAKERNAS" in o)
     at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
     at.text_input[0].set_value("umur").run()
