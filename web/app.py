@@ -157,11 +157,18 @@ else:
     else:
         st.write("Master tanpa variabel wajib.")
 
-    qv = st.text_input("Cari variabel / label", "", help="Toleran kapital & spasi/strip")
+    qv = st.text_input("Cari variabel / label", "",
+                       help="Satu kata (filter) atau tempel daftar variabel dipisah spasi/koma")
     pool = sorted(m["variables"], key=lambda v: v["code"])
     if qv:
-        qf, ql = normalize_code(qv), qv.lower()
-        pool = [v for v in pool if qf in normalize_code(v["code"]) or ql in v["label"].lower()]
+        toks = [t for t in __import__("re").split(r"[\s,;]+", qv) if t]
+        folds = [normalize_code(t) for t in toks if normalize_code(t)]
+        if len(folds) > 1:
+            pool = [v for v in pool if normalize_code(v["code"]) in folds
+                    or any(t.lower() in v["label"].lower() for t in toks)]
+        else:
+            qf, ql = folds[0] if folds else "", qv.lower()
+            pool = [v for v in pool if qf in normalize_code(v["code"]) or ql in v["label"].lower()]
         st.caption(f"{len(pool)} cocok")
     by_code = {v["code"]: v for v in pool}
     sel = st.multiselect("Centang variabel",

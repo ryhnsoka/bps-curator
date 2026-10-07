@@ -7,6 +7,8 @@ def test_ui_flow():
     at.run()
     assert not at.exception, at.exception
     assert any("BPS Curator" in m.value for m in at.markdown), [m.value[:40] for m in at.markdown]
+    # navigasi di atas (bukan sidebar)
+    assert at.radio[0].value == "Katalog"
     # Katalog: cari label 'umur' -> tabel variabel wajib tampil nama + label
     at.radio[0].set_value("Katalog").run()
     at.text_input[0].set_value("umur").run()
