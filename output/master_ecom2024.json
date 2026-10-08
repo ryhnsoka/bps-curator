@@ -1,0 +1,1389 @@
+{
+  "survey_id": "ECOM",
+  "period": "2024",
+  "source_file": "z.xlsx",
+  "kamus_sheet": "Master Variabel & Wilayah",
+  "n_variables": 172,
+  "partitions": [
+    "e_commerce2024"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "PROV",
+      "label": "PROVINSI",
+      "type": "character",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R301B",
+      "label": "UMUR PENANGGUNG JAWAB PEMILIK USAHA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R301C",
+      "label": "JENIS KELAMIN PENANGGUNG JAWAB PEMILIK USAHA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R301D",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN PENANGGUNG JAWAB PEMILIK USAHA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R302B",
+      "label": "KODE KATEGORI USAHA",
+      "type": "character",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R303",
+      "label": "BENTUK BADAN HUKUM BADAN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304A",
+      "label": "JUMLAH TENAGA KERJA DIBAYAR TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304A_1",
+      "label": "JUMLAH TENAGA KERJA DIBAYAR LAKI LAKI TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304A_2",
+      "label": "JUMLAH TENAGA KERJA DIBAYAR PEREMPUAN TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304B",
+      "label": "JUMLAH TENAGA KERJA TIDAK DIBAYAR TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304B_1",
+      "label": "JUMLAH TENAGA KERJA TIDAK DIBAYAR LAKI LAKI TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R304B_2",
+      "label": "JUMLAH TENAGA KERJA TIDAK DIBAYAR PEREMPUAN TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R305",
+      "label": "STATUS PERMODALAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R306",
+      "label": "TAHUN MULAI BEROPERASI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R307",
+      "label": "TAHUN MULAI BERJUALAN ONLINE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R308",
+      "label": "MEMILIKI LAPORAN KEUANGAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309A",
+      "label": "MEDIA PENJUALAN VIA WEBSITE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309B",
+      "label": "MEDIA PENJUALAN VIA EMAIL",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309C",
+      "label": "MEDIA PENJUALAN VIA PESAN INSTAN WHATSAPP LINE TELEGRAM DAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309C_YA_1",
+      "label": "MEDIA PENJUALAN VIA PESAN INSTAN WHATSAPP",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309C_YA_2",
+      "label": "MEDIA PENJUALAN VIA PESAN INSTAN LINE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309C_YA_3",
+      "label": "MEDIA PENJUALAN VIA PESAN INSTAN TELEGRAM",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309C_YA_4",
+      "label": "MEDIA PENJUALAN VIA PESAN INSTAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL FACEBOOK INSTAGRAM TWITTER TIKTOK YOUTUBE DAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_1",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL FACEBOOK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_2",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL INSTAGRAM",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_3",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL TWITTER",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_4",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL TIKTOK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_5",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL YOUTUBE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309D_YA_6",
+      "label": "MEDIA PENJUALAN VIA MEDIA SOSIAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE TOKOPEDIA SHOPEE BUKALAPAK GOJEK GRAB LAZADA AGODA TRAVELOKA PEGIPEGI DAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_GBNG",
+      "label": "KEINGINAN UNTUK BERGABUNG KE MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_01",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE TOKOPEDIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_02",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE SHOPEE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_03",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE BUKALAPAK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_04",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE GOJEK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_05",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE GRAB",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_06",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE LAZADA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_07",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE AGODA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_08",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE TRAVELOKA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_09",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE PEGI PEGI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R309E_Y_10",
+      "label": "MEDIA PENJUALAN VIA MARKETPLACE LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R310",
+      "label": "MENGGUNAKAN KOMPUTER DALAM MENJALANKAN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_AGT",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE AGUSTUS",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_APR",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE APRIL",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_DES",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE DESEMBER",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_FEB",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE FEBRUARI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_JAN",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE JANUARI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_JULI",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE JULI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_JUNI",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE JUNI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_MAR",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE MARET",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_MEI",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE MEI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_NOV",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE NOVEMBER",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_OKT",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE OKTOBER",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R311_SEPT",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE SEPTEMBER",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R313A",
+      "label": "PERSENTASE PENDAPATAN SEBULAN DARI PENJUALAN OFFLINE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R313B",
+      "label": "PERSENTASE PENDAPATAN SEBULAN DARI MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R313C",
+      "label": "PERSENTASE PENDAPATAN SEBULAN DARI SELAIN MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R314",
+      "label": "RATA RATA FREKUENSI TRANSAKSI PENJUALAN ONLINE PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R315",
+      "label": "PENDAPATAN USAHA DIBANDING TAHUN SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R315B",
+      "label": "PERSEN PENINGKATAN PENURUNAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R316A",
+      "label": "PERSENTASE NILAI PENJUALAN KE KONSUMEN AKHIR",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R316B",
+      "label": "PERSENTASE NILAI PENJUALAN KE AGEN USAHA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R316C",
+      "label": "PERSENTASE NILAI PENJUALAN KE PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_01",
+      "label": "JENIS BARANG YANG DIJUAL HASIL PERTANIAN KEHUTANAN PETERNAKAN DAN PERIKANAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_02",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI HASIL PERTANIAN YANG DIOLAH MENJADI PRODUK MAKANAN MINUMAN DAN TEMBAKAU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_03",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI PAKAIAN TEKSTIL DAN ALAS KAKI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_04",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI BARANG DAN PERABOTAN RUMAH TANGGA DARI KAYU ANYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_05",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI BARANG DARI KERTAS BUKU DAN CETAKAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_06",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI BAHAN KIMIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_07",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI PRODUK DARI KARET PLASTIK DAN KACA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_08",
+      "label": "JENIS BARANG YANG DIJUAL PRODUKSI BARANG DARI LOGAM DAN MESIN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_09",
+      "label": "JENIS BARANG YANG DIJUAL PENJUALAN PERDAGANGAN BESAR DAN ECERAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_10",
+      "label": "JENIS BARANG YANG DIJUAL JASA AKOMODASI DAN PELAYANAN PENYEDIAAN MAKAN MINUM",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_11",
+      "label": "JENIS BARANG YANG DIJUAL JASA TRANSPORTASI DAN PENGIRIMAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_12",
+      "label": "JENIS BARANG YANG DIJUAL JASA PROFESIONAL ILMIAH DAN TEKNIS",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_13",
+      "label": "JENIS BARANG YANG DIJUAL JASA PENDIDIKAN KESEHATAN KESENIAN OLAHRAGA DAN HIBURAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317A_14",
+      "label": "JENIS BARANG YANG DIJUAL JASA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317B_1",
+      "label": "JENIS BARANG PENJUALAN PERDAGANGAN BESAR DAN ECERAN HASIL PERTANIAN DAN PETERNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317B_2",
+      "label": "JENIS BARANG PENJUALAN PERDAGANGAN BESAR DAN ECERAN MAKANAN MINUMAN DAN TEMBAKAU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317B_3",
+      "label": "JENIS BARANG PENJUALAN PERDAGANGAN BESAR DAN ECERAN TEKSTIL PAKAIAN DAN ALAS KAKI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317B_4",
+      "label": "JENIS BARANG PENJUALAN PERDAGANGAN BESAR DAN ECERAN PERALATAN DAN PERLENGKAPAN RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R317B_5",
+      "label": "JENIS BARANG PENJUALAN PERDAGANGAN BESAR DAN ECERAN BARANG KONSUMSI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R318",
+      "label": "METODE PEMBAYARAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R319",
+      "label": "METODE PENGIRIMAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R320",
+      "label": "PENJUALAN ONLINE KE LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R320A",
+      "label": "PERSENTASE PENJUALAN ONLINE KE LUAR NEGERI TERHADAP TOTAL PENJUALAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_11",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV ACEH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_12",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SUMATERA UTARA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_13",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SUMATERA BARAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_14",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV RIAU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_15",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV JAMBI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_16",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SUMATERA SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_17",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV BENGKULU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_18",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV LAMPUNG",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_19",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV BANGKA BELITUNG",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_21",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KEPULAUAN RIAU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_31",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV DKI JAKARTA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_32",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV JAWA BARAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_33",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV JAWA TENGAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_34",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV DI YOGYAKARTA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_35",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV JAWA TIMUR",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_36",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV BANTEN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_51",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV BALI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_52",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV NTB",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_53",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV NTT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_61",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KALIMANTAN BARAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_62",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KALIMANTAN TENGAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_63",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KALIMANTAN SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_64",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KALIMANTAN TIMUR",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_65",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV KALIMANTAN UTARA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_71",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SULAWESI UTARA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_72",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SULAWESI TENGAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_73",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SULAWESI SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_74",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SULAWESI TENGGARA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_75",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV GORONTALO",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_76",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV SULAWESI BARAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_81",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV MALUKU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_82",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV MALUKU UTARA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_91",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA BARAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_92",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA BARAT DAYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_94",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_95",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_96",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA TENGAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321A_97",
+      "label": "WILAYAH PENGIRIMAN DALAM NEGERI PROV PAPUA PEGUNUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_01",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI SINGAPURA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_02",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI THAILAND",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_03",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI MALAYSIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_04",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI JERMAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_05",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI BELANDA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_06",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI ITALIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_07",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI TIONGKOK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_08",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI JEPANG",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_09",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI AMERIKA SERIKAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_10",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI KOREA SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_11",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI AUSTRALIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_12",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI TAIWAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_13",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI INDIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R321B_14",
+      "label": "WILAYAH PENGIRIMAN LUAR NEGERI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322A",
+      "label": "PEMBELIAN ONLINE DARI DALAM NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B",
+      "label": "PEMBELIAN ONLINE LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B2",
+      "label": "PERSENTASE PEMBELIAN ONLINE LUAR NEGERI YANG DIGUNAKAN UNTUK BAHAN BAKU",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_01",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI SINGAPURA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_03",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI THAILAND",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_07",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI TIONGKOK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_08",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI JEPANG",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_09",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI AMERIKA SERIKAT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_10",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI KOREA SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_11",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI AUSTRALIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_13",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI INDIA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R322B3_14",
+      "label": "NEGARA ASAL PEMBELIAN ONLINE BAHAN BAKU DARI NEGARA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323A",
+      "label": "PERNAH MENDAPATKAN PELATIHAN PEMANFAATAN TEKNOLOGI INFORMASI UNTUK PEMASARAN SECARA DIGITAL",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323B",
+      "label": "TAHUN PELATIHAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323C_1",
+      "label": "INSTANSI PEMBERI PELATIHAN PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323C_2",
+      "label": "INSTANSI PEMBERI PELATIHAN SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323D_1",
+      "label": "LEVEL PELATIHAN DASAR",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323D_2",
+      "label": "LEVEL PELATIHAN TERAMPIL",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R323D_3",
+      "label": "LEVEL PELATIHAN AHLI",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_01",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET PENJUALAN BARANG JASA",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_02",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET PEMESANAN PEMBELIAN BAHAN BAKU DARI SUPPLIER VENDOR",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_03",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET MANAJEMEN KEUANGAN PERUSAHAAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_04",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET MANAJEMEN SDM",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_05",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET AKSES PERMODALAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_06",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET KOMUNIKASI INTERNAL PERUSAHAAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_07",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET MANAJEMEN PELANGGAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_08",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET PEMASARAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_09",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET PEMBAYARAN MENGGUNAKAN SISTEM ELEKTRONIK DIGITAL CASHLESS PAYMENT",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R324_10",
+      "label": "KEPERLUAN PENGGUNAAN INTERNET PENGIRIMAN",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "R325",
+      "label": "KENDALA UTAMA YANG DIALAMI DALAM MENJALANKAN KEGIATAN PENJUALAN ONLINE SELAMA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "IDENTITAS UNIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "TOTAL_TK",
+      "label": "TOTAL JUMLAH TENAGA KERJA LAKI LAKI DAN PEREMPUAN DIBAYAR DAN TIDAK DIBAYAR TIDAK TERMASUK PEMILIK",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    },
+    {
+      "code": "W_FINAL",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "e_commerce2024"
+      ]
+    }
+  ]
+}
