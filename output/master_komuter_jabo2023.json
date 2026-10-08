@@ -1,0 +1,1598 @@
+{
+  "survey_id": "KOMUTER",
+  "period": "Jabodetabek 2023",
+  "source_file": "1I3heeBN4ZIVzp8u8ulj_j2l0ohbLi5HhfOpy0bEOaZU.xlsx",
+  "kamus_sheet": "Master Variabel dan Wilayah",
+  "n_variables": 196,
+  "partitions": [
+    "jabodetabek_ind_lps",
+    "jabodetabek_rt_lps"
+  ],
+  "mandatory": [
+    "B1R101",
+    "B1R102",
+    "B1R105",
+    "B4R401",
+    "B4R403",
+    "B4R404",
+    "B4R405_BUL",
+    "B4R405_TAH",
+    "B4R406",
+    "B4R407",
+    "B4R408"
+  ],
+  "variables": [
+    {
+      "code": "B1R101",
+      "label": "PROVINSI",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps",
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B1R102",
+      "label": "KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps",
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B1R105",
+      "label": "KLASIFIKASI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps",
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B2R201",
+      "label": "JUMLAH ANGGOTA RUMAH TANGGA ART",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R202",
+      "label": "JUMLAH ART KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R203",
+      "label": "JUMLAH ART KOMUTER BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B2R204",
+      "label": "JUMLAH ART KOMUTER SEKOLAH KULIAH KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R401",
+      "label": "NO URUT ART",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R403",
+      "label": "HUBUNGAN DENGAN KEPALA RUMAH TANGGA KRT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R404",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R405_BUL",
+      "label": "BULAN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R405_TAH",
+      "label": "TAHUN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R406",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R407",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R408",
+      "label": "PENDIDIKAN TERTINGGI DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R409A",
+      "label": "KEGIATAN BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R409B",
+      "label": "KEGIATAN SEKOLAH KULIAH KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R410A",
+      "label": "BEKERJA RUTIN PP SETIAP HARI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R410B",
+      "label": "SEKOLAH KULIAH KURSUS RUTIN PP SETIAP HARI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R411A",
+      "label": "BEKERJA LUAR KOTA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R411B",
+      "label": "SEKOLAH KULIAH KURSUS LUAR KOTA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412A_KA",
+      "label": "TEMPAR BEKERJA KAB",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412A_PR",
+      "label": "TEMPAT BEKERJA PROV",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412B_KA",
+      "label": "TEMPAT SEKOLAH KULIAH KURSUS KAB",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R412B_PR",
+      "label": "TEMPAT SEKOLAH KULIAH KURSUS PROV",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B4R413",
+      "label": "KEGIATAN UTAMA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B5R501",
+      "label": "STATUS KEPEMILIKAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R502",
+      "label": "LUAS LANTAI BANGUNAN TEMPAT TINGGAL M2",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R503",
+      "label": "LEBAR RUAS JALAN DI DEPAN BANGUNAN TEMPAT TINGGAL",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R504",
+      "label": "JENIS PERMUKAAN UTAMA JALAN MENUJU BANGUNAN TEMPAT TINGGAL RADIUS 100 M",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R505",
+      "label": "JARAK BERJALAN KAKI DARI TEMPAT TINGGAL MENUJU PEMBERHENTIAN ANGKUTAN UMUM MASSAL BERTRAYEK TERDEKAT CONTOH BUS BUS TRANSJAKARTA KERETA MRT LRT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R506",
+      "label": "JENIS ANGKUTAN UMUM MASSAL BERTRAYEK YANG MELEWATI TEMPAT PEMBERHENTIAN TERDEKAT DARI TEMPAT TINGGAL",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R507",
+      "label": "JARAK BERJALAN KAKI DARI TEMPAT TINGGAL MENUJU PEMBERHENTIAN ANGKUTAN KOTA ANGKUTAN UMUM BERTRAYEK LAINNYA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_A",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI BIAYA HIDUP LEBIH MURAH",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_B",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI WARISAN ORANG TUA SAUDARA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_C",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI HARGA SEWA RUMAH LEBIH TERJANGKAU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_D",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI LINGKUNGAN AMAN DAN NYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_E",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI DEKAT DENGAN KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_F",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI KEMUDAHAN AKSES KE FASILITAS SOSIAL UMUM",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_G",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI DEKAT DENGAN TEMPAT KERJA SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508A_H",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SAAT INI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R508B",
+      "label": "MANAKAH ALASAN UTAMA MEMILIH TEMPAT TINGGAL SAAT INI",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R509",
+      "label": "LAMA MENEMPATI TEMPAT TINGGAL SAAT INI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510A",
+      "label": "JUMLAH KENDARAAN YANG DIMILIKI DIKUASAI UNIT MOBIL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510B",
+      "label": "JUMLAH KENDARAAN YANG DIMILIKI DIKUASAI UNIT SEPEDA MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510C",
+      "label": "JUMLAH KENDARAAN YANG DIMILIKI DIKUASAI UNIT KENDARAAN BERMOTOR LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510D",
+      "label": "JUMLAH KENDARAAN YANG DIMILIKI DIKUASAI UNIT SEPEDA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R510E",
+      "label": "JUMLAH KENDARAAN YANG DIMILIKI DIKUASAI UNIT KENDARAAN TIDAK BERMOTOR LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R511",
+      "label": "DIMANAKAH TEMPAT PARKIR KENDARAAN YANG DIMILIKI DIKUASAI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R512",
+      "label": "RATA RATA PENGELUARAN RUMAH TANGGA PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R513B_KO",
+      "label": "KODE LAPANGAN USAHA UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B5R513C",
+      "label": "STATUS PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "B6_NAMA_UR",
+      "label": "NO URUT ART",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6_PEMBERI",
+      "label": "NO URUT PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R601_KAB",
+      "label": "KABUPATEN KOTA TEMPAT LAHIR",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R601_PRO",
+      "label": "PROVINSI TEMPAT LAHIR",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R602",
+      "label": "APAKAH PERNAH TINGGAL DI LUAR KAB KOTA TEMPAT TINGGAL SAAT INI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R603_KAB",
+      "label": "KABUPATEN KOTA TEMPAT TINGGAL TERAKHIR SEBELUM TEMPAT TINGGAL SEKARANG",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R603_PRO",
+      "label": "PROVINSI TEMPAT TINGGAL TERAKHIR SEBELUM TEMPAT TINGGAL SEKARANG",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R604",
+      "label": "ALASAN UTAMA PINDAH DARI KABUPATEN KOTA TEMPAT TINGGAL SEBELUMNYA KE TEMPAT TINGGAL YANG SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R605_BUL",
+      "label": "BULAN PINDAH KE TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R605_TAH",
+      "label": "TAHUN PINDAH KE TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R606_KAB",
+      "label": "KABUPATEN KOTA TEMPAT TINGGAL 5 TAHUN YANG LALU OKTOBER 2018",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R606_PRO",
+      "label": "PROVINSI TEMPAT TINGGAL 5 TAHUN YANG LALU OKTOBER 2018",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607A",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN PENGLIHATAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607B",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN PENDENGARAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607C",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN BERBICARA DAN ATAU MEMAHAMI BERKOMUNIKASI DENGAN ORANG LAIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607D",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN BERJALAN NAIK TANGGA MOBILITAS",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607E",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN MENGGUNAKAN MENGGERAKKAN JARI TANGAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607F",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN MENGINGAT KONSENTRASI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607G",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN BERPIKIR DAN BELAJAR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607H",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN PERILAKU EMOSIONAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R607I",
+      "label": "APAKAH MENGALAMI KESULITAN GANGGUAN MENGURUS DIRI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R608",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGGUNAKAN HAND PHONE HP",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R609",
+      "label": "APA NAMA OPERATOR SELULER YANG AKTIF DIGUNAKAN 1 BULAN TERAKHIR",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R610",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH HP DIGUNAKAN UNTUK AKSES INTERNET CONTOH WHATSAPP FACEBOOK YOUTUBE INSTAGRAM TRANSPORTASI ONLINE APLIKASI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R611_KOD",
+      "label": "KODE LAPANGAN USAHA BIDANG PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R612",
+      "label": "APAKAH PEKERJAAN YANG DILAKUKAN MEMERLUKAN MOBILITAS TINGGI SETIAP HARI CONTOH SUPIR AWAK ANGKUTAN ORANG BARANG DRIVER ONLINE KURIR PEDAGANG KELILING",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R613",
+      "label": "STATUS KEDUDUKAN DALAM PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R614",
+      "label": "LOKASI UTAMA TEMPAT KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R615",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH DI TEMPAT KEGIATAN UTAMA DITERAPKAN KEGIATAN BEKERJA DARI RUMAH WORK FROM HOME WFH ATAU DI MANA SAJA WORK FROM ANYWHERE WFA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R616",
+      "label": "DALAM 1 BULAN TERAKHIR SEBERAPA SERING MELAKUKAN KEGIATAN WFH WFA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R617",
+      "label": "DALAM 1 BULAN TERAKHIR BERAPAKAH PENDAPATAN PENGHASILAN UPAH GAJI DARI PEKERJAAN UTAMA TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_A",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG PENGHASILAN TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_B",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG TRANSPORTASI MUDAH",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_C",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG SESUAI PENDIDIKAN KEAHLIAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_D",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG KONEKSI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_E",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG TERJAMIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_F",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG NYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_G",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG DEKAT DENGAN LOKASI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_H",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG TIDAK ADA PILIHAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618A_I",
+      "label": "ALASAN BEKERJA DI TEMPAT SEKARANG LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R618B",
+      "label": "ALASAN UTAMA BEKERJA DI TEMPAT SEKARANG",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R619",
+      "label": "APAKAH PERNAH MEMILIKI PENGALAMAN BEKERJA SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R620_KOD",
+      "label": "KODE LAPANGAN USAHA BIDANG PEKERJAAN UTAMA SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R621_KAB",
+      "label": "LOKASI KABUPATEN KOTA TEMPAT BEKERJA SEBELUMNYA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R621_PRO",
+      "label": "PROVINSI TEMPAT BEKERJA SEBELUMNYA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R622",
+      "label": "STATUS KEDUDUKAN DALAM PEKERJAAN UTAMA SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R623",
+      "label": "JENJANG PENDIDIKAN APA YANG SEDANG DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R624",
+      "label": "TINGKAT KELAS YANG SEDANG DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R625",
+      "label": "PENYELENGGARA PENDIDIKAN JENIS SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B6R626",
+      "label": "ALASAN UTAMA SEKOLAH KULIAH KURSUS DI TEMPAT SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R701",
+      "label": "JARAK TEMPUH DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA KM",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702A_JA",
+      "label": "JAM BIASANYA BERANGKAT DARI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702A_ME",
+      "label": "MENIT BIASANYA BERANGKAT DARI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702B",
+      "label": "APAKAH ADA TEMPAT LOKASI YANG RUTIN DIDATANGI ATAU DIKUNJUNGI TERLEBIH DAHULU UNTUK MELAKUKAN KEGIATAN LAIN SEBELUM TIBA DI TEMPAT KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702C",
+      "label": "LAMA PERJALANAN DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702D",
+      "label": "APAKAH ADA TEMPAT LOKASI YANG RUTIN DIDATANGI ATAU DIKUNJUNGI TERLEBIH DAHULU UNTUK MELAKUKAN KEGIATAN LAIN SEBELUM TIBA DI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702E",
+      "label": "LAMA PERJALANAN DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702F_JA",
+      "label": "JAM BIASANYA TIBA DI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R702F_ME",
+      "label": "MENIT BIASANYA TIBA DI TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R703",
+      "label": "JUMLAH HARI MELAKUKAN KEGIATAN KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704A",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA SENIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704B",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA SELASA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704C",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA RABU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704D",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA KAMIS",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704E",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA JUMAT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704F",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA SABTU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R704G",
+      "label": "HARI BIASANYA MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN UTAMA MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R705",
+      "label": "BERAPA KALI MENGGUNAKAN MODA TRANSPORTASI UNTUK SAMPAI KE TEMPAT KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706A",
+      "label": "MODA TRANSPORTASI APA SAJA YANG BIASANYA DIGUNAKAN UNTUK PERGI KE TEMPAT KEGIATAN UTAMA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_1",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 1",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_2",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 2",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_3",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 3",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_4",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 4",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_5",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 5",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706B_6",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT TINGGAL KE TEMPAT KEGIATAN UTAMA 6",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706C_KO",
+      "label": "KODE MODA TRANSPORTASI UTAMA YANG DIGUNAKAN",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R706D",
+      "label": "APAKAH SEBAGAI PENGEMUDI ATAU PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_A",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KECEPATAN WAKTU TERUKUR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_B",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KENYAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_C",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_D",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT BIAYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_E",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KEPRAKTISAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_F",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT MOBILITAS TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_G",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT RAMAH LINGKUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707A_H",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R707B",
+      "label": "ALASAN UTAMA MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R708",
+      "label": "APAKAH MENGGUNAKAN MODA TRANSPORTASI YANG SAMA UNTUK PERGI DAN PULANG KE DARI TEMPAT KEGIATAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R709",
+      "label": "BERAPA KALI MENGGUNAKAN MODA TRANSPORTASI UNTUK SAMPAI KE TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710A",
+      "label": "MODA TRANSPORTASI APA SAJA YANG BIASANYA DIGUNAKAN UNTUK PULANG DARI TEMPAT KEGIATAN UTAMA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_1",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 1",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_2",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 2",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_3",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 3",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_4",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 4",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_5",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 5",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710B_6",
+      "label": "URUTAN MODA TRANSPORTASI DARI TEMPAT KEGIATAN UTAMA KE TEMPAT TINGGAL 6",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710C_KO",
+      "label": "KODE MODA TRANSPORTASI UTAMA YANG DIGUNAKAN",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R710D",
+      "label": "APAKAH SEBAGAI PENGEMUDI ATAU PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_A",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KECEPATAN WAKTU TERUKUR",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_B",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KENYAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_C",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_D",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT BIAYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_E",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT KEPRAKTISAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_F",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT MOBILITAS TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_G",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT RAMAH LINGKUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711A_H",
+      "label": "ALASAN MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R711B",
+      "label": "ALASAN UTAMA MEMILIH MODA TRANSPORTASI UTAMA TERSEBUT",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R714",
+      "label": "APAKAH INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_A",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM TIDAK AMAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_B",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM TIDAK NYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_C",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM TIDAK PRAKTIS",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_D",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM JAUHNYA AKSES KE KENDARAAN UMUM",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_E",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM WAKTU TEMPUH LAMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_F",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM WAKTU TUNGGU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_G",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM BIAYA YANG LEBIH MAHAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715A_H",
+      "label": "ALASAN TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R715B",
+      "label": "ALASAN UTAMA TIDAK INGIN BERALIH MENGGUNAKAN MODA TRANSPORTASI UMUM",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R716",
+      "label": "APAKAH MENGGUNAKAN KENDARAAN BERMOTOR LISTRIK HIBRIDA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R717",
+      "label": "APAKAH INGIN BERALIH MENGGUNAKAN KENDARAAN BERMOTOR LISTRIK HIBRIDA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718A",
+      "label": "BIAYA TRANSPORTASI UNTUK PERJALANAN PERGI DAN PULANG DALAM SEHARI MODA TRANSPORTASI UTAMA",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718B",
+      "label": "BIAYA TRANSPORTASI UNTUK PERJALANAN PERGI DAN PULANG DALAM SEHARI MODA TRANSPORTASI PENUNJANG",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R718C",
+      "label": "BIAYA TRANSPORTASI UNTUK PERJALANAN PERGI DAN PULANG DALAM SEHARI JUMLAH",
+      "type": "character",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719A",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN DEMAM",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719B",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN BATUK PILEK",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719C",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN SAKIT KEPALA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719D",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN SAKIT TENGGOROKAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719E",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN SAKIT MATA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719F",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN SESAK NAPAS ASMA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719G",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN MASUK ANGIN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719H",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN PEGAL PEGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R719X",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R720",
+      "label": "APAKAH KELUHAN KESEHATAN TERSEBUT MENGGANGGU KEGIATAN SEHARI HARI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721A",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT KEMACETAN PARAH",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721B",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT KECELAKAAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721C",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT GANGGUAN PADA MODA TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721D",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT TINDAK KEJAHATAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721E",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT PELECEHAN SEKSUAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R721X",
+      "label": "SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH PERNAH MENDAPAT PENGALAMAN BURUK DALAM PERJALANAN SEPERTI BERIKUT LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R722",
+      "label": "DALAM SEBULAN TERAKHIR SELAMA MENJADI KOMUTER DI TEMPAT KEGIATAN APAKAH MERASAKAN STRES AKIBAT PERJALANAN KE DARI TEMPAT KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R723",
+      "label": "DALAM 1 TAHUN KE DEPAN APAKAH BERENCANA UNTUK MENCARI TEMPAT KEGIATAN UTAMA YANG LEBIH DEKAT",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R724",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH IKUT SERTA DALAM KEGIATAN KEMASYARAKATAN DI LINGKUNGAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "B7R725",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MELAKUKAN KEGIATAN REFRESHING",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "RENUMBERING",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps",
+        "jabodetabek_rt_lps"
+      ]
+    },
+    {
+      "code": "ROUNDW_FIN",
+      "label": "PENIMBANG INDIVIDU",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_ind_lps"
+      ]
+    },
+    {
+      "code": "ROUNDW_RT",
+      "label": "PENIMBANG RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "jabodetabek_rt_lps"
+      ]
+    }
+  ]
+}

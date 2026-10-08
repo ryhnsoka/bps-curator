@@ -1,0 +1,1030 @@
+{
+  "survey_id": "KOMUTER",
+  "period": "Jabodetabek 2014",
+  "source_file": "1UxmAAuEKOg0FpRJapRuHWLw5OLYQ-Xsxk_qW9-nsHfs.xlsx",
+  "kamus_sheet": "KETERANGAN DATA",
+  "n_variables": 126,
+  "partitions": [
+    "kmtr14_art",
+    "kmtr14_rt"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "P101",
+      "label": "PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P102",
+      "label": "KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P105",
+      "label": "KLAS. DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P108",
+      "label": "NO. URUT RT",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P122",
+      "label": "HSL KUNJUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P201",
+      "label": "JML ART",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P202",
+      "label": "JML ART KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P203",
+      "label": "JML ART KOMUTER BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P204",
+      "label": "JML ART KOMUTER SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P205",
+      "label": "JML ART KOMUTER KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P501",
+      "label": "STATUS TMPT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AA",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: BIAYA HIDUP LEBIH MURAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AB",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: WARISAN ORTU/SAUDARA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AC",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: HARGA/SEWA LEBIH TERJANGKAU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AD",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: LINGK. AMAN NYAMAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AE",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: DEKAT KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AF",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: KEMUDAHAN AKSES FAS. SOSIAL/UMUM",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502AX",
+      "label": "ALASAN MEMILIH TEMPAT TINGGAL SEKARANG: LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P502B",
+      "label": "ALASAN UTAMA MEMILIH TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P503",
+      "label": "JENIS LANTAI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P504",
+      "label": "LUAS LANTAI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P505",
+      "label": "JENIS ATAP",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P506",
+      "label": "JENIS DINDING",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P507",
+      "label": "SUMBER PENERANGAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P508",
+      "label": "BHN BKR MASAK",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P509A",
+      "label": "SUMBER UTAMA AIR  MINUM",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P509B",
+      "label": "JARAK KE PENAMPUNGAN TINJA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P510",
+      "label": "TMPT MANDI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P511A",
+      "label": "FAS. TMPT BAB",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P511B",
+      "label": "JENIS KLOSET",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P511C",
+      "label": "TMPT AKHIR TINJA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512A",
+      "label": "KEPEMILIKAN BARANG: MOBIL/TRUK",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512B",
+      "label": "KEPEMILIKAN BARANG: SEPEDA MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512C",
+      "label": "KEPEMILIKAN BARANG: SEPEDA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512D",
+      "label": "KEPEMILIKAN BARANG: RADIO/TAPE/VCD/DVD PLAYER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512E",
+      "label": "KEPEMILIKAN BARANG: TELEVISI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512F",
+      "label": "KEPEMILIKAN BARANG: LEMARI ES",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512G",
+      "label": "KEPEMILIKAN BARANG: TELEPON KABEL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512H",
+      "label": "KEPEMILIKAN BARANG: TELEPON SELULER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512I",
+      "label": "KEPEMILIKAN BARANG: KOMPUTER/LAPTOP",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P512J",
+      "label": "KEPEMILIKAN BARANG: AC",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P513",
+      "label": "AKSES INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P514",
+      "label": "PENGELUARAN RT PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P515A",
+      "label": "PENGHASILAN TERBESAR (NO. URUT ART)",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P515B",
+      "label": "LAP. USAHA (KODE)",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P515C",
+      "label": "STATUS PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P516",
+      "label": "SARINGAN KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "PENIMBANG",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "P400",
+      "label": "NO. URUT ART",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P402",
+      "label": "HUB. DG KRT",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P403",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P404",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P405",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P406",
+      "label": "PENDIDIKAN TERTINGGI DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P600",
+      "label": "PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P601A_BULA",
+      "label": "BLN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P601A_TAHU",
+      "label": "THN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P601B",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P602PROV",
+      "label": "PROV. LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P602KAB",
+      "label": "KAB. LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P603",
+      "label": "PERNAH TINGGAL DI LUAR KAB/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P604PROV",
+      "label": "PROV. TINGGAL TERAKHIR SBLM SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P604KAB",
+      "label": "KAB. TINGGAL TERAKHIR SBLM SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P605",
+      "label": "ALASAN PINDAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P606",
+      "label": "LAMA TINGGAL DI TEMPAT TINGGAL SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P607PROV",
+      "label": "PROV. 5 TAHUN LALU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P607KAB",
+      "label": "KAB. 5 TAHUN LALU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P608",
+      "label": "KEG. UTAMA KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P609PROV",
+      "label": "PROV. KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P609KAB",
+      "label": "KAB. KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P610",
+      "label": "JARAK TEMPUH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P611A",
+      "label": "PKL BERANGKAT",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P611B",
+      "label": "LAMA PERJALANAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P611C",
+      "label": "PUKUL TIBA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612A",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: SENIN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612B",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: SELASA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612C",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: RABU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612D",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: KAMIS",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612E",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: JUMAT",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612F",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: SABTU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P612G",
+      "label": "HARI MELAKUKAN PERJALANAN KE TEMPAT KEGIATAN: MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P613",
+      "label": "BANYAKNYA MODA TRANSPORTASI YANG DIGUNAKAN UNTUK PERGI KE TEMPAT KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P614A",
+      "label": "MODA PERGI",
+      "type": "character",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P614B",
+      "label": "MODA PERGI UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P614C",
+      "label": "PENGEMUDI/PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P615",
+      "label": "ALASAN MODA BERANGKAT",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P616",
+      "label": "MODA TRANSPORTASI SAMA UNTUK PP",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P617",
+      "label": "BANYAKNYA MODA TRANSPORTASI YANG DIGUNAKAN UNTUK PULANG KE RUMAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P618A",
+      "label": "MODA PULANG",
+      "type": "character",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P618B",
+      "label": "MODA PULANG UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P618C",
+      "label": "PENGEMUDI/PENUMPANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P619",
+      "label": "ALASAN MODA PULANG",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P620A",
+      "label": "BIAYA TRANSPORTASI UTAMA (PP)",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P620B",
+      "label": "BIAYA TRANSPORTASI PENUNJANG (PP)",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P620C",
+      "label": "JML BIAYA TRANSPORTASI (PP)",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621A",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: DEMAM",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621B",
+      "label": "BATUK/PILEK",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621C",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: SAKIT KEPALA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621D",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: SAKIT TENGGOROKAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621E",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: SAKIT MATA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621F",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: SESAK NAPAS/ASMA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621G",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: MASUK ANGIN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621H",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: PEGAL-PEGAL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P621X",
+      "label": "DALAM 1 BULAN TERAKHIR APAKAH MENGALAMI KELUHAN KESEHATAN: LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P622",
+      "label": "KELUHAN KESEHATAN MENGGANGGU KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623A",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: KEMACETAN PARAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623B",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: KECELAKAAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623C",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: GANGGUAN PADA MODA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623D",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: TINDAK KEJAHATAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623E",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: PELECEHAN SEKSUAL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P623X",
+      "label": "SELAMA MENJADI KOMUTER APAKAH MENGALAMI: LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P624",
+      "label": "APAKAH MERASAKAN STRES AKIBAT PERJALANAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P625",
+      "label": "RENCANA BERHENTI MENJADI KOMUTER DALAM 1 TAHUN KE DEPAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P626",
+      "label": "KEG. KEMASYARAKATAN DALAM 1 BULAN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P627",
+      "label": "REFRESHING DALAM 1 BULAN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P701",
+      "label": "LAP PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P702",
+      "label": "STATUS PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P703",
+      "label": "PENGHASILAN PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P704",
+      "label": "ALASAN KERJA",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P801",
+      "label": "JENJANG PENDIDIKAN SEDANG DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P802",
+      "label": "TINGKAT/KELAS",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P803",
+      "label": "ALASAN SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P901",
+      "label": "JENIS KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P902",
+      "label": "ALASAN KURSUS",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art"
+      ]
+    },
+    {
+      "code": "P107",
+      "label": "NOMOR KODE SAMPEL",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    },
+    {
+      "code": "STATUSKOMU",
+      "label": "STATUS KOMUTER",
+      "type": "numeric",
+      "partitions": [
+        "kmtr14_art",
+        "kmtr14_rt"
+      ]
+    }
+  ]
+}
