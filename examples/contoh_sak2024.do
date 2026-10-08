@@ -1,0 +1,6 @@
+* Auto-generated SAKERNAS 2024 Agustus
+* Found: 27, Missing: 0
+
+* SKIP sak202408_part2: hanya berisi variabel wajib
+* --- sak202408_part1 ---
+keep K10 K3 K4 KLASIFIKAS KODE_KAB KODE_PROV PSU R10A R10B R10C R11 R14A R16_1 R16_2 R19A_JML R19B R38A R38B R4 R42A R43A R44 R5 R6A STRATA URUTAN WEIGHT
