@@ -1,0 +1,1801 @@
+{
+  "survey_id": "SAKERNAS",
+  "period": "2023 Agustus",
+  "source_file": "1-2orWBPOT0_38qmWOluzOBnIO1vwqVWX.xlsx",
+  "kamus_sheet": "MASTER DATA",
+  "n_variables": 220,
+  "partitions": [
+    "sak202308_15_diseminasi"
+  ],
+  "mandatory": [
+    "TAHUN",
+    "WEIGHTR",
+    "ROWINDEX",
+    "KODE_PROV",
+    "KODE_KAB",
+    "KLAS",
+    "PSU",
+    "STRATA",
+    "B2_R1",
+    "B2_R2",
+    "K3",
+    "K4",
+    "K5",
+    "K5_KD",
+    "K6",
+    "K7",
+    "K8_BLN",
+    "K8_TH",
+    "K9",
+    "R4",
+    "R5",
+    "R6A",
+    "R14AKATEGO",
+    "R14AKATE_A",
+    "R14BKBJI20",
+    "R14BKBJI19",
+    "JENISKEGIA"
+  ],
+  "variables": [
+    {
+      "code": "B2_R1",
+      "label": "JUMLAH ANGOTA RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "B2_R2",
+      "label": "JUMLAH ANGGOTA RUMAH TANGGA YANG BERUMUR 5 TAHUN KE ATAS",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "JENISKEGIA",
+      "label": "JENIS KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K3",
+      "label": "HUBUNGAN DENGAN KEPALA RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K4",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K5",
+      "label": "KEWARGANEGARAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K5_KD",
+      "label": "KODE KEWARGANEGARAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K6",
+      "label": "KODE PROVINSI LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K7",
+      "label": "KODE KABUPATEN KOTA LAHIR",
+      "type": "character",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K8_BLN",
+      "label": "BULAN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K8_TH",
+      "label": "TAHUN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "K9",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "KLAS",
+      "label": "KLASIFIKASI KOTA DESA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "KODE_KAB",
+      "label": "KODE KABUPATEN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "KODE_PROV",
+      "label": "KODE PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "PSU",
+      "label": "PRIMARY SAMPLING UNIT PSU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R10",
+      "label": "SEBENARNYA MEMILIKI PEKERJAAN KEGIATAN USAHA TETAPI SEMINGGU TERAKHIR SEDANG TIDAK BEKERJA TIDAK MENJALANKAN USAHA TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R11A",
+      "label": "ALASAN UTAMA SEMENTARA TIDAK BEKERJA SELAMA SEMINGGU TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R11B",
+      "label": "TETAP MEMPEROLEH PENGHASILAN GAJI UPAH SELAMA PERIODE SEMENTARA TIDAK BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R11C",
+      "label": "SUDAH BERAPA LAMA SEMENTARA TIDAK BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R11D",
+      "label": "ADA JAMINAN KEMBALI BEKERJA PADA UNIT USAHA TEMPAT KERJA SEKARANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R13A",
+      "label": "STATUS PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R13B",
+      "label": "JUMLAH BURUH KARYAWAN PEGAWAI YANG DIBAYAR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R13C",
+      "label": "USAHA NAMA TERDAFTAR PADA SISTEM PERIZINAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R13C_BLN",
+      "label": "BULAN PERIZINAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R13C_TH",
+      "label": "TAHUN PERIZINAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R14AKATE_A",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2015",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R14AKATEGO",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2020",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R14BKBJI19",
+      "label": "KBJI 1982",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R14BKBJI20",
+      "label": "KBJI 2014",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R15_BRG",
+      "label": "PENDAPATAN PENGHASILAN GAJI UPAH BERSIH BERUPA BARANG YANG DITERIMA SELAMA SEBULAN TERAKHIR DARI PEKERJAAN ATAU KEGIATAN USAHA INI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R15_UANG",
+      "label": "PENDAPATAN PENGHASILAN GAJI UPAH BERSIH BERUPA UANG YANG DITERIMA SELAMA SEBULAN TERAKHIR DARI PEKERJAAN ATAU KEGIATAN USAHA INI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R16A",
+      "label": "SEMINGGU TERAKHIR DI BIDANG APAKAH PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R16B",
+      "label": "BARANG PRODUK YANG DIHASILKAN DARI PEKERJAAN UTAMA DIGUNAKAN UNTUK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R17A_BLN",
+      "label": "BULAN MULAI BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R17A_TH",
+      "label": "TAHUN MULAI BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R17B",
+      "label": "LAMA MENCARI PEKERJAAN MEMPERSIAPKAN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_BLT",
+      "label": "JUMLAH JAM KERJA SEMINGGU PEMBULATAN STATISTIK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_JML",
+      "label": "JUMLAH JAM KERJA SEMINGGU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_JUM",
+      "label": "JAM KERJA JUMAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_KAM",
+      "label": "JAM KERJA KAMIS",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_MNG",
+      "label": "JAM KERJA MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_RAB",
+      "label": "JAM KERJA RABU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_SAB",
+      "label": "JAM KERJA SABTU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_SEL",
+      "label": "JAM KERJA SELASA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18A_SEN",
+      "label": "JAM KERJA SENIN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R18B",
+      "label": "JUMLAH JAM KERJA BIASANYA DALAM SEMINGGU DI PEKERJAAN ATAU KEGIATAN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19A1",
+      "label": "TEKNOLOGI DIGITAL KOMPUTER PC NOTEBOOK LAPTOP TABLET ATAU PDA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19A2",
+      "label": "TEKNOLOGI DIGITAL SMART PHONE HANDPONE HP",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19A3",
+      "label": "TEKNOLOGI DIGITAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19B",
+      "label": "MENGGUNAKAN INTERNET PADA PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19C1",
+      "label": "INTERNET UNTUK KOMUNIKASI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19C2",
+      "label": "INTERNET UNTUK PROMOSI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19C3",
+      "label": "INTERNET UNTUK PENJUALAN BARANG JASA MELALUI EMAIL MEDIA SOSIAL",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19C4",
+      "label": "INTERNET UNTUK PENJUALAN BARANG JASA MELALUI WEBSITE APLIKASI MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R19C5",
+      "label": "INTERNET UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R20",
+      "label": "JENIS INSTANSI LEMBAGA INSTITUSI TEMPAT KERJA USAHA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R21",
+      "label": "PEMBUKUAN KEUANGAN DI TEMPAT KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22A",
+      "label": "LOKASI UTAMA TEMPAT KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22B",
+      "label": "LOKASI UTAMA SEMINGGU TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22B_KAB",
+      "label": "LOKASI UTAMA KABUPATEN KOTA TEMPAT KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22B_PROV",
+      "label": "LOKASI UTAMA PROVINSI TEMPAT KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22C",
+      "label": "KERJA PULANG PERGI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R22D",
+      "label": "MODA TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A1",
+      "label": "UPAH GAJI BERUPA UANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A2",
+      "label": "PEMBAYARAN PERSATUAN HASIL",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A3",
+      "label": "KOMISI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A4",
+      "label": "ONGKOS JASA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A5",
+      "label": "PEMBAYARAN BERUPA BARANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A6",
+      "label": "PEMBAYARAN BERUPA MAKANAN ATAU AKOMODASI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A7",
+      "label": "BORONGAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23A8",
+      "label": "PEMBAYARAN TUNAI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R23B",
+      "label": "PERIODE PEMBAYARAN PENGUPAHAN PADA PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24A",
+      "label": "JAMINAN KESEHATAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24B",
+      "label": "JAMINAN KECELAKAAN KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24C",
+      "label": "JAMINAN KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24D",
+      "label": "JAMINAN HARI TUA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24E",
+      "label": "JAMINAN PENSIUN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24F",
+      "label": "JAMINAN KEHILANGAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24G",
+      "label": "CUTI TAHUNAN CUTI BERSALIN TANPA MEMOTONG UPAH GAJI POKOK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24H",
+      "label": "CUTI SAKIT HAID TANPA POTONG GAJI POKOK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R24I",
+      "label": "UPAH SESUAI DENGAN ATURAN UPAH MINIMUM PROV KAB KOTA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R25A",
+      "label": "MEMILIKI PERJANJIAN KONTRAK KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R25B",
+      "label": "JANGKA WAKTU PERJANJIAN KONTRAK KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R26",
+      "label": "TERDAFTAR SEBAGAI ANGGOTA SERIKAT PEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R27A",
+      "label": "MENGALAMI KONDISI MEMBAHAYAKAN KESEHATAN AKIBAT PEKERJAAN SELAMA 12 BULAN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R27B",
+      "label": "BEKERJA DALAM LINGKUNGAN YANG TIDAK AMAN DAN TIDAK SEHAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R27C",
+      "label": "PERNAH MENGALAMI KEKERASAN DITEMPAT KERJA BAIK LISAN MAUPUN FISIK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28A",
+      "label": "SEMINGGU TERAKHIR MEMILIKI LEBIH DARI 1 PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_BLT",
+      "label": "JUMLAH JAM KERJA SELURUH PEKERJAAN SATU MINGGU PEMBULATAN STATISTIK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_JML",
+      "label": "JUMLAH JAM KERJA SEMINGGU YANG LALU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_JUM",
+      "label": "JAM KERJA JUMAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_KAM",
+      "label": "JAM KERJA KAMIS",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_MNG",
+      "label": "JAM KERJA MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_RAB",
+      "label": "JAM KERJA RABU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_SAB",
+      "label": "JAM KERJA SABTU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_SEL",
+      "label": "JAM KERJA SELASA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28B_SEN",
+      "label": "JAM KERJA SENIN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R28C",
+      "label": "JUMLAH JAM KERJA BIASANYA SELURUH PEKERJAAN DALAM SEMINGGU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R29A",
+      "label": "MENAMBAH JAM KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R29B",
+      "label": "ALASAN TIDAK INGIN MENAMBAH JAM KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R29C",
+      "label": "SIAP BERSEDIA MENAMBAH JAM KERJA DALAM 2 MINGGU KEDEPAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R30",
+      "label": "ALASAN UTAMA BEKERJA KURANG DARI 40 JAM SELAMA SEMINGGU YANG LALU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R31A",
+      "label": "DALAM SEMINGGU MENCARI PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R31B",
+      "label": "DALAM SEMINGGU MEMPERSIAPKAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R32A",
+      "label": "DALAM SEBULAN AKTIF MENCARI PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R32B",
+      "label": "DALAM SEBULAN AKTIF MEMPERSIAPKAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R33_BLN",
+      "label": "LAMA MENCARI PEKERJAAN MEMPERSIAPKAN USAHA BULAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R33_TH",
+      "label": "LAMA MENCARI PEKERJAAN MEMPERSIAPKAN USAHA TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34A",
+      "label": "MENDAFTAR BURSA KERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34B",
+      "label": "MENGHUBUNGI PERUSAHAAN MEMPERBARUI DAN KIRIM CV",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34C",
+      "label": "MENGIKLANKAN DIRI DI MEDIA CETAK ELEKTRONIK INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34D",
+      "label": "MENGHUBUNGI KELUARGA KENALAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34E",
+      "label": "MENGUMPULKAN MODAL MENCARI LOKASI MENGURUS SURAT IZIN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R34F",
+      "label": "UPAYA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R35A",
+      "label": "ALASAN TIDAK MENCARI PEKERJAAN MEMPERSIAPKAN USAHA SEMINGGU YANG LALU",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R35B",
+      "label": "ALASAN TIDAK MENCARI PEKERJAAN MEMPERSIAPKAN USAHA SEBULAN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R35C",
+      "label": "AKAN MEMULAI PEKERJAAN USAHA DALAM WAKTU 3 BULAN KEDEPAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R35D",
+      "label": "SIAP BERSEDIA MEMULAI PEKERJAAN USAHA DALAM RENTANG WAKTU 2 MINGGU KEDEPAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R36A",
+      "label": "MENERIMA TAWARAN PEKERJAAN SEMINGGU TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R36B",
+      "label": "SIAP BERSEDIA MEMULAI PEKERJAAN USAHA DALAM RENTANG WAKTU SEMINGGU TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R36C",
+      "label": "SIAP BERSEDIA MEMULAI PEKERJAAN USAHA DALAM RENTANG WAKTU 2 MINGGU KEDEPAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R37",
+      "label": "MENGINGINKAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R38A",
+      "label": "MEMPEROLEH PEKERJAAN MEMULAI USAHA SETELAH LULUS DARI PENDIDIKAN TERTINGGI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R38A_BLN",
+      "label": "BEKERJA SETELAH LULUS PENDIDIKAN TERTINGGI BULAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R38A_TH",
+      "label": "BEKERJA SETELAH LULUS PENDIDIKAN TERTINGGI TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R38B",
+      "label": "PERNAH PUNYA PEKERJAAN USAHA SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R39A",
+      "label": "PERNAH BERHENTI BEKERJA PERIODE FEBRUARI 2020 AGUSTUS 2022",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R39B_BLN",
+      "label": "BULAN BERHENTI BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R39B_TH",
+      "label": "TAHUN BERHENT BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R3B",
+      "label": "ALASAN TIDAK MENGISI NIK",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R4",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R40D",
+      "label": "STATUS PEKERJAAN YANG TELAH BERHENTI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R41AKATE_A",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2015",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R41AKATEGO",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2020",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R41BKBJI19",
+      "label": "KBJI 1982",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R41BKBJI20",
+      "label": "KBJI 2014",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R42",
+      "label": "ALASAN UTAMA BERHENTI BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R43A",
+      "label": "DALAM SEMINGGU TERAKHIR APAKAH BERSEKOLAH TATAP MUKA ATAU JARAK JAUH",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R43B",
+      "label": "DALAM SEMINGGU TERAKHIR MENGURUS RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R43C",
+      "label": "DALAM SEMINGGU TERAKHIR MELAKUKAN KEGIATAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R43D",
+      "label": "WAKTU TERBANYAK DALAM SEMINGGU TERAKHIR MELAKUKAN KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44A",
+      "label": "MENGETAHUI PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44B",
+      "label": "MENDAFTAR PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44C",
+      "label": "ALASAN UTAMA MENDAFTAR PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44D",
+      "label": "DITERIMA PADA PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44E",
+      "label": "DITERIMA PADA PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44F",
+      "label": "BEKERJA SEBELUM DITERIMA PADA PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44G",
+      "label": "MENYELESAIKAN PELATIHAN PERTAMA PADA PROGRAM KARTU PRAKERJA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44H",
+      "label": "PELATIHAN YANG DIIKUTI DI PROGRAM KARTU PRAKERJA SESUAI DENGAN KEBUTUHAN MINAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44I",
+      "label": "PROGRAM KARTU PRAKERJA MENINGKATKAN PENGETAHUAN KETERAMPILAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J1",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK MEMENUHI KEBUTUHAN SEHARI HARI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J2",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK MODAL USAHA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J3",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK MEMBAYAR HUTANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J4",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK BIAYA TRANSPORTASI BBM",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J5",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK PULSA INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J6",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK PELATIHAN LAI BELAJAR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R44J7",
+      "label": "UANG SAKU INSENTIF DARI PROGRAM KARTU PRAKERJA DIGUNAKAN UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R45A",
+      "label": "PERNAH KE LUAR NEGERI UNTUK BEKERJA SEBAGAI BURUH KARYAWAN PEGAWAI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R45B",
+      "label": "BERANGKAT BEKERJA KE LUAR NEGERI DALAM 5 THN TERAKHIR FEBRUARI 2018 ATAU SETELAHNYA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R46",
+      "label": "KODE NEGARA TERAKHIR BEKERJA DI LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R47_BLN",
+      "label": "BULAN BERANGKAT BEKERJA DI LUAR NEGERI TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R47_TH",
+      "label": "TAHUN BERANGKAT BEKERJA DI LUAR NEGERI TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R49KATEG_A",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2015",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R49KATEGOR",
+      "label": "LAPANGAN USAHA 17 KATEGORI KBLI 2020",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R5",
+      "label": "PARTISIPASI SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R50KBJI198",
+      "label": "KBJI 1982",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R50KBJI201",
+      "label": "KBJI 2014",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R51",
+      "label": "BAGAIMANA MENDAPATKAN PEKERJAAN TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R52",
+      "label": "BAGAIMANA MASUK KE NEGARA TERAKHIR UNTUK MENDAPATKAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R53",
+      "label": "TOTAL UANG YANG DIBAYARKAN UNTUK MENDAPATKAN PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R54",
+      "label": "BERAPA RATA RATA GAJI BULANAN YANG DIPEROLEH TERMASUK TUNJANGAN DAN BONUS UANG YANG DIBAYARKAN UNTUK MENDAPATKAN PEKERJAAN TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6A",
+      "label": "PENDIDIKAN TERTINGGI DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6B_KD",
+      "label": "KODE JURUSAN PENDIDIKAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6B_P",
+      "label": "PENYELENGGARA PENDIDIKAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6C_BLN",
+      "label": "BULAN LULUS SEKOLAH PENDIDIKAN TERTINGGI YANG DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6C_TH",
+      "label": "TAHUN LULUS SEKOLAH PENDIDIKAN TERTINGGI YANG DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6D",
+      "label": "PERNAH PELATIHAN KURSUS TRANING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6E",
+      "label": "MENDAPAT SERTIFIKAT PELATIHAN KURSUS TRANING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6F",
+      "label": "PELATIHAN KURSUS TRANING SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1_KD",
+      "label": "KODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1MTD",
+      "label": "METODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1SB1",
+      "label": "PEMBIAYAAN PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1SB1KD",
+      "label": "KODE PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1SB2",
+      "label": "PEMBIAYAAN PERUSAHAANUNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1SB3",
+      "label": "PEMBIAYAAN SENDIRI UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G1SB4",
+      "label": "PEMBIAYAAN LAINNYA UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2_KD",
+      "label": "KODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2MTD",
+      "label": "METODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2SB1",
+      "label": "PEMBIAYAAN PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2SB1KD",
+      "label": "KODE PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2SB2",
+      "label": "PEMBIAYAAN PERUSAHAANUNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2SB3",
+      "label": "PEMBIAYAAN SENDIRI UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G2SB4",
+      "label": "PEMBIAYAAN LAINNYA UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3_KD",
+      "label": "KODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3MTD",
+      "label": "METODE PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3SB1",
+      "label": "PEMBIAYAAN PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3SB1KD",
+      "label": "KODE PEMERINTAH UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3_SB2",
+      "label": "PEMBIAYAAN PERUSAHAANUNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3_SB3",
+      "label": "PEMBIAYAAN SENDIRI UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6G3_SB4",
+      "label": "PEMBIAYAAN LAINNYA UNTUK PELATIHAN KURSUS TRAINING",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6H",
+      "label": "SEDANG MENGIKUTI PELATIHAN KURSUS TRAINING TIDAK HARUS BERSERTIFIKAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6I",
+      "label": "PERNAH MENGIKUTI MAGANG PRAKTIK KERJA LAPANGAN PKL",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R6J",
+      "label": "KEGIATAN MAGANG PRAKTIK KERJA LAPANGAN PKL TERSEBUT NAMA MEMPEROLEH SERTIFIKAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R7",
+      "label": "TEMPAT TINGGAL 5 TAHUN LALU AGUSTUS 2018",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R7_KAB",
+      "label": "KAB KOTA TINGGAL 5 TAHUN LALU AGUSTUS 2018",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R7_PROV",
+      "label": "PROVINSI TINGGAL 5 TAHUN LALU AGUSTUS 2018",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8A",
+      "label": "KESULITAN MELIHAT",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8B",
+      "label": "KESULITAN MENDENGAR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8C",
+      "label": "KESULITAN BELAJAR",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8D",
+      "label": "KESULITAN MENGGERAKKAN JARI",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8E",
+      "label": "KESULITAN BERBICARA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R8F",
+      "label": "KESULITAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R9A",
+      "label": "BEKERJA PALING SEDIKIT SATU JAM",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R9B",
+      "label": "MELAKUKAN KEGIATAN UNTUK MEMPEROLEH PENGHASILAN PENDAPATAN UANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "R9C",
+      "label": "MEMBANTU KEGIATAN USAHA ATAU PEKERJAAN KELUARGA ORANG LAIN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "ROWINDEX",
+      "label": "ROW INDEX",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "STRATA",
+      "label": "STRATA",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "TAHUN",
+      "label": "TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    },
+    {
+      "code": "WEIGHTR",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "sak202308_15_diseminasi"
+      ]
+    }
+  ]
+}
