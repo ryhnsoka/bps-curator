@@ -1,0 +1,414 @@
+[
+  {
+    "file": "master_ecom2023.json",
+    "survey": "ECOM",
+    "period": "2023",
+    "n_vars": 54,
+    "n_partitions": 1,
+    "partitions": [
+      "ecom2023"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_ecom2024.json",
+    "survey": "ECOM",
+    "period": "2024",
+    "n_vars": 172,
+    "n_partitions": 1,
+    "partitions": [
+      "e_commerce2024"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_imk2019.json",
+    "survey": "IMK",
+    "period": "2019",
+    "n_vars": 199,
+    "n_partitions": 3,
+    "partitions": [
+      "imk_kbli_1_2019",
+      "imk_kbli_2_2019",
+      "imk_kbli_3_2019"
+    ],
+    "mandatory": 5
+  },
+  {
+    "file": "master_imk2022.json",
+    "survey": "IMK",
+    "period": "2022",
+    "n_vars": 255,
+    "n_partitions": 2,
+    "partitions": [
+      "dataimk_1_kbli_2022_diseminasi",
+      "dataimk_2_kbli_2022_diseminasi"
+    ],
+    "mandatory": 5
+  },
+  {
+    "file": "master_imk2023.json",
+    "survey": "IMK",
+    "period": "2023",
+    "n_vars": 251,
+    "n_partitions": 2,
+    "partitions": [
+      "dataimk_1_kbli_2023_diseminasi",
+      "dataimk_2_kbli_2023_diseminasi"
+    ],
+    "mandatory": 5
+  },
+  {
+    "file": "master_komuter_banjarbakula2023.json",
+    "survey": "KOMUTER",
+    "period": "Banjarbakula 2023",
+    "n_vars": 196,
+    "n_partitions": 2,
+    "partitions": [
+      "banjarbakula_ind_lps",
+      "banjarbakula_rt_lps"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_komuter_jabo2014.json",
+    "survey": "KOMUTER",
+    "period": "Jabodetabek 2014",
+    "n_vars": 126,
+    "n_partitions": 2,
+    "partitions": [
+      "kmtr14_art",
+      "kmtr14_rt"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_komuter_jabo2019.json",
+    "survey": "KOMUTER",
+    "period": "Jabodetabek 2019",
+    "n_vars": 156,
+    "n_partitions": 1,
+    "partitions": [
+      "komuter_jabodetabek2019"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_komuter_jabo2023.json",
+    "survey": "KOMUTER",
+    "period": "Jabodetabek 2023",
+    "n_vars": 196,
+    "n_partitions": 2,
+    "partitions": [
+      "jabodetabek_ind_lps",
+      "jabodetabek_rt_lps"
+    ],
+    "mandatory": 11
+  },
+  {
+    "file": "master_komuter_mamminasata2023.json",
+    "survey": "KOMUTER",
+    "period": "Mamminasata 2023",
+    "n_vars": 196,
+    "n_partitions": 2,
+    "partitions": [
+      "mamminasata_ind_lps",
+      "mamminasata_rt_lps"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_komuter_patungraya2023.json",
+    "survey": "KOMUTER",
+    "period": "Patungraya 2023",
+    "n_vars": 196,
+    "n_partitions": 2,
+    "partitions": [
+      "patungraya_agung_ind_lps",
+      "patungraya_agung_rt_lps"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_komuter_sarbagita2023.json",
+    "survey": "KOMUTER",
+    "period": "Sarbagita 2023",
+    "n_vars": 196,
+    "n_partitions": 2,
+    "partitions": [
+      "kom23_sarbagita_ind",
+      "kom23_sarbagita_rt"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_podesdesa2021.json",
+    "survey": "PODES",
+    "period": "2021 Desa",
+    "n_vars": 857,
+    "n_partitions": 4,
+    "partitions": [
+      "podes2021_desa_1",
+      "podes2021_desa_2",
+      "podes2021_desa_3",
+      "podes2021_desa_4"
+    ],
+    "mandatory": 19
+  },
+  {
+    "file": "master_podeskab2021.json",
+    "survey": "PODES",
+    "period": "2021 Kabupaten",
+    "n_vars": 35,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2021_kab"
+    ],
+    "mandatory": 5
+  },
+  {
+    "file": "master_podeskec2021.json",
+    "survey": "PODES",
+    "period": "2021 Kecamatan",
+    "n_vars": 77,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2021_kec"
+    ],
+    "mandatory": 1
+  },
+  {
+    "file": "master_podesdesa2024.json",
+    "survey": "PODES",
+    "period": "2024 Desa",
+    "n_vars": 793,
+    "n_partitions": 4,
+    "partitions": [
+      "podes2024_desa_01",
+      "podes2024_desa_02",
+      "podes2024_desa_03",
+      "podes2024_desa_04"
+    ],
+    "mandatory": 9
+  },
+  {
+    "file": "master_podesinfra2024.json",
+    "survey": "PODES",
+    "period": "2024 Infrastruktur",
+    "n_vars": 10,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2024_desa_infrastruktur__diseminasi"
+    ],
+    "mandatory": 10
+  },
+  {
+    "file": "master_podeskec2024.json",
+    "survey": "PODES",
+    "period": "2024 Kecamatan",
+    "n_vars": 92,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2024_kecamatan_diseminasi"
+    ],
+    "mandatory": 10
+  },
+  {
+    "file": "master_podesp2kt2024.json",
+    "survey": "PODES",
+    "period": "2024 P2KT",
+    "n_vars": 10,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2024_desa_2t_p2kt"
+    ],
+    "mandatory": 7
+  },
+  {
+    "file": "master_podesterdepan2024.json",
+    "survey": "PODES",
+    "period": "2024 Terdepan",
+    "n_vars": 11,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2024_desa_2t_terdepan"
+    ],
+    "mandatory": 5
+  },
+  {
+    "file": "master_podesterluar2024.json",
+    "survey": "PODES",
+    "period": "2024 Terluar",
+    "n_vars": 6,
+    "n_partitions": 1,
+    "partitions": [
+      "podes2024_desa_2t_terluar"
+    ],
+    "mandatory": 6
+  },
+  {
+    "file": "master_sak2021.json",
+    "survey": "SAKERNAS",
+    "period": "2021 Agustus",
+    "n_vars": 189,
+    "n_partitions": 1,
+    "partitions": [
+      "sak202108"
+    ],
+    "mandatory": 27
+  },
+  {
+    "file": "master_sak2022.json",
+    "survey": "SAKERNAS",
+    "period": "2022 Agustus",
+    "n_vars": 216,
+    "n_partitions": 1,
+    "partitions": [
+      "sak202208"
+    ],
+    "mandatory": 48
+  },
+  {
+    "file": "master_sak2023.json",
+    "survey": "SAKERNAS",
+    "period": "2023 Agustus",
+    "n_vars": 220,
+    "n_partitions": 1,
+    "partitions": [
+      "sak202308_15_diseminasi"
+    ],
+    "mandatory": 27
+  },
+  {
+    "file": "master_sak2024.json",
+    "survey": "SAKERNAS",
+    "period": "2024 Agustus",
+    "n_vars": 286,
+    "n_partitions": 2,
+    "partitions": [
+      "sak202408_part1",
+      "sak202408_part2"
+    ],
+    "mandatory": 7
+  },
+  {
+    "file": "master_spak2024.json",
+    "survey": "SPAK",
+    "period": "2024",
+    "n_vars": 95,
+    "n_partitions": 1,
+    "partitions": [
+      "spak2024"
+    ],
+    "mandatory": 0
+  },
+  {
+    "file": "master_stpim2017.json",
+    "survey": "STPIM",
+    "period": "2017",
+    "n_vars": 187,
+    "n_partitions": 1,
+    "partitions": [
+      "mfg17_kbli_diseminasi"
+    ],
+    "mandatory": 2
+  },
+  {
+    "file": "master_stpim2018.json",
+    "survey": "STPIM",
+    "period": "2018",
+    "n_vars": 187,
+    "n_partitions": 1,
+    "partitions": [
+      "mfg18e_kbli"
+    ],
+    "mandatory": 2
+  },
+  {
+    "file": "master_stpim2019.json",
+    "survey": "STPIM",
+    "period": "2019",
+    "n_vars": 214,
+    "n_partitions": 1,
+    "partitions": [
+      "mfg19e_kbli"
+    ],
+    "mandatory": 2
+  },
+  {
+    "file": "master_susenas2023kor.json",
+    "survey": "SUSENAS",
+    "period": "2023 KOR",
+    "n_vars": 468,
+    "n_partitions": 3,
+    "partitions": [
+      "ssn202303kor_ind_1",
+      "ssn202303kor_ind_2",
+      "ssn202303kor_rt"
+    ],
+    "mandatory": 23
+  },
+  {
+    "file": "master_susenas2023kp.json",
+    "survey": "SUSENAS",
+    "period": "2023 KP",
+    "n_vars": 41,
+    "n_partitions": 10,
+    "partitions": [
+      "ssn202303kp_blok41_11_31",
+      "ssn202303kp_blok41_32_36",
+      "ssn202303kp_blok41_51_76",
+      "ssn202303kp_blok41_81_94",
+      "ssn202303kp_blok42_11_31",
+      "ssn202303kp_blok42_32_36",
+      "ssn202303kp_blok42_51_94",
+      "ssn202303kp_blok43_11_31",
+      "ssn202303kp_blok43_32_36",
+      "ssn202303kp_blok43_51_94"
+    ],
+    "mandatory": 14
+  },
+  {
+    "file": "master_susenas2024kor.json",
+    "survey": "SUSENAS",
+    "period": "2024 KOR",
+    "n_vars": 488,
+    "n_partitions": 4,
+    "partitions": [
+      "ssn202403_kor_ind1",
+      "ssn202403_kor_ind2",
+      "ssn202403_kor_mig",
+      "ssn202403_kor_rt"
+    ],
+    "mandatory": 21
+  },
+  {
+    "file": "master_susenas2024msbp.json",
+    "survey": "SUSENAS",
+    "period": "2024 MSBP",
+    "n_vars": 360,
+    "n_partitions": 2,
+    "partitions": [
+      "ssn202409_msbp_ind",
+      "ssn202409_msbp_rt"
+    ],
+    "mandatory": 9
+  },
+  {
+    "file": "master_susenas2024modul.json",
+    "survey": "SUSENAS",
+    "period": "2024 Modul",
+    "n_vars": 41,
+    "n_partitions": 7,
+    "partitions": [
+      "ssn202403_kp_blok41_11_31",
+      "ssn202403_kp_blok41_32_36",
+      "ssn202403_kp_blok41_51_97",
+      "ssn202403_kp_blok42_11_31",
+      "ssn202403_kp_blok42_32_36",
+      "ssn202403_kp_blok42_51_97",
+      "ssn202403_kp_blok43"
+    ],
+    "mandatory": 14
+  }
+]
