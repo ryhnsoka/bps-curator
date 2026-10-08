@@ -1,0 +1,445 @@
+{
+  "survey_id": "ECOM",
+  "period": "2023",
+  "source_file": "z.xlsx",
+  "kamus_sheet": "Master Variabel dan Wilayah",
+  "n_variables": 54,
+  "partitions": [
+    "ecom2023"
+  ],
+  "mandatory": [],
+  "variables": [
+    {
+      "code": "KATEGORI_A",
+      "label": "KATEGORI PENGELUARAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "KATEGORI_P",
+      "label": "KATEGORI PENDAPATAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "PROV",
+      "label": "PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R301B",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R301C",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R301D",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R302A",
+      "label": "KODE KATEGORI USAHA",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R303A_1",
+      "label": "PEMILIK TENAGA KERJA DIBAYAR LAKI LAKI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R303A_2",
+      "label": "PEMILIK TENAGA KERJA DIBAYAR PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R303B_1",
+      "label": "TENAGA KERJA TIDAK DIBAYAR LAKI LAKI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R303B_2",
+      "label": "TENAGA KERJA TIDAK DIBAYAR PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R304",
+      "label": "TAHUN MULAI BEROPERASI SECARA KOMERSIAL",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R305",
+      "label": "TAHUN MULAI MENERIMA PESANAN ATAU MELAKUKAN PENJUALAN BARANG JASA MELALUI INTERNET PENJUALAN ONLINE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R306",
+      "label": "KEPEMILIKAN LAPORAN KEUANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307A",
+      "label": "MEDIA PROMOSI PENJUALAN VIA WEBSITE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307B",
+      "label": "MEDIA PROMOSI PENJUALAN VIA EMAIL",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307C",
+      "label": "MEDIA PROMOSI PENJUALAN VIA PESAN INSTAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307D",
+      "label": "MEDIA PROMOSI PENJUALAN VIA MEDIA SOSIAL",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307E",
+      "label": "MEDIA PROMOSI PENJUALAN VIA MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R307E_TIDA",
+      "label": "KEINGINAN BERGABUNG KE MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R308",
+      "label": "BULAN MELAKUKAN PENJUALAN ONLINE",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R310A",
+      "label": "PERSENTASE PENDAPATAN PENJUALAN OFFLINE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R310B",
+      "label": "PERSENTASE PENDAPATAN PENJUALAN DARI MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R310C",
+      "label": "PERSENTASE PENDAPATAN PENJUALAN DARI SELAIN MARKETPLACE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R311",
+      "label": "RATA RATA TRANSAKSI PENJUALAN ONLINE PER BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R312",
+      "label": "PENDAPATAN USAHA DIBANDING TAHUN SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R313",
+      "label": "PERAN YANG PALING DOMINAN DALAM KEGIATAN ECOMMERCE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R314A",
+      "label": "PERSENTASE NILAI PENJUALAN MENURUT KONSUMEN AKHIR",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R314B",
+      "label": "PERSENTASE NILAI PENJUALAN MENURUT AGEN USAHA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R315",
+      "label": "JENIS BARANG JASA YANG DIJUAL",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R316",
+      "label": "METODE PEMBAYARAN YANG PALING SERING DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R317",
+      "label": "METODE PENGIRIMAN YANG PALING SERING DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R318",
+      "label": "WILAYAH PENGIRIMAN MANA SAJA YANG PERNAH ANDA LAYANI SELAMA TAHUN 2022",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R319",
+      "label": "PERNAH MELAKUKAN TRANSAKSI PENJUALAN ONLINE KE LUAR NEGERI EKSPOR SELAMA TAHUN 2022",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R319_YA",
+      "label": "PERSENTASE EKSPOR TERHADAP TOTAL PENJUALAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R320A",
+      "label": "PERNAH MELAKUKAN PEMBELIAN ONLINE DALAM NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R320B",
+      "label": "PERNAH MELAKUKAN PEMBELIAN ONLINE LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R321A",
+      "label": "PERNAH MENDAPATKAN PELATIHAN TERKAIT PEMANFAATAN TEKNOLOGI INFORMASI UNTUK PEMASARAN SECARA DIGITAL",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R321B",
+      "label": "TAHUN PELATIHAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R321C",
+      "label": "INSTANSI PEMBERI PELATIHAN",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R321D",
+      "label": "LEVEL PELATIHAN",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R322A",
+      "label": "MEMILIKI FIXED TELEPHONE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R322A_YA",
+      "label": "PENGGUNAAN FIXED TELEPHONE",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R322B",
+      "label": "MEMILIKI MOBILE PHONE",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R322B_YA",
+      "label": "PENGGUNAAN MOBILE PHONE",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R323",
+      "label": "JENIS LAYANAN INTERNET",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R324",
+      "label": "KEPERLUAN INTERNET",
+      "type": "character",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R325",
+      "label": "KENDALA UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R326A",
+      "label": "DAMPAK PANDEMI COVID 19 TERHADAP PENDAPATAN",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R326B",
+      "label": "DAMPAK PANDEMI COVID 19TERHADAP VOLUME TRANSAKSI",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R326C",
+      "label": "DAMPAK PANDEMI COVID 19 TERHADAP KELANCARAN DISTRIBUSI BARANG",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "R327",
+      "label": "PERSENTASE PENINGKATAN PENURUNAN PENDAPATAN PENJUALAN BARANG JASA MELALUI INTERNET DAMPAK PANDEMI COVID 19",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "IDENTITAS UNIK",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    },
+    {
+      "code": "W_USAHA_FI",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "ecom2023"
+      ]
+    }
+  ]
+}
