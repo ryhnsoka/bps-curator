@@ -1,0 +1,6397 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 Desa",
+  "source_file": "Master_PodesDesa2024.xlsx",
+  "kamus_sheet": "Layout_Podes2024-Desa_Diseminas",
+  "n_variables": 793,
+  "partitions": [
+    "podes2024_desa_01",
+    "podes2024_desa_02",
+    "podes2024_desa_03",
+    "podes2024_desa_04"
+  ],
+  "mandatory": [
+    "IDDESA",
+    "NAMA_DESA",
+    "NAMA_KAB",
+    "NAMA_KEC",
+    "NAMA_PROV",
+    "R101",
+    "R102",
+    "R103",
+    "R104"
+  ],
+  "variables": [
+    {
+      "code": "IDDESA",
+      "label": "IDENTITAS DESA KELURAHAN GABUNGAN DARI KODE PROVINSI KODE KABUPATEN KOTA KODE KECAMATAN DAN KODE DESA KELURAHAN NAGARI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_DESA",
+      "label": "NAMA DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_KAB",
+      "label": "NAMA KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_KEC",
+      "label": "NAMA KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "NAMA_PROV",
+      "label": "NAMA PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R1001A",
+      "label": "LALU LINTAS DARI KE DESA KELURAHAN MELALUI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001B1",
+      "label": "JENIS PERMUKAAN JALAN YANG TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001B2",
+      "label": "JALAN DARAT DAPAT DILALUI KENDARAAN BERMOTOR RODA 4 ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C1",
+      "label": "KEBERADAAN ANGKUTAN UMUM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C2",
+      "label": "OPERASIONAL ANGKUTAN UMUM YANG UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1001C3",
+      "label": "JAM OPERASI ANGKUTAN UMUM YANG UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK2",
+      "label": "SARANA TRANSPORTASI YANG BIASA DIGUNAKAN DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK3",
+      "label": "JENIS ANGKUTAN UMUM DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK4",
+      "label": "JENIS ANGKUTAN UMUM YANG UTAMA DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK5",
+      "label": "JARAK TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK6A",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT JAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK6B",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT MENIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002AK7",
+      "label": "BIAYA TRANSPORTASI DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK2",
+      "label": "SARANA TRANSPORTASI YANG BIASA DIGUNAKAN DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK3",
+      "label": "JENIS ANGKUTAN UMUM DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK4",
+      "label": "JENIS ANGKUTAN UMUM YANG UTAMA DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK5",
+      "label": "JARAK TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK6A",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA JAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK6B",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA MENIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002BK7",
+      "label": "BIAYA TRANSPORTASI DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK2",
+      "label": "SARANA TRANSPORTASI YANG BIASA DIGUNAKAN DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK3",
+      "label": "JENIS ANGKUTAN UMUM DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK4",
+      "label": "JENIS ANGKUTAN UMUM YANG UTAMA DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK5",
+      "label": "JARAK TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK6A",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT JAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK6B",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT MENIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002CK7",
+      "label": "BIAYA TRANSPORTASI DARI KANTOR KEPALA DESA LURAH KE KANTOR CAMAT LAIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK2",
+      "label": "SARANA TRANSPORTASI YANG BIASA DIGUNAKAN DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK3",
+      "label": "JENIS ANGKUTAN UMUM DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK4",
+      "label": "JENIS ANGKUTAN UMUM YANG UTAMA DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK5",
+      "label": "JARAK TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK6A",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT JAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK6B",
+      "label": "WAKTU TEMPUH DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT MENIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1002DK7",
+      "label": "BIAYA TRANSPORTASI DARI KANTOR KEPALA DESA LURAH KE KANTOR BUPATI WALIKOTA LAIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1003A",
+      "label": "JUMLAH KELUARGA YANG BERLANGGANAN TELEPON KABEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1003B",
+      "label": "KEBERADAAN WARGA YANG MENGGUNAKAN TELEPON SELULER HANDPHONE",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1004",
+      "label": "KEBERADAAN INTERNET UNTUK WARNET GAME ONLINE DAN FASILITAS LAINNYA DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005A",
+      "label": "JUMLAH MENARA BASE TRANSCEIVER STATION BTS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005B",
+      "label": "JUMLAH OPERATOR LAYANAN KOMUNIKASI TELEPON SELULER HANDPHONE YANG MENJANGKAU DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005C",
+      "label": "SINYAL TELEPON SELULER HANDPHONE DI SEBAGIAN BESAR WILAYAH DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1005D",
+      "label": "SINYAL INTERNET TELEPON SELULER HANDPHONE DI SEBAGIAN BESAR WILAYAH DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1006A",
+      "label": "KOMPUTER PC LAPTOP YANG MASIH BERFUNGSI DI KANTOR KEPADA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1006B",
+      "label": "FASILITAS INTERNET DI KANTOR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007A",
+      "label": "KEBERADAAN KANTOR POS POS PEMBANTU RUMAH POS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007B",
+      "label": "LAYANAN POS KELILING",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1007C",
+      "label": "PERUSAHAAN AGEN JASA EKSPEDISI PENGIRIMAN BARANG DOKUMEN SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008AK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO TVRI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008AK3",
+      "label": "JIKA PROGRAM SIARAN TELEVISI TVRI DAPAT DITERIMA KOLOM 2 BERKODE 1 APAKAH HARUS MENGGUNAKAN PARABOLA TV KABEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008BK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO TVRI DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008BK3",
+      "label": "JIKA PROGRAM SIARAN TELEVISI TVRI DAERAH DAPAT DITERIMA KOLOM 2 BERKODE 1 APAKAH HARUS MENGGUNAKAN PARABOLA TV KABEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008CK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO TV SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008CK3",
+      "label": "JIKA PROGRAM SIARAN TELEVISI TV SWASTA DAPAT DITERIMA KOLOM 2 BERKODE 1 APAKAH HARUS MENGGUNAKAN PARABOLA TV KABEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008DK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO TV LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008DK3",
+      "label": "JIKA PROGRAM SIARAN TELEVISI TV LUAR NEGERI DAPAT DITERIMA KOLOM 2 BERKODE 1 APAKAH HARUS MENGGUNAKAN PARABOLA TV KABEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008EK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO RRI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008FK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO RRI DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1008GK2",
+      "label": "PROGRAM SIARAN TELEVISI RADIO RADIO SWASTA KOMUNITAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "KODE DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_02",
+        "podes2024_desa_03",
+        "podes2024_desa_04",
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R105",
+      "label": "STATUS DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R106B",
+      "label": "KODE DESA PERMENDAGRI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107A",
+      "label": "STATUS DEFINITIF DESA DAN OPERASIONAL DESA KELURAHAN ADA WILAYAH DESA KELURAHAN DENGAN BATAS YANG JELAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107B",
+      "label": "STATUS DEFINITIF DESA DAN OPERASIONAL DESA KELURAHAN ADA PENDUDUK YANG MENETAP DI WILAYAH DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R107C",
+      "label": "STATUS DEFINITIF DESA DAN OPERASIONAL DESA KELURAHAN ADA PEMERINTAH DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R1201A1",
+      "label": "INDUSTRI MIKRO DAN KECIL KULIT BARANG DARI KULIT DAN ALAS KAKI TAS SEPATU SANDAL IKAT PINGGANG DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A10",
+      "label": "INDUSTRI MIKRO DAN KECIL PENGOLAHAN TEMBAKAU INDUSTRI ROKOK PENGERINGAN DAN PERAJANGAN TEMBAKAU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A11",
+      "label": "INDUSTRI MIKRO DAN KECIL KERTAS DAN BARANG DARI KERTAS KANTONG KERTAS POST CARD KARDUS SAK SEMEN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A12",
+      "label": "INDUSTRI MIKRO DAN KECIL PERCETAKAN DAN REPRODUKSI MEDIA REKAMAN BUKU BROSUR KARTU NAMA KALENDER SPANDUK DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A13",
+      "label": "INDUSTRI MIKRO DAN KECIL ALAT ANGKUTAN LAINNYA PERAHU KLOTOK RAKIT KURSI RODA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A14",
+      "label": "INDUSTRI MIKRO DAN KECIL KERAJINAN DAN LAINNYA KERAJINAN TANGAN MAINAN ANAK ANAK BATU AKIK PERHIASAN EMAS IMITASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A15",
+      "label": "REPARASI DAN PEMASANGAN MESIN DAN PERALATAN LAS KELILING REPARASI DINAMO REPARASI MESIN PENGGILING PADI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A16",
+      "label": "INDUSTRI MIKRO DAN KECIL LAINNYA TULISKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A2",
+      "label": "INDUSTRI MIKRO DAN KECIL FURNITUR DARI KAYU ROTAN BAMBU PLASTIK LOGAM MEJA KURSI TEMPAT TIDUR LEMARI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A3",
+      "label": "INDUSTRI MIKRO DAN KECIL BARANG LOGAM BUKAN MESIN DAN PERALATANNYA TERALIS PAGAR SABIT PISAU PARANG GUNTING SENDOK GOLOK DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A4",
+      "label": "INDUSTRI MIKRO DAN KECIL TEKSTIL KAIN ULOS KAIN SONGKET KAIN TENUN DAN PERCETAKAN BATIK DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A5",
+      "label": "INDUSTRI MIKRO DAN KECIL PAKAIAN JADI KONVEKSI PAKAIAN KEMEJA ROK CELANA MUKENA BORDIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A6",
+      "label": "INDUSTRI MIKRO DAN KECIL BARANG GALIAN BUKAN LOGAM INDUSTRI GERABAH KERAMIK BATU BATA GENTENG BATU BATA PORSELIN TEGEL KERAMIK KACA PATRI CANGKIR GUCI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A7",
+      "label": "INDUSTRI MIKRO DAN KECIL KAYU BARANG DARI KAYU BARANG ANYAMAN DARI BAMBU ROTAN DAN SEJENISNYA RENG KAYU PAPAN ANYAMAN TAS DAN TIKAR KUSEN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A8",
+      "label": "INDUSTRI MIKRO DAN KECIL MAKANAN PENGOLAHAN DAN PENGAWETAN DAGING IKAN BUAH SAYURAN MINYAK DAN LEMAK SUSU DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1201A9",
+      "label": "INDUSTRI MIKRO DAN KECIL MINUMAN MINUMAN KEMASAN AIR MINERAL AIR ISI ULANG SOPI DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202A1",
+      "label": "JUMLAH SENTRA INDUSTRI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202A2",
+      "label": "TULISKAN PRODUK PADA SENTRA INDUSTRY YANG MEMPUNYAI MUATAN USAHA TERBANYAK",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202B",
+      "label": "JUMLAH LINGKUNGAN INDUSTRI KECIL LIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1202C",
+      "label": "JUMLAH PERKAMPUNGAN INDUSTRI KECIL PIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203A",
+      "label": "KEBERADAAN PRODUK BARANG UNGGULAN UTAMA DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203B1",
+      "label": "PRODUK BARANG UNGGULAN MAKANAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203B2",
+      "label": "PRODUK BARANG UNGGULAN NON MAKANAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1203C",
+      "label": "PRODUK UNGGULAN UTAMA DESA KELURAHAN ADA YANG DIEKSPOR KE NEGARA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1204A",
+      "label": "KEBERADAAN PANGKALAN AGEN PENJUAL MINYAK TANAH TERMASUK PENJUAL MINYAK TANAH KELILING",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1204B",
+      "label": "KEBERADAAN PANGKALAN AGEN PENJUAL LPG WARUNG TOKO SUPERMARKET PENJUAL GAS KELILING",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A1",
+      "label": "JUMLAH BANK UMUM PEMERINTAH BRI BNI MANDIRI BPD BTN YANG BEROPERASI DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A2",
+      "label": "JUMLAH BANK UMUM SWASTA BCA PERMATA SINARMAS CIMB DLL YANG BEROPERASI DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205A3",
+      "label": "JUMLAH BANK PERKREDITAN RAKYAT BPR YANG BEROPERASI DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1205B",
+      "label": "JIKA TIDAK ADA BANK PERKIRAAN JARAK KE BANK TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A1",
+      "label": "JUMLAH KOPERASI UNIT DESA KUD YANG MASIH AKTIF UNIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A2",
+      "label": "JUMLAH KOPERASI INDUSTRI KECIL DAN KERAJINAN RAKYAT KOPINKRA YANG MASIH AKTIF UNIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A3",
+      "label": "JUMLAH KOPERASI SIMPAN PINJAM KOSPIN YANG MASIH AKTIF UNIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206A4",
+      "label": "JUMLAH KOPERASI LAINNYA YANG MASIH AKTIF UNIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B1",
+      "label": "KEBERADAAN TOKO KIOS YANG MENJUAL SARANA PRODUKSI PERTANIAN MILIK KUD",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B2",
+      "label": "KEBERADAAN TOKO KIOS YANG MENJUAL SARANA PRODUKSI PERTANIAN MILIK BUM DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1206B3",
+      "label": "KEBERADAAN TOKO KIOS YANG MENJUAL SARANA PRODUKSI PERTANIAN SELAIN MILIK KUD BUM DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207A",
+      "label": "FASILITAS KREDIT USAHA RAKYAT KUR YANG DITERIMA WARGA DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207B",
+      "label": "FASILITAS KREDIT KETAHANAN PANGAN DAN ENERGI KKP E YANG DITERIMA WARGA DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207C",
+      "label": "FASILITAS KREDIT USAHA KECIL KUK YANG DITERIMA WARGA DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1207D",
+      "label": "FASILITAS KREDIT KELOMPOK USAHA BERSAMA KUBE YANG DITERIMA WARGA DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK2",
+      "label": "JUMLAH BAITUL MAAL WA TANWIL BMT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK3",
+      "label": "JARAK KE BMT TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208AK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE BMT TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK2",
+      "label": "JUMLAH ATM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK3",
+      "label": "JARAK KE ATM TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208BK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE ATM TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK2",
+      "label": "JUMLAH AGEN BANK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK3",
+      "label": "JARAK KE AGEN BANK TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208CK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE AGEN BANK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK2",
+      "label": "JUMLAH PERUSAHAAN PEMBIAYAAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK3",
+      "label": "JARAK KE PERUSAHAAN PEMBIAYAAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208DK4",
+      "label": "KEMUDAHAN MENUJU PERUSAHAAN PEMBIAYAAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK2",
+      "label": "JUMLAH PEDAGANG VALUTA ASING",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK3",
+      "label": "JARAK KE PEDAGANG VALUTA ASING TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208EK4",
+      "label": "KEMUDAHAN MENUJU PEDAGANG VALUTA ASING TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK2",
+      "label": "JUMLAH PERGADAIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK3",
+      "label": "JARAK KE PERGADAIAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208FK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE PERGADAIAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK2",
+      "label": "JUMLAH AGEN TIKET TRAVEL BIRO PERJALANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK3",
+      "label": "JARAK KE AGEN TIKET TRAVEL BIRO PERJALANAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208GK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE AGEN TIKET TRAVEL BIRO PERJALANAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK2",
+      "label": "JUMLAH BENGKEL MOBIL MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK3",
+      "label": "JARAK KE BENGKEL MOBIL MOTOR TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208HK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE BENGKEL MOBIL MOTOR TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK2",
+      "label": "JUMLAH SALON KECANTIKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK3",
+      "label": "JARAK KE SALON KECANTIKAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1208IK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE SALON KECANTIKAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK2",
+      "label": "JUMLAH KELOMPOK PERTOKOAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK3",
+      "label": "JARAK KE KELOMPOK PERTOKOAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209AK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE KELOMPOK PERTOKOAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK2",
+      "label": "JUMLAH PASAR DENGAN BANGUNAN PERMANEN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK3",
+      "label": "JARAK KE PASAR DENGAN BANGUNAN PERMANEN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209BK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE PASAR DENGAN BANGUNAN PERMANEN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK2",
+      "label": "JUMLAH PASAR DENGAN BANGUNAN SEMI PERMANEN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK3",
+      "label": "JARAK KE PASAR DENGAN BANGUNAN SEMI PERMANEN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209CK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE PASAR DENGAN BANGUNAN SEMI PERMANEN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK2",
+      "label": "JUMLAH PASAR TANPA BANGUNAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK3",
+      "label": "JARAK KE PASAR TANPA BANGUNAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209DK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE PASAR TANPA BANGUNAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK2",
+      "label": "JUMLAH MINIMARKET SWALAYAN SUPERMARKET",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK3",
+      "label": "JARAK KE MINIMARKET SWALAYAN SUPERMARKET TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209EK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE MINIMARKET SWALAYAN SUPERMARKET TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK2",
+      "label": "JUMLAH RESTORAN RUMAH MAKANN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK3",
+      "label": "JARAK KE RESTORAN RUMAH MAKAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209FK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE RESTORAN RUMAH MAKAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK2",
+      "label": "JUMLAH WARUNG KEDAI MAKANAN MINUMAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK3",
+      "label": "JARAK KE WARUNG KEDAI MAKANAN MINUMAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209GK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE WARUNG KEDAI MAKANAN MINUMAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK2",
+      "label": "JUMLAH HOTEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK3",
+      "label": "JARAK KE HOTEL TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209HK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE HOTEL TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK2",
+      "label": "JUMLAH PENGINAPAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK3",
+      "label": "JARAK KE PENGINAPAN TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209IK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE PENGINAPAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK2",
+      "label": "JUMLAH TOKO WARUNG KELONTONG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK3",
+      "label": "JARAK KE TOKO WARUNG KELONTONG TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1209JK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI KE TOKO WARUNG KELONTONG TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301A",
+      "label": "KEJADIAN PERKELAHIAN MASSAL DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL ANTAR KELOMPOK MASYARAKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL ANTAR KELOMPOK MASYARAKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL ANTAR KELOMPOK MASYARAKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B1K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL ANTAR KELOMPOK MASYARAKAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL KELOMPOK MASYARAKAT ANTAR DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT ANTAR DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT ANTAR DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B2K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL KELOMPOK MASYARAKAT ANTAR DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B3K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT KEAMANAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B4K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL KELOMPOK MASYARAKAT DENGAN APARAT PEMERINTAH",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL PELAJAR MAHASISWA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL PELAJAR MAHASISWA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL PELAJAR MAHASISWA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B5K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL PELAJAR MAHASISWA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL ANTAR SUKU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL ANTAR SUKU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL ANTAR SUKU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B6K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL ANTAR SUKU",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K2",
+      "label": "JUMLAH KEJADIAN PERKELAHIAN MASSAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K3",
+      "label": "KORBAN MENINGGAL AKIBAT PERKELAHIAN MASSAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K4",
+      "label": "KORBAN LUKA LUKA AKIBAT PERKELAHIAN MASSAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1301B7K5",
+      "label": "PENYEBAB PERKELAHIAN MASSAL LAINNYA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1302A",
+      "label": "PERKELAHIAN MASSAL YANG PALING SERING TERJADI DI DESA KELURAHAN R1301B KOLOM 2 YANG ISIANNYA PALING BESAR APAKAH DAPAT DISELESAIKAN DIDAMAIKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1302B",
+      "label": "UPAYA PENYELESAIAN PERKELAHIAN MASSAL DILAKUKAN OLEH PILIHAN BOLEH LEBIH DARI SATU",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A10K3",
+      "label": "KEJADIAN TINDAK PERDAGANGAN ORANG TRAFFICKING YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A10K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PERDAGANGAN ORANG TRAFFICKING YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A11K3",
+      "label": "KEJADIAN TINDAK KORUPSI YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A11K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK KORUPSI YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A1K3",
+      "label": "KEJADIAN TINDAK PENCURIAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A1K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PENCURIAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A2K3",
+      "label": "KEJADIAN TINDAK PENCURIAN DENGAN KEKERASAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A2K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PENCURIAN DENGAN KEKERASAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A3K3",
+      "label": "KEJADIAN TINDAK PENIPUAN PENGGELAPAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A3K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PENIPUAN PENGGELAPAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A4K3",
+      "label": "KEJADIAN TINDAK PENGANIAYAAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A4K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PENGANIAYAAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A5K3",
+      "label": "KEJADIAN TINDAK PEMBAKARAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A5K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PEMBAKARAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A6K3",
+      "label": "KEJADIAN TINDAK PERKOSAAN KEJAHATAN TERHADAP KESUSILAAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A6K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PERKOSAAN KEJAHATAN TERHADAP KESUSILAAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A7K3",
+      "label": "KEJADIAN TINDAK PENYALAHGUNAAN PEREDARAN NARKOBA YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A7K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PENYALAHGUNAAN PEREDARAN NARKOBA YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A8K3",
+      "label": "KEJADIAN TINDAK PERJUDIAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A8K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PERJUDIAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A9K3",
+      "label": "KEJADIAN TINDAK PEMBUNUHAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303A9K4",
+      "label": "KECENDERUNGAN DIBANDING DENGAN SETAHUN YANG LALU TINDAK PEMBUNUHAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1303B",
+      "label": "TINDAK KEJAHATAN YANG PALING SERING TERJADI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304A",
+      "label": "PEMBANGUNAN PEMELIHARAAN POS KEAMANAN LINGKUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304B",
+      "label": "PEMBENTUKAN PENGATURAN REGU KEAMANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304C",
+      "label": "PENAMBAHAN JUMLAH ANGGOTA HANSIP LINMAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304D",
+      "label": "PELAPORAN TAMU YANG MENGINAP LEBIH DARI 24 JAM KE APARAT LINGKUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1304E",
+      "label": "PENGAKTIFAN SISTEM KEAMANAN LINGKUNGAN BERASAL DARI INISIATIF WARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1305",
+      "label": "JUMLAH ANGGOTA LINMAS HANSIP DI DESA KELURAHAN ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306A",
+      "label": "KEBERADAAN POS POLISI TERMASUK KANTOR POLISI DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306B1",
+      "label": "JUMLAH POS POLISI TERMASUK KANTOR POLISI YANG DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306B2",
+      "label": "JUMLAH POS POLISI TERMASUK KANTOR POLISI YANG TIDAK DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306C1",
+      "label": "PERKIRAAN JARAK KE POS POLISI TERMASUK KANTOR POLISI TERDEKAT KM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1306C2",
+      "label": "KEMUDAHAN UNTUK MENCAPAI POS POLISI TERMASUK KANTOR POLISI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307AK2",
+      "label": "JUMLAH KORBAN BUNUH DIRI LAKI LAKI TERMASUK PERCOBAAN BUNUH DIRI YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307AK3",
+      "label": "JUMLAH KORBAN BUNUH DIRI PEREMPUAN TERMASUK PERCOBAAN BUNUH DIRI YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307BK2",
+      "label": "JUMLAH KORBAN PEMBUNUHAN LAKI LAKI YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1307BK3",
+      "label": "JUMLAH KORBAN PEMBUNUHAN PEREMPUAN YANG TERJADI DI DESA KELURAHAN SELAMA SETAHUN TERAKHIR ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1308A",
+      "label": "KEBERADAAN LOKASI BERKUMPUL MANGKAL ANAK JALANAN DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1308B",
+      "label": "KEBERADAAN TEMPAT MANGKAL GELANDANGAN PENGEMIS DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1309",
+      "label": "KEBERADAAN LOKALISASI LOKASI TEMPAT MANGKAL PEKERJA SEKS KOMERSIAL PSK DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401A",
+      "label": "KEBERADAAN SISTEM INFORMASI DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401B_BLN",
+      "label": "TERAKHIR SISTEM INFORMASI DESA DIPERBAHARUI BULAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401B_THN",
+      "label": "TERAKHIR SISTEM INFORMASI DESA DIPERBAHARUI TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1401C",
+      "label": "PENGGUNAAN SISTEM KEUANGAN DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1402",
+      "label": "APAKAH DESA MEMPUNYAI PADES",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403A",
+      "label": "JUMLAH UNIT USAHA BUMDES",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403B",
+      "label": "TANAH KAS DESA ULAYAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403C",
+      "label": "TAMBATAN PERAHU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403D",
+      "label": "PASAR DESA PASAR HEWAN PELELANGAN IKAN YANG DIKELOLA DESA PELELANGAN HASIL PERTANIAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403E",
+      "label": "BANGUNAN MILIK DESA BALAI DESA BALAI RAKYAT LAPANGAN OLAH RAGA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403F",
+      "label": "HUTAN MILIK DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403G",
+      "label": "MATA AIR MILIK DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403H",
+      "label": "TEMPAT WISATA PEMANDIAN UMUM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1403I",
+      "label": "ASET LAINNYA MILIK DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_03"
+      ]
+    },
+    {
+      "code": "R1404A1",
+      "label": "RENCANA PEMBANGUNAN JANGKA MENENGAH DESA RPJM DESA YANG BERLAKU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404A2_T1",
+      "label": "PERIODE RPJM DESA YANG BERLAKU MULAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404A2_T2",
+      "label": "PERIODE RPJM DESA YANG BERLAKU HINGGA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404B",
+      "label": "RENCANA KERJA PEMERINTAH DESA RKP DESA TAHUN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404C",
+      "label": "JUMLAH PERATURAN DESA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1404D",
+      "label": "JUMLAH PERATURAN KEPALA DESA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1405A",
+      "label": "KEBERADAAN KERJASAMA ANTAR DESA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1405B",
+      "label": "KEBERADAAN KERJASAMA DESA DENGAN PIHAK KETIGA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1406",
+      "label": "KEBERADAAN PENDAMPING LOKAL DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1407A",
+      "label": "KEBERADAAN KADER PEMBANGUNAN MANUSIA KPM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1407B",
+      "label": "JIKA ADA APAKAH ADA KPM YANG MENDAPATKAN PEMBINAAN DARI PEMERINTAH KABUPATEN KOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K2",
+      "label": "PENYALURAN DANA DESA BLT TIGA BULAN PERTAMA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K3",
+      "label": "JUMLAH KELUARGA YANG MENERIMA BLT TIGA BULAN PERTAMA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K4",
+      "label": "NILAI BLT TIGA BULAN PERTAMA SETIAP KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501A_K5",
+      "label": "PERSENTASE JUMLAH DANA BLT TIGA BULAN PERTAMA TERHADAP TOTAL DANA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K2",
+      "label": "PENYALURAN DANA DESA BLT TIGA BULAN KEDUA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K3",
+      "label": "JUMLAH KELUARGA YANG MENERIMA BLT TIGA BULAN KEDUA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K4",
+      "label": "NILAI BLT TIGA BULAN KEDUA SETIAP KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501B_K5",
+      "label": "PERSENTASE JUMLAH DANA BLT TIGA BULAN KEDUA TERHADAP TOTAL DANA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K2",
+      "label": "PENYALURAN DANA DESA PADAT KARYA TUNAI DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K3",
+      "label": "JUMLAH ORANG YANG MENERIMA PADAT KARYA TUNAI DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1501C_K5",
+      "label": "PERSENTASE JUMLAH DANA PADAT KARYA TUNAI DESA TERHADAP TOTAL DANA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING KEGIATAN POSYANDU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_10",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING KELAS PENGASUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_11",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING PEMANFAATAN PEKARANGAN KELUARGA DAN TANAH DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1A",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING PEMBERIAN MAKANAN TAMBAHAN PMT PENYULUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1B",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING PELATIHAN KADER",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1C",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING INSENTIF KADER",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_1D",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING LAIN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_2",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING KELAS IBU HAMIL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_3",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING KELAS IBU BALITA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_4",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING PMT IBU HAMIL KEK RISIKO TINGGI DARI KELUARGA MISKIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_5",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING AKSES AIR MINUM AMAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_6",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING AKSES JAMBAN SEHAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_7",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING JAMINAN KESEHATAN IBU HAMIL DARI KELUARGA MISKIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_8",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING JAMINAN KESEHATAN UNTUK ANAK BADUTA DARI KELUARGA MISKIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1502_9",
+      "label": "KEBERADAAN PAKET LAYANAN TERKAIT STUNTING AKTA KELAHIRAN UNTUK BAYI DARI KELUARGA MISKIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503A",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBANGUNAN MASYARAKAT SARANA PRASARANA ENERGI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503B",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBANGUNAN MASYARAKAT SARANA PRASARANA SANITASI DAN AIR BERSIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1503C",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBANGUNAN MASYARAKAT SARANA PRASARANA PENANGGULANGAN BENCANA DAN PELESTARIAN ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504A",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBERDAYAAN MASYARAKAT PENGEMBANGAN ENERGI TERBARUKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504B",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBERDAYAAN MASYARAKAT PENGELOLAAN LINGKUNGAN PERUMAHAN DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1504C",
+      "label": "KEBERADAAN PROGRAM KEGIATAN PEMBERDAYAAN MASYARAKAT PENINGKATAN KESADARAN DALAM PELESTARIAN ALAM DAN PENANGGULANGAN BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K2",
+      "label": "KEBERADAAN KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K3",
+      "label": "UMUR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K4",
+      "label": "JENIS KELAMIN KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K5",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601A_K6",
+      "label": "TAHUN MULAI MENJABAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K2",
+      "label": "KEBERADAAN SEKRETARIS DESA SEKRETARIS KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K3",
+      "label": "UMUR SEKRETARIS DESA SEKRETARIS KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K4",
+      "label": "JENIS KELAMIN SEKRETARIS DESA SEKRETARIS KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K5",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN SEKRETARIS DESA SEKRETARIS KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1601B_K6",
+      "label": "TAHUN MULAI MENJABAT",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602A",
+      "label": "JUMLAH APARATUR PEMERINTAHAN SEKRETARIAT DESA KELURAHAN KAUR KEUANGAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602B",
+      "label": "JUMLAH APARATUR PEMERINTAHAN PELAKSANA TEKNIS KASI KESEJAHTERAAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602C",
+      "label": "JUMLAH APARATUR PEMERINTAHAN PELAKSANA KEWILAYAHAN KADUS KETUA RT DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1602D",
+      "label": "JUMLAH APARATUR PEMERINTAHAN PEGAWAI DESA KELURAHAN LAINNYA HANSIP DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603A",
+      "label": "KEBERADAAN BADAN PERMUSYAWARATAN DESA LEMBAGA MUSYAWARAH KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603B",
+      "label": "JIKA R1603A TERISI ADA MAKA KEBERADAAN ANGGOTA PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1603C",
+      "label": "JUMLAH KEGIATAN MUSYAWARAH DESA KELURAHAN YANG DILAKUKAN SELAMA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604A",
+      "label": "DESA SUDAH MENJALANKAN PEMILIHAN KEPALA DESA SECARA SERENTAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604B",
+      "label": "TAHUN TERAKHIR PELAKSANAAN PEMILIHAN KEPALA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604C",
+      "label": "JUMLAH CALON PEMILIHAN KEPALA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R1604D",
+      "label": "PERSENTASE PEROLEHAN SUARA PEMENANG PEMILIHAN KEPALA DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_04"
+      ]
+    },
+    {
+      "code": "R301",
+      "label": "STATUS PEMERINTAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R302",
+      "label": "PETA DESA KELURAHAN YANG DITETAPKAN DALAM PERATURAN BUPATI WALIKOTA ATAU GUBERNUR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305A",
+      "label": "TOPOGRAFI SEBAGIAN BESAR WILAYAH DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305B",
+      "label": "KEBERADAAN PERMUKIMAN PENDUDUK DI PUNCAK TEBING LERENG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R305C",
+      "label": "WILAYAH DESA KELURAHAN TERLETAK DI SEBANYAK PULAU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306A",
+      "label": "KEBERADAAN KANTOR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306B",
+      "label": "STATUS KANTOR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306C",
+      "label": "KONDISI KANTOR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R306D",
+      "label": "LOKASI KANTOR KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307A",
+      "label": "KEGIATAN PEMERINTAHAN DESA KELURAHAN UTAMANYA DILAKSANAKAN DI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B2",
+      "label": "KETINGGIAN LETAK ALTITUDE LOKASI KEGIATAN PEMERINTAHAN DESA KELURAHAN DARI PERMUKAAN AIR LAUT DPAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LAT",
+      "label": "KOORDINAT LOKASI KEGIATAN PEMERINTAHAN DESA KELURAHAN GARIS LINTANG LATITUDE",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LAT2",
+      "label": "KETERANGAN LINTANG UTARA SELATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R307B_LONG",
+      "label": "KOORDINAT LOKASI KEGIATAN PEMERINTAHAN DESA KELURAHAN GARIS BUJUR LONGITUDE TIMUR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308A",
+      "label": "ADA WILAYAH DESA KELURAHAN YANG BERBATASAN LANGSUNG DENGAN LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1A",
+      "label": "PEMANFAATAN LAUT UNTUK PERIKANAN TANGKAP MENCAKUP SELURUH BIOTA LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1B",
+      "label": "PEMANFAATAN LAUT UNTUK PERIKANAN BUDIDAYA MENCAKUP SELURUH BIOTA LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1C",
+      "label": "PEMANFAATAN LAUT UNTUK TAMBAK GARAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1D",
+      "label": "PEMANFAATAN LAUT UNTUK WISATA BAHARI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B1E",
+      "label": "PEMANFAATAN LAUT UNTUK TRANSPORTASI UMUM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B2",
+      "label": "KEBERADAAN TANAMAN MANGROVE MISALNYA BAKAU API API PEDADA TANJANG DLL DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R308B3",
+      "label": "KONDISI MANGROVE",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309A",
+      "label": "LOKASI WILAYAH DESA KELURAHAN TERHADAP KAWASAN HUTAN HUTAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309B",
+      "label": "STATUS KAWASAN HUTAN HUTAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309C",
+      "label": "FUNGSI KAWASAN HUTAN HUTAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309D",
+      "label": "KETERGANTUNGAN PENDUDUK TERHADAP KAWASAN HUTAN HUTAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R309E",
+      "label": "PROGRAM PERHUTANAN SOSIAL TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R310",
+      "label": "KEBERADAAN SATWA TUMBUHAN YANG DILINDUNGI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402A",
+      "label": "KEBERADAAN WARGA DESA KELURAHAN YANG SEDANG BEKERJA SEBAGAI PMI PEKERJA MIGRAN TKI DI LUAR NEGERI PADA 1 JANUARI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402B1",
+      "label": "JUMLAH WARGA DESA KELURAHAN YANG SEDANG BEKERJA SEBAGAI PMI TKI DILUAR NEGERI PADA 1 JANUARI 2024 LAKI LAKI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402B2",
+      "label": "JUMLAH WARGA DESA KELURAHAN YANG SEDANG BEKERJA SEBAGAI PMI TKI DILUAR NEGERI PADA 1 JANUARI 2024 PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402C",
+      "label": "KEBERADAAN AGEN PENGERAHAN PMI TKI KE LUAR NEGERI DI DESA KELURAHAN PADA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D1",
+      "label": "SEJAK TAHUN 2018 SAMPAI 2023 APAKAH PIHAK DESA KELURAHAN TELAH MEMBERIKAN LAYANAN REKOMENDASI SURAT KETERANGAN BAGI WARGA DESA KELURAHAN YANG AKAN BEKERJA SEBAGAI PMI TKI DI LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D2A",
+      "label": "SELAMA TAHUN 2023 BERAPA JUMLAH CALON PMI LAKI LAKI YANG MENDAPATKAN REKOMENDASI SURAT KETERANGAN UNTUK BEKERJA SEBAGAI PMI TKI DI LUAR NEGERI DARI KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402D2B",
+      "label": "SELAMA TAHUN 2023 BERAPA JUMLAH CALON PMI PEREMPUAN YANG MENDAPATKAN REKOMENDASI SURAT KETERANGAN UNTUK BEKERJA SEBAGAI PMI TKI DI LUAR NEGERI DARI KEPALA DESA LURAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E1",
+      "label": "KEBERADAAN WARGA NEGARA ASING WNA DI DESA KELURAHAN PADA 1 JANUARI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E2A",
+      "label": "JUMLAH WNA LAKI LAKI DI DESA KELURAHAN PADA 1 JANUARI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R402E2B",
+      "label": "JUMLAH WNA PEREMPUAN DI DESA KELURAHAN PADA 1 JANUARI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403A",
+      "label": "SUMBER PENGHASILAN UTAMA SEBAGIAN BESAR PENDUDUK DESA KELURAHAN BERASAL DARI LAPANGAN USAHA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403B1",
+      "label": "JENIS SUB SEKTOR UTAMA SEBAGIAN BESAR PENDUDUK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403B2",
+      "label": "KOMODITAS UTAMA DARI SUB SEKTOR UTAMA SEBAGIAN BESAR PENDUDUK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403C1",
+      "label": "JENIS PRASARANA TRANSPORTASI DARI KE LOKASI SENTRA PRODUKSI PERTANIAN KE JALAN UTAMA DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R403C2",
+      "label": "JALAN DARI KE LOKASI SENTRA PRODUKSI PERTANIAN KE JALAN UTAMA DESA KELURAHAN DAPAT DILALUI KENDARAAN BERMOTOR RODA 4 ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501A1",
+      "label": "JUMLAH KELUARGA PENGGUNA LISTRIK PLN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501A2",
+      "label": "JUMLAH KELUARGA PENGGUNA LISTRIK NON PLN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501B",
+      "label": "JUMLAH KELUARGA BUKAN PENGGUNA LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R501C",
+      "label": "KELUARGA YANG MENGGUNAKAN LAMPU TENAGA SURYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502A",
+      "label": "PENERANGAN DI JALAN DESA KELURAHAN YANG MENGGUNAKAN LAMPU TENAGA SURYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502B",
+      "label": "PENERANGAN DI JALAN UTAMA DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R502C",
+      "label": "SUMBER PENERANGAN DI JALAN UTAMA DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A1",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A10",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA KAYU BAKAR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A11",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A2",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA ELPIJI 5 5 KG BLUE GAZ",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A3",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA ELPIJI 12 KG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A4",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA ELPIJI 3 KG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A5",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA GAS KOTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A6",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA BIOGAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A7",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA MINYAK TANAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A8",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA BRIKET",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503A9",
+      "label": "BAHAN BAKAR UNTUK MEMASAK YANG DIGUNAKAN OLEH KELUARGA ARANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503B",
+      "label": "BAHAN BAKAR UNTUK MEMASAK SEBAGIAN BESAR KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R503C",
+      "label": "CARA MEMPEROLEH KAYU BAKAR OLEH SEBAGIAN BESAR KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A1A",
+      "label": "TEMPAT BUANG SAMPAH KELUARGA TEMPAT SAMPAH KEMUDIAN DIANGKUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A1B",
+      "label": "FREKUENSI PENGANGKUTAN SAMPAH DALAM SATU MINGGU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A2",
+      "label": "TEMPAT BUANG SAMPAH KELUARGA DALAM LUBANG ATAU DIBAKAR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A3",
+      "label": "TEMPAT BUANG SAMPAH KELUARGA SUNGAI SALURAN IRIGASI DANAU LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A4",
+      "label": "TEMPAT BUANG SAMPAH KELUARGA DRAINASE GOT SELOKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504A5",
+      "label": "TEMPAT BUANG SAMPAH KELUARGA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504B",
+      "label": "TEMPAT BUANG SAMPAH SEBAGIAN BESAR KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504C",
+      "label": "KEBERADAAN TEMPAT PENAMPUNGAN SEMENTARA TPS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504D",
+      "label": "KEBERADAAN TEMPAT PENAMPUNGAN SEMENTARA REDUCE REUSE RECYCLE TPS3R",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504E",
+      "label": "KEBERADAAN BANK SAMPAH DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504F1",
+      "label": "PROSES PEMILAHAN DI TPS3R",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R504F2",
+      "label": "JENIS PEMILAHAN YANG DILAKUKAN DI TPR3R",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R505",
+      "label": "PEMILAHAN SAMPAH MEMBUSUK DAN SAMPAH KERING",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R506A",
+      "label": "PENGGUNAAN FASILITAS BUANG AIR BESAR SEBAGIAN BESAR KELUARGA DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R506B",
+      "label": "TEMPAT PEMBUANGAN AKHIR TINJA SEBAGIAN BESAR KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R507",
+      "label": "TEMPAT SALURAN PEMBUANGAN LIMBAH CAIR DARI AIR MANDI CUCI SEBAGIAN BESAR KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R508A",
+      "label": "SUMBER AIR UNTUK MINUM SEBAGIAN BESAR KELUARGA BERASAL DARI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R508B",
+      "label": "SUMBER AIR UNTUK MANDI CUCI SEBAGIAN BESAR KELUARGA BERASAL DARI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509A",
+      "label": "WILAYAH DESA KELURAHAN DILALUI SUTET SUTT SUTTAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509B",
+      "label": "JIKA DILALUI SUTET SUTT SUTTAS KEBERADAAN PERMUKIMAN DIBAWAH SUTET SUTT SUTTAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C1",
+      "label": "JUMLAH LOKASI PERMUKIMAN DI BAWAH SUTET SUTT SUTTAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C2",
+      "label": "JUMLAH BANGUNAN RUMAH PERMUKIMAN DI BAWAH SUTET SUTT SUTTAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R509C3",
+      "label": "JUMLAH KELUARGA PERMUKIMAN DI BAWAH SUTET SUTT SUTTAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK2",
+      "label": "KEBERADAAN SUNGAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK3",
+      "label": "KEBERADAAN SALURAN IRIGASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK4",
+      "label": "KEBERADAAN DANAU WADUK SITU BENDUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510AK5",
+      "label": "KEBERADAAN EMBUNG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B10K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK MANDI CUCI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK MANDI CUCI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK MANDI CUCI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B1K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK MANDI CUCI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK SUMBER AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK SUMBER AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK SUMBER AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B2K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK SUMBER AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK BAHAN BAKU AIR MINUM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK BAHAN BAKU AIR MINUM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK BAHAN BAKU AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B3K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK BAHAN BAKU AIR MINUM MASAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK PENGAIRAN IRIGASI LAHAN PERTANIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK PENGAIRAN IRIGASI LAHAN PERTANIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK PENGAIRAN IRIGASI LAHAN PERTANIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B4K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK PENGAIRAN IRIGASI LAHAN PERTANIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK PARIWISATA KOMERSIAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK PARIWISATA KOMERSIAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK PARIWISATA KOMERSIAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B5K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK PARIWISATA KOMERSIAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK PERIKANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK PERIKANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK PERIKANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B6K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK PERIKANAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B7K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK TRANSPORTASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK PEMBANGKIT LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K3",
+      "label": "PENGGUNAAN SALURAN IRIGASI UNTUK PEMBANGKIT LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK PEMBANGKIT LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B8K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK PEMBANGKIT LISTRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K2",
+      "label": "PENGGUNAAN SUNGAI UNTUK INDUSTRI PABRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K4",
+      "label": "PENGGUNAAN DANAU WADUK SITU BENDUNGAN UNTUK INDUSTRI PABRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R510B9K5",
+      "label": "PENGGUNAAN EMBUNG UNTUK INDUSTRI PABRIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511A",
+      "label": "KEBERADAAN PERMUKIMAN DI BANTARAN SUNGAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B1",
+      "label": "JUMLAH LOKASI PERMUKIMAN DI BANTARAN SUNGAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B2",
+      "label": "JUMLAH BANGUNAN RUMAH PERMUKIMAN DI BANTARAN SUNGAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511B3",
+      "label": "JUMLAH KELUARGA PERMUKIMAN DI BANTARAN SUNGAI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C1",
+      "label": "AIR SUNGAI TERCEMAR LIMBAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2A",
+      "label": "JIKA AIR SUNGAI TERCEMAR LIMBAH SUMBER LIMBAH BERASAL DARI PABRIK INDUSTRI USAHA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2B",
+      "label": "JIKA AIR SUNGAI TERCEMAR LIMBAH SUMBER LIMBAH BERASAL DARI RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C2C",
+      "label": "JIKA AIR SUNGAI TERCEMAR LIMBAH SUMBER LIMBAH BERASAL DARI LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R511C3",
+      "label": "SUMBER LIMBAH BERLOKASI DI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R512A",
+      "label": "KEBERADAAN MATA AIR DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R512B",
+      "label": "JUMLAH EMBUNG DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513A",
+      "label": "KEBERADAAN PERMUKIMAN KUMUH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B1",
+      "label": "JUMLAH LOKASI PERMUKIMAN KUMUH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B2",
+      "label": "JUMLAH BANGUNAN RUMAH PERMUKIMAN KUMUH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R513B3",
+      "label": "JUMLAH KELUARGA PERMUKIMAN KUMUH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K2",
+      "label": "KEJADIAN PENCEMARAN LINGKUNGAN AIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K3",
+      "label": "SUMBER PENCEMARAN AIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514A_K4",
+      "label": "PENGADUAN WARGA KE APARAT DESA KELURAHAN KEJADIAN PENCEMARAN AIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K2",
+      "label": "KEJADIAN PENCEMARAN LINGKUNGAN TANAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K3",
+      "label": "SUMBER PENCEMARAN TANAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514B_K4",
+      "label": "PENGADUAN WARGA KE APARAT DESA KELURAHAN KEJADIAN PENCEMARAN TANAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K2",
+      "label": "KEJADIAN PENCEMARAN LINGKUNGAN UDARA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K3",
+      "label": "SUMBER PENCEMARAN UDARA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R514C_K4",
+      "label": "PENGADUAN WARGA KE APARAT DESA KELURAHAN KEJADIAN PENCEMARAN UDARA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515A",
+      "label": "PENANAMAN PEMELIHARAAN PEPOHONAN DI LAHAN KRITIS PENANAMAN MANGROVE DAN SEJENISNYA OLEH MASYARAKAT DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515B",
+      "label": "PENGOLAHAN DAUR ULANG SAMPAH REUSE RECYCLE OLEH MASYARAKAT DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R515C",
+      "label": "PENGGALAKAN PENGGUNAAN PUPUK ORGANIK DI LAHAN PERTANIAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R516",
+      "label": "KEBERADAAN DAN KEAKTIFAN KOMUNITAS KELOMPOK LINGKUNGAN HIDUP MELIPUTI GERAKAN LINGKUNGAN BERKELANJUTAN SADAR LINGKUNGAN SIAGA BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R517",
+      "label": "KEBIASAAN MASYARAKAT MEMBAKAR LADANG KEBUN DI DESA KELURAHAN UNTUK PROSES USAHA PERTANIAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R518",
+      "label": "KEBERADAAN LOKASI PENGGALIAN GOLONGAN C MISALNYA BATU KALI PASIR KAPUR KAOLIN PASIR KUARSA TANAH LIAT DLL DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK2",
+      "label": "TANAH LONGSOR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK3",
+      "label": "BANYAK KEJADIAN TANAH LONGSOR 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK4",
+      "label": "KORBAN JIWA TANAH LONGSOR 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK6",
+      "label": "BANYAK KEJADIAN TANAH LONGSOR 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK7",
+      "label": "KORBAN JIWA TANAH LONGSOR 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601AK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK2",
+      "label": "BANJIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK3",
+      "label": "BANYAK KEJADIAN BANJIR 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK4",
+      "label": "KORBAN JIWA BANJIR 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK6",
+      "label": "BANYAK KEJADIAN BANJIR 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK7",
+      "label": "KORBAN JIWA BANJIR 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601BK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK2",
+      "label": "BANJIR BANDANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK3",
+      "label": "BANYAK KEJADIAN BANJIR BANDANG 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK4",
+      "label": "KORBAN JIWA BANJIR BANDANG 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK6",
+      "label": "BANYAK KEJADIAN BANJIR BANDANG 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK7",
+      "label": "KORBAN JIWA BANJIR BANDANG 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601CK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK2",
+      "label": "GEMPA BUMI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK3",
+      "label": "BANYAK KEJADIAN GEMPA BUMI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK4",
+      "label": "KORBAN JIWA GEMPA BUMI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK6",
+      "label": "BANYAK KEJADIAN GEMPA BUMI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK7",
+      "label": "KORBAN JIWA GEMPA BUMI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601DK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK2",
+      "label": "TSUNAMI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK3",
+      "label": "BANYAK KEJADIAN TSUNAMI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK4",
+      "label": "KORBAN JIWA TSUNAMI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK6",
+      "label": "BANYAK KEJADIAN TSUNAMI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK7",
+      "label": "KORBAN JIWA TSUNAMI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601EK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK2",
+      "label": "GELOMBANG PASANG LAUT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK3",
+      "label": "BANYAK KEJADIAN GELOMBANG PASANG LAUT 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK4",
+      "label": "KORBAN JIWA GELOMBANG PASANG LAUT 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK6",
+      "label": "BANYAK KEJADIAN GELOMBANG PASANG LAUT 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK7",
+      "label": "KORBAN JIWA GELOMBANG PASANG LAUT 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601FK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK2",
+      "label": "ANGIN PUYUH PUTING BELIUNG TOPAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK3",
+      "label": "BANYAK KEJADIAN ANGIN PUYUH PUTING BELIUNG TOPAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK4",
+      "label": "KORBAN JIWA ANGIN PUYUH PUTING BELIUNG TOPAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK6",
+      "label": "BANYAK KEJADIAN ANGIN PUYUH PUTING BELIUNG TOPAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK7",
+      "label": "KORBAN JIWA ANGIN PUYUH PUTING BELIUNG TOPAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601GK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK2",
+      "label": "GUNUNG MELETUS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK3",
+      "label": "BANYAK KEJADIAN GUNUNG MELETUS 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK4",
+      "label": "KORBAN JIWA GUNUNG MELETUS 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK6",
+      "label": "BANYAK KEJADIAN GUNUNG MELETUS 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK7",
+      "label": "KORBAN JIWA GUNUNG MELETUS 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601HK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK2",
+      "label": "KEBAKARAN HUTAN DAN LAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK3",
+      "label": "BANYAK KEJADIAN KEBAKARAN HUTAN DAN LAHAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK4",
+      "label": "KORBAN JIWA KEBAKARAN HUTAN DAN LAHAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK6",
+      "label": "BANYAK KEJADIAN KEBAKARAN HUTAN DAN LAHAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK7",
+      "label": "KORBAN JIWA KEBAKARAN HUTAN DAN LAHAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601IK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK2",
+      "label": "KEKERINGAN LAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK3",
+      "label": "BANYAK KEJADIAN KEKERINGAN LAHAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK4",
+      "label": "KORBAN JIWA KEKERINGAN LAHAN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK6",
+      "label": "BANYAK KEJADIAN KEKERINGAN LAHAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK7",
+      "label": "KORBAN JIWA KEKERINGAN LAHAN 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601JK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK2",
+      "label": "ABRASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK3",
+      "label": "BANYAK KEJADIAN ABRASI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK4",
+      "label": "KORBAN JIWA ABRASI 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK5",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2023",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK6",
+      "label": "BANYAK KEJADIAN ABRASI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK7",
+      "label": "KORBAN JIWA ABRASI 2024",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R601KK8",
+      "label": "KEBERADAAN KORBAN HILANG TERLUKA SAKIT MENGUNGSI TAHUN 2024",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R602",
+      "label": "JUMLAH KORBAN YANG TERDAMPAK BENCANA TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R603",
+      "label": "LUAS AREAL PERTANIAN YANG TERDAMPAK RUSAK TAHUN 2023",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_01"
+      ]
+    },
+    {
+      "code": "R604A",
+      "label": "SISTEM PERINGATAN DINI BENCANA ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604B",
+      "label": "SISTEM PERINGATAN DINI KHUSUS TSUNAMI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604C",
+      "label": "PERLENGKAPAN KESELAMATAN PERAHU KARET TENDA MASKER DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604D",
+      "label": "RAMBU RAMBU DAN JALUR EVAKUASI BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R604E",
+      "label": "PEMBUATAN PERAWATAN ATAU NORMALISASI SUNGAI KANAL TANGGUL PARIT DRAINASE WADUK PANTAI DLL SELAMA 3 TAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605A",
+      "label": "DESA TANGGUH BENCANA DESTANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605B",
+      "label": "PROGRAM KAMPUNG IKLIM PROKLIM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605C",
+      "label": "KAMPUNG PESISIR TANGGUH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605D",
+      "label": "KAMPUNG SIAGA BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R605E",
+      "label": "KAMPUNG TANGGUH COVID",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6061",
+      "label": "KEBERADAAN WARGA DESA PERNAH MENGIKUTI SIMULASI KESIAPSIAGAAN BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6062",
+      "label": "KEBERADAAN WARGA DESA PERNAH MENGIKUTI GLADI RUANG KESIAPSIAGAAN BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R6063",
+      "label": "KEBERADAAN WARGA DESA PERNAH MEMILIKI SERTIFIKASI PELATIHAN PENANGGULANGAN BENCANA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK2",
+      "label": "JENJANG PENDIDIKAN POS PENDIDIKAN ANAK USIA DINI PAUD NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK3",
+      "label": "JENJANG PENDIDIKAN POS PENDIDIKAN ANAK USIA DINI PAUD SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK4",
+      "label": "JARAK MENCAPAI POS PENDIDIKAN ANAK USIA DINI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701AK5",
+      "label": "KEMUDAHAN UNTUK MENCAPAI POS PENDIDIKAN ANAK USIA DINI POS PAUD TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK2",
+      "label": "JUMLAH TK NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK3",
+      "label": "JUMLAH TK SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK4",
+      "label": "JARAK KE TK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701BK5",
+      "label": "KEMUDAHAN MENCAPAI TK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK2",
+      "label": "JUMLAH RA BA NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK3",
+      "label": "JUMLAH RA BA SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK4",
+      "label": "JARAK KE RA BA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701CK5",
+      "label": "KEMUDAHAN MENCAPAI RA BA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK2",
+      "label": "JUMLAH SD NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK3",
+      "label": "JUMLAH SD SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK4",
+      "label": "JARAK KE SD TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701DK5",
+      "label": "KEMUDAHAN MENCAPAI SD TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK2",
+      "label": "JUMLAH MI NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK3",
+      "label": "JUMLAH MI SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK4",
+      "label": "JARAK KE MI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701EK5",
+      "label": "KEMUDAHAN MENCAPAI MI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK2",
+      "label": "JUMLAH SMP NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK3",
+      "label": "JUMLAH SMP SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK4",
+      "label": "JARAK KE SMP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701FK5",
+      "label": "KEMUDAHAN MENCAPAI SMP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK2",
+      "label": "JUMLAH MTS NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK3",
+      "label": "JUMLAH MTS SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK4",
+      "label": "JARAK KE MTS TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701GK5",
+      "label": "KEMUDAHAN MENCAPAI MTS TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK2",
+      "label": "JUMLAH SMA NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK3",
+      "label": "JUMLAH SMA SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK4",
+      "label": "JARAK KE SMA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701HK5",
+      "label": "KEMUDAHAN MENCAPAI SMA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK2",
+      "label": "JUMLAH MA NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK3",
+      "label": "JUMLAH MA SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK4",
+      "label": "JARAK KE MA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701IK5",
+      "label": "KEMUDAHAN MENCAPAI MA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK2",
+      "label": "JUMLAH SMK NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK3",
+      "label": "JUMLAH SMK SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK4",
+      "label": "JARAK KE SMK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701JK5",
+      "label": "KEMUDAHAN MENCAPAI SMK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK2",
+      "label": "JUMLAH AKADEMI PERGURUAN TINGGI NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK3",
+      "label": "JUMLAH AKADEMI PERGURUAN TINGGI SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK4",
+      "label": "JARAK KE AKADEMI PERGURUAN TINGGI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701KK5",
+      "label": "KEMUDAHAN MENCAPAI AKADEMI PERGURUAN TINGGI TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701LK2",
+      "label": "JUMLAH SDLB NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701LK3",
+      "label": "JUMLAH SDLB SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701MK2",
+      "label": "JUMLAH SMPLB NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701MK3",
+      "label": "JUMLAH SMPLB SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701NK2",
+      "label": "JUMLAH SMALB NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701NK3",
+      "label": "JUMLAH SMALB SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701OK2",
+      "label": "JUMLAH PONDOK PESANTREN NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701OK3",
+      "label": "JUMLAH PONDOK PESANTREN SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701PK3",
+      "label": "JUMLAH MADRASAH DINIYAH SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R701QK3",
+      "label": "JUMLAH SEMINARI SEJENISNYA SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702A",
+      "label": "KEGIATAN PENDIDIKAN KEAKSARAAN DASAR LANJUTAN SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702B",
+      "label": "KEGIATAN PENDIDIKAN PAKET A B C SELAMA SETAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R702C",
+      "label": "TAMAN BACAAN MASYARAKAT TBM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703AK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN BAHASA ASING MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703AK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN BAHASA ASING BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703BK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN KOMPUTER MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703BK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN KOMPUTER BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703CK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN MENJAHIT TATA BUSANA MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703CK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN MENJAHIT TATA BUSANA BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703DK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN KECANTIKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703DK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN KECANTIKAN BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703EK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN MONTIR MOBIL MOTOR MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703EK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN MONTIR MOBIL MOTOR BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703FK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN ELEKTRONIKA MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703FK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN ELEKTRONIKA BUKAN MILIK DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703GK2",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN LAINNYA MILIK DESA KELURAHAN MISALNYA TATABOGA STIR MOBIL DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R703GK3",
+      "label": "JUMLAH LEMBAGA PENDIDIKAN KETERAMPILAN LAINNYA BUKAN MILIK DESA KELURAHAN MISALNYA TATABOGA STIR MOBIL DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK2",
+      "label": "JUMLAH RUMAH SAKIT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK3",
+      "label": "JARAK MENUJU RUMAH SAKIT TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704AK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI RUMAH SAKIT TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK2",
+      "label": "JUMLAH RUMAH SAKIT BERSALIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK3",
+      "label": "JARAK MENUJU RUMAH SAKIT BERSALIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704BK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI RUMAH SAKIT BERSALIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK2",
+      "label": "JUMLAH PUSKESMAS DENGAN RAWAT INAP",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK3",
+      "label": "JARAK MENUJU PUSKESMAS DENGAN RAWAT INAP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704CK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI PUSKESMAS DENGAN RAWAT INAP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK2",
+      "label": "JUMLAH PUSKESMAS TANPA RAWAT INAP",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK3",
+      "label": "JARAK MENUJU PUSKESMAS TANPA RAWAT INAP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704DK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI PUSKESMAS TANPA RAWAT INAP TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK2",
+      "label": "JUMLAH PUSKESMAS PEMBANTU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK3",
+      "label": "JARAK MENUJU PUSKESMAS PEMBANTU TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704EK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI PUSKESMAS PEMBANTU TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK2",
+      "label": "JUMLAH POLIKLINIK BALAI PENGOBATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK3",
+      "label": "JARAK MENUJU POLIKLINIK BALAI PENGOBATAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704FK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI POLIKLINIK BALAI PENGOBATAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK2",
+      "label": "JUMLAH TEMPAT PRAKTEK DOKTER",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK3",
+      "label": "JARAK MENUJU TEMPAT PRAKTEK DOKTER TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704GK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI TEMPAT PRAKTEK DOKTER TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK2",
+      "label": "JUMLAH RUMAH BERSALIN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK3",
+      "label": "JARAK MENUJU RUMAH BERSALIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704HK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI RUMAH BERSALIN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK2",
+      "label": "JUMLAH TEMPAT PRAKTEK BIDAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK3",
+      "label": "JARAK MENUJU TEMPAT PRAKTEK BIDAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704IK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI TEMPAT PRAKTEK BIDAN TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK2",
+      "label": "JUMLAH POSKESDES POS KESEHATAN DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK3",
+      "label": "JARAK MENUJU POSKESDES POS KESEHATAN DESA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704JK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI POSKESDES POS KESEHATAN DESA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK2",
+      "label": "JUMLAH POLINDES PONDOK BERSALIN DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK3",
+      "label": "JARAK MENUJU POLINDES PONDOK BERSALIN DESA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704KK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI POLINDES PONDOK BERSALIN DESA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK2",
+      "label": "JUMLAH APOTEK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK3",
+      "label": "JARAK MENUJU APOTEK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704LK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI APOTEK TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK2",
+      "label": "JUMLAH TOKO KHUSUS OBAT JAMU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK3",
+      "label": "JARAK MENUJU TOKO KHUSUS OBAT JAMU TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R704MK4",
+      "label": "KEMUDAHAN UNTUK MENCAPAI TOKO KHUSUS OBAT JAMU TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705A",
+      "label": "JUMLAH POSYANDU AKTIF",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705B",
+      "label": "JUMLAH POSYANDU DENGAN KEGIATAN PELAYANAN SETIAP SEBULAN SEKALI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705C",
+      "label": "JUMLAH POSYANDU DENGAN KEGIATAN PELAYANAN SETIAP 2 BULAN SEKALI ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705D",
+      "label": "JUMLAH POS PEMBINAAN TERPADU POSBINDU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R705E",
+      "label": "JUMLAH KADER PELAKSANA KB KESEHATAN IBU DAN ANAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706A1",
+      "label": "TENAGA DOKTER PRIA YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706A2",
+      "label": "TENAGA DOKTER WANITA YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706B",
+      "label": "TENAGA DOKTER GIGI YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706C",
+      "label": "TENAGA BIDAN YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R706D",
+      "label": "TENAGA KESEHATAN LAIN YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R707",
+      "label": "KEBERADAAN BIDAN DESA BDD",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R708",
+      "label": "DUKUN BAYI DUKUN BERSALIN PARAJI YANG TINGGAL MENETAP DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R709",
+      "label": "JUMLAH WARGA PENDERITA GIZI BURUK MARASMUS DAN KWASHIORKOR SELAMA TAHUN 2023 ORANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R710",
+      "label": "JUMLAH SURAT MISKIN SKTM YANG DIKELUARKAN DESA KELURAHAN SELAMA TAHUN 2023 SURAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK2",
+      "label": "KEJADIAN LUAR BIASA KLB MUNTABER DIARE",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK3",
+      "label": "R711JK2",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711AK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA MUNTABER DIARE",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK2",
+      "label": "KEJADIAN LUAR BIASA KLB DEMAM BERDARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK3",
+      "label": "JUMLAH PENDERITA DEMAM BERDARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711BK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA DEMAM BERDARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK2",
+      "label": "KEJADIAN LUAR BIASA KLB CAMPAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK3",
+      "label": "JUMLAH PENDERITA CAMPAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711CK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA CAMPAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK2",
+      "label": "KEJADIAN LUAR BIASA KLB MALARIA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK3",
+      "label": "JUMLAH PENDERITA MALARIA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711DK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA MALARIA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK2",
+      "label": "KEJADIAN LUAR BIASA KLB FLU BURUNG SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK3",
+      "label": "JUMLAH PENDERITA FLU BURUNG SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711EK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA FLU BURUNG SARS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK2",
+      "label": "KEJADIAN LUAR BIASA KLB HEPATITIS E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK3",
+      "label": "JUMLAH PENDERITA HEPATITIS E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711FK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA HEPATITIS E",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK2",
+      "label": "KEJADIAN LUAR BIASA KLB DIFTERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK3",
+      "label": "JUMLAH PENDERITA DPT DIFTERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711GK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA DPT DIFTERI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK2",
+      "label": "KEJADIAN LUAR BIASA KLB COVID 19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK3",
+      "label": "JUMLAH PENDERITA COVID 19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711HK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA COVID 19",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK2",
+      "label": "KEJADIAN LUAR BIASA KLB LAINNYA MISALNYA CHIKUNGUNYA LEPTOSPIROSIS KOLERA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK3",
+      "label": "JUMLAH PENDERITA LAINNYA MISALNYA CHIKUNGUNYA LEPTOSPIROSIS KOLERA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711IK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA LAINNYA MISALNYA CHIKUNGUNYA LEPTOSPIROSIS KOLERA DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK2",
+      "label": "KEJADIAN KERAWANAN PANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK3",
+      "label": "JUMLAH PENDERITA KERAWANAN PANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R711JK4",
+      "label": "JUMLAH PENDERITA YANG MENINGGAL KARENA KERAWANAN PANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80101",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA ISLAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80102",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA KRISTEN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80103",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA KATOLIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80104",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA BUDDHA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80105",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA HINDU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80106",
+      "label": "KEBERADAAN WARGA YANG MENGANUT AGAMA KONGHUCU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R80107",
+      "label": "KEBERADAAN WARGA YANG MENGANUT ALIRAN PENGHAYAT KEPERCAYAAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R802",
+      "label": "AGAMA KEPERCAYAAN YANG DIANUT OLEH SEBAGIAN BESAR WARGA DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803A",
+      "label": "JUMLAH MASJID",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803B",
+      "label": "JUMLAH SURAU LANGGAR MUSALA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803C",
+      "label": "JUMLAH GEREJA KRISTEN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803D",
+      "label": "JUMLAH GEREJA KATOLIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803E",
+      "label": "JUMLAH KAPEL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803F",
+      "label": "JUMLAH PURA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803G",
+      "label": "JUMLAH WIHARA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803H",
+      "label": "JUMLAH KLENTENG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803I",
+      "label": "JUMLAH BALAI BASARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R803J",
+      "label": "JUMLAH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A1",
+      "label": "WARGA DESA KELURAHAN TERDIRI DARI BEBERAPA SUKU ETNIS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2A",
+      "label": "SUKU 1",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2B",
+      "label": "SUKU 2",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804A2C",
+      "label": "SUKU 3",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804B1",
+      "label": "WARGA DESA KELURAHAN BERKOMUNIKASI SEHARI HARI MENGGUNAKAN BEBERAPA BAHASA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R804B2",
+      "label": "BAHASA SEHARI HARI SEBAGIAN BESAR WARGA DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805A",
+      "label": "BANYAKNYA PENYANDAN TUNA NETRA BUTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805B",
+      "label": "BANYAKNYA PENYANDANG TUNA RUNGU TULI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805C",
+      "label": "BANYAKNYA PENYANDANG TUNA WICARA BISU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805D",
+      "label": "BANYAKNYA PENYANDANG TUNA RUNGU WICARA TULI BISU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805E",
+      "label": "BANYAKNYA PENYANDANG TUNA DAKSA DISABILITAS TUBUH KELUMPUHAN KELAINAN KETIDAKLENGKAPAN ANGGOTA GERAK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805F",
+      "label": "BANYAKNYA PENYANDANG TUNA GRAHITA KETERBELAKANGAN MENTAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805G",
+      "label": "BANYAKNYA PENYANDANG TUNA LARAS EKS SAKIT JIWA MENGALAMI HAMBATAN GANGGUAN DALAM MENGENDALIKAN EMOSI DAN KONTROL SOSIAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805H",
+      "label": "BANYAKNYA PENYANDANG TUNA EKS SAKIT KUSTA PERNAH MENGALAMI SAKIT KUSTA DAN TELAH DINYATAKAN SEMBUH OLEH DOKTER",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R805I",
+      "label": "BANYAKNYA PENYANDANG TUNA GANDA FISIK MENTAL FISIK BUTA TULI BISU BISU TULI ATAU TUBUH DAN MENTAL TUNAGRAHITA ATAU TUNALARAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R806",
+      "label": "JUMLAH ORANG YANG DIPASUNG DI DESA KELURAHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807A",
+      "label": "RUANG PUBLIK TERBUKA YANG PERUNTUKAN UTAMANYA SEBAGAI TEMPAT BAGI WARGA DESA KELURAHAN UNTUK BERSANTAI BERMAIN TANPA PERLU MEMBAYAR MISALNYA LAPANGAN TERBUKA ALUN ALUN TAMAN DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807B1",
+      "label": "RUANG TERBUKA HIJAU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R807B2",
+      "label": "RUANG TERBUKA NON HIJAU",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R808A",
+      "label": "KEBIASAAN GOTONG ROYONG WARGA DI DESA KELURAHAN UNTUK KEPENTINGAN UMUM KOMUNITAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R808B",
+      "label": "KEGIATAN GOTONG ROYONG WARGA UNTUK MEMBANTU WARGA YANG SEDANG MENGALAMI MUSIBAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809A",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN PKK",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809B",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN KARANG TARUNA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809C",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN LEMBAGA ADAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809D",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN KELOMPOK TANI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809E",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN LEMBAGA PENGELOLAAN AIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R809F",
+      "label": "JUMLAH JENIS JENIS LEMBAGA KEMASYARAKATAN DI DESA KELURAHAN KELOMPOK MASYARAKAT POKMAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901AK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN SEPAK BOLA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901AK3",
+      "label": "KELOMPOK KEGIATAN SEPAK BOLA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901BK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN BOLA VOLI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901BK3",
+      "label": "KELOMPOK KEGIATAN BOLA VOLI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901CK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN BULU TANGKIS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901CK3",
+      "label": "KELOMPOK KEGIATAN BULU TANGKIS",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901DK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN BOLA BASKET",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901DK3",
+      "label": "KELOMPOK KEGIATAN BOLA BASKET",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901EK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN TENIS LAPANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901EK3",
+      "label": "KELOMPOK KEGIATAN TENIS LAPANGAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901FK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN TENIS MEJA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901FK3",
+      "label": "KELOMPOK KEGIATAN TENIS MEJA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901GK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN FUTSAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901GK3",
+      "label": "KELOMPOK KEGIATAN FUTSAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901HK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN RENANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901HK3",
+      "label": "KELOMPOK KEGIATAN RENANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901IK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN BELA DIRI PENCAK SILAT KARATE DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901IK3",
+      "label": "KELOMPOK KEGIATAN BELA DIRI PENCAK SILAT KARATE DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901JK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN BILYARD",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901JK3",
+      "label": "KELOMPOK KEGIATAN BILYARD",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901KK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN FITNES AEROBIK DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901KK3",
+      "label": "KELOMPOK KEGIATAN FITNESS AEROBIK DLL",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901LK2",
+      "label": "KETERSEDIAAN FASILITAS LAPANGAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R901LK3",
+      "label": "KELOMPOK KEGIATAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R902A",
+      "label": "KEBERADAAN PUB DISKOTIK TEMPAT KARAOKE YANG MASIH BERFUNGSI",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    },
+    {
+      "code": "R902B",
+      "label": "JIKA TIDAK ADA PUB DISKOTIK TEMPAT KARAOKE PERKIRAAN JARAK KE PUB DISKOTIK TEMPAT KARAOKE TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_02"
+      ]
+    }
+  ]
+}
