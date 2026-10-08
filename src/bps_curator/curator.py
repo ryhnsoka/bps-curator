@@ -49,10 +49,9 @@ def curate(requested, master, add_mandatory=True, profile=None):
 
 def generate_readme(curated, master):
     """README pemetaan: wajib vs request user, beserta label + partisi. Format TXT."""
-    by_code = {v["code"]: v for v in curated["found"]}
-    madd = set(curated["mandatory_added"])
-    req_vars = [v for v in curated["found"] if v["code"] not in madd]
-    w_vars = [by_code[c] for c in curated["mandatory_added"] if c in by_code]
+    mset = {normalize_code(x) for x in get_mandatory_list(master)}
+    w_vars = [v for v in curated["found"] if normalize_code(v["code"]) in mset]
+    req_vars = [v for v in curated["found"] if normalize_code(v["code"]) not in mset]
     L = [f"Kurasi {master.get('survey_id', '')} {master.get('period', '')}".rstrip(),
          f"Found: {len(curated['found'])}, Missing: {len(curated['missing'])}",
          ""]
@@ -60,8 +59,10 @@ def generate_readme(curated, master):
     if w_vars:
         for v in sorted(w_vars, key=lambda x: x["code"]):
             L.append(f"  {v['code']} | {v['label']} | {', '.join(v['partitions'])}")
+        if curated["mandatory_added"]:
+            L.append(f"  (ditambahkan otomatis: {', '.join(sorted(curated['mandatory_added']))})")
     elif get_mandatory_list(master):
-        L.append("  Semua variabel wajib sudah termasuk dalam request (tidak ada tambahan).")
+        L.append("  Tidak ada variabel wajib dalam hasil.")
     else:
         L.append("  Tidak ada (master tanpa variabel wajib).")
     L += ["", f"Variabel request user ({len(req_vars)}):"]

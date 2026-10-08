@@ -42,5 +42,5 @@ def test_labels_from_kamus_block():
 def test_readme_maps_mandatory_vs_request():
     c = curate("K1 K10".split(), SAK)
     txt = generate_readme(c, SAK)
-    assert "Variabel wajib" in txt and "KLASIFIKAS" in txt
+    assert "Variabel wajib (7)" in txt and "KLASIFIKAS" in txt
     assert "K1" in txt and "Tidak ditemukan (0)" in txt
