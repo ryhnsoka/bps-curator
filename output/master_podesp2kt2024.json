@@ -1,0 +1,101 @@
+{
+  "survey_id": "PODES",
+  "period": "2024 P2KT",
+  "source_file": "Master_PodesP2KT2024.xlsx",
+  "kamus_sheet": "KETERANGAN DATA",
+  "n_variables": 10,
+  "partitions": [
+    "podes2024_desa_2t_p2kt"
+  ],
+  "mandatory": [
+    "IDPULAU",
+    "NAMA_PULAU",
+    "IDDESA",
+    "R101",
+    "R102",
+    "R103",
+    "R104"
+  ],
+  "variables": [
+    {
+      "code": "IDDESA",
+      "label": "IDENTITAS DESA KELURAHAN GABUNGAN DARI KODE PROVINSI KODE KABUPATEN KOTA KODE KECAMATAN DAN KODE DESA KELURAHAN NAGARI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "IDPULAU",
+      "label": "NOMOR URUT IDENTITAS PULAU SESUAI URUTAN PERPRES",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "NAMA_PULAU",
+      "label": "NAMA PULAU SESUAI PERPRES",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R103",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R104",
+      "label": "KODE DESA KELURAHAN",
+      "type": "character",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R302K2",
+      "label": "APAKAH ADA FASILITAS PEMERINTAH DI PULAU INI WILAYAH PULAU YANG MASIH MENJADI BAGIAN DARI WILAYAH DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R302K3",
+      "label": "",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    },
+    {
+      "code": "R302K4",
+      "label": "APAKAH ADA KEGIATAN EKONOMI DI PULAU INI WILAYAH PULAU YANG MASIH MENJADI BAGIAN DARI WILAYAH DESA",
+      "type": "numeric",
+      "partitions": [
+        "podes2024_desa_2t_p2kt"
+      ]
+    }
+  ]
+}
