@@ -1,0 +1,2913 @@
+{
+  "survey_id": "SUSENAS",
+  "period": "2024 MSBP",
+  "source_file": "1RE3O0jp1Cn_FY4scpjnphq1Vaj__LER8CXUB0C38WH0.xlsx",
+  "kamus_sheet": "META DATA",
+  "n_variables": 360,
+  "partitions": [
+    "ssn202409_msbp_ind",
+    "ssn202409_msbp_rt"
+  ],
+  "mandatory": [
+    "PSU",
+    "SSU",
+    "STRATA",
+    "URUT",
+    "WI1",
+    "WI2",
+    "FWT",
+    "M101",
+    "M105"
+  ],
+  "variables": [
+    {
+      "code": "FWT",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M101",
+      "label": "PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M105",
+      "label": "TIPE DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1101",
+      "label": "KODE 1 JIKA UMUR 5 TAHUN KODE 0 JIKA UMUR 5 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1102",
+      "label": "BERAPA HARI MENONTON SIARAN TELEVISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1103",
+      "label": "BERAPA HARI MENDENGARKAN SIARAN RADIO",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1104",
+      "label": "APAKAH DAPAT MEMBACA DAN MENULIS KALIMAT SEDERHANA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1105",
+      "label": "APAKAH PERNAH MEMBACA KORAN SURAT KABAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1106",
+      "label": "APAKAH PERNAH MEMBACA MAJALAH TABLOID",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1107",
+      "label": "APAKAH PERNAH MEMBACA BUKU CERITA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1108",
+      "label": "APAKAH PERNAH MEMBACA BUKU PELAJARAN SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1109",
+      "label": "APAKAH PERNAH MEMBACA BUKU PENGETAHUAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1110",
+      "label": "APAKAH PERNAH MEMBACA KITAB SUCI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1111",
+      "label": "APAKAH PERNAH MEMBACA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1112",
+      "label": "APAKAH PERNAH MENGUNJUNGI PERPUSTAKAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1113",
+      "label": "APAKAH PERNAH MEMANFAATKAN TAMAN BACAAN MASYARAKAT TBM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1114",
+      "label": "APAKAH PERNAH MENGGUNAKAN INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1201",
+      "label": "KODE 1 JIKA UMUR 5 TAHUN KODE 0 JIKA UMUR 5 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1202",
+      "label": "BERAPA HARI MELAKUKAN OLAHRAGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1203",
+      "label": "BERAPA LAMA MELAKUKAN OLAHRAGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1204",
+      "label": "APA JENIS OLAHRAGA YANG SERING DILAKUKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1205",
+      "label": "APA TUJUAN BEROLAHRAGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1206",
+      "label": "APA JALUR WADAH DALAM BEROLAHRAGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1301",
+      "label": "KODE 1 JIKA UMUR 5 TAHUN KODE 0 JIKA UMUR 5 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1302_A",
+      "label": "MENGGUNAKAN BAHASA INDONESIA DALAM PERGAULAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1302_B",
+      "label": "MENGGUNAKAN BAHASA DAERAH DALAM PERGAULAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1302_C",
+      "label": "MENGGUNAKAN BAHASA ASING DALAM PERGAULAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1303",
+      "label": "APA BAHASA YANG PALING SERING DIGUNAKAN DI RUMAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1304",
+      "label": "APA BAHASA YANG PALING SERING DIGUNAKAN DI PERGAULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1305",
+      "label": "APAKAH MENGETAHUI DONGENG CERITA RAKYAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1306",
+      "label": "APAKAH PERNAH MENGUNJUNGI TEMPAT BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1307",
+      "label": "APAKAH PERNAH MELAKUKAN PERMAINAN RAKYAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_A",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL PENCAK SILAT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_B",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL SEPAK TAKRAW SEPAK RAGA SEJENISNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_C",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL DAYUNG SEJENISNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_D",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL BALAP SAPI KERBAU KUDA SEJENISNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_E",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1308_X",
+      "label": "APAKAH PERNAH MELAKUKAN KEGIATAN OLAHRAGA TRADISIONAL TIDAK PERNAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1309",
+      "label": "APAKAH PERNAH MENONTON FILM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1310",
+      "label": "APAKAH PERNAH MENONTON SENI MUSIK SUARA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1311",
+      "label": "APAKAH PERNAH MENONTON SENI RUPA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1312",
+      "label": "APAKAH PERNAH MENONTON SENI SASTRA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1313",
+      "label": "APAKAH PERNAH MENONTON SENI TARI BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1314",
+      "label": "APAKAH PERNAH MENONTON SENI TEATER PEWAYANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1315",
+      "label": "APAKAH PERNAH MENONTON SENI MEDIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1316",
+      "label": "APAKAH PERNAH MENONTON LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1317",
+      "label": "APAKAH PERNAH TERLIBAT DALAM FILM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1318",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI MUSIK SUARA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1319",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI RUPA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1320",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI SASTRA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1321",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI TARI BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1322",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI TEATER PEWAYANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1323",
+      "label": "APAKAH PERNAH TERLIBAT DALAM SENI MEDIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1324",
+      "label": "APAKAH PERNAH TERLIBAT DALAM LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1325",
+      "label": "APAKAH KETERLIBATANNYA UNTUK SUMBER PENGHASILAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1401",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1402",
+      "label": "APAKAH BERSEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1403",
+      "label": "APA JENJANG TERTINGGI YANG SEDANG PERNAH DIIKUTI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1404",
+      "label": "APA TINGKAT KELAS TERTINGGI YANG SEDANG PERNAH DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1405",
+      "label": "APA IJAZAH TERTINGGI YANG DIMILIKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1406",
+      "label": "APA JURUSAN YANG SEDANG PERNAH DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_A",
+      "label": "APAKAH PERNAH SEDANG KURSUS BIMBINGAN BELAJAR",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_B",
+      "label": "APAKAH PERNAH SEDANG KURSUS KOMPUTER TI",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_C",
+      "label": "APAKAH PERNAH SEDANG KURSUS MENJAHIT TATA BUSANA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_D",
+      "label": "APAKAH PERNAH SEDANG KURSUS OTOMOTIF TEKNIK ELEKTRONIK",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_E",
+      "label": "APAKAH PERNAH SEDANG KURSUS KECANTIKAN TATA RIAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_F",
+      "label": "APAKAH PERNAH SEDANG KURSUS SENI MUSIK TARI SASTRA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_G",
+      "label": "APAKAH PERNAH SEDANG KURSUS SENI TEATER FILM",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_H",
+      "label": "APAKAH PERNAH SEDANG KURSUS SENI RUPA DAN TRADISI",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_I",
+      "label": "APAKAH PERNAH SEDANG KURSUS BAHASA ASING",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_J",
+      "label": "APAKAH PERNAH SEDANG KURSUS BAHASA DAERAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_K",
+      "label": "APAKAH PERNAH SEDANG KURSUS KEOLAHRAGAAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_L",
+      "label": "APAKAH PERNAH SEDANG KURSUS MENGEMUDI",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_M",
+      "label": "APAKAH PERNAH SEDANG KURSUS KEAGAMAAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_N",
+      "label": "APAKAH PERNAH SEDANG KURSUS KEWIRAUSAHAAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_O",
+      "label": "APAKAH PERNAH SEDANG KURSUS LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1407_X",
+      "label": "TIDAK PERNAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1408",
+      "label": "APA ALASAN BELUM PERNAH TIDAK SEKOLAH LAGI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1409",
+      "label": "APAKAH SAAT INI INGIN BERSEKOLAH MELANJUTKAN SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1501",
+      "label": "APAKAH BERSEKOLAH DI SEKOLAH NEGERI ATAU SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1502",
+      "label": "APAKAH SARANA TRANSPORTASI KE SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1503",
+      "label": "APAKAH BELAJAR DI LUAR JAM SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1504",
+      "label": "DIMANA BIASANYA BELAJAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1505",
+      "label": "APAKAH BIASANYA BELAJAR SECARA BERKELOMPOK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1506",
+      "label": "APAKAH BIASANYA DIBANTU OLEH PEMBIMBING",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1507",
+      "label": "SIAPA YANG BIASANYA MEMBIMBING",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1508",
+      "label": "BERAPA HARI DALAM SEMINGGU BIASANYA BELAJAR DI LUAR JAM SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1509",
+      "label": "BERAPA LAMA MENIT BIASANYA BELAJAR DI LUAR JAM SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1510",
+      "label": "SEBERAPA SERING SARAPAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1511",
+      "label": "APAKAH MEMBAWA BEKAL KE SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1512",
+      "label": "APAKAH BERLANGGANAN MAKANAN DI SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1513",
+      "label": "APAKAH PERNAH MENDAPATKAN PROGRAM MAKANAN TAMBAHAN DI SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1514",
+      "label": "APA JENJANG PENDIDIKAN TAHUN AJARAN SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_A",
+      "label": "PERNAH MENGIKUTI EKSKUL PRAMUKA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_B",
+      "label": "PERNAH MENGIKUTI EKSKUL SENI DAN BUDAYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_C",
+      "label": "PERNAH MENGIKUTI EKSKUL OLAHRAGA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_D",
+      "label": "PERNAH MENGIKUTI EKSKUL KEROHANIAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_E",
+      "label": "PERNAH MENGIKUTI EKSKUL PASKIBRA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_F",
+      "label": "PERNAH MENGIKUTI EKSKUL PALANG MERAH REMAJA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_G",
+      "label": "PERNAH MENGIKUTI EKSKUL KELOMPOK ILMIAH REMAJA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_H",
+      "label": "PERNAH MENGIKUTI EKSKUL PECINTA ALAM",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_I",
+      "label": "PERNAH MENGIKUTI EKSKUL LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1515_X",
+      "label": "TIDAK MENGIKUTI EKSKUL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_A",
+      "label": "PERNAH MENERIMA BANTUAN PROGRAM INDONESIA PINTAR",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_B",
+      "label": "PERNAH MENERIMA BANTUAN BEASISWA PEMERINTAH PUSAT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_C",
+      "label": "PERNAH MENERIMA BANTUAN BEASISWA PEMERINTAH DAERAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_D",
+      "label": "PERNAH MENERIMA BANTUAN BEASISWA LEMBAGA NON PEMERINTAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_E",
+      "label": "PERNAH MENERIMA BANTUAN LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1516_X",
+      "label": "TIDAK PERNAH MENERIMA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1517A",
+      "label": "APAKAH MENERIMA UANG SAKU KE SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1517B",
+      "label": "BERAPA RATA RATA UANG SAKU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1518",
+      "label": "BERAPA RATA RATA BIAYA TRANSPOR KE SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519A",
+      "label": "BERAPA BIAYA UANG PENDAFTARAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519B",
+      "label": "BERAPA BIAYA SPP UKT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519C",
+      "label": "BERAPA BIAYA KOMITE SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519D",
+      "label": "BERAPA BIAYA EKSKUL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519E",
+      "label": "BERAPA BIAYA BAJU SEKOLAH DAN PERLENGKAPANNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519F",
+      "label": "BERAPA BIAYA BUKU PELAJARAN PANDUAN DIKTAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519G",
+      "label": "BERAPA BIAYA LEMBAR KERJA SISWA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519H",
+      "label": "BERAPA BIAYA ALAT TULIS DAN PERLENGKAPAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519I",
+      "label": "BERAPA BIAYA PRAKTIKUM KETERAMPILAN DAN BAHAN PENUNJANGNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519J",
+      "label": "BERAPA BIAYA KURSUS YANG DISELENGGARAKAN SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519K",
+      "label": "BERAPA BIAYA EVALUASI UJIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519L",
+      "label": "BERAPA BIAYA KUNJUNGAN EDUKATIF",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519M",
+      "label": "BERAPA BIAYA PENDUKUNG PEMBELAJARAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519N",
+      "label": "BERAPA BIAYA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1519O",
+      "label": "BERAPA BIAYA TOTAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1601",
+      "label": "KODE 1 JIKA UMUR 10 TAHUN KODE 0 JIKA UMUR 10 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1602",
+      "label": "APAKAH PERNAH MENGIKUTI RAPAT DI LINGKUNGAN SEKITAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1603",
+      "label": "APAKAH BIASANYA MEMBERIKAN SARAN DALAM RAPAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1604",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN KEAGAMAAN KEPERCAYAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1605",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN KETERAMPILAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1606",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN OLAHRAGA PERMAINAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1607",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN GOTONG ROYONG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1608",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN ARISAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1609",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1610",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN SOSIAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1611",
+      "label": "APA ALASAN TIDAK MENGIKUTI KEGIATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1612",
+      "label": "APAKAH PERNAH MENGIKUTI KEGIATAN PENGGALANGAN DANA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1613",
+      "label": "APAKAH TERDAFTAR DALAM ORGANISASI SELAIN DI TEMPAT KERJA SEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1614",
+      "label": "APA BIDANG ORGANISASI YANG DIIKUTI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1615",
+      "label": "APA ALASAN MENGIKUTI ORGANISASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1701",
+      "label": "KODE 1 JIKA UMUR 10 TAHUN KODE 0 JIKA UMUR 10 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1702_A",
+      "label": "BEKERJA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1702_B",
+      "label": "SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1702_C",
+      "label": "MENGURUS RUTA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1702_D",
+      "label": "LAINNYA SELAIN KEGIATAN PRIBADI",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1702_X",
+      "label": "TIDAK MELAKUKAN KEGIATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1703",
+      "label": "APA KEGIATAN YANG MENGGUNAKAN WAKTU TERBANYAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1704",
+      "label": "APAKAH SEMENTARA TIDAK BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1705",
+      "label": "APA LAPANGAN USAHA UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1706",
+      "label": "APA STATUS PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1707",
+      "label": "BERAPA JAM KERJA KESELURUHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1708_A",
+      "label": "SUMBER PEMBIAYAAN MANDIRI",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1708_B",
+      "label": "SUMBER PEMBIAYAAN PEMBERIAN DARI ANAK SANAK SAUDARA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1708_X",
+      "label": "TIDAK MEMILIKI SUMBER PEMBIAYAAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M1801A",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN KERAJINAN TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1801B",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN BUSANA DAERAH TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1801C",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN METODE PENYEHATAN TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1801D",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN OBAT TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1801E",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN PERALATAN RUTA TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1801F",
+      "label": "APAKAH ADA ART MEMBELI MENGGUNAKAN PERLENGKAPAN RITUS TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802A_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA KELAHIRAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802A_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA KELAHIRAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802B_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA SUNATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802B_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA SUNATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802C_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802C_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802D_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802D_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802E_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA KEAGAMAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802E_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA KEAGAMAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802F_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA PANEN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802F_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA PANEN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802G_1",
+      "label": "APAKAH ADA ART MENYELENGGARAKAN UPACARA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1802G_2",
+      "label": "APAKAH ADA ART MENGHADIRI UPACARA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1803",
+      "label": "APAKAH MENGIBARKAN BENDERA MERAH PUTIH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1804A",
+      "label": "APAKAH DASAR NEGARA INDONESIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1804B",
+      "label": "APAKAH LAMBANG NEGARA INDONESIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1804C",
+      "label": "APAKAH LAGU KEBANGSAAN INDONESIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1805A",
+      "label": "APAKAH ADA ART MEMPUNYAI HAK MEMILIH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1805B",
+      "label": "APAKAH ADA ART MENGGUNAKAN HAK MEMILIH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1806",
+      "label": "BAGAIMANA CARA PENGAMBILAN KEPUTUSAN DI LINGKUNGAN SEKITAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1807_A",
+      "label": "APAKAH PERNAH BERINTERAKSI DENGAN SUKU BANGSA LAIN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1807_B",
+      "label": "APAKAH PERNAH BERINTERAKSI DENGAN AGAMA KEPERCAYAAN LAIN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1807_X",
+      "label": "TIDAK PERNAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1808A",
+      "label": "BAGAIMANA JIKA ADA KEGIATAN OLEH KELOMPOK SUKU BANGSA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1808B",
+      "label": "BAGAIMANA JIKA ADA KEGIATAN OLEH AGAMA KEPERCAYAAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1809A",
+      "label": "BAGAIMANA SEANDAINYA ADA ART BERTEMAN DENGAN SUKU BANGSA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1809B",
+      "label": "BAGAIMANA SEANDAINYA ADA ART BERTEMAN DENGAN AGAMA KEPERCAYAAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1810A",
+      "label": "BAGAIMANA JIKA DIPIMPIN OLEH SUKU BANGSA LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1810B",
+      "label": "BAGAIMANA JIKA DIPIMPIN OLEH AGAMA KEPERCAYAAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1811",
+      "label": "APAKAH ADA ART MENGALAMI GANGGUAN KETIKA MENJALANKAN IBADAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1812",
+      "label": "APAKAH DIPERLUKAN ATURAN TERTULIS MELINDUNGI KEBEBASAN BERAGAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1813A",
+      "label": "APAKAH ADA ART MENGALAMI DISKRIMINASI KESETARAAN GENDER",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1813B",
+      "label": "APAKAH ADA ART MENGALAMI DISKRIMINASI KESETARAAN RAS DAN ETNIS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1813C",
+      "label": "APAKAH ADA ART MENGALAMI DISKRIMINASI KELOMPOK RENTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1814",
+      "label": "APAKAH DIPERLUKAN ATURAN TERTULIS MENGATUR KESETARAAN GENDER RAS DAN ETNIS KELOMPOK RENTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1815A",
+      "label": "APAKAH PELAYANAN PUBLIK DILAKUKAN SECARA CEPAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1815B",
+      "label": "APAKAH PELAYANAN PUBLIK DILAKUKAN SECARA TANGGAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1815C",
+      "label": "APAKAH PELAYANAN PUBLIK DILAKUKAN DENGAN BIAYA YANG JELAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1816A",
+      "label": "APAKAH ADA ART MEMBAYAR MELEBIHI KETENTUAN DI PELAYANAN PUBLIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1816B",
+      "label": "APAKAH ADA ART MENGGUNAKAN CALO DI PELAYANAN PUBLIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817A",
+      "label": "BAGAIMANA KEBERSIHAN DI PASAR TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817B",
+      "label": "BAGAIMANA KEBERSIHAN DI RUMAH SAKIT PUSKESMAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817C",
+      "label": "BAGAIMANA KEBERSIHAN DI KANTOR PEMERINTAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817D",
+      "label": "BAGAIMANA KEBERSIHAN DI LEMBAGA PENDIDIKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817E",
+      "label": "BAGAIMANA KEBERSIHAN DI JALAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817F",
+      "label": "BAGAIMANA KEBERSIHAN DI SUNGAI KALI PANTAI PESISIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1817G",
+      "label": "BAGAIMANA KEBERSIHAN DI RUMAH IBADAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_A",
+      "label": "SAMPAH DIANGKUT PETUGAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_B",
+      "label": "SAMPAH DIBUANG KE TPS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_C",
+      "label": "SAMPAH DIDAUR ULANG",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_D",
+      "label": "SAMPAH DIBUAT KOMPOS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_E",
+      "label": "SAMPAH DISETOR KE BANK SAMPAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_F",
+      "label": "SAMPAH DIBUANG KE KALI SELOKAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_G",
+      "label": "SAMPAH DIBAKAR",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_H",
+      "label": "SAMPAH DITIMBUN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_I",
+      "label": "SAMPAH DIBUANG SEMBARANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818A_J",
+      "label": "SAMPAH DITANGANI SECARA LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1818B",
+      "label": "PENANGANAN SAMPAH APA YANG SERING DILAKUKAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1819",
+      "label": "APAKAH PERNAH MENGALAMI MELIHAT ORANG LAIN DITEGUR KARENA PELANGGARAN KEBERSIHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1820A",
+      "label": "BAGAIMANA JIKA MASYARAKAT MEMBUANG SAMPAH PADA TEMPATNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1820B",
+      "label": "BAGAIMANA JIKA TROTOAR DIGUNAKAN SEPENUHNYA UNTUK PEJALAN KAKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1820C",
+      "label": "BAGAIMANA JIKA JALAN DIGUNAKAN SEPENUHNYA UNTUK LAU LINTAS KENDARAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1820D",
+      "label": "BAGAIMANA JIKA BUDAYA ANTRE DITERAPKAN SEPENUHNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821A_1",
+      "label": "APAKAH PERNAH MENGALAMI KELAHIRAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821A_2",
+      "label": "APAKAH PERNAH MELAPORKAN KELAHIRAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821B_1",
+      "label": "APAKAH PERNAH MENGALAMI KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821B_2",
+      "label": "APAKAH PERNAH MELAPORKAN KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821C_1",
+      "label": "APAKAH PERNAH MENGALAMI PERNIKAHAN PERCERAIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821C_2",
+      "label": "APAKAH PERNAH MELAPORKAN PERNIKAHAN PERCERAIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821D_1",
+      "label": "APAKAH PERNAH MENGALAMI PERPINDAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1821D_2",
+      "label": "APAKAH PERNAH MELAPORKAN PERPINDAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1822",
+      "label": "APAKAH ADA ART MELANGGAR PERATURAN LAU LINTAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1823",
+      "label": "APAKAH ADA ART SAAT INI MENJADI ANGGOTA KOPERASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1824",
+      "label": "SEBERAPA KHAWATIR BERJALAN KAKI SENDIRIAN PADA MALAM HARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1825",
+      "label": "SEBERAPA KHAWATIR MENINGGALKAN RUMAH DALAM KEADAAN TIDAK BERPENGHUNI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1901",
+      "label": "APA STATUS KEPEMILIKAN BANGUNAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1902",
+      "label": "BERAPA LUAS LANTAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1903",
+      "label": "APA SUMBER AIR UNTUK MINUM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1904",
+      "label": "APA SUMBER AIR UNTUK MANDI CUCI DLL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M1905",
+      "label": "APA SUMBER PENERANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2001",
+      "label": "APAKAH MENERIMA KARTU KELUARGA SEHAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2002",
+      "label": "APAKAH PERNAH MENJADI PENERIMA PROGRAM KELUARGA HARAPAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003A",
+      "label": "APAKAH SAAT INI MASIH TERCATAT PENERIMA PROGRAM KELUARGA HARAPAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_A",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_B",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_C",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_D",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_E",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_F",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2003B_G",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2004",
+      "label": "APAKAH PERNAH MENERIMA BPNT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005AK2",
+      "label": "APAKAH MENERIMA BPNT DI AGUSTUS 2024",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005AK3",
+      "label": "APAKAH MENERIMA BPNT DI JULI 2024",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005AK4",
+      "label": "APAKAH MENERIMA BPNT DI JUNI 2024",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005AK5",
+      "label": "APAKAH MENERIMA BPNT DI MEI 2024",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_A",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_B",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_C",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_D",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_E",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_F",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK2_G",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA AGUSTUS 2024 DIGUNAKAN UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_A",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_B",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_C",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_D",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_E",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_F",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK3_G",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JULI 2024 DIGUNAKAN UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_A",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_B",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_C",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_D",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_E",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_F",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK4_G",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA JUNI 2024 DIGUNAKAN UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_A",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_B",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_C",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_D",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_E",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_F",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2005BK5_G",
+      "label": "BPNT BANTUAN SEMBAKO YANG DITERIMA MEI 2024 DIGUNAKAN UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2006A",
+      "label": "APAKAH ADA ART MENERIMA PROGRAM INDONESIA PINTAR PIP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2006BK2",
+      "label": "BERAPA JUMLAH ART MENERIMA PIP SD",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2006BK3",
+      "label": "BERAPA JUMLAH ART MENERIMA PIP SMP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2006BK4",
+      "label": "BERAPA JUMLAH ART MENERIMA PIP SMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2006BK5",
+      "label": "BERAPA JUMLAH ART MENERIMA PIP KULIAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2101A",
+      "label": "APAKAH SUMBER TERBESAR PEMBIAYAAN RUTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2101B",
+      "label": "SIAPA ART YANG MENANGGUNG PEMBIAYAAN TERBESAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M2101C",
+      "label": "DARI MANAKAH SUMBER UTAMANYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M301",
+      "label": "BANYAKNYA ART",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M302",
+      "label": "BANYAKNYA ART 0 4 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M303",
+      "label": "BANYAKNYA ART 0 17 DAN BELUM KAWIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M304",
+      "label": "BANYAKNYA ART 5 TAHUN KE ATAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M305",
+      "label": "BANYAKNYA ART 10 TAHUN KE ATAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "M401",
+      "label": "NOMOR URUT ART",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M403",
+      "label": "HUBUNGAN DENGAN KRT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M404",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M405",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M406A",
+      "label": "TANGGAL LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M406B",
+      "label": "BULAN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M406C",
+      "label": "TAHUN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M407",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M408",
+      "label": "APAKAH PASANGAN BIASANYA TINGGAL BERSAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M409",
+      "label": "UMUR PERKAWINAN PERTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M410",
+      "label": "NOMOR URUT PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M501",
+      "label": "NOMOR URUT KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M502",
+      "label": "APAKAH MEMPUNYAI NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M504",
+      "label": "JENIS KELAMIN MENURUT NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M505",
+      "label": "SUMBER DATA NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M506",
+      "label": "APAKAH ISIAN R504 R405",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M601",
+      "label": "BERAPA SETEL PAKAIAN LAYAK PAKAI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M602",
+      "label": "BERAPA SETEL PAKAIAN BARU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M603",
+      "label": "BERAPA KALI MAKAN MENGANDUNG KARBOHIDRAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M604",
+      "label": "APA ALASAN TIDAK KURANG MENGONSUMSI KARBOHIDRAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M605",
+      "label": "BERAPA KALI MAKAN NABATI MENGANDUNG PROTEIN TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M606",
+      "label": "BERAPA KALI MAKAN HEWANI MENGANDUNG PROTEIN TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M607",
+      "label": "APA ALASAN TIDAK KURANG MENGONSUMSI PROTEIN TINGGI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M608",
+      "label": "APAKAH MEMPUNYAI LOKASI TETAP UNTUK TIDUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M609",
+      "label": "APAKAH BIASA DIGUNAKAN BERSAMA 3 ORANG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M701",
+      "label": "APAKAH MEMPUNYAI KELUHAN KESEHATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M702",
+      "label": "APAKAH KELUHAN KESEHATAN TERSEBUT MENGGANGGU KEGIATAN SEHARI HARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M703",
+      "label": "APAKAH PERNAH RAWAT JALAN INAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M704",
+      "label": "APA ALASAN TIDAK RAWAT JALAN INAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M801",
+      "label": "KODE 1 JIKA UMUR 5 TAHUN KODE 0 JIKA 5 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M802",
+      "label": "UMUR DALAM BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M803",
+      "label": "APAKAH PERNAH DISUSUI DIBERI ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M804",
+      "label": "APAKAH PERNAH DITINGGALKAN UNTUK BEKERJA AKTIVITAS DI LUAR RUMAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M805",
+      "label": "KEPADA SIAPA PALING SERING DITITIPKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M806",
+      "label": "APAKAH PERNAH DITITIPKAN KE ANAK UMUR 10 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M807",
+      "label": "APAKAH PERNAH DITINGGALKAN SENDIRI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M901",
+      "label": "KODE 1 JIKA UMUR 17 TAHUN DAN BELUM KAWIN KODE 0 JIKA UMUR 17 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M902",
+      "label": "APAKAH IBU KANDUNG MASIH HIDUP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M903",
+      "label": "TULISKAN NOMOR URUT IBU KANDUNG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M904",
+      "label": "APAKAH AYAH KANDUNG MASIH HIDUP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M905",
+      "label": "TULISKAN NOMOR URUT AYAH KANDUNG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_A",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI MAKAN BELAJAR MAKAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_B",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI MENONTON TV",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_C",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI BELAJAR MEMBACA BUKU",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_D",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI DIBACAKAN BUKU CERITA DICERITAKAN DONGENG",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_E",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI BERIBADAH BERDOA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_F",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI BERBINCANG BINCANG MENGOBROL",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_G",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI BERMAIN REKREASI BEROLAHRAGA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_H",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI BERMAIN GIM",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_I",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI MENGAKSES INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_J",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI MENGURUS RUTA",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_K",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI MEMBANTU MENAMBAH PENGHASILAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_X",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI TIDAK ADA KEBERSAMAAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "M906_Z",
+      "label": "AKTIVITAS YANG DILAKUKAN BERSAMA ORANG TUA WALI TIDAK RELEVAN",
+      "type": "character",
+      "partitions": [
+        "ssn202409_msbp_ind"
+      ]
+    },
+    {
+      "code": "NUINFORT",
+      "label": "NOMOR URUT PEMBERI INFORMASI BLOK PERUMAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "PSU",
+      "label": "PROBABILITY SAMPLING UNIT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "SSU",
+      "label": "SECONDARY SAMPLING UNIT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "STRATA",
+      "label": "STRATA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "URUT",
+      "label": "RENUMBERING NURT SELINDO",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "WI1",
+      "label": "RENUMBERING NKS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    },
+    {
+      "code": "WI2",
+      "label": "RENUMBERING NURT SELINDO",
+      "type": "numeric",
+      "partitions": [
+        "ssn202409_msbp_ind",
+        "ssn202409_msbp_rt"
+      ]
+    }
+  ]
+}
