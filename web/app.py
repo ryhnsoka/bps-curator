@@ -139,3 +139,89 @@ st.markdown(
 con = init_db()
 catalog = load_catalog()
 menu = st.radio("Navigasi", ["Katalog", "Kurasi"], horizontal=True, label_visibility="collapsed")
+
+# ---------------- KATALOG ----------------
+if menu == "Katalog":
+    st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
+    q = st.text_input("Cari survei / periode / variabel / label",
+                      "", help="Label ikut dicari, bukan cuma kode variabel")
+    rows = [{"Survei": c["survey"], "Periode": c["period"], "Jumlah Variabel": c["n_vars"],
+             "Jumlah Partisi": c["n_partitions"], "Wajib": c["mandatory"]} for c in catalog]
+    if q:
+        qf, ql = normalize_code(q), q.lower()
+        hit = set()
+        var_hits = []
+        if qf:
+            for r in con.execute(
+                    "SELECT m.survey_id, m.period, v.code, v.label FROM variables v "
+                    "JOIN masters m ON m.drive_id = v.master_id "
+                    "WHERE v.fold LIKE '%' || ? || '%' OR LOWER(v.label) LIKE '%' || ? || '%'"
+                    " ORDER BY m.survey_id, m.period, v.code LIMIT 200",
+                    (qf, ql)):
+                hit.add((r["survey_id"], r["period"]))
+                var_hits.append({"Variabel": r["code"], "Label": r["label"],
+                                 "Survei": r["survey_id"], "Periode": r["period"]})
+        rows = [r for r in rows
+                if q.lower() in (r["Survei"] + " " + r["Periode"]).lower()
+                or (r["Survei"], r["Periode"]) in hit]
+        st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
+                   unsafe_allow_html=True)
+        if var_hits:
+            st.write("**Variabel cocok (nama + label):**")
+            st.dataframe(var_hits, use_container_width=True, hide_index=True)
+    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.markdown("</div>", unsafe_allow_html=True)
+
+# ---------------- KURASI ----------------
+else:
+    labels = [f"{c['survey']} — {c['period']}" for c in catalog]
+    pick = st.selectbox("Pilih Survei Master", labels)
+    entry = catalog[labels.index(pick)]
+    m = load_master_vars(entry["file"])
+    st.markdown(f"<div class='card'><h4 style='margin-top:0;'>Informasi Dataset</h4>"
+                f"<span class='badge'>Total Variabel: {m['n_variables']}</span> "
+                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span></div>",
+                unsafe_allow_html=True)
+
+    req_text = st.text_area("Tempel Daftar Variabel (pisahkan dengan spasi, koma, atau baris baru)",
+                            height=130,
+                            help="Tak perlu centang — tempel daftar lalu tekan Proses")
+    req = [t for t in re.split(r"[\s,;]+", req_text) if t]
+    if req:
+        st.caption(f"<span class='badge'>{len(req)} variabel ditempel</span>", unsafe_allow_html=True)
+    if st.button("Proses Kurasi", disabled=not req):
+        c = curate(req, m)
+        do, txt = generate_do(c, m), generate_readme(c, m)
+        mid = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
+                          (m["survey_id"], m["period"])).fetchone()
+        log_request(con, mid["drive_id"] if mid else "", None, req, c)
+        s1, s2, s3 = st.columns(3)
+        s1.metric("Ditemukan", len(c["found"]))
+        s2.metric("Hilang", len(c["missing"]))
+        s3.metric("Wajib ditambah", len(c["mandatory_added"]))
+        if c["missing"]:
+            st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
+        st.markdown("<div class='card'>", unsafe_allow_html=True)
+        st.markdown("#### Pemetaan Variabel Valid")
+        st.dataframe([{"Kode": v["code"], "Label": v["label"]}
+                      for v in sorted(c["found"], key=lambda x: x["code"])],
+                     use_container_width=True, hide_index=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+        st.markdown("#### Detail Partisi")
+        for p in kept_partitions(c, m):
+            st.markdown(
+                f"<div class='card'><div style='font-weight:700;margin-bottom:.3rem;'>Partisi: {p}</div>"
+                f"<div class='codebox'><div class='lbl'>Kode Variabel:</div>"
+                f"<code>{' '.join(c['grouped'][p])}</code></div></div>", unsafe_allow_html=True)
+        st.markdown("#### Preview Output")
+        t1, t2 = st.tabs(["Kode Stata (.do)", "README (.txt)"])
+        with t1:
+            st.code(do, language="stata")
+        with t2:
+            st.text(txt)
+        st.markdown("#### Unduh Hasil")
+        d1, d2 = st.columns(2)
+        with d1:
+            st.download_button("Unduh Kode Stata (.do)", do, file_name="kurasi.do")
+        with d2:
+            st.download_button("Unduh Metadata (README.txt)", txt, file_name="kurasi_README.txt")
