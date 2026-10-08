@@ -1,0 +1,631 @@
+{
+  "survey_id": "PODES",
+  "period": "2021 Kecamatan",
+  "source_file": "z.xlsx",
+  "kamus_sheet": "KETERANGAN DATA",
+  "n_variables": 77,
+  "partitions": [
+    "podes2021_kec"
+  ],
+  "mandatory": [
+    "WILKECAMAT"
+  ],
+  "variables": [
+    {
+      "code": "WILPROV",
+      "label": "KODE PROVINSI",
+      "type": "character",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "WILKAB",
+      "label": "KODE KABUPATEN/KOTA",
+      "type": "character",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "WILKEC",
+      "label": "KODE KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "WILKECAMAT",
+      "label": "KODE KECAMATAN – NAMA KECAMATAN",
+      "type": "character",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R303",
+      "label": "KECAMATAN DITETAPKAN SEBAGAI KECAMATAN PESISIR :",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R304A",
+      "label": "KEBERADAAN PERMUKIMAN DI ATAS PERMUKAAN AIR LAUT :",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R304B",
+      "label": "KEBERADAAN PERMUKIMAN DI ATAS PERMUKAAN AIR SUNGAI/DANAU :",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401AK2",
+      "label": "KEBERADAAN PANTI ASUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401AK3",
+      "label": "JUMLAH PANTI ASUHAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401BK2",
+      "label": "KEBERADAAN PANTI WREDA/JOMPO",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401BK3",
+      "label": "JUMLAH PANTI WREDA/JOMPO",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401CK2",
+      "label": "KEBERADAAN PANTI CACAT (MISAL YPAC, PANTI SOSIAL BINA NETRA, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R401CK3",
+      "label": "JUMLAH PANTI CACAT (MISAL YPAC, PANTI SOSIAL BINA NETRA, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R501A",
+      "label": "JUMLAH BINTARA PEMBINA DESA (BABINSA)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R501B",
+      "label": "JUMLAH BINTARA PEMBINA KEAMANAN DAN KETERTIBAN MASYARAKAT (BABINKAMTIBMAS)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601AK2",
+      "label": "KEBERADAAN GEDUNG BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601AK3",
+      "label": "JUMLAH GEDUNG BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601BK2",
+      "label": "KEBERADAAN JEMBATAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601BK3",
+      "label": "JUMLAH JEMBATAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601CK2",
+      "label": "KEBERADAAN CANDI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601CK3",
+      "label": "JUMLAH CANDI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601DK2",
+      "label": "KEBERADAAN PELABUHAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601DK3",
+      "label": "JUMLAH PELABUHAN BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601EK2",
+      "label": "KEBERADAAN STASIUN KERETA API BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601EK3",
+      "label": "JUMLAH STASIUN KERETA API BERSEJARAH",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601FK2",
+      "label": "KEBERADAAN TEMPAT IBADAH BERSEJARAH (TEMPAT IBADAH KUNO, PETILASAN, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601FK3",
+      "label": "JUMLAH TEMPAT IBADAH BERSEJARAH (TEMPAT IBADAH KUNO, PETILASAN, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601GK2",
+      "label": "KEBERADAAN SITUS BERSEJARAH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R601GK3",
+      "label": "JUMLAH SITUS BERSEJARAH LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R701A",
+      "label": "KEBERADAAN DESA WISATA YANG DITETAPKAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R701B1",
+      "label": "JUMLAH DESA WISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702AK2",
+      "label": "KEBERADAAN KEBUN BINATANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702AK3",
+      "label": "JUMLAH KEBUN BINATANG",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702BK2",
+      "label": "KEBERADAAN WISATA TIRTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702BK3",
+      "label": "JUMLAH WISATA TIRTA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702CK2",
+      "label": "KEBERADAAN AGROWISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702CK3",
+      "label": "JUMLAH AGROWISATA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702DK2",
+      "label": "KEBERADAAN WISATA BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702DK3",
+      "label": "JUMLAH WISATA BUDAYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702EK2",
+      "label": "KEBERADAAN TAMAN REKREASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702EK3",
+      "label": "JUMLAH TAMAN REKREASI",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702FK2",
+      "label": "KEBERADAAN WISATA ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702FK3",
+      "label": "JUMLAH WISATA ALAM",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702GK2",
+      "label": "KEBERADAAN DAYA TARIK WISATA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R702GK3",
+      "label": "JUMLAH DAYA TARIK WISATA LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R802AK2",
+      "label": "KEBERADAAN SUPERMARKET/PASAR SWALAYAN/TOSERBA/MAL/PLAZA/ PUSAT PERBELANJAAN MODERN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R802AK3",
+      "label": "JUMLAH SUPERMARKET/PASAR SWALAYAN/TOSERBA/MAL/PLAZA/ PUSAT PERBELANJAAN MODERN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R802BK2",
+      "label": "KEBERADAAN STASIUN PENGISIAN BAHAN BAKAR UMUM (SPBU)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R802BK3",
+      "label": "JUMLAH STASIUN PENGISIAN BAHAN BAKAR UMUM (SPBU)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803A",
+      "label": "KEBERADAAN PASAR TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B1K2",
+      "label": "JUMLAH PASAR KHUSUS HEWAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B2K2",
+      "label": "JUMLAH PASAR KHUSUS BUAH DAN SAYURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B3K2",
+      "label": "JUMLAH PASAR KHUSUS BERAS",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B4K2",
+      "label": "JUMLAH PASAR KHUSUS PALAWIJA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B5K1",
+      "label": "PASAR KHUSUS LAINNYA ................................. (TULISKAN)",
+      "type": "character",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B5K2",
+      "label": "JUMLAH PASAR KHUSUS LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R803B6K2",
+      "label": "JUMLAH PASAR CAMPURAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R804A",
+      "label": "PELABUHAN PERIKANAN (PP) ATAU PANGKALAN PENDARATAN IKAN (PPI)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R804B",
+      "label": "TEMPAT PELELANGAN IKAN (TPI)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901A",
+      "label": "JUMLAH ORGANISASI KEMASYARAKATAN (NU, MUHAMMADIYAH, KNPI, FATAYAT, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901B",
+      "label": "JUMLAH PARTAI POLITIK",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901C",
+      "label": "JUMLAH ORGANISASI SOSIAL (PANTI ASUHAN, PANTI WREDA, PANTI REHABILITASI CACAT, KARANG TARUNA, DLL.)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901D",
+      "label": "JUMLAH ORGANISASI PROFESI (IDI, ISEI, ISI, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901E",
+      "label": "JUMLAH PERKUMPULAN SOSIAL/KEBUDAYAAN/OLAHRAGA/HOBI (ORARI, IMI, PADEPOKAN SENI, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901F",
+      "label": "JUMLAH LEMBAGA SWADAYA MASYARAKAT (LSP, WALHI, YLBHI, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901G",
+      "label": "JUMLAH LEMBAGA KEAGAMAAN (MUI, PGI, KWI, WALUBI, PARISADHA HINDU DHARMA INDONESIA)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R901H",
+      "label": "JUMLAH ORGANISASI BANTUAN KEMANUSIAAN/BEASISWA (PMI, YAYASAN KANKER INDONESIA, DLL)",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1001A",
+      "label": "KENDARAAN PEMADAM KEBAKARAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1001B",
+      "label": "SIMULASI BENCANA ALAM SELAMA 3 TAHUN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101AK2",
+      "label": "KEBERADAAN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101AK3",
+      "label": "UMUR CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101AK4",
+      "label": "JENIS KELAMIN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101AK5",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN CAMAT",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101BK2",
+      "label": "KEBERADAAN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101BK3",
+      "label": "UMUR SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101BK4",
+      "label": "JENIS KELAMIN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    },
+    {
+      "code": "R1101BK5",
+      "label": "PENDIDIKAN TERTINGGI YANG DITAMATKAN SEKRETARIS KECAMATAN",
+      "type": "numeric",
+      "partitions": [
+        "podes2021_kec"
+      ]
+    }
+  ]
+}
