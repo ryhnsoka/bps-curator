@@ -1,0 +1,1512 @@
+{
+  "survey_id": "STPIM",
+  "period": "2018",
+  "source_file": "104Lby7FrsiBtSSDEVXDs4x7_RRDHaw3p.xlsx",
+  "kamus_sheet": "Master Survei Tahunan STPIM 201",
+  "n_variables": 187,
+  "partitions": [
+    "mfg18e_kbli"
+  ],
+  "mandatory": [
+    "RENUM",
+    "DISIC518"
+  ],
+  "variables": [
+    {
+      "code": "JAN",
+      "label": "APAKAH JANUARI PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "FEB",
+      "label": "APAKAH FEBRUARI PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "MAR",
+      "label": "APAKAH MARET PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "APR",
+      "label": "APAKAH APRIL PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "MEI",
+      "label": "APAKAH MEI PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "JUN",
+      "label": "APAKAH JUNI PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "JUL",
+      "label": "APAKAH JULI PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "AGS",
+      "label": "APAKAH AGUSTUS PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SEP",
+      "label": "APAKAH SEPTEMBER PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "OKT",
+      "label": "APAKAH OKTOBER PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "NOP",
+      "label": "APAKAH NOVEMBER PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DES",
+      "label": "APAKAH DESEMBER PERUSAHAAN MELAKUKAN KEGIATAN PRODUKSI",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YEAR",
+      "label": "JUMLAH BULAN PRODUKSI DALAM SETAHUN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DISIC518",
+      "label": "KBLI 2 DIGIT",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DSTATS18",
+      "label": "STATUS PENANAMAN MODAL",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DPUSAT18",
+      "label": "PERSENTASE PERMODALAN PEMERINTAH PUSAT",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DPEMDA18",
+      "label": "PERSENTASE PERMODALAN PEMERINTAH DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DDMSTK18",
+      "label": "PERSENTASE PERMODALAN SWASTA NASIONAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DASING18",
+      "label": "PERSENTASE PERMODALAN ASING",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRRMSM18",
+      "label": "PERSENTASE BAHAN BAKU YANG DIGUNAKAN SELAMA TAHUN 2018 YANG BERASAL DARI DALAM SATU KABUPATEN/KOTA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRRMSP18",
+      "label": "PERSENTASE BAHAN BAKU YANG DIGUNAKAN SELAMA TAHUN 2018 YANG BERASAL DARI KAB/KOTA LAIN DALAM SATU PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRRMOP18",
+      "label": "PERSENTASE BAHAN BAKU YANG DIGUNAKAN SELAMA TAHUN 2018 YANG BERASAL DARI PROVINSI LAIN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRRMOC18",
+      "label": "PERSENTASE BAHAN BAKU YANG DIGUNAKAN SELAMA TAHUN 2018 YANG BERASAL DARI LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYRSM18",
+      "label": "PERSENTASE NILAI BARANG/JASA YANG DIJUAL SELAMA TAHUN 2018 KE DALAM NEGERI (DALAM SATU KABUPATEN/KOTA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYRSP18",
+      "label": "PERSENTASE NILAI BARANG/JASA YANG DIJUAL SELAMA TAHUN 2018 KE DALAM NEGERI (KAB/KOTA LAIN DALAM SATU PROVINSI)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYROP18",
+      "label": "PERSENTASE NILAI BARANG/JASA YANG DIJUAL SELAMA TAHUN 2018 KE DALAM NEGERI (PROVINSI LAIN)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYROC18",
+      "label": "PERSENTASE NILAI BARANG/JASA YANG DIJUAL SELAMA TAHUN 2018 KE LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYRSG18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (PERUSAHAAN DALAM SATU GRUP)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYROM18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (PERUSAHAAN INDUSTRI PENGOLAHAN LAINNYA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYRWH18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (PEDAGANG BESAR (EKSPORTIR, DISTRIBUTOR, AGEN, GROSIR))",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYRIN18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (PEMERINTAH/INSTITUSI))",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYROT18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (LAINNYA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRYROD18",
+      "label": "PERSENTASE PENJUALAN BARANG/JASA MENURUT JENIS KONSUMEN SELAMA TAHUN 2018 (LAINNYA, TULISKAN……...)",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SNI18",
+      "label": "APAKAH PERUSAHAAN MEMILIKI SERTIFIKAT STANDAR NASIONAL INDONESIA (SNI)",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SNIPRO18",
+      "label": "STANDAR NASIONAL INDONESIA (SNI) YANG DITERAPKAN PADA PERUSAHAAN (SNI PRODUK)",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SNIMAN18",
+      "label": "STANDAR NASIONAL INDONESIA (SNI) YANG DITERAPKAN PADA PERUSAHAAN (SNI MANAJEMEN)",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SNIOTH18",
+      "label": "STANDAR NASIONAL INDONESIA (SNI) YANG DITERAPKAN PADA PERUSAHAAN (SNI LAINNYA (METODE UJI, PROSES, PERSON, DLL)))",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RND18",
+      "label": "APAKAH SELAMA TAHUN 2018 PERUSAHAAN MELAKUKAN SENDIRI KEGIATAN PENELITIAN DAN PENGEMBANGAN (R &amp; D)?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "COSTRD18",
+      "label": "APAKAH PERUSAHAAN MEMBIAYAI KEGIATAN PENELITIAN DAN PENGEMBANGAN (R&amp;D) YANG DILAKUKAN OLEH PIHAK LAIN?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INOPRD18",
+      "label": "APAKAH PADA TAHUN 2018 PERUSAHAAN MELAKUKAN INOVASI DALAM HAL PRODUK?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INOPCS18",
+      "label": "APAKAH PADA TAHUN 2018 PERUSAHAAN MELAKUKAN INOVASI DALAM HAL PROSES?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INOMKT18",
+      "label": "APAKAH PADA TAHUN 2018 PERUSAHAAN MELAKUKAN INOVASI DALAM HAL PEMASARAN?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INOORG18",
+      "label": "APAKAH PADA TAHUN 2018 PERUSAHAAN MELAKUKAN INOVASI DALAM HAL ORGANISASI/MANAJERIAL?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPMNOL18",
+      "label": "BANYAKNYA PEKERJA PRODUKSI LOKAL LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPMNOF18",
+      "label": "BANYAKNYA PEKERJA PRODUKSI ASING LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNMNOL18",
+      "label": "BANYAKNYA PEKERJA LAINNYA LOKAL LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNMNOF18",
+      "label": "BANYAKNYA PEKERJA LAINNYA ASING LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LFMNOU18",
+      "label": "BANYAKNYA PEKERJA TIDAK DIBAYAR LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LTMNOU18",
+      "label": "JUMLAH PEKERJA LAKI-LAKI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPWNOL18",
+      "label": "BANYAKNYA PEKERJA PRODUKSI LOKAL PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPWNOF18",
+      "label": "BANYAKNYA PEKERJA PRODUKSI ASING PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNWNOL18",
+      "label": "BANYAKNYA PEKERJA LAINNYA LOKAL PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNWNOF18",
+      "label": "BANYAKNYA PEKERJA LAINNYA ASING PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LFWNOU18",
+      "label": "BANYAKNYA PEKERJA TIDAK DIBAYAR PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LTWNOU18",
+      "label": "JUMLAH PEKERJA PEREMPUAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPRNOL18",
+      "label": "JUMLAH PEKERJA PRODUKSI LOKAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LPRNOF18",
+      "label": "JUMLAH PEKERJA PRODUKSI ASING",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNPNOL18",
+      "label": "JUMLAH PEKERJA LAINNYA LOKAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LNPNOF18",
+      "label": "JUMLAH PEKERJA LAINNYA ASING",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LFANOU18",
+      "label": "JUMLAH PEKERJA TIDAK DIBAYAR",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LTLNOU18",
+      "label": "TOTAL JUMLAH PEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "LTLRND18",
+      "label": "JUMLAH PEKERJA KHUSUS PADA BIDANG PENELITIAN DAN PENGEMBANGAN (R&amp;D)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPSVCU18",
+      "label": "UPAH/GAJI PEKERJA PRODUKSI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNSVCU18",
+      "label": "UPAH/GAJI PEKERJA LAINNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPOVCU18",
+      "label": "UPAH LEMBUR PEKERJA PRODUKSI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNOVCU18",
+      "label": "UPAH LEMBURPEKERJA LAINNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPIVCU18",
+      "label": "HADIAH/BONUS, DAN SEJENISNYA PEKERJA PRODUKSI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNIVCU18",
+      "label": "HADIAH/BONUS, DAN SEJENISNYA PEKERJA LAINNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPPVCU18",
+      "label": "IURAN PENSIUN, TUNJANGAN SOSIAL, ASURANSI DAN TUNJANGAN KESEHATAN PEKERJA PRODUKSI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNPVCU18",
+      "label": "IURAN PENSIUN, TUNJANGAN SOSIAL, ASURANSI DAN TUNJANGAN KESEHATAN PEKERJA LAINNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPAVCU18",
+      "label": "TUNJANGAN KECELAKAAN PEKERJA PRODUKSI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNAVCU18",
+      "label": "TUNJANGAN KECELAKAAN PEKERJA LAINNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZPDVCU18",
+      "label": "JUMLAH PENGELUARAN UNTUK PEKERJA PRODUKSI YANG DIBAYAR SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ZNDVCU18",
+      "label": "JUMLAH PENGELUARAN UNTUK PEKERJA LAINNYA YANG DIBAYAR SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPELIU18",
+      "label": "BANYAKNYA SELURUH BENSIN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPEVCU18",
+      "label": "NILAI SELURUH BENSIN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPELIE18",
+      "label": "BANYAKNYA BENSIN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPEVCE18",
+      "label": "NILAI BENSIN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ESOLIU18",
+      "label": "BANYAKNYA SELURUH SOLAR/HSD/ADO YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ESOVCU18",
+      "label": "NILAI SELURUH SOLAR/HSD/ADO YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ESOLIE18",
+      "label": "BANYAKNYA SOLAR/HSD/ADO UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ESOVCE18",
+      "label": "NILAI SOLAR/HSD/ADO UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECLKGU18",
+      "label": "BANYAKNYA SELURUH BATUBARA YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECLVCU18",
+      "label": "NILAI SELURUH BATUBARA YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECLKGE18",
+      "label": "BANYAKNYA BATUBARA UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECLVCE18",
+      "label": "NILAI BATUBARA UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECBKGU18",
+      "label": "BANYAKNYA SELURUH BRIKET BATUBARA YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ECBVCU18",
+      "label": "NILAI SELURUH BRIKET BATUBARA YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGAM3U18",
+      "label": "BANYAKNYA SELURUH GAS DARI PGN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGAVCU18",
+      "label": "NILAI SELURUH GAS DARI PGN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGAM3E18",
+      "label": "BANYAKNYA GAS DARI PGN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGAVCE18",
+      "label": "NILAI GAS DARI PGN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGOM3U18",
+      "label": "BANYAKNYA SELURUH GAS BUKAN DARI PGN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGOVCU18",
+      "label": "NILAI SELURUH GAS BUKAN DARI PGN YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGOM3E18",
+      "label": "BANYAKNYA GAS BUKAN DARI PGN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EGOVCE18",
+      "label": "NILAI GAS BUKAN DARI PGN UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELPKGU18",
+      "label": "BANYAKNYA SELURUH LPG YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELPVCU18",
+      "label": "NILAI SELURUH LPG YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ENCVCU18",
+      "label": "NILAI SELURUH BAHAN BAKAR LAINNYA YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELULIU18",
+      "label": "BANYAKNYA SELURUH PELUMAS YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELUVCU18",
+      "label": "NILAI SELURUH PELUMAS YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELULIE18",
+      "label": "BANYAKNYA PELUMAS UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ELUVCE18",
+      "label": "NILAI PELUMAS UNTUK PEMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EFUVCU18",
+      "label": "NILAI JUMLAH DARI SELURUH BAHAN BAKAR DAN PELUMAS YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EFUVCE18",
+      "label": "NILAI JUMLAH DARI BAHAN BAKAR DAN PELUMAS UNTUK EMBANGKIT TENAGA LISTRIK YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPLKHU18",
+      "label": "BANYAKNYA LISTRIK YANG DIBELI DARI PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EPLVCU18",
+      "label": "NILAI LISTRIK YANG DIBELI DARI PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ENPKHU18",
+      "label": "BANYAKNYA LISTRIK YANG DIBELI DARI NON PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ENPVCU18",
+      "label": "NILAI LISTRIK YANG DIBELI DARI NON PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ESGKHU18",
+      "label": "BANYAKNYA LISTRIK YANG DIBANGKITKAN SENDIRI OLEH PERUSAHAAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "MGENOU18",
+      "label": "BANYAKNYA GENERATOR YANG DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "MGEKWU18",
+      "label": "KEKUATAN GENERATOR YANG DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "OELKHU18",
+      "label": "BANYAKNYA TENAGA LISTRIK YANG DIJUAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YELVCU18",
+      "label": "NILAI TENAGA LISTRIK YANG DIJUAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IBRVCU18",
+      "label": "NILAI PENGELUARAN SEWA GEDUNG, MESIN, SERTA ALAT-ALAT SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ILRVCU18",
+      "label": "NILAI PENGELUARAN SEWA TANAH SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ITXVCU18",
+      "label": "NILAI PENGELUARAN PAJAK/TAX (TIDKA TERMASUK :PAJAK UPAH, PAJAK PERSEORANGAN)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IISLOV18",
+      "label": "NILAI PENGELUARAN JASA INDUSTRI (MAKLON) YANG DIBAYARKAN KE PIHAK LAIN DI DALAM NEGERI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IISFOV18",
+      "label": "NILAI PENGELUARAN JASA INDUSTRI (MAKLON) YANG DIBAYARKAN KE PIHAK LAIN KE LUAR NEGERI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IINVCU18",
+      "label": "NILAI PENGELUARAN BUNGA ATAS PINJAMAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "ICOVCU18",
+      "label": "NILAI PENGELUARAN HADIAH, SUMBANGAN, DERMA DAN SEJENISNYA SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IRRVCU18",
+      "label": "NILAI PENGELUARAN BIAYA REPRESENTASI DAN ROYALTI SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IDEVCU18",
+      "label": "NILAI PENGELUARAN DEVIDEN/LABA YANG DIBAGIKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IPRVCU18",
+      "label": "NILAI PENGELUARAN PREMI ASURANSI KERUGIAN YANG DIBAYARKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IRDVCU18",
+      "label": "NILAI PENGELUARAN BIAYA PENELITIAN DAN PENGEMBANGAN (R&amp;D) SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IKIVCU18",
+      "label": "NILAI PENGELUARAN KEKAYAAN INTELEKTUAL (PATEN, MERK, HAK CIPTA, DESAIN INDUSTRI) SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IOTVCU18",
+      "label": "NILAI PENGLUARAN LAINNYA (KEMASAN, SUKU CADANG, ATK, PEMELIHARAAN KECIL BARANG MODAL) SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IT1VCU18",
+      "label": "JUMLAH NILAI PENGELUARAN LAIN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RDNVCU18",
+      "label": "NILAI JUMLAH BAHAN BAKU DAN BAHAN PENOLONG PRODUKSI DALAM NEGERI YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RIMVCU18",
+      "label": "NILAI JUMLAH BAHAN BAKU DAN BAHAN PENOLONG IMPOR YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RTLVCU18",
+      "label": "TOTAL NILAI JUMLAH BAHAN BAKU DAN BAHAN PENOLONG YANG DIGUNAKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EKSPOR18",
+      "label": "APAKAH ADA PRODUKSI YANG DIEKSPOR, BAIK YANG DIEKSPOR SENDIRI ATAU PIHAK LAIN?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "EXSRTL18",
+      "label": "APAKAH ADA PRODUKSI YANG DIEKSPOR KE PEMASOK BAHAN BAKU?",
+      "type": "character",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YPRVCU18",
+      "label": "NILAI TOTAL BARANG YANG DIHASILKAN SELAMA TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "PRPRCA18",
+      "label": "PERSENTASE REALISASI PRODUKSI SELAMA TAHUN 2018 TERHADAP KAPASITAS TERPASANG",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YISVDO18",
+      "label": "PENDAPATAN DARI JASA INDUSTRI (MAKLOON) DARI DALAM NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YISVFO18",
+      "label": "PENDAPATAN DARI JASA INDUSTRI (MAKLOON) DARI LUAR NEGERI",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YISVCU18",
+      "label": "NILAI JUMLAH PENDAPATAN DARI JASA INDUSTRI (MAKLOON)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YRNVCU18",
+      "label": "PENDAPATAN LAINNYA ( KEUNTUNGAN PENJUALAN BARANG YANG TIDAK DIPROSES, JASA-JASA NON INDUSTRI LAINNYA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "YT1VCU18",
+      "label": "NILAI DARI JUMLAH PENDAPATAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "DEVVCU18",
+      "label": "PENDAPATAN NON OPERASIONAL ( LABA/DEVIDEN YANG DITERIMA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INTVCU18",
+      "label": "PENDAPATAN NON OPERASIONAL ( BUNGA ATAS SIMPANAN DAN PIUTANG)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RENVCU18",
+      "label": "PENDAPATAN NON OPERASIONAL ( PENDAPATAN DARI SEWA LAHAN)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "INSVCU18",
+      "label": "PENDAPATAN NON OPERASIONAL ( KLAIM ASURANSI KERUGIAN YANG DITERIMA)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "NOPVCU18",
+      "label": "NILAI JUMLAH PENDAPATAN NON OPERASIONAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SRJVCU18",
+      "label": "NILAI STOK BAHAN BAKU, BAHAN PENOLONG, BAHAN BAKAR, BAHAN PEMBUNGKUS DAN LAIN-LAIN DI AWAL TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SRDVCU18",
+      "label": "NILAI STOK BAHAN BAKU, BAHAN PENOLONG, BAHAN BAKAR, BAHAN PEMBUNGKUS DAN LAIN-LAIN DI AKHIR TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SHJVCU18",
+      "label": "NILAI STOK BARANG PRODUKSI SETENGAH JADI (DINILAI SESUAI DENGAN NILAI BAHAN BAKU DITAMBAH NILAI PEKERJAAN YANG DILAKUKAN) DI AWAL TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SHDVCU18",
+      "label": "NILAI STOK BARANG PRODUKSI SETENGAH JADI (DINILAI SESUAI DENGAN NILAI BAHAN BAKU DITAMBAH NILAI PEKERJAAN YANG DILAKUKAN) DI AKHIR TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SFJVCU18",
+      "label": "NILAI STOK BARANG JADI YANG DIHASILKAN DI AWAL TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SFDVCU18",
+      "label": "NILAI STOK BARANG JADI YANG DIHASILKAN DI AKHIR TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "STJVCU18",
+      "label": "JUMLAH NILAI STOK PADA AWAL TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "STDVCU18",
+      "label": "JUMLAH NILAI STOK PADA AKHIR TAHUN 2018",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CLTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR TANAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CLSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL TANAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1101",
+      "label": "NILAI TAKSIRAN TANAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CBTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR GEDUNG",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CBSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL GEDUNG",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CBDACU18",
+      "label": "NILAI PENYUSUTAN BARANG MODAL GEDUNG",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1103",
+      "label": "NILAI TAKSIRAN GEDUNG",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CMTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR MESIN DAN PERLENGKAPAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CMSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL MESIN DAN PERLENGKAPAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CMDACU18",
+      "label": "NILAI PENYUSUTAN BARANG MODAL MESIN DAN PERLENGKAPAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1106",
+      "label": "NILAI TAKSIRAN MEISN DAN PERLENGKAPAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CVTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR KENDARAAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CVSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL KENDARAAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CVDACU18",
+      "label": "NILAI PENYUSUTAN BARANG MODAL KENDARAAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1109",
+      "label": "NILAI TAKSIRAN KENDARAAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CSTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR SOFTWARE/DATABASE",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CSSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL SOFTWARE/DATABASE",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1110",
+      "label": "NILAI TAKSIRAN SOFTWARE/DATABASE",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "COTTCU18",
+      "label": "NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "COSACU18",
+      "label": "NILAI PENJUALAN/PENGURANGAN BARANG MODAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CODACU18",
+      "label": "NILAI PENYUSUTAN BARANG MODAL LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1112",
+      "label": "NILAI TAKSIRAN BARANG MODAL TETAP LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CTTTCU18",
+      "label": "JUMLAH NILAI PEMBELIAN/PENAMBAHAN DAN PEMBUATAN/PERBAIKAN BESAR SELURUH BARANG MODAL TETAP",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CTSACU18",
+      "label": "JUMLAH NILAI PENJUALAN/PENGURANGAN SELURUH BARANG MODAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "CTDACU18",
+      "label": "JUMLAH NILAI PENYUSUTAN BARANG MODAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "V1115",
+      "label": "JUMLAH NILAI TAKSIRAN BARANG MODAL",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "OUTPUT18",
+      "label": "TOTAL PENDAPATAN",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "IINPUT18",
+      "label": "HASIL DARI PENGURANGAN PENDAPATAN DENGAN NILAI TAMBAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "VTLVCU18",
+      "label": "TOTAL NILAI TAMBAH",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SHFVCU18",
+      "label": "NILAI STOK BARANG PRODUK SETENGAH JADI DI AWAL DAN AKHIR (AKHIR-AWAL)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SRMVCU18",
+      "label": "NILAI STOK BAHAN BAKU, BAHAN PENOLONG, BAHAN BAKAR, BAHAN PEMBUNGKUS DAN LAIN-LAIN DI AWAL DAN AKHIR (AKHIR-AWAL)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "SFNVCU18",
+      "label": "NILAI STOK BARANG JADI YANG DIHASILKAN DI AWAL DAN AKHIR (AKHIR-AWAL)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "STLVCU18",
+      "label": "JUMLAH STOK AWAL DAN AKHIR (AKHIR-AWAL)",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "IDENTITAS HASIL RENUMBERING",
+      "type": "numeric",
+      "partitions": [
+        "mfg18e_kbli"
+      ]
+    }
+  ]
+}

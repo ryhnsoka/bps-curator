@@ -1,0 +1,3818 @@
+{
+  "survey_id": "SUSENAS",
+  "period": "2023 KOR",
+  "source_file": "1yiRAImQs6sADaxCX3CIlP50korfUQ0Ho.xlsx",
+  "kamus_sheet": "MASTER DATA ",
+  "n_variables": 468,
+  "partitions": [
+    "ssn202303kor_ind_1",
+    "ssn202303kor_ind_2",
+    "ssn202303kor_rt"
+  ],
+  "mandatory": {
+    "RT": [
+      "URUT",
+      "PSU",
+      "SSU",
+      "WI1",
+      "WI2",
+      "R101",
+      "R102",
+      "R105",
+      "NUINFORT",
+      "NUINFORT1",
+      "FWT"
+    ],
+    "IND": [
+      "URUT",
+      "PSU",
+      "SSU",
+      "WI1",
+      "WI2",
+      "R101",
+      "R102",
+      "R105",
+      "R401",
+      "R403",
+      "R404",
+      "R405",
+      "R407",
+      "R406A",
+      "R406B",
+      "R406C",
+      "R410",
+      "R502",
+      "R601",
+      "R602",
+      "FWT"
+    ]
+  },
+  "variables": [
+    {
+      "code": "R1207",
+      "label": "APAKAH MEROKOK TEMBAKAU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1208",
+      "label": "BERAPA BATANG ROKOK RATA RATA PER MINGGU YANG DIHISAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1209",
+      "label": "APAKAH DULU PERNAH MEROKOK TEMBAKAU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1401",
+      "label": "UMUR BALITA DALAM BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1402",
+      "label": "APAKAH MEMPUNYAI BUKU KIA KMS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1403",
+      "label": "APAKAH PERNAH MEMPUNYAI BUKU KIA KMS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404A_BLN",
+      "label": "BULAN DIIMUNISASI HEPATITIS B 24 JAM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404A_TGL",
+      "label": "TANGGAL DIIMUNISASI HEPATITIS B 24 JAM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404A_THN",
+      "label": "TAHUN DIIMUNISASI HEPATITIS B 24 JAM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404B_BLN",
+      "label": "BULAN DIIMUNISASI BCG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404B_TGL",
+      "label": "TANGGAL DIIMUNISASI BCG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404B_THN",
+      "label": "TAHUN DIIMUNISASI BCG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404C_BLN",
+      "label": "BULAN DIIMUNISASI POLIO TETES 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404C_TGL",
+      "label": "TANGGAL DIIMUNISASI POLIO TETES 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404C_THN",
+      "label": "TAHUN DIIMUNISASI POLIO TETES 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404D_BLN",
+      "label": "BULAN DIIMUNISASI DPT HB HIB 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404D_TGL",
+      "label": "TANGGAL DIIMUNISASI DPT HB HIB 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404D_THN",
+      "label": "TAHUN DIIMUNISASI DPT HB HIB 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404E_BLN",
+      "label": "BULAN DIIMUNISASI POLIO TETES 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404E_TGL",
+      "label": "TANGGAL DIIMUNISASI POLIO TETES 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404E_THN",
+      "label": "TAHUN DIIMUNISASI POLIO TETES 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404F_BLN",
+      "label": "BULAN DIIMUNISASI DPT HB HIB 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404F_TGL",
+      "label": "TANGGAL DIIMUNISASI DPT HB HIB 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404F_THN",
+      "label": "TAHUN DIIMUNISASI DPT HB HIB 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404G_BLN",
+      "label": "BULAN DIIMUNISASI POLIO TETES 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404G_TGL",
+      "label": "TANGGAL DIIMUNISASI POLIO TETES 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404G_THN",
+      "label": "TAHUN DIIMUNISASI POLIO TETES 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404H_BLN",
+      "label": "BULAN DIIMUNISASI DPT HB HIB 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404H_TGL",
+      "label": "TANGGAL DIIMUNISASI DPT HB HIB 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404H_THN",
+      "label": "TAHUN DIIMUNISASI DPT HB HIB 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404I_BLN",
+      "label": "BULAN DIIMUNISASI POLIO TETES 4",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404I_TGL",
+      "label": "TANGGAL DIIMUNISASI POLIO TETES 4",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404I_THN",
+      "label": "TAHUN DIIMUNISASI POLIO TETES 4",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404J_BLN",
+      "label": "BULAN DIIMUNISASI POLIO SUNTIK IPV",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404J_TGL",
+      "label": "TANGGAL DIIMUNISASI POLIO SUNTIK IPV",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404J_THN",
+      "label": "TAHUN DIIMUNISASI POLIO SUNTIK IPV",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404K_BLN",
+      "label": "BULAN DIIMUNISASI CAMPAK RUBELLA MR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404K_TGL",
+      "label": "TANGGAL DIIMUNISASI CAMPAK RUBELLA MR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404K_THN",
+      "label": "TAHUN DIIMUNISASI CAMPAK RUBELLA MR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404L_BLN",
+      "label": "BULAN DIIMUNISASI DPT HB HIB LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404L_TGL",
+      "label": "TANGGAL DIIMUNISASI DPT HB HIB LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404L_THN",
+      "label": "TAHUN DIIMUNISASI DPT HB HIB LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404M_BLN",
+      "label": "BULAN DIIMUNISASI CAMPAK RUBELLA MR LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404M_TGL",
+      "label": "TANGGAL DIIMUNISASI CAMPAK RUBELLA MR LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404M_THN",
+      "label": "TAHUN DIIMUNISASI CAMPAK RUBELLA MR LANJUTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404N_BLN",
+      "label": "BULAN DIIMUNISASI MMR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404N_TGL",
+      "label": "TANGGAL DIIMUNISASI MMR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1404N_THN",
+      "label": "TAHUN DIIMUNISASI MMR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1405",
+      "label": "APAKAH MENERIMA IMUNISASI DASAR YANG TIDAK TERCATAT DALAM KARTU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1406",
+      "label": "APAKAH PERNAH MENDAPAT IMUNISASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1407",
+      "label": "APAKAH PERNAH MENDAPAT VAKSIN BCG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1408",
+      "label": "APAKAH PERNAH MENDAPAT VAKSIN POLIO",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1409",
+      "label": "KAPAN VAKSIN POLIO PERTAMA DITERIMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1410A",
+      "label": "SUDAH BERAPA KALI MENDAPATKAN VAKSIN POLIO TETES",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1410B",
+      "label": "SUDAH BERAPA KALI MENDAPATKAN VAKSIN POLIO SUNTIK IPV",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1411",
+      "label": "APAKAH PERNAH MENDAPAT VAKSIN DPT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1412",
+      "label": "SUDAH BERAPA KALI MENDAPATKAN VAKSIN DPT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1413",
+      "label": "APAKAH PERNAH MENDAPAT VAKSIN HEPATITIS B",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1414",
+      "label": "SUDAH BERAPA KALI MENDAPATKAN VAKSIN HEPATITIS B",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1415",
+      "label": "KAPAN VAKSIN HEPATITIS B PERTAMA DITERIMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1416I",
+      "label": "APAKAH PERNAH MENDAPAT SUNTIKAN CAMPAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1416II",
+      "label": "APAKAH PERNAH MENDAPAT SUNTIKAN MMR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417A",
+      "label": "APAKAH PERNAH DIBERI ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417B0",
+      "label": "LAMANYA PEMBERIAN ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417B1",
+      "label": "LAMANYA PEMBERIAN ASI TANPA MAKANAN PENDAMPING",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417B2",
+      "label": "LAMANYA PEMBERIAN ASI DENGAN MAKANAN PENDAMPING",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417I",
+      "label": "BALITA BERUMUR 0 23 BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1417II",
+      "label": "BALITA BERUMUR 24 BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1418",
+      "label": "APAKAH DISUSUI DIBERI ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1419A",
+      "label": "APAKAH DIBERI SUSU SELAIN ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1419AY",
+      "label": "BERAPA KALI DIBERI SUSU SELAIN ASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1419B",
+      "label": "APAKAH DIBERI MINUMAN LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1419C",
+      "label": "APAKAH DIBERI MINUMAN BERPEMANIS GULA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420A",
+      "label": "APAKAH DIBERI SEREAL AKAR DAN UMBI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420B",
+      "label": "APAKAH DIBERI MAKANAN DARI KACANG KACANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420C",
+      "label": "APAKAH DIBERI PRODUK TURUNAN SUSU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "FWT",
+      "label": "PENIMBANG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "NUINFOBAYI",
+      "label": "NOMOR URUT PEMBERI INFORMASI BAYI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "NUINFORT",
+      "label": "NOMOR URUT PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "NUINFORT1",
+      "label": "NOMOR URUT PEMBERI INFORMASI KETERANGAN PERUMAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "NUINFOWPK",
+      "label": "NOMOR URUT PEMBERI INFORMASI WANITA PERNAH KAWIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "PSU",
+      "label": "PRIMARY SAMPLING UNIT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1001",
+      "label": "KELOMPOK UMUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1002",
+      "label": "APAKAH KESULITAN GANGGUAN PENGLIHATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1003",
+      "label": "APAKAH KESULITAN GANGGUAN PENDENGARAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1004",
+      "label": "APAKAH KESULITAN GANGGUAN BERJALAN NAIK TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1005",
+      "label": "APAKAH KESULITAN GANGGUAN MENGGUNAKAN MENGGERAKKAN TANGAN JARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1006",
+      "label": "APAKAH KESULITAN GANGGUAN DALAM HAL MENGINGAT ATAU BERKONSENTRASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1007",
+      "label": "APAKAH MENGALAMI GANGGUAN PERILAKU EMOSIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1008",
+      "label": "APAKAH KESULITAN GANGGUAN BERBICARA MEMAHAMI BERKOMUNIKASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1009",
+      "label": "APAKAH KESULITAN GANGGUAN UNTUK MENGURUS DIRI SENDIRI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R101",
+      "label": "KODE PROVINSI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1010",
+      "label": "APAKAH MENERIMA BANSOS ATENSI PENYANDANG DISABILITAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R102",
+      "label": "KODE KABUPATEN KOTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R105",
+      "label": "KLASIFIKASI PERKOTAAN PERDESAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1101_A",
+      "label": "APAKAH MEMILIKI BPJS KESEHATAN PENERIMA BANTUAN IURAN PBI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1101_B",
+      "label": "APAKAH MEMILIKI BPJS KESEHATAN NON PBI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1101_C",
+      "label": "APAKAH MEMILIKI JAMKESDA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1101_D",
+      "label": "APAKAH MEMILIKI ASURANSI SWASTA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1101_E",
+      "label": "APAKAH MEMILIKI JAMINAN KESEHATAN DARI PERUSAHAAN KANTOR",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1101_X",
+      "label": "APAKAH TIDAK MEMILIKI JAMINAN KESEHATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1102",
+      "label": "APAKAH MEMPUNYAI KELUHAN KESEHATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1103",
+      "label": "APAKAH MENGAKIBATKAN TERGANGGUNYA KEGIATAN SEHARI HARI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1104",
+      "label": "APAKAH PERNAH MENGOBATI SENDIRI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1105",
+      "label": "APAKAH PERNAH RAWAT JALAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1106",
+      "label": "APA ALASAN UTAMA TIDAK RAWAT JALAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_A",
+      "label": "APAKAH RAWAT JALAN KE RS PEMERINTAH",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_B",
+      "label": "APAKAH RAWAT JALAN KE RS SWASTA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_C",
+      "label": "APAKAH RAWAT JALAN KE PRAKTIK DOKTER BIDAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_D",
+      "label": "APAKAH RAWAT JALAN KE KLINIK PRAKTIK DOKTER BERSAMA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_E",
+      "label": "APAKAH RAWAT JALAN KE PUSKESMAS PUSTU",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_F",
+      "label": "APAKAH RAWAT JALAN KE UKBM",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_G",
+      "label": "APAKAH RAWAT JALAN KE PRAKTIK PENGOBATAN TRADISIONAL ALTERNATIF",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1107_H",
+      "label": "APAKAH RAWAT JALAN KE TEMPAT LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1108",
+      "label": "BERAPA KALI RAWAT JALAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_A",
+      "label": "APAKAH MENGGUNAKAN BPJS KESEHATAN PBI UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_B",
+      "label": "APAKAH MENGGUNAKAN BPJS KESEHATAN NON PBI UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_C",
+      "label": "APAKAH MENGGUNAKAN JAMKESDA UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_D",
+      "label": "APAKAH MENGGUNAKAN ASURANSI KESEHATAN SWASTA UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_E",
+      "label": "APAKAH MENGGUNAKAN JAMINAN KESEHATAN DARI PERUSAHAAN KANTOR UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1109_X",
+      "label": "APAKAH TIDAK MENGGUNAKAN JAMINAN KESEHATAN UNTUK RAWAT JALAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_A",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN TIDAK TAHU CARA MEMANFAATKAN JAMINAN KESEHATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_B",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN PROSEDUR PERSYARATAN SULIT DIPENUHI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_C",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN KARTU JKN TIDAK AKTIF",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_D",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN TIDAK ADA FASKES YANG MUDAH DIJANGKAU DARI RUMAH RESPONDEN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_E",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN TIDAK ADA PETUGAS PEMBERI PELAYANAN JAMINAN KESEHATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_F",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN TIDAK ADA BIAYA TRANSPORTASI DLL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_G",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN WAKTU TUNGGU PELAYANAN LAMA ANTRE PANJANG",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_H",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN MENGGUNAKAN ASURANSI SELAIN JKN JAMKESDA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1110_I",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT JALAN LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1201",
+      "label": "APAKAH PERNAH DIRAWAT INAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_A",
+      "label": "APAKAH DIRAWAT INAP DI RS PEMERINTAH",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_B",
+      "label": "APAKAH DIRAWAT INAP DI RS SWASTA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_C",
+      "label": "APAKAH DIRAWAT INAP DI PRAKTIK DOKTER BIDAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_D",
+      "label": "APAKAH DIRAWAT INAP DI KLINIK PRAKTIK DOKTER BERSAMA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_E",
+      "label": "APAKAH DIRAWAT INAP DI PUSKESMAS",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_F",
+      "label": "APAKAH DIRAWAT INAP DI PRAKTIK PENGOBATAN TRADISIONAL ALTERNATIF",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1202_G",
+      "label": "APAKAH DIRAWAT INAP DI TEMPAT LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1203",
+      "label": "BERAPA HARI DIRAWAT INAP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_A",
+      "label": "APAKAH MENGGUNAKAN BPJS KESEHATAN PBI UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_B",
+      "label": "APAKAH MENGGUNAKAN BPJS KESEHATAN NON PBI UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_C",
+      "label": "APAKAH MENGGUNAKAN JAMKESDA UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_D",
+      "label": "APAKAH MENGGUNAKAN ASURANSI KESEHATAN SWASTA UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_E",
+      "label": "APAKAH MENGGUNAKAN JAMINAN KESEHATAN DARI PERUSAHAAN KANTOR UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1204_X",
+      "label": "APAKAH TIDAK MENGGUNAKAN JAMINAN KESEHATAN UNTUK RAWAT INAP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_A",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP TIDAK TAHU CARA MEMANFAATKAN JAMINAN KESEHATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_B",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP PROSEDUR PERSYARATAN SULIT DIPENUHI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_C",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP KARTU JKN TIDAK AKTIF",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_D",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP TIDAK ADA FASKES YANG MUDAH DIJANGKAU DARI RUMAH RESPONDEN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_E",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP TIDAK ADA PETUGAS PEMBERI PELAYANAN JAMINAN KESEHATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_F",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP TIDAK ADA BIAYA TRANSPORTASI DLL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_G",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP WAKTU TUNGGU PELAYANAN LAMA ANTRE PANJANG",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_H",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP MENGGUNAKAN ASURANSI SELAIN JKN JAMKESDA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1205_I",
+      "label": "ALASAN TIDAK MENGGUNAKAN JKN JAMKESDA UNTUK RAWAT INAP LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1206",
+      "label": "APAKAH MEROKOK ELEKTRIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R1420D",
+      "label": "APAKAH DIBERI DAGING IKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420E",
+      "label": "APAKAH DIBERI TELUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420F",
+      "label": "APAKAH DIBERI BUAH DAN SAYURAN SUMBER VITAMIN A",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420G",
+      "label": "APAKAH DIBERI BUAH ATAU SAYURAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1420H",
+      "label": "APAKAH DIBERI MAKANAN RINGAN YANG GURIH GORENGAN MAKANAN MANIS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1421",
+      "label": "APAKAH DIBERI MAKANAN PADAT SETENGAH PADAT ATAU LUNAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1421Y",
+      "label": "BERAPA KALI DIBERI MAKANAN PADAT SETENGAH PADAT ATAU LUNAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1501A",
+      "label": "APAKAH PERNAH HAMIL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1501B",
+      "label": "UMUR SAAT HAMIL PERTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1502A",
+      "label": "APAKAH PERNAH MELAHIRKAN ANAK LAHIR HIDUP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1502B",
+      "label": "UMUR SAAT MELAHIRKAN PERTAMA KALI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1503",
+      "label": "KAPAN MELAHIRKAN ANAK LAHIR HIDUP YANG TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1504A",
+      "label": "DIMANA MELAHIRKAN ANAK LAHIR HIDUP YANG TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1504B",
+      "label": "SIAPA YANG MENOLONG PROSES KELAHIRAN TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1504C",
+      "label": "BERAPA BERAT ANAK LAHIR HIDUP TERAKHIR KETIKA DILAHIRKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1505",
+      "label": "BERAPA LAMA PROSES MENEMPELKAN BAYI BARU LAHIR DI DADA IBU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1601",
+      "label": "APAKAH PERNAH SEDANG MENGGUNAKAN ALAT KB CARA TRADISIONAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1602",
+      "label": "ALAT KB CARA TRADISIONAL YANG SEDANG DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1603",
+      "label": "JIKA MENGGUNAKAN ALAT KB MODERN DIMANA MEMPEROLEHNYA TERAKHIR KALI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R1701",
+      "label": "APAKAH KHAWATIR TIDAK AKAN MEMILIKI CUKUP MAKANAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1702",
+      "label": "APAKAH ADA SAAT DIMANA TIDAK DAPAT MENYANTAP MAKANAN SEHAT DAN BERGIZI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1703",
+      "label": "APAKAH HANYA MENYANTAP SEDIKIT JENIS MAKANAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1704",
+      "label": "APAKAH PERNAH MELEWATKAN SATU WAKTU MAKAN PADA SUATU HARI TERTENTU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1705",
+      "label": "APAKAH MAKAN LEBIH SEDIKIT DARIPADA SEHARUSNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1706",
+      "label": "APAKAH KEHABISAN MAKANAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1707",
+      "label": "APAKAH MERASA LAPAR TAPI TIDAK MAKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1708",
+      "label": "APAKAH TIDAK MAKAN SEHARIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1801",
+      "label": "BERAPA JUMLAH KELUARGA YANG TINGGAL DI DALAM BANGUNAN SENSUS RUMAH INI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1802",
+      "label": "APA STATUS KEPEMILIKAN BANGUNAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1803",
+      "label": "APA JENIS BUKTI KEPEMILIKAN TANAH BANGUNAN TEMPAT TINGGAL INI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1804",
+      "label": "BERAPA LUAS LANTAI RUMAH BANGUNAN TEMPAT TINGGAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1805",
+      "label": "APAKAH KRT PASANGANNYA ANAKNYA MEMILIKI RUMAH LAIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1806",
+      "label": "APAKAH BAHAN BANGUNAN UTAMA ATAP RUMAH TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1807",
+      "label": "APAKAH BAHAN BANGUNAN UTAMA DINDING RUMAH TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1808",
+      "label": "APAKAH BAHAN BANGUNAN UTAMA LANTAI RUMAH TERLUAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1809A",
+      "label": "APAKAH MEMILIKI FASILITAS TEMPAT BUANG AIR BESAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1809B",
+      "label": "APAKAH JENIS KLOSET YANG DIGUNAKAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1809C",
+      "label": "DIMANAKAH TEMPAT PEMBUANGAN AKHIR TINJA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1809D",
+      "label": "SUDAH BERAPA LAMA TANGKI SEPTIK INI DIBUAT DIBANGUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1809E",
+      "label": "DALAM 5 TAHUN TERAKHIR BERAPA KALI SEPTIK INI DIKOSONGKAN DILAKUKAN PENYEDOTAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1810A",
+      "label": "APA SUMBER AIR UTAMA YANG DIGUNAKAN UNTUK MINUM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1810B",
+      "label": "BERAPA JARAK KE TEMPAT PENAMPUNGAN LIMBAH KOTORAN TINJA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1811A",
+      "label": "DIMANAKAH LOKASI SUMBER FASILITAS AIR MINUM TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1811B",
+      "label": "BERAPA LAMA WAKTU YANG DIBUTUHKAN UNTUK MENGAMBIL AIR MINUM TERSEBUT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1812",
+      "label": "APAKAH PERNAH MENGALAMI KEKURANGAN AIR MINUM SELAMA MINIMAL 24 JAM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1813A",
+      "label": "APAKAH KONDISI FISIK SUMBER AIR UTAMA KERUH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1813B",
+      "label": "APAKAH KONDISI FISIK SUMBER AIR UTAMA BERWARNA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1813C",
+      "label": "APAKAH KONDISI FISIK SUMBER AIR UTAMA BERASA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1813D",
+      "label": "APAKAH KONDISI FISIK SUMBER AIR UTAMA BERBUSA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1813E",
+      "label": "APAKAH KONDISI FISIK SUMBER AIR UTAMA BERBAU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1814A",
+      "label": "APAKAH SUMBER AIR UTAMA UNTUK MANDI CUCI DLL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1814B",
+      "label": "BERAPA JARAK KE TEMPAT PENAMPUNGAN LIMBAH KOTORAN TINJA TERDEKAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1815A",
+      "label": "BOLEHKAH SAYA MELIHAT TEMPAT BIASA MENCUCI TANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1815B",
+      "label": "AMATI KETERSEDIAAN AIR DITEMPAT MENCUCI TANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1815C",
+      "label": "CEK KETERSEDIAAN SABUN DETERJEN ATAU CAIRAN ANTISEPTIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1816",
+      "label": "APAKAH SUMBER UTAMA PENERANGAN RUMAH TANGGA INI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1816B1",
+      "label": "BERAPA DAYA TERPASANG DI METERAN 1",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1816B2",
+      "label": "BERAPA DAYA TERPASANG DI METERAN 2",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1816B3",
+      "label": "BERAPA DAYA TERPASANG DI METERAN 3",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1817",
+      "label": "APAKAH JENIS BAHAN BAKAR UTAMA YANG DIGUNAKAN UNTUK MEMASAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901A",
+      "label": "APAKAH MENERIMA KREDIT USAHA RAKYAT KUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901B",
+      "label": "APAKAH MENERIMA KREDIT DARI BANK UMUM SELAIN KUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901C",
+      "label": "APAKAH MENERIMA KREDIT DARI BANK PERKREDITAN RAKYAT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901D",
+      "label": "APAKAH MENERIMA KREDIT DARI KOPERASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901E",
+      "label": "APAKAH MENERIMA KREDIT PERORANGAN DENGAN BUNGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901F",
+      "label": "APAKAH MENERIMA KREDIT PEGADAIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901G",
+      "label": "APAKAH MENERIMA KREDIT PERUSAHAAN LEASING",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901H",
+      "label": "APAKAH MENERIMA KREDIT BADAN USAHA MILIK DESA BUMDES",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901I",
+      "label": "APAKAH MENERIMA KREDIT PINJAMAN ONLINE",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R1901J",
+      "label": "APAKAH MENERIMA KREDIT LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001A",
+      "label": "APAKAH MEMILIKI TABUNG GAS 5 5 KG ATAU LEBIH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001B",
+      "label": "APAKAH MEMILIKI LEMARI ES KULKAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001C",
+      "label": "APAKAH MEMILIKI AC",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001D",
+      "label": "APAKAH MEMILIKI PEMANAS AIR WATER HEATER",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001E",
+      "label": "APAKAH MEMILIKI TELEPON RUMAH PSTN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001F",
+      "label": "APAKAH MEMILIKI KOMPUTER LAPTOP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001G",
+      "label": "APAKAH MEMILIKI EMAS PERHIASAN MINIMAL 10 GRAM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001H",
+      "label": "APAKAH MEMILIKI SEPEDA MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001I",
+      "label": "APAKAH MEMILIKI PERAHU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001J",
+      "label": "APAKAH MEMILIKI PERAHU MOTOR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001K",
+      "label": "APAKAH MEMILIKI MOBIL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001L",
+      "label": "APAKAH MEMILIKI TELEVISI LAYAR DATAR MINIMAL 30 INCH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2001M",
+      "label": "APAKAH MEMILIKI TANAH LAHAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2002_A",
+      "label": "TANAH LAHAN TERSEBUT DIMILIKI OLEH KRT",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2002_B",
+      "label": "TANAH LAHAN TERSEBUT DIMILIKI OLEH PASANGAN KRT",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2002_C",
+      "label": "TANAH LAHAN TERSEBUT DIMILIKI OLEH ANAK",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2002_D",
+      "label": "TANAH LAHAN TERSEBUT DIMILIKI OLEH ART LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2101A",
+      "label": "APAKAH SUMBER TERBESAR PEMBIAYAAN DI RUMAH TANGGA INI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2101B",
+      "label": "NOMOR URUT ART YANG MENANGGUNG PEMBIAYAAN TERBESAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2101C",
+      "label": "DARI MANAKAH SUMBER UTAMA KIRIMAN UANG BARANG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201A2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA JAMINAN PENSIUN VETERAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201A3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA JAMINAN PENSIUN VETERAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201B2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA JAMINAN HARI TUA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201B3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA JAMINAN HARI TUA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201C2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA AURANSI KECELAKAAN KERJA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201C3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA AURANSI KECELAKAAN KERJA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201D2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA JAMINAN ASURANSI KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201D3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA JAMINAN ASURANSI KEMATIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201E2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA JAMINAN KEHILANGAN PEKERJAAN JKP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201E3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA JAMINAN KEHILANGAN PEKERJAAN JKP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201F2",
+      "label": "APAKAH ADA YANG MEMILIKI MENERIMA PESANGON PHK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2201F3",
+      "label": "BERAPA ART YANG MEMILIKI MENERIMA PESANGON PHK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2202",
+      "label": "APAKAH MENERIMA KARTU KELUARGA SEJAHTERA KKS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2203",
+      "label": "APAKAH PERNAH MENJADI PENERIMA PROGRAM KELUARGA HARAPAN PKH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204A",
+      "label": "APAKAH SAAT INI MASIH TERCATAT MENJADI PENERIMA PKH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204B",
+      "label": "DIMANA MENERIMA BANTUAN PKH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_A",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BELANJA PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_B",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PERUMAHAN DAN FASILITAS",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_C",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PENGOBATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_D",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA PERAWATAN IBU HAMIL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_E",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_F",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK PEMBAYARAN HUTANG KREDIT",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2204C_G",
+      "label": "BANTUAN PKH DIGUNAKAN UNTUK BIAYA LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2205A",
+      "label": "APAKAH TERDAPAT ART LANSIA MENERIMA BANSOS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2205B",
+      "label": "NOMOR URUT ART PENERIMA BANSOS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R2206A",
+      "label": "APAKAH TERDAPAT ART 15 TAHUN KE ATAS MENERIMA BANTUAN SUBSIDI UPAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2206B",
+      "label": "NOMOR URUT ART PENERIMA BANTUAN SUBSIDI UPAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R2207",
+      "label": "APAKAH PERNAH MENERIMA BANTUAN PANGAN NON TUNAI BPNT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208A2",
+      "label": "APAKAH MENERIMA BANTUAN PANGAN DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208A3",
+      "label": "APAKAH MENERIMA BANTUAN PANGAN DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208A4",
+      "label": "APAKAH MENERIMA BANTUAN PANGAN DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208A5",
+      "label": "APAKAH MENERIMA BANTUAN PANGAN DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208B2",
+      "label": "APAKAH MENGETAHUI BERAPA NILAI BANTUAN YANG DITERIMA DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208B3",
+      "label": "APAKAH MENGETAHUI BERAPA NILAI BANTUAN YANG DITERIMA DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208B4",
+      "label": "APAKAH MENGETAHUI BERAPA NILAI BANTUAN YANG DITERIMA DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208B5",
+      "label": "APAKAH MENGETAHUI BERAPA NILAI BANTUAN YANG DITERIMA DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208BI2",
+      "label": "BERAPA NILAI BANTUAN YANG DITERIMA DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208BI3",
+      "label": "BERAPA NILAI BANTUAN YANG DITERIMA DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208BI4",
+      "label": "BERAPA NILAI BANTUAN YANG DITERIMA DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208BI5",
+      "label": "BERAPA NILAI BANTUAN YANG DITERIMA DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208C2",
+      "label": "UNTUK PENERIMAAN BERAPA BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208C3",
+      "label": "UNTUK PENERIMAAN BERAPA BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208C4",
+      "label": "UNTUK PENERIMAAN BERAPA BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208C5",
+      "label": "UNTUK PENERIMAAN BERAPA BULAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208D2",
+      "label": "APAKAH MEMANFAATKAN BPNT DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208D3",
+      "label": "APAKAH MEMANFAATKAN BPNT DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208D4",
+      "label": "APAKAH MEMANFAATKAN BPNT DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208D5",
+      "label": "APAKAH MEMANFAATKAN BPNT DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIB2",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI BERAS RUPIAH DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIB3",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI BERAS RUPIAH DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIB4",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI BERAS RUPIAH DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIB5",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI BERAS RUPIAH DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIB2",
+      "label": "BERAPA BANYAK BERAS YANG DIBELI KILOGRAM DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIB3",
+      "label": "BERAPA BANYAK BERAS YANG DIBELI KILOGRAM DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIB4",
+      "label": "BERAPA BANYAK BERAS YANG DIBELI KILOGRAM DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIB5",
+      "label": "BERAPA BANYAK BERAS YANG DIBELI KILOGRAM DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIL2",
+      "label": "BERAPA BANYAK KOMODITAS LAINNYA YANG DIBELI DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIL3",
+      "label": "BERAPA BANYAK KOMODITAS LAINNYA YANG DIBELI DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIL4",
+      "label": "BERAPA BANYAK KOMODITAS LAINNYA YANG DIBELI DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIL5",
+      "label": "BERAPA BANYAK KOMODITAS LAINNYA YANG DIBELI DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIT2",
+      "label": "BERAPA BANYAK TELUR YANG DIBELI BUTIR DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIT3",
+      "label": "BERAPA BANYAK TELUR YANG DIBELI BUTIR DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIT4",
+      "label": "BERAPA BANYAK TELUR YANG DIBELI BUTIR DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIIT5",
+      "label": "BERAPA BANYAK TELUR YANG DIBELI BUTIR DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIL2",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI KOMODITAS LAINNYA RUPIAH DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIL3",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI KOMODITAS LAINNYA RUPIAH DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIL4",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI KOMODITAS LAINNYA RUPIAH DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIL5",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI KOMODITAS LAINNYA RUPIAH DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIT2",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI TELUR RUPIAH DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIT3",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI TELUR RUPIAH DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIT4",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI TELUR RUPIAH DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EIT5",
+      "label": "BERAPA YANG DIBELANJAKAN UNTUK MEMBELI TELUR RUPIAH DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EK2",
+      "label": "KOMODITAS LAIN YANG DIBELI DI FEBRUARI 2023 MENGGUNAKAN BANTUAN PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EK3",
+      "label": "KOMODITAS LAIN YANG DIBELI DI JANUARI 2023 MENGGUNAKAN BANTUAN PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EK4",
+      "label": "KOMODITAS LAIN YANG DIBELI DI DESEMBER 2022 MENGGUNAKAN BANTUAN PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208EK5",
+      "label": "KOMODITAS LAIN YANG DIBELI DI NOVEMBER 2022 MENGGUNAKAN BANTUAN PANGAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ENU2",
+      "label": "NOMOR URUT KOMODITAS LAINNYA DI VSEN21 KP DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ENU3",
+      "label": "NOMOR URUT KOMODITAS LAINNYA DI VSEN21 KP DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ENU4",
+      "label": "NOMOR URUT KOMODITAS LAINNYA DI VSEN21 KP DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ENU5",
+      "label": "NOMOR URUT KOMODITAS LAINNYA DI VSEN21 KP DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ES2",
+      "label": "SATUAN KOMODITAS LAINNYA DI VSEN21 KP DI FEBRUARI 2023",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ES3",
+      "label": "SATUAN KOMODITAS LAINNYA DI VSEN21 KP DI JANUARI 2023",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ES4",
+      "label": "SATUAN KOMODITAS LAINNYA DI VSEN21 KP DI DESEMBER 2022",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208ES5",
+      "label": "SATUAN KOMODITAS LAINNYA DI VSEN21 KP DI NOVEMBER 2022",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208F2",
+      "label": "BAGAIMANA KUALITAS BERAS YANG DIBELI DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208F3",
+      "label": "BAGAIMANA KUALITAS BERAS YANG DIBELI DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208F4",
+      "label": "BAGAIMANA KUALITAS BERAS YANG DIBELI DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208F5",
+      "label": "BAGAIMANA KUALITAS BERAS YANG DIBELI DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208G2",
+      "label": "APAKAH MENENTUKAN SENDIRI JENIS DAN KUANTITAS KOMODITAS YANG DIBELI DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208G3",
+      "label": "APAKAH MENENTUKAN SENDIRI JENIS DAN KUANTITAS KOMODITAS YANG DIBELI DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208G4",
+      "label": "APAKAH MENENTUKAN SENDIRI JENIS DAN KUANTITAS KOMODITAS YANG DIBELI DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208G5",
+      "label": "APAKAH MENENTUKAN SENDIRI JENIS DAN KUANTITAS KOMODITAS YANG DIBELI DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208H2",
+      "label": "DIMANA TEMPAT MEMBELI KOMODITAS TERSEBUT DI FEBRUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208H3",
+      "label": "DIMANA TEMPAT MEMBELI KOMODITAS TERSEBUT DI JANUARI 2023",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208H4",
+      "label": "DIMANA TEMPAT MEMBELI KOMODITAS TERSEBUT DI DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2208H5",
+      "label": "DIMANA TEMPAT MEMBELI KOMODITAS TERSEBUT DI NOVEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2209A",
+      "label": "APAKAH MENERIMA BANTUAN TUNAI BAHAN BAKAR MINYAK BLT BBM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2209B",
+      "label": "APAKAH MENERIMA BANTUAN LANGSUNG TUNAI DESA BLT DESA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2209C",
+      "label": "APAKAH MENERIMA BANTUAN PADAT KARYA TUNAI DESA PKTD",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210A",
+      "label": "APAKAH TERDAPAT ART MEMILIKI USAHA MIKRO ATAU KECIL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210B",
+      "label": "NOMOR URUT ART MEMILIKI USAHA MIKRO ATAU KECIL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R2210B1",
+      "label": "APAKAH MENERIMA BANTUAN PEMBIAYAAN KEMITRAAN DAN BINA LINGKUNGAN PKBL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210B2",
+      "label": "APAKAH MENERIMA BANTUAN PEMBIAYAAN USAHA ULTRA MIKRO UMI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210B3",
+      "label": "APAKAH MENERIMA BANTUAN PROGRAM MEMBINA EKONOMI KELUARGA SEJAHTERA PNM MEKAAR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210B4",
+      "label": "APAKAH MENERIMA BANTUAN BANK WAKAF MIKRO BWM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2210B5",
+      "label": "APAKAH MENERIMA BANTUAN DANA BERGULIR OLEH LEMBAGA PENGELOLA DANA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A",
+      "label": "APAKAH MENERIMA BANTUAN TUNAI RUTIN DARI PEMERINTAH DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A1",
+      "label": "BERAPA BANTUAN TUNAI RUTIN UNTUK PANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A2",
+      "label": "BERAPA BANTUAN TUNAI RUTIN UNTUK ANAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A3",
+      "label": "BERAPA BANTUAN TUNAI RUTIN UNTUK LANSIA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A4",
+      "label": "BERAPA BANTUAN TUNAI RUTIN UNTUK PENYANDANG DISABILITAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211A5",
+      "label": "BERAPA BANTUAN TUNAI RUTIN UNTUK LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211B",
+      "label": "APAKAH MENERIMA BANTUAN TUNAI TIDAK RUTIN DARI PEMERINTAH DAERAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R2211B1",
+      "label": "BERAPA BANTUAN TUNAI TIDAK RUTIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R301",
+      "label": "BANYAKNYA ART",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R302",
+      "label": "BANYAKNYA ART BERUMUR 0 4 TAHUN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R303",
+      "label": "BANYAKNYA ART BERUMUR 5 TAHUN KE ATAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R304",
+      "label": "BANYAKNYA ART BERUMUR 10 TAHUN KE ATAS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R305",
+      "label": "BANYAKNYA ART PEREMPUAN BERUMUR 10 54 TAHUN BERSTATUS PERNAH KAWIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "R401",
+      "label": "NOMOR URUT ANGGOTA RUMAH TANGGA ART",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2"
+      ]
+    },
+    {
+      "code": "R403",
+      "label": "HUBUNGAN DENGAN KEPALA RUMAH TANGGA KRT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R404",
+      "label": "STATUS PERKAWINAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R405",
+      "label": "JENIS KELAMIN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R406A",
+      "label": "TANGGAL LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R406B",
+      "label": "BULAN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R406C",
+      "label": "TAHUN LAHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R407",
+      "label": "UMUR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R408",
+      "label": "APAKAH SUAMI ISTRI BIASANYA TINGGAL DI RUMAH TANGGA INI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R409",
+      "label": "UMUR PERKAWINAN PERTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R410",
+      "label": "NOMOR URUT ART PEMBERI INFORMASI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R501",
+      "label": "APAKAH PERNAH MEMILIKI BUKU AKTA NIKAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R502",
+      "label": "NOMOR URUT KELUARGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R503",
+      "label": "NOMOR URUT IBU KANDUNG",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R504",
+      "label": "APAKAH MEMPUNYAI NOMOR INDUK KEPENDUDUKAN NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R506",
+      "label": "KODE JENIS KELAMIN ART BERDASARKAN NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R507",
+      "label": "SUMBER DATA NIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R508",
+      "label": "APAKAH MEMILIKI AKTA KELAHIRAN DARI KANTOR CATATAN SIPIL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R509",
+      "label": "APAKAH ISIAN R506 SAMA DENGAN ISIAN R405",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R601",
+      "label": "PROVINSI NEGARA TEMPAT TINGGAL IBU KETIKA MELAHIRKANNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R602",
+      "label": "KABUPATEN KOTA TEMPAT TINGGAL IBU KETIKA MELAHIRKANNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R603",
+      "label": "PROVINSI NEGARA TEMPAT TINGGAL 5 TAHUN YANG LALU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R604",
+      "label": "KABUPATEN KOTA TEMPAT TINGGAL 5 TAHUN YANG LALU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R605",
+      "label": "APAKAH SEDANG PERNAH MENGIKUTI PENDIDIKAN PRASEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R606",
+      "label": "APA JENIS PENDIDIKAN PRASEKOLAHNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R607",
+      "label": "APAKAH DAPAT MEMBACA DAN MENULIS HURUF LATIN ALFABET",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R608",
+      "label": "APAKAH DAPAT MEMBACA DAN MENULIS HURUF ARAB HIJAIYAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R609",
+      "label": "APAKAH DAPAT MEMBACA DAN MENULIS HURUF LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R610",
+      "label": "APAKAH BERSEKOLAH",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R611",
+      "label": "APAKAH BERSEKOLAH DI NEGERI ATAU SWASTA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R612",
+      "label": "APA JENJANG PENDIDIKAN TERTINGGI YANG SEDANG PERNAH DIIKUTI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R613",
+      "label": "APA TINGKAT KELAS TERTINGGI YANG SEDANG PERNAH DIDUDUKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R614",
+      "label": "APA IJAZAH STTB TERTINGGI YANG DIMILIKI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R615",
+      "label": "APAKAH MEMILIKI KARTU INDONESIA PINTAR KIP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R616",
+      "label": "APAKAH MEMPEROLEH PROGRAM INDONESIA PINTAR PIP",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R617",
+      "label": "BERAPA JUMLAH UANG PIP YANG DITERIMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R618",
+      "label": "UNTUK PENERIMAAN BERAPA SEMESTER",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R619",
+      "label": "APAKAH BERSEKOLAH PADA TAHUN AJARAN SEBELUMNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R620",
+      "label": "APA JENJANG PENDIDIKAN YANG DIIKUTI WAKTU ITU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R621",
+      "label": "APA TINGKAT KELAS YANG DIDUDUKI WAKTU ITU",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R701",
+      "label": "APAKAH MEMILIKI REKENING TABUNGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R702",
+      "label": "DALAM SETAHUN TERAKHIR APAKAH MENGGUNAKAN PRODUK LAYANAN JASA KEUANGAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R703_A",
+      "label": "APAKAH BEKERJA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R703_B",
+      "label": "APAKAH SEKOLAH",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R703_C",
+      "label": "APAKAH MENGURUS RUMAH TANGGA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R703_D",
+      "label": "APAKAH MELAKUKAN KEGIATAN LAINNYA SELAIN KEGIATAN PRIBADI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R703_X",
+      "label": "APAKAH TIDAK MELAKUKAN KEGIATAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R704",
+      "label": "KEGIATAN APA YANG MENGGUNAKAN WAKTU TERBANYAK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R705",
+      "label": "APAKAH MEMPUNYAI PEKERJAAN USAHA TETAPI SEMENTARA TIDAK BEKERJA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R706",
+      "label": "APA LAPANGAN USAHA UTAMANYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R707",
+      "label": "APA STATUS KEDUDUKAN DALAM PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R708",
+      "label": "BERAPA JUMLAH JAM KERJA DARI PEKERJAAN UTAMA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R709",
+      "label": "BERAPA JUMLAH JAM KERJA DARI SELURUH PEKERJAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R801",
+      "label": "APAKAH MENGGUNAKAN TELEPON SELULER",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R802",
+      "label": "APAKAH MEMILIKI MENGUASAI TELEPON SELULER",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R807_A",
+      "label": "APAKAH MENGGUNAKAN PC DESKTOP",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R807_B",
+      "label": "APAKAH MENGGUNAKAN LAPTOP NOTE BOOK",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R807_C",
+      "label": "APAKAH MENGGUNAKAN TABLET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R807_X",
+      "label": "APAKAH TIDAK MENGGUNAKAN KOMPUTER",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R808",
+      "label": "APAKAH PERNAH MENGGUNAKAN INTERNET",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R809_A",
+      "label": "APAKAH MENGGUNAKAN PC DESKTOP UNTUK INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R809_B",
+      "label": "APAKAH MENGGUNAKAN LAPTOP NOTE BOOK UNTUK INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R809_C",
+      "label": "APAKAH MENGGUNAKAN TABLET UNTUK INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R809_D",
+      "label": "APAKAH MENGGUNAKAN HP PONSEL UNTUK INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R809_E",
+      "label": "APAKAH MENGGUNAKAN MEDIA LAINNYA UNTUK INTERNET",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_A",
+      "label": "APAKAH MENGGUNAKAN INTERNET DI RUMAH SENDIRI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_B",
+      "label": "APAKAH MENGGUNAKAN INTERNET BUKAN DI RUMAH SENDIRI",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_C",
+      "label": "APAKAH MENGGUNAKAN INTERNET DI TEMPAT BEKERJA KANTOR",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_D",
+      "label": "APAKAH MENGGUNAKAN INTERNET DI GEDUNG SEKOLAH KAMPUS",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_E",
+      "label": "APAKAH MENGGUNAKAN INTERNET DI TEMPAT UMUM",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R810_F",
+      "label": "APAKAH MENGGUNAKAN INTERNET DALAM KONDISI BERGERAK",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_A",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK MENDAPAT INFORMASI BERITA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_B",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK MENDAPAT INFORMASI MENGENAI BARANG JASA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_C",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK MENGIRIM MENERIMA E MAIL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_D",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK MEDIA SOSIAL JEJARING SOSIAL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_E",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK PEMBELIAN BARANG JASA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_F",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK PENJUALAN BARANG JASA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_G",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK FASILITAS FINANSIAL E BANKING",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_H",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK PEMBELAJARAN ONLINE",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_I",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK WORK FROM HOME WFH",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_J",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK HIBURAN",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_K",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK PEMBUATAN KONTEN DIGITAL",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R811_L",
+      "label": "APAKAH MENGGUNAKAN INTERNET UNTUK LAINNYA",
+      "type": "character",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R812",
+      "label": "APAKAH PERNAH BELAJAR TIK",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R901",
+      "label": "APAKAH PERNAH BEPERGIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R902",
+      "label": "BERAPA KALI BEPERGIAN SELAMA 1 JANUARI SAMPAI DENGAN 30 JUNI 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R903",
+      "label": "BERAPA KALI BEPERGIAN SELAMA 1 JULI SAMPAI DENGAN 31 DESEMBER 2022",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R904",
+      "label": "APA MAKSUD UTAMA MELAKUKAN BEPERGIAN YANG TERAKHIR",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R905",
+      "label": "APAKAH PERNAH MENJADI KORBAN KEJAHATAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R906",
+      "label": "BERAPA KALI MENJADI KORBAN PENCURIAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R907",
+      "label": "BERAPA JUMLAH KEJADIAN PENCURIAN YANG DILAPORKAN KE POLISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R908",
+      "label": "BERAPA KALI MENJADI KORBAN PENGANIAYAAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R909",
+      "label": "BERAPA JUMLAH KEJADIAN PENGANIAYAAN YANG DILAPORKAN KE POLISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R910",
+      "label": "BERAPA KALI MENJADI KORBAN PENCURIAN DENGAN KEKERASAN",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R911",
+      "label": "BERAPA JUMLAH KEJADIAN PENCURIAN DENGAN KEKERASAN YANG DILAPORKAN KE POLISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R912",
+      "label": "BERAPA KALI MENJADI KORBAN PELECEHAN SEKSUAL",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R913",
+      "label": "BERAPA JUMLAH KEJADIAN PELECEHAN SEKSUAL YANG DILAPORKAN KE POLISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R914",
+      "label": "BERAPA KALI MENJADI KORBAN KEJAHATAN LAINNYA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R915",
+      "label": "BERAPA JUMLAH KEJADIAN KEJAHATAN LAINNYA YANG DILAPORKAN KE POLISI",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "R916",
+      "label": "APAKAH MENDAPATKAN BANTUAN HUKUM",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1"
+      ]
+    },
+    {
+      "code": "SSU",
+      "label": "SECONDARY SAMPLING UNIT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "URUT",
+      "label": "RENUMBERING RUMAH TANGGA",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "WI1",
+      "label": "RENUMBERING NKS",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    },
+    {
+      "code": "WI2",
+      "label": "RENUMBERING NURT",
+      "type": "numeric",
+      "partitions": [
+        "ssn202303kor_ind_1",
+        "ssn202303kor_ind_2",
+        "ssn202303kor_rt"
+      ]
+    }
+  ]
+}

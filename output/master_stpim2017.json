@@ -1,0 +1,1512 @@
+{
+  "survey_id": "STPIM",
+  "period": "2017",
+  "source_file": "1jgoAOT-avqAd8PkZfR00m_Ko3xMSZpdi.xlsx",
+  "kamus_sheet": "Master Survei STPIM 2017 & KBLI",
+  "n_variables": 187,
+  "partitions": [
+    "mfg17_kbli_diseminasi"
+  ],
+  "mandatory": [
+    "RENUM",
+    "DISIC517"
+  ],
+  "variables": [
+    {
+      "code": "JAN",
+      "label": "Apakah Januari Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "FEB",
+      "label": "Apakah Februari Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "MAR",
+      "label": "Apakah Maret Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "APR",
+      "label": "Apakah April Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "MEI",
+      "label": "Apakah Mei Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "JUN",
+      "label": "Apakah Juni Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "JUL",
+      "label": "Apakah Juli Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "AGS",
+      "label": "Apakah Agustus Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SEP",
+      "label": "Apakah September Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "OKT",
+      "label": "Apakah Oktober Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "NOV",
+      "label": "Apakah November perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DES",
+      "label": "Apakah Desember Perusahaan melakukan Kegiatan Produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YEAR",
+      "label": "Jumlah Bulan Produksi dalam Setahun",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DISIC517",
+      "label": "KBLI 2 Digit",
+      "type": "character",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DSTATS17",
+      "label": "Status Penanaman Modal",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DPUSAT17",
+      "label": "Persentase Permodalan Pemerintah Pusat",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DPEMDA17",
+      "label": "Persentase Permodalan Pemerintah daerah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DDMSTK17",
+      "label": "Persentase Permodalan Swasta Nasional",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DASING17",
+      "label": "Persentase Permodalan Asing",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IUIB17",
+      "label": "Apakah Perusahaan pernah memiliki Izin Usaha Industri Besar",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IUIM17",
+      "label": "Apakah Perusahaan pernah memiliki Izin Usaha Industri Menengah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IUIK17",
+      "label": "Apakah perusahaan pernah memiliki izin usaha industri kecil",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "TDI17",
+      "label": "Apakah perusahaan pernah memiliki Tanda Daftar Industri",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "TDP17",
+      "label": "Apakah perusahaan pernah memiliki Tanda Daftar Perusahaan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IZINO17",
+      "label": "Apakah perusahaan pernah memiliki izin lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IZINO17K",
+      "label": "Jenis izin lainnya yang dimiliki perusahaan",
+      "type": "character",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNI17",
+      "label": "Apakah perusahaan memiliki sertifikat standar nasional indonesia",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNIPRO17",
+      "label": "Apakah perusahaan menerapkan SNI produk",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNIMAN17",
+      "label": "Apakah perusahaan menerapkan SNI manajemen",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNIMET17",
+      "label": "Apakah perusahaan menerapkan SNI metode uji",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNIPCS17",
+      "label": "Apakah perusahaan menerapkan SNI proses",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SNIPSN17",
+      "label": "Apakah perusahaan menerapkan SNI person",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "BENSNI17",
+      "label": "Manfaat penerapan SNI bagi perusahaan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CONCST17",
+      "label": "Apakah ada kendala biaya pada penerapan SNI",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CONSIN17",
+      "label": "Apakah ada kendala sosialisasi dan informasi dalam penerapan SNI",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CONINF17",
+      "label": "Apakah ada kendala infrastruktur mutu dalam penerapan SNI",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "FITSNI17",
+      "label": "Apakah ada kendala kesesuaian SNI dalam penerapan SNI",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DEMAND17",
+      "label": "Apakah ada kendala permintaan pasar dalam penerapan SNI",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RND17",
+      "label": "Apakah selama tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "COSTRD17",
+      "label": "Apakah perusahaan membiayai kegiatan penelitian dan pengembangan yang dilakukan pihak lain",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INOPRD17",
+      "label": "Apakah perusahaan melakukan inovasi produk",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INOPCS17",
+      "label": "apakah perusahaan melakukan inovasi proses",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INOMKT17",
+      "label": "Apakah perusahaan melakukan inovasi pemasaran",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INOORG17",
+      "label": "Apakah perusahaan melakukan inovasi manajerial",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LPMNOU17",
+      "label": "Banyaknya pekerja produksi laki-laki",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LNMNOU17",
+      "label": "Banyaknya pekerja lainnya laki-laki",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LFMNOU17",
+      "label": "Banyaknya pekerja tidak dibayar laki-laki",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LTMNOU17",
+      "label": "Jumlah pekerja laki-laki",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LPWNOU17",
+      "label": "Banyaknya pekerja produksi perempuan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LNWNOU17",
+      "label": "Banyaknya pekerja lainnya perempuan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LFWNOU17",
+      "label": "Banyaknya pekerja tidak dibayar perempuan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LTWNOU17",
+      "label": "Jumlah pekerja perempuan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LPRNOU17",
+      "label": "Jumlah pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LNPNOU17",
+      "label": "Jumlah pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LFANOU17",
+      "label": "Jumlah Pekerja tidak dibayar",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LTLNOU17",
+      "label": "Total Jumlah Pekerja",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "LTLRND17",
+      "label": "Jumlah pekerja bidang penelitian dan pengembangan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPSVCU17",
+      "label": "Upah pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNSVCU17",
+      "label": "Upah pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPOVCU17",
+      "label": "Upah lembur pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNOVCU17",
+      "label": "Upah lembur pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPIVCU17",
+      "label": "Hadiah/bonus pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNIVCU17",
+      "label": "Hadiah/bonus pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPPVCU17",
+      "label": "Iuran pensiun, tunjangan sosial, asuransi dari pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNPVCU17",
+      "label": "Iuran pensiun, tunjangan sosial, asuransi dari pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPAVCU17",
+      "label": "Tunjangan kecelakaan pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNAVCU17",
+      "label": "Tunjangan kecelakaan pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZPDVCU17",
+      "label": "Total Pengeluaran untuk pekerja produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ZNDVCU17",
+      "label": "Total pengeluaran untuk pekerja lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPELIU17",
+      "label": "Banyaknya bensin (liter) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPEVCU17",
+      "label": "Nilai bensin (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPELIE17",
+      "label": "Banyaknya bensin (liter) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPEVCE17",
+      "label": "Nilai bensin (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ESOLIU17",
+      "label": "Banyaknya solar (liter) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ESOVCU17",
+      "label": "Nilai solar (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ESOLIE17",
+      "label": "Banyaknya solar (liter) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ESOVCE17",
+      "label": "Nilai solar (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECLKGU17",
+      "label": "Banyaknya batubara (ton) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECLVCU17",
+      "label": "Nilai batubara (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECLKGE17",
+      "label": "Banyaknya batubara (ton) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECLVCE17",
+      "label": "Nilai batubara (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECBKGU17",
+      "label": "Banyaknya briket batubara (kg) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECBVCU17",
+      "label": "Nilai briket batubara (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECBKGE17",
+      "label": "Banyaknya briket batubara (kg) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ECBVCE17",
+      "label": "Nilai briket batubara (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGAM3U17",
+      "label": "Banyaknya gas dari PGN yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGAVCU17",
+      "label": "Nilai gas dari PGN (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGAM3E17",
+      "label": "Banyaknya gas dari PGN yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGAVCE17",
+      "label": "Nilai briket gas dari PGN (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGOM3U17",
+      "label": "Banyaknya gas bukan dari PGN yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGOVCU17",
+      "label": "Nilai gasbukan dari PGN (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGOM3E17",
+      "label": "Banyaknya gas bukan dari PGN yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EGOVCE17",
+      "label": "Nilai briket gas bukan dari PGN (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELPKGU17",
+      "label": "Banyaknya LPG (kg) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELPVCU17",
+      "label": "Nilai LPG (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELPKGE17",
+      "label": "Banyaknya LPG (kg) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELPVCE17",
+      "label": "Nilai LPG (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ENCVCU17",
+      "label": "Nilai bahan bakar lainnya (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ENCVCE17",
+      "label": "Nilai bahan bakar lainnya (rupiah) yang digunakan untuk pembangkit listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELULIU17",
+      "label": "Banyaknya pelumas (liter) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELUVCU17",
+      "label": "Nilai pelumas (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELULIE17",
+      "label": "Banyaknya pelumas (liter) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ELUVCE17",
+      "label": "Nilai pelumas (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EFUVCU17",
+      "label": "Banyaknya bahan bakar (rupiah) yang digunakan seluruhnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EFUVCE17",
+      "label": "Banyaknya bahan bakar (rupiah) yang digunakan untuk pembangkit tenaga listrik",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPLKHU17",
+      "label": "Banyaknya KWH tenaga listrik yang dibeli dari PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EPLVCU17",
+      "label": "Banyaknya nilai rupiah tenaga listrik yang dibeli dari PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ENPKHU17",
+      "label": "Banyaknya KWH tenaga listrik yang dibeli dari Non PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ENPVCU17",
+      "label": "Banyaknya nilai rupiah tenaga listrik yang dibeli dari Non PLN",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "MGENOU17",
+      "label": "Banyaknya generator yang digunakan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "MGEKWU17",
+      "label": "Banyaknya kekuatan generator yang digunakan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ESGKHU17",
+      "label": "Banyaknya tenaga listrik yang dibangkitkan sendiri oleh perusahaan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "OELKHU17",
+      "label": "Banyaknya kwh tenaga listrik yang dijual",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YELVCU17",
+      "label": "Banyaknya rupiah tenaga listrik yang dijual",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IBRVCU17",
+      "label": "Banyaknya pengeluaran untuk sewa gedung, mesin,serta alat-alat",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ILRVCU17",
+      "label": "Banyaknya pengeluaran untuk sewa tanah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ITXVCU17",
+      "label": "Banyaknya pengeluaran untuk pajak",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IISVCU17",
+      "label": "Banyaknya pengeluaran untuk jasa industri yang dibayarkan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IINVCU17",
+      "label": "Banyaknya pengeluaran untuk bunga atas pinjaman",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "ICOVCU17",
+      "label": "Banyaknya pengeluaran untuk hadiah, sumbangan, derma, dan sejenisnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IRRVCU17",
+      "label": "Banyaknya pengeluaran untuk representasi dan royalti",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IDEVCU17",
+      "label": "Banyaknya pengeluaran untuk deviden",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IPRVCU17",
+      "label": "Banyaknya pengeluaran untuk premi asuransi kerugian yang dibayarkan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IRDVCU17",
+      "label": "Banyaknya pengeluaran untuk biaya penelitian dan pengembangan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IKIVCU17",
+      "label": "Banyaknya pengeluaran untuk kekayaaan intelektual",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IOTVCU17",
+      "label": "Banyaknya pengeluaran lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IT1VCU17",
+      "label": "Total pengeluaran lain",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RDNVCU17",
+      "label": "Pengeluaran (rupiah) bahan baku dan penolong yang berasal dari produksi dalam negeri",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RIMVCU17",
+      "label": "Pengeluaran (rupiah) bahan baku dan penolong yang berasal dari impor",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RTLVCU17",
+      "label": "Total pengeluaran (rupiah) bahan baku dan penolong",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "EKSPOR17",
+      "label": "Apakah ada produksi yang diekspor",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YPRVCU17",
+      "label": "Total nilai (rupiah) produksi",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "PRPRCA17",
+      "label": "Persentase Realisasi Produksi terhadap kapasitas terpasang",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YISVDO17",
+      "label": "Pendapatan dari jasa industri (makloon) dari dalam negeri",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YISVFO17",
+      "label": "Pendapatan dari jasa industri (makloon) dari luar negeri",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YISVCU17",
+      "label": "Total pendapatan dari jasa industri (makloon)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YRNVCU17",
+      "label": "Pendapatan lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "YT1VCU17",
+      "label": "Total pendapatan dari jasa industri (makloon) dan pendapatan lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "DEVVCU17",
+      "label": "Laba/Deviden yang diterima",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INTVCU17",
+      "label": "Bunga atas simpanan dan piutang",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RENVCU17",
+      "label": "Pendapatan dari sewa lahan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "INSVCU17",
+      "label": "Klaim asuransi kerugian yang diterima",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "NOPVCU17",
+      "label": "Total pendapatan non operasional",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SRJVCU17",
+      "label": "Nilai stok bahan baku, bahan penolong, bahan bakar, bahan pembungkus, dan lain-lain (awal)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SRDVCU17",
+      "label": "Nilai stok bahan baku, bahan penolong, bahan bakar, bahan pembungkus, dan lain-lain (akhir)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SHJVCU17",
+      "label": "Nilai stok barang produksi setengah jadi (awal)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SHDVCU17",
+      "label": "Nilai stok barang produksi setengah jadi (akhir)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SFJVCU17",
+      "label": "Nilai stok barang jadi yang dihasilkan (awal)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SFDVCU17",
+      "label": "Nilai stok barang jadi yang dihasilkan (akhir)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "STJVCU17",
+      "label": "Nilai stok awal",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "STDVCU17",
+      "label": "Nilai stok akhir",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CLTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar tanah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CLSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal tanah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CLDACU17",
+      "label": "Nilai penyusutan barang modal tanah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1101",
+      "label": "Nilai taksiran tanah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CBTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar gedung",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CBSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal gedung",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CBDACU17",
+      "label": "Nilai penyusutan barang modal gedung",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1103",
+      "label": "Nilai taksiran gedung",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CMTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar mesin dan perlengkapan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CMSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal mesin dan perlengkapan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CMDACU17",
+      "label": "Nilai penyusutan barang modal mesin dan perlengkapan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1106",
+      "label": "Nilai taksiran mesin dan perlengkapan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CVTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar kendaraan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CVSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal kendaraan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CVDACU17",
+      "label": "Nilai penyusutan barang modal kendaraan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1109",
+      "label": "Nilai taksiran kendaraan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CSTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar software/database",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CSSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal software/database",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CSDACU17",
+      "label": "Nilai penyusutan barang modal software/database",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1110",
+      "label": "Nilai taksiran software/database",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "COTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "COSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CODACU17",
+      "label": "Nilai penyusutan barang modal lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1112",
+      "label": "Nilai taksiran barang modal lainnya",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CTTTCU17",
+      "label": "Nilai pembelian/penambahan dan pembuatan/perbaikan besar",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CTSACU17",
+      "label": "Nilai penjualan/pengurangan barang modal",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "CTDACU17",
+      "label": "Nilai penyusutan barang modal",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "V1115",
+      "label": "Nilai taksiran barang modal",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SRMVCU17",
+      "label": "Nilai stok bahan baku, bahan penolong, bahan bakar, bahan pembungkus dan lain-lain di awal dan Akhir",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SHFVCU17",
+      "label": "Nilai stok barang produk setengah jadi (akhir-awal)",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "SFNVCU17",
+      "label": "Nilai stok barang jadi yang dihasilkan di awal dan akhir",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "STLVCU17",
+      "label": "Jumlah stok awal dan akhir",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "IINPUT17",
+      "label": "Hasil dari Pengurangan pendapatan dengan nilai tambah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "OUTPUT17",
+      "label": "Total Pendapatan",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "VTLVCU17",
+      "label": "Total Nilai Tambah",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    },
+    {
+      "code": "RENUM",
+      "label": "Identitas Hasil Renumbering",
+      "type": "numeric",
+      "partitions": [
+        "mfg17_kbli_diseminasi"
+      ]
+    }
+  ]
+}
