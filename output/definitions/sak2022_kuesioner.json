@@ -1,0 +1,474 @@
+{
+  "source": "sakernas kuesioner 2022 08.pdf",
+  "drive_id": "1cOmh7QRjz8wRhx10F8yRz61l9KFOFBmq",
+  "survey_id": "SAKERNAS",
+  "period": "2022 Agustus",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "K3": {
+      "soal": "11",
+      "teks": "Lainnya (orang yang tidak ada hubungan",
+      "skor": 0.5
+    },
+    "R10": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R11A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R11B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R11C": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.6
+    },
+    "R13A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R14BKBJI19": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R14BKBJI20": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R15A_BLN": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R15A_BRG": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R15A_TH": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R15A_UANG": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R16B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R17D": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.83
+    },
+    "R17F": {
+      "soal": "10",
+      "teks": "Apakah alasan tersebut terkait dengan pandemi Corona/",
+      "skor": 0.8
+    },
+    "R18A1": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R18A2": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R18A3": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R18B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R18C1": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R18C2": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R18C3": {
+      "soal": "4",
+      "teks": "Melakukan proses penjualan barang/jasa melalui website/",
+      "skor": 0.71
+    },
+    "R18C4": {
+      "soal": "4",
+      "teks": "Melakukan proses penjualan barang/jasa melalui website/",
+      "skor": 0.86
+    },
+    "R18C5": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R19": {
+      "soal": "20",
+      "teks": "Bagaimana instansi/lembaga/institusi perusahaan/usaha",
+      "skor": 0.8
+    },
+    "R21": {
+      "soal": "21",
+      "teks": "Apakah barang/jasa yang dihasilkan dari pekerjaan ini",
+      "skor": 0.8
+    },
+    "R22A": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.6
+    },
+    "R22B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R22B_KAB": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R22B_PROV": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R23": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24G": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R27A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R28A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R28B_BLT": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R28B_JML": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R29C": {
+      "soal": "10",
+      "teks": "Apakah alasan tersebut terkait dengan pandemi Corona/",
+      "skor": 0.8
+    },
+    "R31A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R31B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R32A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R32B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R33_BLN": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R33_TH": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 1.0
+    },
+    "R34B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 1.0
+    },
+    "R34C": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 1.0
+    },
+    "R34D": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 1.0
+    },
+    "R34E": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 1.0
+    },
+    "R34F": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35B": {
+      "soal": "10",
+      "teks": "Apakah alasan tersebut terkait dengan pandemi Corona/",
+      "skor": 0.8
+    },
+    "R35C": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35D": {
+      "soal": "10",
+      "teks": "Apakah alasan tersebut terkait dengan pandemi Corona/",
+      "skor": 0.6
+    },
+    "R35E": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35F": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R36A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R36B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R37": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 1.0
+    },
+    "R38A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R38B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R40D": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R41AKATEGO": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R41BKBJI19": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R41BKBJI20": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42B": {
+      "soal": "10",
+      "teks": "Apakah alasan tersebut terkait dengan pandemi Corona/",
+      "skor": 0.8
+    },
+    "R44B_KD": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R46A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R46B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R46C": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R46D": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R47A": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.6
+    },
+    "R47B": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.6
+    },
+    "R47C": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47D": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47E": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.8
+    },
+    "R47F": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47G": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47H1": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47H2": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47H3": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47H4": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R47H5": {
+      "soal": "1",
+      "teks": "Ya 2. Tidak LANJUT KE NO. 48Apakah (NAMA) diterima pada program kartu prakerja?47.e",
+      "skor": 0.5
+    },
+    "R48_1": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R48_2": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R48_3": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R48_4": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R48_5": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R48_6": {
+      "soal": "19",
+      "teks": "Sebelum pandemi Corona/COVID-19 (Februari 2020),",
+      "skor": 0.5
+    },
+    "R7A": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.5
+    },
+    "R9A": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R9B": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    },
+    "R9C": {
+      "soal": "33",
+      "teks": "Dalam seminggu/sebulan terakhir, apakah (NAMA)",
+      "skor": 0.67
+    }
+  }
+}
