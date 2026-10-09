@@ -1,0 +1,56 @@
+{
+  "source": "Sakernas Agustus 2023_Konsep dan Definisi Pertanyaan Program Kartu Prakerja.pdf",
+  "drive_id": "1ooRJC8bY5E61uhllr2yoU28Obn8I7uyf",
+  "survey_id": "SAKERNAS",
+  "period": "2023 Agustus",
+  "map_question_to_codes": {
+    "44A": [
+      "R44A"
+    ],
+    "44B": [
+      "R44B"
+    ],
+    "44C": [
+      "R44C"
+    ],
+    "44D": [
+      "R44D"
+    ],
+    "44E": [
+      "R44E"
+    ],
+    "44F": [
+      "R44F"
+    ],
+    "44G": [
+      "R44G"
+    ],
+    "44H": [
+      "R44H"
+    ],
+    "44I": [
+      "R44I"
+    ],
+    "44J": [
+      "R44J1",
+      "R44J2",
+      "R44J3",
+      "R44J4",
+      "R44J5",
+      "R44J6",
+      "R44J7"
+    ]
+  },
+  "definitions": {
+    "44A": "Nomor 44.a s/d 44.j",
+    "44B": "Nomor 44.b: Apakah (NAMA) mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui seberapa banyak responden yang mendaftar Program Kartu \nPrakerja. Pendaftaran Program Kartu Prakerja merupakan proses awal yang harus dilalui untuk \nmenjadi penerima. Pendaftaran dilakukan hanya melalui laman website Prakerja yaitu \nwww.prakerja.go.id dengan mengisi beberapa informasi data diri dan hanya dilakukan 1 (satu) \nkali. Jawaban berkode 1 (Ya) jika responden berhasil mendaftar akun Prakerja hingga tahap \nverifikasi. Jika jawaban berkode 2 (Tidak), maka pertanyaan 44.c sampai 44.j tidak ditanyakan \nkepada responden, dan petugas melanjutkan ke pertanyaan Nomor 45.",
+    "44C": "Nomor 44.c: Apakah alasan utama (NAMA) mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahu i alasan utama/motivasi responden mendaftar Program Kartu \nPrakerja. Pilih satu alasan utama, jika responden menyebutkan beberapa alasan berikut: \n \n1. Meningkatkan pengetahuan/keterampilan, adalah alasan responden mendaftar karena \ningin meningkatkan pengetahuan/keterampilan. \n2. Mendapatkan sertifikat, adalah alasan responden mendaftar karena ingin memperoleh \nsertifikat atas kemampuan yang diperoleh dari pelatihan. \n3. Mendapatkan uang saku (insentif) , adalah alasan responden mendaftar karena ingin \nmendapatkan insentif. \n4. Mengisi waktu luang, adalah alasan responden mendaftar karena ingin mengisi waktu \nluang. \n5. Ikut teman/coba-coba, adalah alasan responden mendaftar karena diajak teman atau \ncoba-coba peruntungan. \n6. Selain alasan di atas, tuliskan: adalah alasan selain yang telah disebutkan di atas. \n \nApapun jawaban di pertanyaan ini, petugas melanjutkan ke pertanyaan nomor 44.d.",
+    "44D": "Nomor 44.d: Apakah (NAMA) diterima Program Kartu Prakerja? \nPertanyaan ini bertujuan untuk mengetahui apakah responden yang mendaftar Kartu Prakerja \nlolos seleksi dan ditetapkan sebagai penerima Kartu Prakerja. Responden yang diterima sebagai \npenerima manfaat akan menerima notifikasi/pemberitahuan informasi melalui 2 kanal \nkomunikasi, yaitu SMS dan e-mail. Jika lolos seleksi, responden juga dapat mengecek hasil \npengumuman di laman website akun Prakerja dan akan muncul video tentang Kartu Prakerja \nyang harus ditonton oleh responden. Tidak seperti bantuan sosial lainnya yang dapat diperoleh \nlebih dari satu kali, penerima Kartu Prakerja hanya dapat menerima K artu Prakerja satu kali \nseumur hidupnya. \nJika jawaban berkode 2 (Tidak), maka pertanyaan 44.e sampai 44.j tidak ditanyakan kepada \nresponden, dan petugas melanjutkan ke pertanyaan Nomor 45.",
+    "44E": "Nomor 44.e: Kapan (NAMA) diterima pada Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui tahun penetapan responden sebagai penerima manfaat \nProgram Kartu Prakerja. Pilih jawaban dari berbagai pilihan jawaban berikut: \n1. 2020, jika responden ditetapkan sebagai penerima di tahun 2020 \n2. 2021, jika responden ditetapkan sebagai penerima di tahun 2021 \n3. 2022, jika responden ditetapkan sebagai penerima di tahun 2022 \n4. 2023, jika responden ditetapkan sebagai penerima di tahun 2023 \n \nApapun jawaban responden di pertanyaan ini, petugas dapat melanjutkan ke pertanyaan nomor \n44.f.",
+    "44F": "Nomor 44.f: Apakah (NAMA) bekerja sebelum diterima pada Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui status pekerjaan responden saat ditetapkan menjadi penerima \nProgram Kartu Prakerja. Jawaban berkode 1 (Ya) jika responden berstatus bekerja sebe lum \nmendapatkan notifikasi penetapan sebagai penerima. \nApapun jawaban di pertanyaan ini, petugas melanjutkan ke pertanyaan nomor 44.g.",
+    "44G": "Nomor 44.g: Apakah (NAMA) menyelesaikan pelatihan pertama pada Program Kartu \nPrakerja? \nPertanyaan ini untuk mengetahui a pakah responden menyelesaikan pelatihan pertama yang \ndiikuti. Penerima wajib menyelesaikan pelatihan pertama untuk memperoleh sertifikat, insentif, \nmaupun memilih pelatihan lain di ekosistem Program Kartu Prakerja. \n \nJawaban berkode 1 (Ya), jika responden menyelesaikan pelatihan pertama yang ditandai dengan \ntersedianya sertifikat di dashboard penerima Program Kartu Prakerja pada www.prakerja.go.id. \nJika jawaban berkode 2 (Tidak), maka pertanyaan 44.h sampai 44.j tidak ditanyakan kepada \nresponden, dan petugas melanjutkan ke pertanyaan Nomor 45.",
+    "44H": "Nomor 44.h: Apakah pelatihan yang (NAMA) ikuti di Program Kartu Prakerja sesuai dengan \nkebutuhan/minat? \nPertanyaan ini untuk mengetahui apakah pelatihan Prakerja yang diikuti responden sesuai \ndengan kebutuhan atau minat yang responden harapkan. Jawaban berkode 1 (Ya) jika responden \nmerasa sekurang-kurangnya 1 (satu) pelatihan Prakerja yang diikuti sesuai dengan kebutuhan \natau minatnya. \nApapun jawaban di pertanyaan ini, petugas melanjutkan ke pertanyaan nomor 44.i.",
+    "44I": "Nomor 44.i: Apakah Program Kartu Prakerja meningkatkan pengetahuan/keterampilan \n(NAMA)? \nPertanyaan ini untuk mengetahui apakah responden memperoleh manfaat peningkatan \npengetahuan/keterampilan setelah mengikuti pelatihan Prakerja. \nApapun jawaban di pertanyaan ini, petugas dapat melanjutkan ke pertanyaan nomor 44.j.",
+    "44J": "Nomor 44.j: Digunakan untuk apa uang saku (insentif) dari Program Kartu Prakerja? \nInsentif didapatkan peserta setelah menyelesaikan pelatihan pertama Program Kartu Prakerja. \nUntuk Penerima Program Kartu Prakerja tahun 2020 - 2022, insentif yang didapatkan sebesar \nRp.600.000/bulan (diberikan selama 4 bulan) dan juga insentif survei evaluasi sebesar \nRp.50.000/survei (sebanyak maksimal 3 kali survei). \n \nUntuk Penerima Program Kartu Prakerja tahun 2023, insentif yang didapatkan sebesar \nRp.600.000 (sebanyak 1 kali) dan juga insentif survei evaluasi sebesar Rp.50.000/survei \n(sebanyak maksimal 2 kali survei). \n \nPilih jawaban yang bersesuaian di setiap jawaban dari responden, dari berbagai pilihan jawaban \nberikut: \n \n1. Memenuhi kebutuhan sehari -hari, jika uang saku tersebut digunakan sebagian atau \nseluruhnya, untuk memenuhi kebutuhan sehari -hari seperti pembelian makanan, \nminuman, pembayaran tagihan listrik/air, dll. \n2. Modal usaha , jika uang saku tersebut digunakan sebagian atau seluruhnya, sebagai \nmodal usaha peserta. \n3. Membayar utang, jika uang saku tersebut digunakan sebagian atau seluruhnya, untuk \nmembayar utang peserta. \n4. Membayar biaya transportasi terkait pelatihan, jika sebagian atau seluruh uang saku \ndigunakan untuk memenuhi biaya transportasi ke t empat pelatihan, termasuk pelatihan \nselain dari program Kartu Prakerja. \n5. Membayar biaya pulsa/internet, jika sebagian atau seluruh uang saku digunakan untuk \nkeperluan membeli pulsa, paket data internet seluler, voucher wi-fi, warung internet, dan \nberbagai cara lain untuk mendapatkan akses internet. \n6. Membeli pelatihan lain/penunjang belajar , jika sebagian atau seluruh uang saku \ndigunakan untuk mengambil pelatihan diluar Prakerja atau barang -barang yang dapat \nmenunjang responden untuk keperluan belajar. \n7. Lainnya, tuliskan: jika peserta menggunakan sebagian atau seluruh uang saku untuk \nkeperluan selain poin 1 -6 yang telah disebutkan di atas, maka tuliskan juga \npenggunaannya pada tempat yang tersedia."
+  }
+}
