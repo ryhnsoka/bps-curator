@@ -211,7 +211,7 @@ if menu == "Katalog":
                      for v in tapped]) if tapped else ""
                 st.download_button("Unduh TXT langsung", direct or " ",
                                    file_name="pilihan.txt", disabled=not tapped)
-    st.dataframe(rows, use_container_width=True, hide_index=True,
+    st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
                                 "Periode": st.column_config.TextColumn(width="large"),
                                 "Jumlah Variabel": st.column_config.NumberColumn(width="small"),
