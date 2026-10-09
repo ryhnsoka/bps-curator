@@ -1,0 +1,146 @@
+{
+  "cakupan": "pemetaan definisi/soal kuesioner ke kode variabel master",
+  "catatan": "terpetakan rendah sebaiknya validasi manual sebelum dipakai di UI",
+  "files": [
+    {
+      "file": "sak2021_prakerja.json",
+      "terpetakan": "8/8"
+    },
+    {
+      "file": "sak2022_prakerja.json",
+      "terpetakan": "8/8"
+    },
+    {
+      "file": "sak2023_prakerja.json",
+      "terpetakan": "10/10"
+    },
+    {
+      "file": "sak2024_prakerja.json",
+      "terpetakan": "10/10"
+    },
+    {
+      "file": "sak2021_kuesioner.json",
+      "terpetakan": "~0/189"
+    },
+    {
+      "file": "sak2022_kuesioner.json",
+      "terpetakan": "93/216"
+    },
+    {
+      "file": "sak2023_kuesioner.json",
+      "terpetakan": "80/220"
+    },
+    {
+      "file": "sak2024_kuesioner.json",
+      "terpetakan": "123/286"
+    },
+    {
+      "file": "susenas2023kor_kuesioner.json",
+      "terpetakan": "52/468"
+    },
+    {
+      "file": "susenas2023kp_kuesioner.json",
+      "terpetakan": "0/41"
+    },
+    {
+      "file": "susenas2024kor_kuesioner.json",
+      "terpetakan": "61/488"
+    },
+    {
+      "file": "susenas2024msbp_kuesioner.json",
+      "terpetakan": "76/360"
+    },
+    {
+      "file": "susenas2024modul_kuesioner.json",
+      "terpetakan": "1/41"
+    },
+    {
+      "file": "komuter_jabo2019_kuesioner.json",
+      "terpetakan": "88/156"
+    },
+    {
+      "file": "komuter_jabo2014_kuesioner.json",
+      "terpetakan": "104/126"
+    },
+    {
+      "file": "komuter_jabo2023_kuesioner.json",
+      "terpetakan": "187/196"
+    },
+    {
+      "file": "komuter_sarbagita2023_kuesioner.json",
+      "terpetakan": "187/196"
+    },
+    {
+      "file": "komuter_patungraya2023_kuesioner.json",
+      "terpetakan": "187/196"
+    },
+    {
+      "file": "komuter_mamminasata2023_kuesioner.json",
+      "terpetakan": "187/196"
+    },
+    {
+      "file": "komuter_banjarbakula2023_kuesioner.json",
+      "terpetakan": "187/196"
+    },
+    {
+      "file": "imk2019_kuesioner.json",
+      "terpetakan": "149/199"
+    },
+    {
+      "file": "imk2022_kuesioner.json",
+      "terpetakan": "155/255"
+    },
+    {
+      "file": "imk2023_kuesioner.json",
+      "terpetakan": "67/251"
+    },
+    {
+      "file": "stpim2017_kuesioner.json",
+      "terpetakan": "152/187"
+    },
+    {
+      "file": "stpim2018_kuesioner.json",
+      "terpetakan": "178/187"
+    },
+    {
+      "file": "stpim2019_kuesioner.json",
+      "terpetakan": "175/214"
+    },
+    {
+      "file": "ecom2023_kuesioner.json",
+      "terpetakan": "0/54"
+    },
+    {
+      "file": "ecom2024_kuesioner.json",
+      "terpetakan": "16/172"
+    },
+    {
+      "file": "spak2024_kuesioner.json",
+      "terpetakan": "12/95"
+    },
+    {
+      "file": "podesdesa2021_kuesioner.json",
+      "terpetakan": "335/857"
+    },
+    {
+      "file": "podeskab2021_kuesioner.json",
+      "terpetakan": "15/35"
+    },
+    {
+      "file": "podeskec2021_kuesioner.json",
+      "terpetakan": "40/77"
+    },
+    {
+      "file": "podeskec2024_kuesioner.json",
+      "terpetakan": "47/92"
+    },
+    {
+      "file": "podesdesa2024_kuesioner.json",
+      "terpetakan": "544/793"
+    },
+    {
+      "file": "podesterdepan2024_kuesioner.json",
+      "terpetakan": "3/11"
+    }
+  ]
+}
