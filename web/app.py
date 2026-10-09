@@ -14,7 +14,8 @@ import streamlit as st
 from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list, generate_basket_txt
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
-from bps_curator.definitions import load_definitions, definitions_for
+from bps_curator.definitions import (load_definitions, definitions_for,
+                                     master_definitions)
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -267,17 +268,18 @@ else:
                       if v["code"] not in unav_set],
                      use_container_width=True, hide_index=True)
         st.markdown("</div>", unsafe_allow_html=True)
-        defs = definitions_for(load_definitions(OUT_DIR / "definitions"),
-                               m.get("survey_id", ""), m.get("period", ""))
+        defs, dinfo = master_definitions(load_definitions(OUT_DIR / "definitions"), m)
         with_def = sorted({v["code"] for v in c["found"] if v["code"] in defs})
         if with_def:
             by_code = {v["code"]: v for v in c["found"]}
-            def_opts = [f"{cd} — {by_code[cd]['label']}" if cd in by_code else cd
+            def_opts = [f"{cd} | {by_code[cd]['label']}" if cd in by_code else cd
                         for cd in with_def]
             st.markdown("<div class='card'>", unsafe_allow_html=True)
             st.markdown("#### Lihat Definisi")
+            st.caption(f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel punya "
+                       f"definisi/soal kuesioner")
             opt = st.selectbox("Pilih variabel", def_opts)
-            opt_code = opt.split()[0].strip() if opt and opt.split() else ""
+            opt_code = opt.split("|")[0].strip() if opt else ""
             d = defs.get(opt_code, {})
             st.caption(f"Sumber: {d.get('source', '')}")
             st.write(d.get("text", ""))

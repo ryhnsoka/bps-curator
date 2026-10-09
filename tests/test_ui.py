@@ -37,12 +37,35 @@ def test_ui_flow():
     assert "keep " in do_text and "K10" in do_text, do_text[:200]
     assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown)
     assert any("Lihat Definisi" in m.value for m in at.markdown), "seksi definisi"
-    at.selectbox[1].set_value(next(o for o in at.selectbox[1].options
-                                        if o.startswith("R51A"))).run()
+    assert any("variabel punya" in str(c.value) for c in at.caption), "cakupan dilaporkan"
+    opt51 = next(o for o in at.selectbox[1].options if o.startswith("R51A"))
+    assert opt51.count("|") == 1, f"pemisah opsi tetap '|': {opt51}"
+    at.selectbox[1].set_value(opt51).run()
     assert not at.exception, at.exception
     assert any("Kartu Prakerja" in m.value for m in at.markdown), "isi definisi tampil"
     print("UI OK: katalog-search, kurasi-tempel, preview, definisi, 2 unduhan")
 
 
+def test_ui_definitions_underscore_master():
+    """IMK pakai kode ber-underscore (B10_1001): definisi harus tetap ketemu."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.radio[0].set_value("Kurasi").run()
+    idx = next(i for i, o in enumerate(at.selectbox[0].options)
+               if "Mikro dan Kecil" in o and o.endswith("2019"))
+    at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
+    at.text_area[0].set_value("B10_1001 B10_1002 B10_1003").run()
+    at.button[0].click().run()
+    assert not at.exception, at.exception
+    assert any("Lihat Definisi" in m.value for m in at.markdown), "seksi definisi IMK"
+    assert any("149 dari 199" in str(c.value) for c in at.caption), [c.value for c in at.caption]
+    at.selectbox[1].set_value(next(o for o in at.selectbox[1].options
+                                   if o.startswith("B10_1001"))).run()
+    assert not at.exception, at.exception
+    assert any("usaha" in m.value.lower() for m in at.markdown), "soal kuesioner tampil"
+    print("UI OK: definisi IMK (kode underscore) + ambang cakupan")
+
+
 if __name__ == "__main__":
     test_ui_flow()
+    test_ui_definitions_underscore_master()
