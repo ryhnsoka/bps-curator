@@ -3,41 +3,41 @@
   "drive_id": "1USxMtkQyb0KXRUZLXg3YMMd7M08icCJk",
   "survey_id": "IMK",
   "period": "2019",
-  "metode": "fuzzy label-soal (ambang 0.5)",
+  "metode": "fuzzy label-soal (ambang 0.5) + teks blok soal penuh (jangkar fragmen lama)",
   "mapped": {
     "B10_1001": {
       "soal": "910",
-      "teks": "Apakah usaha/perusahaan saat ini",
+      "teks": "910. Apakah usaha/perusahaan saat ini menjadi anggota koperasi? Ya - 1 Tidak - 2 Lainnya (tuliskan ……….…………………..……………...) - 32",
       "skor": 0.5
     },
     "B10_1004A": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "B10_1004B": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "B10_1004C": {
       "soal": "204",
-      "teks": "Kegiatan Utama",
+      "teks": "204. Kegiatan Utama (diisi oleh Pengawas) Kode KBLI 5 - digit ………………………………………………………………………………………….. ………………………………………………………………………………………….. ………………………………………………………………………………………….. Tidak di bangunan dan lokasi tetap",
       "skor": 0.5
     },
     "B10_1004D": {
       "soal": "204",
-      "teks": "Kegiatan Utama",
+      "teks": "204. Kegiatan Utama (diisi oleh Pengawas) Kode KBLI 5 - digit ………………………………………………………………………………………….. ………………………………………………………………………………………….. ………………………………………………………………………………………….. Tidak di bangunan dan lokasi tetap",
       "skor": 0.5
     },
     "B10_1006A": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "B10_1006B": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "B10_1006C": {
@@ -52,507 +52,507 @@
     },
     "B10_1008": {
       "soal": "910",
-      "teks": "Apakah usaha/perusahaan saat ini",
+      "teks": "910. Apakah usaha/perusahaan saat ini menjadi anggota koperasi? Ya - 1 Tidak - 2 Lainnya (tuliskan ……….…………………..……………...) - 32",
       "skor": 0.5
     },
     "B2_201M": {
       "soal": "201",
-      "teks": "Kode KBLI 2-digit",
+      "teks": "201. Kode KBLI 2-digit (disalin dari VIMK19-DS2 Blok V Kol (8)) (3)",
       "skor": 0.67
     },
     "B2_202": {
       "soal": "202",
-      "teks": "Klasifikasi Industri",
+      "teks": "202. Klasifikasi Industri (disalin dari VIMK19-DS2 Blok V Kol (9)) Industri Mikro",
       "skor": 1.0
     },
     "B2_2042": {
       "soal": "201",
-      "teks": "Kode KBLI 2-digit",
+      "teks": "201. Kode KBLI 2-digit (disalin dari VIMK19-DS2 Blok V Kol (8)) (3)",
       "skor": 1.0
     },
     "B2_206B": {
       "soal": "208",
-      "teks": "Status badan usaha",
+      "teks": "208. Status badan usaha (Usaha musiman: khusus industri pengeringan/perajangan tembakau & industri gula dari tebu) 206 a. Lokasi Tempat Usaha Bangunan sensus khusus usaha",
       "skor": 0.67
     },
     "B2_207": {
       "soal": "207",
-      "teks": "Tahun mulai berproduksi",
+      "teks": "207. Tahun mulai berproduksi secara komersial",
       "skor": 1.0
     },
     "B2_208": {
       "soal": "208",
-      "teks": "Status badan usaha",
+      "teks": "208. Status badan usaha (Usaha musiman: khusus industri pengeringan/perajangan tembakau & industri gula dari tebu) 206 a. Lokasi Tempat Usaha Bangunan sensus khusus usaha",
       "skor": 1.0
     },
     "B2_209": {
       "soal": "209",
-      "teks": "Aktivitas keuangan yang dapat",
+      "teks": "209. Aktivitas keuangan yang dapat dipisahkan oleh usaha dari kepentingan rumah tangga : c. Telepon/Handphone b. Jabatan 111 a. Nama Pemberi Jawaban e. Website / Media sosial c. Telepon/Handphone/Faksimili …………………………………………………………………………... b. Alamat Lengkap ……………………………………………………………………………………………………………………………110 a. Nama Usaha/Perusahaan …………………………………………………………………………………………………………………………... d. Email Langsung ke rincian 210 (tabungan, deposito, hutang, dll) R A H A S I A VIMK19-S2 …………………………………………………………………………………………………………………………… …………………………………………………………………………………………………………………………… …………………………………………………………………………………………………………………………… …………………………………………………………………………………………………………………………... …………………………………………………………………………………………………………………………... …………………………………………………………………………………………………………………………... (tuliskan secara lengkap meliputi proses dan output)",
       "skor": 1.0
     },
     "B2_213": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 1.0
     },
     "B3_301A_10": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_11": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_12": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_13": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_14": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_3": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_4": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_5": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_6": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_7": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_8": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301A_9": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_301B_10": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_11": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_12": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_13": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_14": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_3": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_4": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_5": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_6": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_7": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_8": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_9": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301B_TO": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.67
     },
     "B3_301C_10": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_11": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_12": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_13": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_14": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_3": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_4": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_5": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_6": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_7": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_8": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_301C_9": {
       "soal": "301",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "teks": "301. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari untuk kegiatan September 2018 sampai Agustus 2019: Jumlah Kol(2) s.d. Kol(5) (6) Klasifikasi Pekerja (1) Pekerja Tidak Dibayar a. Kelompok umur .................. (4) Pekerja Dibayar (2) Pekerja: semua orang (tanpa memperhatikan usia) yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja: hari ketika ada seorang atau lebih bekerja paling sedikit satu jam secara terus menerus di usaha/perusahaan. Jam kerja: jangka waktu yang dinyatakan dalam satuan jam, digunakan untuk bekerja/melakukan kegiatan usaha (tidak termasuk jam istirahat resmi), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari: jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tsb. Mei Jun JulFeb Mar Apr (14)(13)(12)(11)(10)(9) Laki-laki Perempuan Laki-laki Perempuan ...................... ...................... ..................... ..................... 1. Kurang dari 15 tahun 2. 15 - 49 tahun 3. 50 - 64 tahun b. Jenis pekerjaan ........................................ ...................... ..................... ..................... 1. Pekerja produksi 2. Pekerja lainnya c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... ..................... ..................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 5. SMK 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3) (5) Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 …………………………………………………………………………………………. ………………………………………………………… Tahun",
       "skor": 0.5
     },
     "B3_302A2_2": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302A3_3": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302A4_4": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302A_5": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302A_6": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.6
     },
     "B3_302B2_2": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302B_3": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302B_4": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302B_5": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "B3_302B_6": {
       "soal": "302",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "teks": "302. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja selama Agustus 2019 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.6
     },
     "B3_302C1_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C1_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C1_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C1_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C1_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C2_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C2_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C2_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C2_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C2_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C3_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C3_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C3_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C3_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C3_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C4_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C4_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C4_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C4_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C4_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C5_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C5_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C5_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C5_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C5_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C6_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C6_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C6_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C6_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C6_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C7_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C7_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C7_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C7_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C7_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C8_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C8_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C8_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C8_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C8_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C_2": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C_3": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C_4": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C_5": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B3_302C_6": {
       "soal": "213",
-      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "teks": "213. Pendidikan tertinggi yang ditamatkan (2) Laki-Laki - 1 Perempuan - 2 (3)",
       "skor": 0.67
     },
     "B5_504_5": {
@@ -562,192 +562,192 @@
     },
     "B6_1": {
       "soal": "503",
-      "teks": "Pendapatan dari kegiatan lain yang berhubungan dengan usaha:",
+      "teks": "503. Pendapatan dari kegiatan lain yang berhubungan dengan usaha: a. Keuntungan /kerugian penjualan barang dalam bentuk yang sama b. Bunga atas simpanan, bagi hasil, dividen dan sejenisnya c. Hasil imputasi e. Lainnya (tuliskan …………………………………………………………………..) Pajak lainnya atas produksi ( Contoh : pajak bumi dan bangunan (PBB), pajak kendaraan untuk usaha, dll) ………….………………………………k. .......……………………….... .......……………………….... .......……………………….... .......……………………….... .......……………………….... (nilai produksi dari barang yang dihasilkan termasuk barang setengah jadi) d. Sumbangan, hibah, hadiah, dan sejenisnya .......……………………….... a. Milik sendiri (termasuk hibah/transfer) c. Pinjaman bank d. Pinjaman koperasi e. Pinjaman pegadaian b. Penyertaan modal/patungan (Modal ventura) f. Pinjaman dari perorangan (termasuk keluarga/famili) g. Pinjaman program pemerintah ~ 5 ~",
       "skor": 0.5
     },
     "B6_2": {
       "soal": "401",
-      "teks": "Pengeluaran khusus",
+      "teks": "401. Pengeluaran khusus Beras (termasuk beras merah, beras ketan) KG ………………………………… ………….………………………………b. Cabai merah/keriting segar (tidak termasuk paprika dan saus sambal) KG ………………………………… ………….………………………………c. Daging ayam (tidak termasuk jeroan, kepala, ceker) KG ………………………………… ………….………………………………d. Daging sapi (tidak termasuk jeroan, kepala, kulit) KG ………………………………… ………….………………………………e. Garam (termasuk garam halus, garam bata, garam krosok) KG ………………………………… ………….………………………………f. Gula pasir (tidak termasuk gula batu, gula biang/sakarin) KG ………………………………… ………….………………………………g. Jagung KG ………………………………… ………….………………………………h. Kedelai KG ………………………………… ………….………………………………i. Telur ayam ras/bebek/itik KG ………………………………… ………….………………………………j. Tepung beras KG ………………………………… ………….………………………………k. ………………………………… ………….………………………………l. ………………………………… ………….………………………………m. ………………………………… ………….………………………………n. …………………………………………………………………………………………… ………………………………… ………….………………………………o. …………………………………………………………………………………………… ………………………………… ………….………………………………p. …………………………………………………………………………………………… ………………………………… ………….………………………………q. …………………………………………………………………………………………… ………………………………… ………….………………………………r. …………………………………………………………………………………………… ………………………………… ………….………………………………s. …………………………………………………………………………………………… Lainnya (total nilai pengeluaran selain rincian a s.d. rincian s) ………….………………………………t. Jumlah [ a + b + c + … + t ] ………….………………………………u.",
       "skor": 0.5
     },
     "B8_801A_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801A_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801B_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801B_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801C_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801C_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801D_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801D_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801E_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801E_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801F_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801F_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801G_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801G_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_801H_2": {
       "soal": "801",
-      "teks": "Komposisi permodalan:",
+      "teks": "801. Komposisi permodalan: Langsung ke rincian 901 i. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) b. Uang tunai c. Piutang usaha /pinjaman yang diberikan e. Surat berharga (saham, obligasi, finansial derivatif, dll) j. Alat transportasi k. Produk kekayaan intelektual (R & D, original product termasuk software komputer) h. Pinjaman lembaga swasta d. Simpanan (giro, tabungan, deposito) l. Barang modal/peralatan",
       "skor": 0.5
     },
     "B8_801H_3": {
       "soal": "702",
-      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "teks": "702. Hutang usaha per 31 Agustus 2019 (Rp)",
       "skor": 0.6
     },
     "B8_802": {
       "soal": "204",
-      "teks": "Kegiatan Utama",
+      "teks": "204. Kegiatan Utama (diisi oleh Pengawas) Kode KBLI 5 - digit ………………………………………………………………………………………….. ………………………………………………………………………………………….. ………………………………………………………………………………………….. Tidak di bangunan dan lokasi tetap",
       "skor": 0.5
     },
     "B8_803B1": {
       "soal": "1",
-      "teks": "Kredit Usaha Rakyat (KUR)",
+      "teks": "1. Kredit Usaha Rakyat (KUR)",
       "skor": 1.0
     },
     "B9_901": {
       "soal": "901",
-      "teks": "Kendala/kesulitan yang dialami oleh",
+      "teks": "901. Kendala/kesulitan yang dialami oleh usaha /perusahaan selama setahun yang lalu:",
       "skor": 1.0
     },
     "B9_902": {
       "soal": "204",
-      "teks": "Kegiatan Utama",
+      "teks": "204. Kegiatan Utama (diisi oleh Pengawas) Kode KBLI 5 - digit ………………………………………………………………………………………….. ………………………………………………………………………………………….. ………………………………………………………………………………………….. Tidak di bangunan dan lokasi tetap",
       "skor": 0.5
     },
     "B9_903": {
       "soal": "903",
-      "teks": "Jenis kemitraan yang pernah dilakukan oleh",
+      "teks": "903. Jenis kemitraan yang pernah dilakukan oleh usaha/perusahaan selama setahun yang lalu: Uang - 1 Bahan baku - 2 Pemasaran/penjualan - 4 Barang modal (Mesin/sarana/prasarana/peralatan) - 8 Lainnya (tuliskan ……….…………………..………………..) - 16 Tidak/belum menjalin kemitraan - 0 Langsung ke rincian 910",
       "skor": 1.0
     },
     "B9_904": {
       "soal": "904",
-      "teks": "Badan/lembaga yang pernah menjalin kemitraan",
+      "teks": "904. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu: Pemerintah daerah/dinas/koperasi - 1 Perusahaan swasta - 4 Perbankan swasta - 8 Lainnya (tuliskan ……….…………………………..………..) - 32 Yayasan/LSM - 16 Lainnya (tuliskan ……….……………………………...) - 64 Jaminan stabilitas harga - 16 a. Pengusaha : ………………… % b. Mitra bagi hasil : ………………… % 001908. Jika rincian 907 berkode 1, berapa proporsi bagi hasil yang diinginkan?",
       "skor": 1.0
     },
     "B9_905": {
       "soal": "905",
-      "teks": "Model/bentuk kemitraan yang dijalankan:",
+      "teks": "905. Model/bentuk kemitraan yang dijalankan: Inti - plasma - 1 Subkontrak - 2 Perdagangan umum/konsinyasi - 4 Bagi hasil - 8 Kerja sama operasional - 16 Usaha patungan (joint venture) - 32",
       "skor": 1.0
     },
     "B9_906": {
       "soal": "906",
-      "teks": "Apakah kemitraan yang sedang dijalankan",
+      "teks": "906. Apakah kemitraan yang sedang dijalankan sudah menguntungkan? Sudah - 1 Belum - 2 Langsung ke rincian 909",
       "skor": 1.0
     },
     "B9_909": {
       "soal": "909",
-      "teks": "Apakah ada Memorandum of Understanding",
+      "teks": "909. Apakah ada Memorandum of Understanding (MoU) perjanjian dalam menjalin kemitraan? Ya - 1 Tidak - 2",
       "skor": 1.0
     },
     "B9_910": {
       "soal": "910",
-      "teks": "Apakah usaha/perusahaan saat ini",
+      "teks": "910. Apakah usaha/perusahaan saat ini menjadi anggota koperasi? Ya - 1 Tidak - 2 Lainnya (tuliskan ……….…………………..……………...) - 32",
       "skor": 1.0
     },
     "B9_911": {
       "soal": "911",
-      "teks": "Jenis pelayanan/bantuan yang pernah diterima",
+      "teks": "911. Jenis pelayanan/bantuan yang pernah diterima usaha/perusahaan dari koperasi selama setahun yang lalu : Uang - 1 Bahan baku - 2 Pemasaran - 4 Mesin - 8 Tidak pernah - 0 Barang modal/peralatan - 16 Langsung ke rincian 913 Lainnya (tuliskan ………..………………….…………) - 32 Belum ada koperasi - 5",
       "skor": 1.0
     },
     "B9_912": {
       "soal": "911",
-      "teks": "Jenis pelayanan/bantuan yang pernah diterima",
+      "teks": "911. Jenis pelayanan/bantuan yang pernah diterima usaha/perusahaan dari koperasi selama setahun yang lalu : Uang - 1 Bahan baku - 2 Pemasaran - 4 Mesin - 8 Tidak pernah - 0 Barang modal/peralatan - 16 Langsung ke rincian 913 Lainnya (tuliskan ………..………………….…………) - 32 Belum ada koperasi - 5",
       "skor": 0.6
     },
     "B9_913": {
       "soal": "913",
-      "teks": "Badan/lembaga selain koperasi yang pernah",
+      "teks": "913. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Instansi pemerintah - 1 Perusahaan swasta - 2 Perbankan - 4 Yayasan/LSM - 8 Tidak pernah - 0 Langsung ke rincian 916 Tidak pernah - 0",
       "skor": 1.0
     },
     "B9_914": {
       "soal": "914",
-      "teks": "Jenis bimbingan/pelatihan/penyuluhan",
+      "teks": "914. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
       "skor": 1.0
     },
     "B9_915": {
       "soal": "915",
-      "teks": "Penyelenggara bimbingan/pelatihan/penyuluhan :",
+      "teks": "915. Penyelenggara bimbingan/pelatihan/penyuluhan : Sendiri - 1 Instansi pemerintah - 2 Perusahaan swasta - 4 Yayasan/LSM - 8 Manajerial - 1 Keterampilan/teknik produksi - 2 AMDAL - 8 Pemasaran - 4",
       "skor": 1.0
     },
     "B9_916": {
       "soal": "916",
-      "teks": "Apakah usaha menjadi anggota asosiasi/paguyuban ?",
+      "teks": "916. Apakah usaha menjadi anggota asosiasi/paguyuban ? Ya - 1 Tidak - 2",
       "skor": 1.0
     },
     "B9_917": {
       "soal": "917",
-      "teks": "Sumber perolehan air yang digunakan",
+      "teks": "917. Sumber perolehan air yang digunakan untuk kegiatan usaha (termasuk operasional) : 1001. Penggunaan internet oleh usaha / perusahaan : Pemasaran /iklan - 1 Penjualan produk - 2 Pembelian bahan baku - 4 Pencarian informasi terkait pengembangan - 16 usaha/perusahaan Pinjaman fintech - 8 Tidak menggunakan internet - 0",
       "skor": 1.0
     },
     "B9_918": {
       "soal": "917",
-      "teks": "Sumber perolehan air yang digunakan",
+      "teks": "917. Sumber perolehan air yang digunakan untuk kegiatan usaha (termasuk operasional) : 1001. Penggunaan internet oleh usaha / perusahaan : Pemasaran /iklan - 1 Penjualan produk - 2 Pembelian bahan baku - 4 Pencarian informasi terkait pengembangan - 16 usaha/perusahaan Pinjaman fintech - 8 Tidak menggunakan internet - 0",
       "skor": 0.5
     },
     "B9_919": {
       "soal": "919",
-      "teks": "Volume air yang digunakan (tanpa biaya)",
+      "teks": "919. Volume air yang digunakan (tanpa biaya) Selama bulan Agustus 2019 atau bulan terakhir berproduksi …………………………………… LITER Pompa artesis - 1 Pompa air listrik - 2 Pompa air tangan - 4 Katrol/timba air - 8 Air tanah - 1 Air kemasan/isi ulang - 2 Usaha/perusahaan air minum/air baku - 4 Sungai/danau/waduk - 8 Tidak menggunakan air - 0",
       "skor": 1.0
     },
     "TAHUN": {
       "soal": "207",
-      "teks": "Tahun mulai berproduksi",
+      "teks": "207. Tahun mulai berproduksi secara komersial",
       "skor": 1.0
     }
   }
