@@ -3,7 +3,7 @@
   "drive_id": "1AXwsAUfZkuULMDudvzC2NsYCBXH4cg52",
   "survey_id": "PODES",
   "period": "2024 Kecamatan",
-  "metode": "nomor soal mandiri -> R+nomor",
+  "metode": "nomor soal mandiri -> R+nomor (ekspansi prefiks)",
   "mapped": {
     "R101": {
       "soal": "101",
@@ -16,6 +16,182 @@
     "R102": {
       "soal": "102",
       "teks": "102"
+    },
+    "R301A_LAT": {
+      "soal": "301",
+      "teks": "301 III. KETERANGAN UMUM KECAMATAN 302 Luas wilayah kecamatan : ................................................................ km2 , Kecamatan ditetapkan sebagai Kecamatan Pesisir : Ya – 1 Tidak – 2 Tidak tahu – 3 303 a. Keberadaan permukiman di atas permukaan air laut: Ada – 1 Tidak ada – 2 b. Keberadaan permukiman di atas permukaan air sungai/danau: Ada – 1 Tidak ada – 2"
+    },
+    "R301A_LAT2": {
+      "soal": "301",
+      "teks": "301 III. KETERANGAN UMUM KECAMATAN 302 Luas wilayah kecamatan : ................................................................ km2 , Kecamatan ditetapkan sebagai Kecamatan Pesisir : Ya – 1 Tidak – 2 Tidak tahu – 3 303 a. Keberadaan permukiman di atas permukaan air laut: Ada – 1 Tidak ada – 2 b. Keberadaan permukiman di atas permukaan air sungai/danau: Ada – 1 Tidak ada – 2"
+    },
+    "R301A_LONG": {
+      "soal": "301",
+      "teks": "301 III. KETERANGAN UMUM KECAMATAN 302 Luas wilayah kecamatan : ................................................................ km2 , Kecamatan ditetapkan sebagai Kecamatan Pesisir : Ya – 1 Tidak – 2 Tidak tahu – 3 303 a. Keberadaan permukiman di atas permukaan air laut: Ada – 1 Tidak ada – 2 b. Keberadaan permukiman di atas permukaan air sungai/danau: Ada – 1 Tidak ada – 2"
+    },
+    "R301B": {
+      "soal": "301",
+      "teks": "301 III. KETERANGAN UMUM KECAMATAN 302 Luas wilayah kecamatan : ................................................................ km2 , Kecamatan ditetapkan sebagai Kecamatan Pesisir : Ya – 1 Tidak – 2 Tidak tahu – 3 303 a. Keberadaan permukiman di atas permukaan air laut: Ada – 1 Tidak ada – 2 b. Keberadaan permukiman di atas permukaan air sungai/danau: Ada – 1 Tidak ada – 2"
+    },
+    "R304A": {
+      "soal": "304",
+      "teks": "304 1........................................................ 2........................................................ 3........................................................ 4........................................................ 5........................................................ ........................................... .......................................... .......................................... .......................................... .......................................... BT meter , , b. Panti wreda/ jompo a. Panti asuhan 1........................................................ 2........................................................ 3........................................................ 4........................................................ 5......"
+    },
+    "R304B": {
+      "soal": "304",
+      "teks": "304 1........................................................ 2........................................................ 3........................................................ 4........................................................ 5........................................................ ........................................... .......................................... .......................................... .......................................... .......................................... BT meter , , b. Panti wreda/ jompo a. Panti asuhan 1........................................................ 2........................................................ 3........................................................ 4........................................................ 5......"
+    },
+    "R401AK2": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R401AK3": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R401BK2": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R401BK3": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R401CK2": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R401CK3": {
+      "soal": "401",
+      "teks": "401 3 Jumlah situs/ bangunan *) Jika lokasi situs /bangunan bersejarah meliputi lebih dari satu desa , tuliskan nama dan kode desa lokasi utama situs / bangunan bersejarah yang bersangkutan. VI. SITUS/BANGUNAN BERSEJARAH ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pendidikan dan Kebudayaan )"
+    },
+    "R601AK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601AK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601BK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601BK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601CK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601CK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601DK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601DK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601EK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601EK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601FK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601FK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601GK2": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R601GK3": {
+      "soal": "601",
+      "teks": "601 Jenis situs/bangunan bersejarah Jika ada situs/bangunan bersejarah (kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama situs/bangunan bersejarah Lokasi situs/bangunan bersejarah*) Nama desa (1) (2) (4) (5) a. Gedung bersejarah 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. b. Jembatan bersejarah c. Candi 1............................................................. 2............................................................. 3............................................................. 4........................................................"
+    },
+    "R501A": {
+      "soal": "501",
+      "teks": "501 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. 1............................................................. 2............................................................. 3............................................................. 4............................................................. .................................. .................................. .................................. .................................. V. KEAMANAN ( Sumber Informasi : Aparat Kecamatan , Polsek/Koramil) 4 *) Jika objek wisata berada di lebih dar"
+    },
+    "R501B": {
+      "soal": "501",
+      "teks": "501 1............................................................. 2............................................................. 3............................................................. .................................. .................................. .................................. 1............................................................. 2............................................................. 3............................................................. 4............................................................. .................................. .................................. .................................. .................................. V. KEAMANAN ( Sumber Informasi : Aparat Kecamatan , Polsek/Koramil) 4 *) Jika objek wisata berada di lebih dar"
+    },
+    "R702AK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702AK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702BK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702BK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702CK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702CK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702DK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702DK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702EK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702EK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702FK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702FK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702GK2": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R702GK3": {
+      "soal": "702",
+      "teks": "702 Daya tarik wisata Ada - 1 Tidak ada - 2 Nama objek wisata Lokasi objek wisata *) Nama desa (1) (2) (4) (5) (6) Kode desa Jumlah objek wisata (3) Daya tarik wisata komersial Pengelola: Pemerintah -1 Non-pemerintah -2 a. Keberadaan Desa Wisata yang ditetapkan : Ada – 1 Tidak ada – 2 R702 b. Jika ada Desa Wisata, maka : 1. Jumlah Desa Wisata : .................... desa 2. Sebutkan nama desa a) ............................................................................................................................ b) ............................................................................................................................ c) ............................................................................................................................ kode desa"
+    },
+    "R701A": {
+      "soal": "701",
+      "teks": "701 5 Trayek angkutan *) : Antar kota - 1 Angkutan kota - 2 Angkutan desa - 4 VIII. SARANA TRANSPORTA SI DAN EKONOMI ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pertanian ) 801 a. Keberadaan terminal penumpang kendaraan bermotor roda empat atau lebih : Ada - 1 Tidak ada – 2  R802 Nama terminal penumpang Lokasi terminal penumpangPengelola: Pem. Provinsi - 1 Pem. Kab/Kota- 2 Nama desa (1) (2) (3) (4) 1. ................. 2. ................. Kode desa 3. ................. 802 Supermarket/pasar swalayan/toserba dan Stasiun Pengisian Bahan Bakar Umum (SPBU) : Sarana ekonomi Jika ada sarana ekonomi (Kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama Nama desa (1) (2) (4) (5) 1........................................................... 2......................................................."
+    },
+    "R701B1": {
+      "soal": "701",
+      "teks": "701 5 Trayek angkutan *) : Antar kota - 1 Angkutan kota - 2 Angkutan desa - 4 VIII. SARANA TRANSPORTA SI DAN EKONOMI ( Sumber Informasi : Aparat Kecamatan , UPT Dinas Pertanian ) 801 a. Keberadaan terminal penumpang kendaraan bermotor roda empat atau lebih : Ada - 1 Tidak ada – 2  R802 Nama terminal penumpang Lokasi terminal penumpangPengelola: Pem. Provinsi - 1 Pem. Kab/Kota- 2 Nama desa (1) (2) (3) (4) 1. ................. 2. ................. Kode desa 3. ................. 802 Supermarket/pasar swalayan/toserba dan Stasiun Pengisian Bahan Bakar Umum (SPBU) : Sarana ekonomi Jika ada sarana ekonomi (Kolom (2) berkode 1) Ada - 1 Tidak ada - 2 Nama Nama desa (1) (2) (4) (5) 1........................................................... 2......................................................."
     }
   }
 }
