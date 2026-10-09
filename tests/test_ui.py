@@ -77,6 +77,7 @@ def test_ui_katalog_box_definisi_langsung():
     assert boxes, "box definisi tampil langsung"
     assert any("B10_1001" in b for b in boxes), [b[:60] for b in boxes]
     assert any("usaha" in b.lower() for b in boxes), "isi soal tampil"
+    assert any("koperasi" in b.lower() for b in boxes), "soal lengkap sampai opsi jawaban"
     assert any("VIMK19_KBLI.pdf" in b for b in boxes), "sumber disebut"
     assert not any("B10_1002" in b for b in boxes), "tanpa peta -> tanpa box"
     print("UI OK: katalog box definisi langsung")

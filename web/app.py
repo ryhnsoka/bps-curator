@@ -77,7 +77,7 @@ CSS = f"""
 }}
 .defbox .defsrc {{ color: {MUTED}; font-size: .78rem; margin: .25rem 0 .5rem; }}
 .defbox .deftext {{
-  color: {INK}; font-size: .9rem; line-height: 1.65;
+  color: {INK}; font-size: .85rem; line-height: 1.7;
   white-space: pre-wrap;
   border-top: 1px dashed {LINE}; padding-top: .5rem;
 }}

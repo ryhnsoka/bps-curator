@@ -3,31 +3,31 @@
   "drive_id": "1TGNVFvnuuzBL1w0VqGnKoNSwNVA72tbJ",
   "survey_id": "IMK",
   "period": "2023",
-  "metode": "fuzzy label-soal (ambang 0.5)",
+  "metode": "fuzzy label-soal (ambang 0.5) + teks blok soal penuh (jangkar fragmen lama)",
   "mapped": {
     "KLAS": {
       "soal": "203",
-      "teks": "Kondisi usaha/perusahaan saat pencacahan",
+      "teks": "203. Kondisi usaha/perusahaan saat pencacahan Industri kecil - 1- 2 Langsung ke Blok X. Catatan a. Membuat/memproduksi/merakit/lainnya(tuliskan…….…………...)**b. Produk utama :…………………………………………………c. Bahan baku utama :………………………………………………… RAHASIA",
       "skor": 0.5
     },
     "R205": {
       "soal": "205",
-      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "teks": "205. Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA/MA/Paket C - 4 Diploma I/II/III - 6Diploma IV/ S1 - 7S2/S3 - 8a. Nama : ……………………………………………………………….Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah)b. Jenis kelamin : 207.a. Izin usaha yang dimiliki b. Status badan hukum/usaha~ 1~ ………………………………………………… …………………………………………………Surat Izin Usaha Perdagangan (SIUP) 3 4Nomor Induk Berusaha (NIB) 1 2Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersediaCV - 2Yayasan - 4Koperasi - 3Tidak berbadan hukum/usaha - 5PT - 1Ya Tidak Contoh: Membuat kusen dari kayu a b cAktif berproduksi - 1Tidak aktif berproduksi - 2Izin Usaha Industri (IUI) 5 6 Usaha dengan status badan hukum/usaha PT, CV, dan Koperasi harus mempunyai NIB dan atau SIUP (207.a harus berkode 1 dan atau 3 “Ya”)Izin Usaha Mikro dan Kecil (IUMK) 7 8e. Apakah memiliki kekurangan fisik & sensorik (difabel) Ya 1 Tidak 2……………………………………………………………………………………………………………………………ID Landmark Wilkerstat: c. Jika rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga1. Pendapatan 1 2 2. Pengeluaran 3 43. Aset (perlengkapan/peralatan produksi, kendaraan) 5 6 4. Tabungan/hutang 7 8BLOK II. KETERANGAN UMUM (lanjutan) BLOK III. KETERANGAN KHUSUS b. Apakah usaha/perusahaan menjadi anggota koperasi?211. Keanggotaan pada asosiasi dan koperasi a. Apakah usaha/perusahaan menjadi anggota asosiasi/ paguyuban?Ya (tuliskan…………………………………….....) 1 Tidak 2210. Tahun mulai berproduksi secara komersial212. Lokasi usaha berada pada sentra industri?208. a. Jenis tempat usahaBangunan khusus usaha - 1Langsung ke rincian 209 b. Status kepemilikan tempat usahaMilik sendiri tanah bersertifikat - 1Tidak di bangunan dan lokasi tetap - 3Tempat tinggal - 2Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2Sewa/k",
       "skor": 1.0
     },
     "R206B": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.5
     },
     "R206C": {
       "soal": "205",
-      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "teks": "205. Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA/MA/Paket C - 4 Diploma I/II/III - 6Diploma IV/ S1 - 7S2/S3 - 8a. Nama : ……………………………………………………………….Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah)b. Jenis kelamin : 207.a. Izin usaha yang dimiliki b. Status badan hukum/usaha~ 1~ ………………………………………………… …………………………………………………Surat Izin Usaha Perdagangan (SIUP) 3 4Nomor Induk Berusaha (NIB) 1 2Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersediaCV - 2Yayasan - 4Koperasi - 3Tidak berbadan hukum/usaha - 5PT - 1Ya Tidak Contoh: Membuat kusen dari kayu a b cAktif berproduksi - 1Tidak aktif berproduksi - 2Izin Usaha Industri (IUI) 5 6 Usaha dengan status badan hukum/usaha PT, CV, dan Koperasi harus mempunyai NIB dan atau SIUP (207.a harus berkode 1 dan atau 3 “Ya”)Izin Usaha Mikro dan Kecil (IUMK) 7 8e. Apakah memiliki kekurangan fisik & sensorik (difabel) Ya 1 Tidak 2……………………………………………………………………………………………………………………………ID Landmark Wilkerstat: c. Jika rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga1. Pendapatan 1 2 2. Pengeluaran 3 43. Aset (perlengkapan/peralatan produksi, kendaraan) 5 6 4. Tabungan/hutang 7 8BLOK II. KETERANGAN UMUM (lanjutan) BLOK III. KETERANGAN KHUSUS b. Apakah usaha/perusahaan menjadi anggota koperasi?211. Keanggotaan pada asosiasi dan koperasi a. Apakah usaha/perusahaan menjadi anggota asosiasi/ paguyuban?Ya (tuliskan…………………………………….....) 1 Tidak 2210. Tahun mulai berproduksi secara komersial212. Lokasi usaha berada pada sentra industri?208. a. Jenis tempat usahaBangunan khusus usaha - 1Langsung ke rincian 209 b. Status kepemilikan tempat usahaMilik sendiri tanah bersertifikat - 1Tidak di bangunan dan lokasi tetap - 3Tempat tinggal - 2Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2Sewa/k",
       "skor": 0.6
     },
     "R206D": {
       "soal": "205",
-      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "teks": "205. Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA/MA/Paket C - 4 Diploma I/II/III - 6Diploma IV/ S1 - 7S2/S3 - 8a. Nama : ……………………………………………………………….Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah)b. Jenis kelamin : 207.a. Izin usaha yang dimiliki b. Status badan hukum/usaha~ 1~ ………………………………………………… …………………………………………………Surat Izin Usaha Perdagangan (SIUP) 3 4Nomor Induk Berusaha (NIB) 1 2Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersediaCV - 2Yayasan - 4Koperasi - 3Tidak berbadan hukum/usaha - 5PT - 1Ya Tidak Contoh: Membuat kusen dari kayu a b cAktif berproduksi - 1Tidak aktif berproduksi - 2Izin Usaha Industri (IUI) 5 6 Usaha dengan status badan hukum/usaha PT, CV, dan Koperasi harus mempunyai NIB dan atau SIUP (207.a harus berkode 1 dan atau 3 “Ya”)Izin Usaha Mikro dan Kecil (IUMK) 7 8e. Apakah memiliki kekurangan fisik & sensorik (difabel) Ya 1 Tidak 2……………………………………………………………………………………………………………………………ID Landmark Wilkerstat: c. Jika rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga1. Pendapatan 1 2 2. Pengeluaran 3 43. Aset (perlengkapan/peralatan produksi, kendaraan) 5 6 4. Tabungan/hutang 7 8BLOK II. KETERANGAN UMUM (lanjutan) BLOK III. KETERANGAN KHUSUS b. Apakah usaha/perusahaan menjadi anggota koperasi?211. Keanggotaan pada asosiasi dan koperasi a. Apakah usaha/perusahaan menjadi anggota asosiasi/ paguyuban?Ya (tuliskan…………………………………….....) 1 Tidak 2210. Tahun mulai berproduksi secara komersial212. Lokasi usaha berada pada sentra industri?208. a. Jenis tempat usahaBangunan khusus usaha - 1Langsung ke rincian 209 b. Status kepemilikan tempat usahaMilik sendiri tanah bersertifikat - 1Tidak di bangunan dan lokasi tetap - 3Tempat tinggal - 2Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2Sewa/k",
       "skor": 0.62
     },
     "R210": {
@@ -37,12 +37,12 @@
     },
     "R213": {
       "soal": "213",
-      "teks": "Apakah IMK ini merupakan sumber penghasilan utama di rumah tangga?",
+      "teks": "213. Apakah IMK ini merupakan sumber penghasilan utama di rumah tangga?",
       "skor": 1.0
     },
     "R301D": {
       "soal": "6",
-      "teks": "E-Katalog LKPP346. E-Katalog LKPP34 d. Jika semua rincian 301.a berkode genap “Tidak”, alasan tidak memanfaatkan internet: 1. Tida",
+      "teks": "6. E-Katalog LKPP346. E-Katalog LKPP34 d. Jika semua rincian 301.a berkode genap “Tidak”, alasan tidak memanfaatkan internet: 1. Tidak memiliki perangkat teknologi (hp, laptop) 12. Akses internet tidak tersedia 23. Akses internet mahal (pulsa, paket data) 44. Kendala pengiriman/kurir barang 85. Tidak tahu caranya 166. Jaminan keamanan transaksi 32 Ya 1 Tidak 2",
       "skor": 0.6
     },
     "R303": {
@@ -52,182 +52,182 @@
     },
     "R304A1": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.5
     },
     "R304A3": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 0.5
     },
     "R304A4": {
       "soal": "7",
-      "teks": "Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal",
+      "teks": "7. Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal ada satu rincian 309.a berkode ganjil langsung ke rincian 310 Jika semua rincian 311.a berkode genap langsung ke rincian 312 c. Apakah kemitraan yang sedang dijalankan sudah saling menguntungkan? Sudah 1 Belum 2308.a. Apakah ada perjanjian formal dalam menjalin kemitraan?Ya 1 Tidak 2 b. Jika rincian 306.a.1 berkode 1 “Ya”, alasan utama kendala bahan bakuBahan baku langka - 1Bahan baku mahal - 2Lokasi bahan baku sulit - 3Lainnya (tuliskan ……….………………………….…….…….…………….....) - 4 b. Apakah dalam menjalin kemitraan ada pembinaan dari badan/ lembaga/usaha yang bermitra?Ya 1 Tidak 2",
       "skor": 0.5
     },
     "R306A1": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.5
     },
     "R306A3": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.6
     },
     "R306A4": {
       "soal": "1",
-      "teks": "BensinPemakaian listrik",
+      "teks": "1. BensinPemakaian listrik",
       "skor": 0.5
     },
     "R306A5": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.71
     },
     "R307A1": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R307A2": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R307A3": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R307A4": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R307A5": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R311A1": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.8
     },
     "R311A2": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.57
     },
     "R311A3": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.8
     },
     "R311A4": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.8
     },
     "R311B1": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.6
     },
     "R311B2": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R311B3": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R311B4": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika semua rincian 309.a berkode genap “Tidak”, alasan utamanya adalah :2. Perusahaan swasta (tuliskan………………………………...)3 43. Perbankan (tuliskan……………………………………………...)5 64. Yayasan/LSM (tuliskan………………………………………....)7 8Ya Tidak 1. Manajerial 1 22. Keterampilan/teknik produksi 3 43. Pemasaran 5 64. AMDAL 7 8Ya Tidak 1. Instansi pemerintah (tuliskan………………………………...)1 21. Sendiri1 22. Instansi Pemerintah 3 43. Perusahaan Swasta 5 64. Yayasan/LSM 7 8Ya Tidak ~3~ c. Model/bentuk kemitraan yang dijalankan: 1. Inti plasma 1 22. Sub kontrak 3 43. Perdagangan umum/konsinyasi 5 6 4. Bagi hasil 7 87. Lainnya (tuliskan ……………..………..………………….…….……..……...) 5 65. Kerja sama operasional 1 26. Usaha patungan (joint venture) 3 4Ya Tidak 306.a. Kendala/kesulitan yang dialami oleh usaha/perusahaan selama setahun yang lalu: 307.a. Jenis kemitraan yang pernah dilakukan oleh usaha/ perusahaan selama setahun yang lalu:1. Permodalan 1 22. Bahan baku 3 43. Pemasaran 5 6 4. Barang modal (mesin/sarana/prasarana/peralatan) 7 85. Lainnya (tuliskan ……………..………..……………….……..………) 1 2 b. Badan/lembaga yang pernah menjalin kemitraan selama setahun yang lalu:1. Pemerintah pusat/daerah 1 23. Perusahaan swasta 5 64. Perbankan swasta 7 8 6. Koperasi 3 4 5.Yayasan/LSM 1 2",
       "skor": 0.5
     },
     "R3121": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 1.0
     },
     "R3122": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 1.0
     },
     "R3123": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 1.0
     },
     "R3124": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 1.0
     },
     "R3125": {
       "soal": "312",
-      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "teks": "312. Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Digital 1 2 BLOK IV. PEKERJA DAN BALAS JASA Tahun 2023SepOktNovTahun 2022JunJulAgt402. Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja pada bulan terakhir produksia. Banyaknya pekerja (termasuk pengusaha)b. Banyaknya hari kerja per bulanc. Rata-rata jam kerja per hariUraian(1)(2)SatuanJamHariOrang(8)(7)(6)(5)(4)(3)401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2022 sampai Agustus 2023 Jumlah [ Kol(2) + Kol(3) ](4)Klasifikasi pekerja(1)b. Kelompok umur..................Jenis kelamin(2)MarAprMeiDesJanFeb(14)(13)(12)(11)(10)(9)Laki-lakiPerempuan............................................ 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahunc. Pendidikan tertinggi yang ditamatkan.............................................................. 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA/MA/Paket C 6. Diploma I/II/III 7. Diploma IV/S1 8. S2/S3 (3)",
       "skor": 0.83
     },
     "R401AK14": {
       "soal": "904",
-      "teks": "a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode",
+      "teks": "904. a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode ganjil, “Ya”, strategi usaha/perusahaan menghadapi dampak pandemi Covid-191. Menghentikan/mengurangi produksi 1 22. Mengurangi jumlah pekerja 3 43. Mengurangi hari/jam kerja 5 6 5. Berganti jenis produk 1 26. Pindah lapangan usaha (selain industri pengolahan) 3 4Ya Tidak 4. Pemasaran secara online 7 8(tuliskan………………...…………………………………...…………………..)1. Permintaan/penjualan menurun 1 22. Penundaan pembayaran pembeli 3 43. Bahan baku langka 5 6 4. Bahan baku mahal 7 85. Tingkat kehadiran pekerja berkurang 1 2Ya Tidak (4)Pemberi Jawaban Jabatan : 1102. Jabatan / ID Petugas",
       "skor": 0.5
     },
     "R401AK3": {
       "soal": "904",
-      "teks": "a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode",
+      "teks": "904. a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode ganjil, “Ya”, strategi usaha/perusahaan menghadapi dampak pandemi Covid-191. Menghentikan/mengurangi produksi 1 22. Mengurangi jumlah pekerja 3 43. Mengurangi hari/jam kerja 5 6 5. Berganti jenis produk 1 26. Pindah lapangan usaha (selain industri pengolahan) 3 4Ya Tidak 4. Pemasaran secara online 7 8(tuliskan………………...…………………………………...…………………..)1. Permintaan/penjualan menurun 1 22. Penundaan pembayaran pembeli 3 43. Bahan baku langka 5 6 4. Bahan baku mahal 7 85. Tingkat kehadiran pekerja berkurang 1 2Ya Tidak (4)Pemberi Jawaban Jabatan : 1102. Jabatan / ID Petugas",
       "skor": 0.5
     },
     "R402A1K2": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402A1K3": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402A1K4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 1.0
     },
     "R402A2K2": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402A2K3": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402A2K4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 1.0
     },
     "R402AK2": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402AK3": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.67
     },
     "R402AK4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 1.0
     },
     "R402B1K2": {
@@ -292,52 +292,52 @@
     },
     "R402C8K4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 0.5
     },
     "R402CK4": {
       "soal": "205",
-      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "teks": "205. Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA/MA/Paket C - 4 Diploma I/II/III - 6Diploma IV/ S1 - 7S2/S3 - 8a. Nama : ……………………………………………………………….Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah)b. Jenis kelamin : 207.a. Izin usaha yang dimiliki b. Status badan hukum/usaha~ 1~ ………………………………………………… …………………………………………………Surat Izin Usaha Perdagangan (SIUP) 3 4Nomor Induk Berusaha (NIB) 1 2Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersediaCV - 2Yayasan - 4Koperasi - 3Tidak berbadan hukum/usaha - 5PT - 1Ya Tidak Contoh: Membuat kusen dari kayu a b cAktif berproduksi - 1Tidak aktif berproduksi - 2Izin Usaha Industri (IUI) 5 6 Usaha dengan status badan hukum/usaha PT, CV, dan Koperasi harus mempunyai NIB dan atau SIUP (207.a harus berkode 1 dan atau 3 “Ya”)Izin Usaha Mikro dan Kecil (IUMK) 7 8e. Apakah memiliki kekurangan fisik & sensorik (difabel) Ya 1 Tidak 2……………………………………………………………………………………………………………………………ID Landmark Wilkerstat: c. Jika rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga1. Pendapatan 1 2 2. Pengeluaran 3 43. Aset (perlengkapan/peralatan produksi, kendaraan) 5 6 4. Tabungan/hutang 7 8BLOK II. KETERANGAN UMUM (lanjutan) BLOK III. KETERANGAN KHUSUS b. Apakah usaha/perusahaan menjadi anggota koperasi?211. Keanggotaan pada asosiasi dan koperasi a. Apakah usaha/perusahaan menjadi anggota asosiasi/ paguyuban?Ya (tuliskan…………………………………….....) 1 Tidak 2210. Tahun mulai berproduksi secara komersial212. Lokasi usaha berada pada sentra industri?208. a. Jenis tempat usahaBangunan khusus usaha - 1Langsung ke rincian 209 b. Status kepemilikan tempat usahaMilik sendiri tanah bersertifikat - 1Tidak di bangunan dan lokasi tetap - 3Tempat tinggal - 2Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2Sewa/k",
       "skor": 0.5
     },
     "R403DK4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pada bulan terakhir produksia. Upah/gajic. Lainnya (tunjangan, lembur, hadiah, bonus)b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ].......................……………….......................………….........................………….. 4. 65 tahun ke atas ~ 4~ a. Jenis pekerja.............................................................. 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ](4)Uraian(1)Jenis Kelamin(2)Laki-lakiPerempuan(3) 5. SMK",
       "skor": 1.0
     },
     "R504K6": {
       "soal": "203",
-      "teks": "Kondisi usaha/perusahaan saat pencacahan",
+      "teks": "203. Kondisi usaha/perusahaan saat pencacahan Industri kecil - 1- 2 Langsung ke Blok X. Catatan a. Membuat/memproduksi/merakit/lainnya(tuliskan…….…………...)**b. Produk utama :…………………………………………………c. Bahan baku utama :………………………………………………… RAHASIA",
       "skor": 0.5
     },
     "R601JK6": {
       "soal": "602",
-      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "teks": "602. Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8] …………………………………LITER………………………………………….…2. Minyak solar/minyak diesel LITER3. Minyak tanah LITER4. Briket batubara KG5. Gas kota M36. LPG KG7. Biomas (kayu bakar, arang, sekam , cangkang sawit, ampas tebu, dsb) LITER8. Pelumas b. KWhPemakaian air yang dibeli (bukan sebagai bahan baku)c. LITERAngkutan, pengiriman dan posd. Telepon, internet, dan komunikasi lainnyae. Alat tulis dan keperluan kantor (ATK) f. Sewa bangunan untuk usahag. Khusus pengeluaran setahun seperti: sewa bangunan usaha, pajak kendaraan, dll, maka nilai untuk bulan terakhir berproduksi adalah pengeluaran satu tahun dibagi lamanya bulan produksi Sewa kendaraan, mesin, peralatan, perlengkapan, dan barang modal lainnyah.Pemeliharaan dan perbaikan kecil barang modal termasuk penggantian suku cadangi.Pajak langsung dan retribusi (Contoh: PPh, PPN, pajak pertambahan nilai barang dan jasa, bea masuk dan cukai, pajak ekspor, pajak impor)j.Kemasan, bahan pembungkus, dan pengepakanl.Jasa industri yang dikerjakan pihak lainm.Jasa lainnya Contoh: jasa akuntan, konsultan, promosi iklan, perakitan instalasi piranti keras dan lunak, analisis dan pemrograman, pelatihan, dsbn.Lainnya Pembelian peralatan penunjang kegiatan proses produksi yang umur pemakaiannya kurang dari setahun (misal: pengki, ayakan/saringan, pikulan, jarum jahit dan sejenisnya), iuran, biaya sertifikasi, dsb. o.Jumlah [ a + b + c + … + o ]p. Nilai (Rp)603. Pengeluaran nonoperasionalLaba yang dibagikan (kepada pemilik modal), Bunga pinjaman yang dibayarkan, Premi asuransi kerugian, Sewa lahan, Pengeluaran lainnya (seperti: sumbangan, CSR, dan denda) ………….………………………………Pajak lainnya(Contoh: Pajak Bumi dan Bangunan (PBB), pajak kendaraan untuk usaha, dll)k. BLOK VI. BIAYA/PENGELUARAN USAHA/PERUSAHAAN (lanjutan) ………………………………………….……………………………………………………………………………….……………………………………………………………………………….……………………………………………………………………………….………………………",
       "skor": 0.67
     },
     "R602PK5": {
       "soal": "602",
-      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "teks": "602. Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8] …………………………………LITER………………………………………….…2. Minyak solar/minyak diesel LITER3. Minyak tanah LITER4. Briket batubara KG5. Gas kota M36. LPG KG7. Biomas (kayu bakar, arang, sekam , cangkang sawit, ampas tebu, dsb) LITER8. Pelumas b. KWhPemakaian air yang dibeli (bukan sebagai bahan baku)c. LITERAngkutan, pengiriman dan posd. Telepon, internet, dan komunikasi lainnyae. Alat tulis dan keperluan kantor (ATK) f. Sewa bangunan untuk usahag. Khusus pengeluaran setahun seperti: sewa bangunan usaha, pajak kendaraan, dll, maka nilai untuk bulan terakhir berproduksi adalah pengeluaran satu tahun dibagi lamanya bulan produksi Sewa kendaraan, mesin, peralatan, perlengkapan, dan barang modal lainnyah.Pemeliharaan dan perbaikan kecil barang modal termasuk penggantian suku cadangi.Pajak langsung dan retribusi (Contoh: PPh, PPN, pajak pertambahan nilai barang dan jasa, bea masuk dan cukai, pajak ekspor, pajak impor)j.Kemasan, bahan pembungkus, dan pengepakanl.Jasa industri yang dikerjakan pihak lainm.Jasa lainnya Contoh: jasa akuntan, konsultan, promosi iklan, perakitan instalasi piranti keras dan lunak, analisis dan pemrograman, pelatihan, dsbn.Lainnya Pembelian peralatan penunjang kegiatan proses produksi yang umur pemakaiannya kurang dari setahun (misal: pengki, ayakan/saringan, pikulan, jarum jahit dan sejenisnya), iuran, biaya sertifikasi, dsb. o.Jumlah [ a + b + c + … + o ]p. Nilai (Rp)603. Pengeluaran nonoperasionalLaba yang dibagikan (kepada pemilik modal), Bunga pinjaman yang dibayarkan, Premi asuransi kerugian, Sewa lahan, Pengeluaran lainnya (seperti: sumbangan, CSR, dan denda) ………….………………………………Pajak lainnya(Contoh: Pajak Bumi dan Bangunan (PBB), pajak kendaraan untuk usaha, dll)k. BLOK VI. BIAYA/PENGELUARAN USAHA/PERUSAHAAN (lanjutan) ………………………………………….……………………………………………………………………………….……………………………………………………………………………….……………………………………………………………………………….………………………",
       "skor": 1.0
     },
     "R603": {
       "soal": "602",
-      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "teks": "602. Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8] …………………………………LITER………………………………………….…2. Minyak solar/minyak diesel LITER3. Minyak tanah LITER4. Briket batubara KG5. Gas kota M36. LPG KG7. Biomas (kayu bakar, arang, sekam , cangkang sawit, ampas tebu, dsb) LITER8. Pelumas b. KWhPemakaian air yang dibeli (bukan sebagai bahan baku)c. LITERAngkutan, pengiriman dan posd. Telepon, internet, dan komunikasi lainnyae. Alat tulis dan keperluan kantor (ATK) f. Sewa bangunan untuk usahag. Khusus pengeluaran setahun seperti: sewa bangunan usaha, pajak kendaraan, dll, maka nilai untuk bulan terakhir berproduksi adalah pengeluaran satu tahun dibagi lamanya bulan produksi Sewa kendaraan, mesin, peralatan, perlengkapan, dan barang modal lainnyah.Pemeliharaan dan perbaikan kecil barang modal termasuk penggantian suku cadangi.Pajak langsung dan retribusi (Contoh: PPh, PPN, pajak pertambahan nilai barang dan jasa, bea masuk dan cukai, pajak ekspor, pajak impor)j.Kemasan, bahan pembungkus, dan pengepakanl.Jasa industri yang dikerjakan pihak lainm.Jasa lainnya Contoh: jasa akuntan, konsultan, promosi iklan, perakitan instalasi piranti keras dan lunak, analisis dan pemrograman, pelatihan, dsbn.Lainnya Pembelian peralatan penunjang kegiatan proses produksi yang umur pemakaiannya kurang dari setahun (misal: pengki, ayakan/saringan, pikulan, jarum jahit dan sejenisnya), iuran, biaya sertifikasi, dsb. o.Jumlah [ a + b + c + … + o ]p. Nilai (Rp)603. Pengeluaran nonoperasionalLaba yang dibagikan (kepada pemilik modal), Bunga pinjaman yang dibayarkan, Premi asuransi kerugian, Sewa lahan, Pengeluaran lainnya (seperti: sumbangan, CSR, dan denda) ………….………………………………Pajak lainnya(Contoh: Pajak Bumi dan Bangunan (PBB), pajak kendaraan untuk usaha, dll)k. BLOK VI. BIAYA/PENGELUARAN USAHA/PERUSAHAAN (lanjutan) ………………………………………….……………………………………………………………………………….……………………………………………………………………………….……………………………………………………………………………….………………………",
       "skor": 0.5
     },
     "R904A3": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.5
     },
     "R904A4": {
       "soal": "2",
-      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "teks": "2. Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 48. Lainnya (tuliskan ………………………...…..….....) 7 84. BBM, listrik dan gas 7 87. Cuaca 5 6",
       "skor": 0.5
     },
     "R904A6": {
       "soal": "7",
-      "teks": "Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal",
+      "teks": "7. Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal ada satu rincian 309.a berkode ganjil langsung ke rincian 310 Jika semua rincian 311.a berkode genap langsung ke rincian 312 c. Apakah kemitraan yang sedang dijalankan sudah saling menguntungkan? Sudah 1 Belum 2308.a. Apakah ada perjanjian formal dalam menjalin kemitraan?Ya 1 Tidak 2 b. Jika rincian 306.a.1 berkode 1 “Ya”, alasan utama kendala bahan bakuBahan baku langka - 1Bahan baku mahal - 2Lokasi bahan baku sulit - 3Lainnya (tuliskan ……….………………………….…….…….…………….....) - 4 b. Apakah dalam menjalin kemitraan ada pembinaan dari badan/ lembaga/usaha yang bermitra?Ya 1 Tidak 2",
       "skor": 0.5
     }
   }

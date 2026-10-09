@@ -3,781 +3,781 @@
   "drive_id": "1Bc-Eq34s71-jnYhISejvRuzx3XzhJ3Rx",
   "survey_id": "IMK",
   "period": "2022",
-  "metode": "fuzzy label-soal (ambang 0.5)",
+  "metode": "fuzzy label-soal (ambang 0.5) + teks blok soal penuh (jangkar fragmen lama)",
   "mapped": {
     "KLAS": {
       "soal": "203",
-      "teks": "Kondisi usaha/perusahaan saat pencacahan",
+      "teks": "203. Kondisi usaha/perusahaan saat pencacahan Aktif berproduksi Tidak aktif berproduksi - 1 - 2 Industri Kecil - 1 - 2 Langsung ke Blok X. Catatan b. Kode KBLI 5-digit Membuat/memproduksi/merakit/……………….………….……** Produk utama :………………………………………………… Bahan baku utama :………………………………………………… RAHASIA",
       "skor": 0.5
     },
     "R206B": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R206C": {
       "soal": "206",
-      "teks": "Pengusaha/penanggung jawab usaha/perusahaan",
+      "teks": "206. Pengusaha/penanggung jawab usaha/perusahaan c. Umur : d. Jenjang pendidikan tertinggi yang ditamatkan Tidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA / MA / Paket C - 4 Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 a. Nama : ………………………………………………………………. Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah) b. Jenis kelamin : 207.a. Izin usaha yang dimiliki: b. Status badan hukum/Usaha: ~ 1~ ………………………………………………… ………………………………………………… Izin Usaha Industri (IUI) 4 Surat Izin Usaha Perdagangan (SIUP) 5 Nomor Induk Berusaha (NIB) 2 Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersedia CV - 2 Yayasan - 4 Koperasi - 3 Tidak berbadan hukum/usaha - 5 PT - 1 Izin Usaha Tetap (IUT) 6 Ya Tidak 1 3 7 8 c. Jika Rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga:",
       "skor": 0.6
     },
     "R206D": {
       "soal": "206",
-      "teks": "Pengusaha/penanggung jawab usaha/perusahaan",
+      "teks": "206. Pengusaha/penanggung jawab usaha/perusahaan c. Umur : d. Jenjang pendidikan tertinggi yang ditamatkan Tidak tamat SD - 1 SMP dan sederajat - 3 SMK - 5 SD dan sederajat - 2 SMA / MA / Paket C - 4 Diploma I / II / III - 6 Diploma IV / S1 - 7 S2 / S3 - 8 a. Nama : ………………………………………………………………. Laki – laki 1 Perempuan 2 tahun (pembulatan ke bawah) b. Jenis kelamin : 207.a. Izin usaha yang dimiliki: b. Status badan hukum/Usaha: ~ 1~ ………………………………………………… ………………………………………………… Izin Usaha Industri (IUI) 4 Surat Izin Usaha Perdagangan (SIUP) 5 Nomor Induk Berusaha (NIB) 2 Langsung ke rincian 208.a **Coret yang tidak perlu atau tuliskan jika pilihan tidak tersedia CV - 2 Yayasan - 4 Koperasi - 3 Tidak berbadan hukum/usaha - 5 PT - 1 Izin Usaha Tetap (IUT) 6 Ya Tidak 1 3 7 8 c. Jika Rincian 207.b. berkode 5 (tidak berbadan hukum/usaha), pemisahan pencatatan keuangan usaha dari catatan keuangan rumah tangga:",
       "skor": 0.6
     },
     "R207B": {
       "soal": "209",
-      "teks": "Status kepemilikan peralatan produksi utama usaha/perusahaan",
+      "teks": "209. Status kepemilikan peralatan produksi utama usaha/perusahaan Ya (tuliskan…………………………………….....) 1 Tidak 2 Ya (tuliskan…………………………………….....) 1 Tidak 2 ~ 2~ 301.a Pemanfaatan teknologi digital / internet oleh usaha / perusahaan:",
       "skor": 0.5
     },
     "R207C2": {
       "soal": "601",
-      "teks": "Pengeluaran khusus",
+      "teks": "601. Pengeluaran khusus Beras (termasuk beras merah, beras ketan)b. Cabai merah/keriting segar (tidak termasuk paprika dan saus sambal)c. Daging ayam (tidak termasuk jeroan, kepala, ceker)d. Daging sapi (tidak termasuk jeroan, kepala, kulit)e. Garam (termasuk garam halus, garam bata, garam krosok)f. Gula pasir (tidak termasuk gula batu, gula biang/sakarin)g. Jagungh. Kedelaii. Telur ayam ras/bebek/itikj. Tepung berask. l. m. n. o. p. q. r. s. Lainnya (total nilai pengeluaran selain rincian a s.d. rincian t) u. Jumlah [ a + b + c + … + u ] v. Tepung terigu Biaya/pengeluaran produksi selama Agustus 2022 atau bulan terakhir produksi A s a l Perolehan **** [ K O D E ] (3) Jagung pakan ternak ………………………………………………………………………………………… ………………………………………………………………………………………… ………………………………………………………………………………………… ………………………………………………………………………………………… ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. ……………………KG ……………………………………………. …………………… ……………………………………………. ……………………Liter ……………………………………………. ……………………KG ……………………………………………. ……………………………… ……………………………………………. ……………………………… ……………………………………………. ……………………………… ……………………………………………. ……………………………… ……………………………………………. ……………………………………………. ……………………………………………. Ikan KG . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ~ 5~ Air . . . . . . . .. . . . t. ………………………………………………………………………………………… ……………………………… …………………………………………….. . . .",
       "skor": 0.5
     },
     "R208A": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 1.0
     },
     "R208B": {
       "soal": "209",
-      "teks": "Status kepemilikan peralatan produksi utama usaha/perusahaan",
+      "teks": "209. Status kepemilikan peralatan produksi utama usaha/perusahaan Ya (tuliskan…………………………………….....) 1 Tidak 2 Ya (tuliskan…………………………………….....) 1 Tidak 2 ~ 2~ 301.a Pemanfaatan teknologi digital / internet oleh usaha / perusahaan:",
       "skor": 0.75
     },
     "R209": {
       "soal": "209",
-      "teks": "Status kepemilikan peralatan produksi utama usaha/perusahaan",
+      "teks": "209. Status kepemilikan peralatan produksi utama usaha/perusahaan Ya (tuliskan…………………………………….....) 1 Tidak 2 Ya (tuliskan…………………………………….....) 1 Tidak 2 ~ 2~ 301.a Pemanfaatan teknologi digital / internet oleh usaha / perusahaan:",
       "skor": 1.0
     },
     "R210": {
       "soal": "210",
-      "teks": "Tahun mulai berproduksi secara komersial",
+      "teks": "210. Tahun mulai berproduksi secara komersial",
       "skor": 1.0
     },
     "R212": {
       "soal": "212",
-      "teks": "Apakah lokasi usaha berada pada kumpulan usaha sejenis",
+      "teks": "212. Apakah lokasi usaha berada pada kumpulan usaha sejenis (sentra industri)?",
       "skor": 1.0
     },
     "R213": {
       "soal": "213",
-      "teks": "Apakah IMK ini merupakan sumber penghasilan utama di",
+      "teks": "213. Apakah IMK ini merupakan sumber penghasilan utama di rumah tangga?",
       "skor": 1.0
     },
     "R301B1": {
       "soal": "1",
-      "teks": "Instant messaging (whatsapp, yahoo messenger, dll) 1 2",
+      "teks": "1. Instant messaging (whatsapp, yahoo messenger, dll) 1 2",
       "skor": 1.0
     },
     "R301B2": {
       "soal": "2",
-      "teks": "Market place (Tokopedia, Bukalapak, Shopee, dll) 3 4",
+      "teks": "2. Market place (Tokopedia, Bukalapak, Shopee, dll) 3 4",
       "skor": 1.0
     },
     "R301C1": {
       "soal": "1",
-      "teks": "Instant messaging (whatsapp, yahoo messenger, dll) 1 2",
+      "teks": "1. Instant messaging (whatsapp, yahoo messenger, dll) 1 2",
       "skor": 1.0
     },
     "R301C2": {
       "soal": "2",
-      "teks": "Market place (Tokopedia, Bukalapak, Shopee, dll) 3 4",
+      "teks": "2. Market place (Tokopedia, Bukalapak, Shopee, dll) 3 4",
       "skor": 1.0
     },
     "R301E1": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.8
     },
     "R301E2": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R3021": {
       "soal": "302",
-      "teks": "Jenis sertifikasi standar nasional/internasional pada produk",
+      "teks": "302. Jenis sertifikasi standar nasional/internasional pada produk yang dihasilkan: Ya Tidak Ya Tidak c. Jika rincian 301.a.3 berkode 5 “Ya”, jenis platform:",
       "skor": 1.0
     },
     "R3022": {
       "soal": "302",
-      "teks": "Jenis sertifikasi standar nasional/internasional pada produk",
+      "teks": "302. Jenis sertifikasi standar nasional/internasional pada produk yang dihasilkan: Ya Tidak Ya Tidak c. Jika rincian 301.a.3 berkode 5 “Ya”, jenis platform:",
       "skor": 1.0
     },
     "R3023": {
       "soal": "302",
-      "teks": "Jenis sertifikasi standar nasional/internasional pada produk",
+      "teks": "302. Jenis sertifikasi standar nasional/internasional pada produk yang dihasilkan: Ya Tidak Ya Tidak c. Jika rincian 301.a.3 berkode 5 “Ya”, jenis platform:",
       "skor": 1.0
     },
     "R303": {
       "soal": "303",
-      "teks": "Apakah usaha/perusahaan memiliki sertifikat merek atas hak",
+      "teks": "303. Apakah usaha/perusahaan memiliki sertifikat merek atas hak paten/hak cipta/Hak atas Kekayaan Intelektual (HaKI)?",
       "skor": 1.0
     },
     "R304A1": {
       "soal": "302",
-      "teks": "Jenis sertifikasi standar nasional/internasional pada produk",
+      "teks": "302. Jenis sertifikasi standar nasional/internasional pada produk yang dihasilkan: Ya Tidak Ya Tidak c. Jika rincian 301.a.3 berkode 5 “Ya”, jenis platform:",
       "skor": 0.5
     },
     "R304A4": {
       "soal": "5",
-      "teks": "Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2",
+      "teks": "5. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 4",
       "skor": 0.5
     },
     "R3051": {
       "soal": "305",
-      "teks": "Sumber perolehan air yang digunakan untuk kegiatan usaha/",
+      "teks": "305. Sumber perolehan air yang digunakan untuk kegiatan usaha/ perusahaan (termasuk operasional):",
       "skor": 1.0
     },
     "R3052": {
       "soal": "305",
-      "teks": "Sumber perolehan air yang digunakan untuk kegiatan usaha/",
+      "teks": "305. Sumber perolehan air yang digunakan untuk kegiatan usaha/ perusahaan (termasuk operasional):",
       "skor": 1.0
     },
     "R3053": {
       "soal": "305",
-      "teks": "Sumber perolehan air yang digunakan untuk kegiatan usaha/",
+      "teks": "305. Sumber perolehan air yang digunakan untuk kegiatan usaha/ perusahaan (termasuk operasional):",
       "skor": 1.0
     },
     "R3054": {
       "soal": "305",
-      "teks": "Sumber perolehan air yang digunakan untuk kegiatan usaha/",
+      "teks": "305. Sumber perolehan air yang digunakan untuk kegiatan usaha/ perusahaan (termasuk operasional):",
       "skor": 1.0
     },
     "R306A1": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.5
     },
     "R306A2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 0.5
     },
     "R306A5": {
       "soal": "5",
-      "teks": "Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2",
+      "teks": "5. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 4",
       "skor": 1.0
     },
     "R306A8": {
       "soal": "6",
-      "teks": "Lainnya (sebutkan ………………………...…...…………………………………) 3 4",
+      "teks": "6. Lainnya (sebutkan ………………………...…...…………………………………) 3 4 d. Industri dan pelaku komersial lainnya : ……………...% e. Pemerintah/institusi : ……………...% 001",
       "skor": 0.5
     },
     "R306B": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.6
     },
     "R307A1": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R307A2": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R307A3": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R307A4": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R307A5": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "R307B1": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.5
     },
     "R307B2": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.5
     },
     "R307B3": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.5
     },
     "R307B4": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.5
     },
     "R307B5": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.5
     },
     "R307B6": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 0.67
     },
     "R307B7": {
       "soal": "6",
-      "teks": "Lainnya (sebutkan ………………………...…...…………………………………) 3 4",
+      "teks": "6. Lainnya (sebutkan ………………………...…...…………………………………) 3 4 d. Industri dan pelaku komersial lainnya : ……………...% e. Pemerintah/institusi : ……………...% 001",
       "skor": 0.5
     },
     "R307C3": {
       "soal": "602",
-      "teks": "Pengeluaran umum",
+      "teks": "602. Pengeluaran umum (2) Satuan Standar (3) Uraian (4) Banyaknya (5) Nilai (Rp)No (1) a. Bahan bakar dan pelumas: [ 1 + 2 + … + 8] …………………………………LITER ………………………………………….…",
       "skor": 0.5
     },
     "R307C7": {
       "soal": "6",
-      "teks": "Lainnya (sebutkan ………………………...…...…………………………………) 3 4",
+      "teks": "6. Lainnya (sebutkan ………………………...…...…………………………………) 3 4 d. Industri dan pelaku komersial lainnya : ……………...% e. Pemerintah/institusi : ……………...% 001",
       "skor": 0.5
     },
     "R309A1": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 0.5
     },
     "R309A6": {
       "soal": "6",
-      "teks": "Lainnya (sebutkan ………………………...…...…………………………………) 3 4",
+      "teks": "6. Lainnya (sebutkan ………………………...…...…………………………………) 3 4 d. Industri dan pelaku komersial lainnya : ……………...% e. Pemerintah/institusi : ……………...% 001",
       "skor": 0.5
     },
     "R3101": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 1.0
     },
     "R3102": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 1.0
     },
     "R3103": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 1.0
     },
     "R3104": {
       "soal": "310",
-      "teks": "Badan/lembaga selain koperasi yang pernah memberi",
+      "teks": "310. Badan/lembaga selain koperasi yang pernah memberi pelayanan/bantuan: Lainnya (tuliskan ………………..………………………………….…..…..) - 6 BLOK III. KETERANGAN KHUSUS (lanjutan)",
       "skor": 1.0
     },
     "R311A1": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.8
     },
     "R311A2": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.67
     },
     "R311A3": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.8
     },
     "R311A4": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.8
     },
     "R311B1": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.6
     },
     "R311B2": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.5
     },
     "R311B3": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.5
     },
     "R311B4": {
       "soal": "311",
-      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti",
+      "teks": "311. a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu: Ya Tidak b. Jika ada rincian 309.a berkode genap “Tidak”, alasan utamanya adalah:",
       "skor": 0.5
     },
     "R401AK10": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK11": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK12": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK13": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK14": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 1.0
     },
     "R401AK3": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 1.0
     },
     "R401AK4": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.75
     },
     "R401AK5": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.75
     },
     "R401AK6": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.75
     },
     "R401AK7": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK8": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AK9": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.75
     },
     "R401AKLAST": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.57
     },
     "R401BK10": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK11": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK12": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK13": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK14": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.67
     },
     "R401BK3": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.67
     },
     "R401BK4": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK5": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK6": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK7": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK8": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401BK9": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R401CK10": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK11": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK12": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK13": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK14": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.86
     },
     "R401CK3": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.86
     },
     "R401CK4": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK5": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK6": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK7": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK8": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CK9": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.71
     },
     "R401CKLAST": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R402A1K2": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 0.67
     },
     "R402A1K3": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 0.67
     },
     "R402A1K4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 1.0
     },
     "R402A2K2": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 0.67
     },
     "R402A2K3": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 0.67
     },
     "R402A2K4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 1.0
     },
     "R402AK2": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.67
     },
     "R402AK3": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.67
     },
     "R402AK4": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 1.0
     },
     "R402C8K4": {
       "soal": "402",
-      "teks": "Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada",
+      "teks": "402. Banyaknya pekerja (termasuk pengusaha) menurut klasifikasi pekerja dan jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Banyaknya pekerja (termasuk pengusaha) b. Banyaknya hari kerja per bulan c. Rata-rata jam kerja per hari Uraian (1) (2) Satuan Jam Hari Orang (8)(7)(6)(5)(4)(3)",
       "skor": 0.5
     },
     "R403DK4": {
       "soal": "403",
-      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin",
+      "teks": "403. Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin selama Agustus 2022 atau pada bulan terakhir produksi (untuk usaha/perusahaan musiman) a. Upah/Gaji c. Lainnya (tunjangan, lembur, hadiah, bonus) b. Iuran pensiun & asuransi d. Jumlah [ a + b + c ] .......................……………….......................………….. .......................………….. 4. 65 tahun keatas Pekerja dibayar adalah pekerja dengan mendapat balas jasa berupa gaji dan pendapatan lainnya (lembur, hadiah, bonus, dll) dalam bentuk uang maupun barang. Pekerja tidak dibayar adalah pekerja pemilik dan atau pekerja keluarga yang biasanya aktif dalam kegiatan usaha/perusahaan, tetapi tidak mendapat balas jasa. Bagi pekerja tidak dibayar yang bekerja kurang dari 1/3 (sepertiga) jam kerja yang biasa berlaku (dalam satu minggu) di usaha/perusahaan tidak termasuk sebagai pekerja. ~ 4~ a. Jenis pekerja ........................................ ...................... 1. Pekerja dibayar 2. Pekerja tidak dibayar Jumlah [ Kol(2) + Kol(3) ] (4) Uraian (1) Jenis Kelamin (2) Laki-laki Perempuan (3) 5. SMK",
       "skor": 1.0
     },
     "R601VK6": {
       "soal": "802",
-      "teks": "Biaya/Pengeluaran",
+      "teks": "802. Biaya/Pengeluaran [{Blok IV R.403.d kolom (4)} + {Blok VI R.601.v kolom (6) + R.602.p kolom (5) + R.603.f kolom (3)}]",
       "skor": 1.0
     },
     "R602PK5": {
       "soal": "602",
-      "teks": "Pengeluaran umum",
+      "teks": "602. Pengeluaran umum (2) Satuan Standar (3) Uraian (4) Banyaknya (5) Nilai (Rp)No (1) a. Bahan bakar dan pelumas: [ 1 + 2 + … + 8] …………………………………LITER ………………………………………….…",
       "skor": 1.0
     },
     "R603FK3": {
       "soal": "603",
-      "teks": "Pengeluaran non operasional",
+      "teks": "603. Pengeluaran non operasional (2) Uraian (3) Nilai (Rp)No (1) Laba yang dibagikan (kepada pemilik modal) ………….………………………………a. Bunga pinjaman yang dibayarkan ………….………………………………b. Premi asuransi kerugian ………….………………………………c. Sewa lahan ………….………………………………d. Pengeluaran lainnya (seperti: sumbangan, CSR, dan denda) ………….………………………………e. Jumlah [ a + b + … + e ] ………….………………………………f. Pajak lainnya (Contoh: pajak bumi dan bangunan (PBB), pajak kendaraan untuk usaha, dll)k. BLOK VI. BIAYA/PENGELUARAN USAHA/PERUSAHAAN (lanjutan) ………………………………………….… ………………………………… ………………………………………….… ………………………………… ………………………………………….… ………………………………… ………………………………………….… ………………………………… ………………………………………….… ………………………………… ………………………………………….… ………………………………… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………… ………………………………… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ………………………………………….… ~ 6~ LITER ………………………………… a. Milik sendiri (termasuk hibah/transfer) b. Pinjaman bank (bukan program pemerintah) c. Pinjaman koperasi d. Lembaga keuangan bukan bank (termasuk pegadaian, modal ventura dsb) e. Pinjaman dari perorangan (termasuk keluarga/famili) f. Pinjaman program pemerintah (subsidi) (seperti KUR, Ultra mikro) Nilai penjualan / pengurangan barang modal selama 2021 (Rp)",
       "skor": 1.0
     },
     "R703AK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703AK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703BK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703BK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703CK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703CK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703DK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703DK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703EK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703EK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703FK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703FK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703GK2": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703GK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R703MK3": {
       "soal": "703",
-      "teks": "Komposisi permodalan",
+      "teks": "703. Komposisi permodalan f. Mesin dan perlengkapan (termasuk teknologi informasi dan komunikasi) a. Uang tunai, simpanan, surat berharga, piutang g. Alat transportasi h. Produk kekayaan intelektual (R & D, hak paten software komputer) g. Pinjaman lembaga swasta",
       "skor": 1.0
     },
     "R706": {
       "soal": "706",
-      "teks": "Berapa besarnya pinjaman bank?******",
+      "teks": "706. Berapa besarnya pinjaman bank?******",
       "skor": 1.0
     },
     "R7061": {
       "soal": "706",
-      "teks": "Berapa besarnya pinjaman bank?******",
+      "teks": "706. Berapa besarnya pinjaman bank?******",
       "skor": 0.67
     },
     "R7062": {
       "soal": "706",
-      "teks": "Berapa besarnya pinjaman bank?******",
+      "teks": "706. Berapa besarnya pinjaman bank?******",
       "skor": 0.67
     },
     "R7063": {
       "soal": "706",
-      "teks": "Berapa besarnya pinjaman bank?******",
+      "teks": "706. Berapa besarnya pinjaman bank?******",
       "skor": 0.67
     },
     "R801": {
       "soal": "502",
-      "teks": "Pendapatan dari jasa industri (maklun)",
+      "teks": "502. Pendapatan dari jasa industri (maklun) (6) a. Banyaknya Nilai (Rp)Harga satuan (Rp) .......……….... (5) b. c. d. e. Lainnya f. Jumlah nilai produksi [ a + b + … + e] .......………............…………………………… .......………............ .......………………………...........…………………… .......………...........………............…………………………… .......………............ .......………………………...........…………………… .......………...........………............…………………………… .......………............ .......………………………...........…………………… .......………...........………............…………………………… .......………............ .......………………………...........…………………… .......……………………….... .......……………………….... .......……………………….... KBLI 5-digit (2) .......………. .......………. .......………. .......……….",
       "skor": 0.5
     },
     "R802": {
       "soal": "802",
-      "teks": "Biaya/Pengeluaran",
+      "teks": "802. Biaya/Pengeluaran [{Blok IV R.403.d kolom (4)} + {Blok VI R.601.v kolom (6) + R.602.p kolom (5) + R.603.f kolom (3)}]",
       "skor": 1.0
     },
     "R901A": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "R901B": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "R901C": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.83
     },
     "R901D": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.83
     },
     "R902A": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R902B": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R902C": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R902D": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R902E": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R902M": {
       "soal": "902",
-      "teks": "Persentase atas nilai penjualan produk yang",
+      "teks": "902. Persentase atas nilai penjualan produk yang dihasilkan:",
       "skor": 0.6
     },
     "R903A": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "R903B": {
       "soal": "102",
-      "teks": "Kabupaten/Kota*",
+      "teks": "102. Kabupaten/Kota*",
       "skor": 1.0
     },
     "R903C": {
       "soal": "903",
-      "teks": "Alokasi pemasaran (persentase dari nilai produksi)",
+      "teks": "903. Alokasi pemasaran (persentase dari nilai produksi) a. Dalam satu kabupaten/kota : …………….. % b. Luar kabupaten/kota satu provinsi : ………………% c. Luar provinsi : ………………% d. Luar negeri : ……………...% a. Konsumen akhir (rumah tangga) : ……………...% b. Pedagang eceran : ……………...% c. Pedagang besar (eksportir, distributor, agen, grosir, pengumpul) : ……………...%",
       "skor": 0.5
     },
     "R903D": {
       "soal": "903",
-      "teks": "Alokasi pemasaran (persentase dari nilai produksi)",
+      "teks": "903. Alokasi pemasaran (persentase dari nilai produksi) a. Dalam satu kabupaten/kota : …………….. % b. Luar kabupaten/kota satu provinsi : ………………% c. Luar provinsi : ………………% d. Luar negeri : ……………...% a. Konsumen akhir (rumah tangga) : ……………...% b. Pedagang eceran : ……………...% c. Pedagang besar (eksportir, distributor, agen, grosir, pengumpul) : ……………...%",
       "skor": 0.5
     },
     "R903M": {
       "soal": "903",
-      "teks": "Alokasi pemasaran (persentase dari nilai produksi)",
+      "teks": "903. Alokasi pemasaran (persentase dari nilai produksi) a. Dalam satu kabupaten/kota : …………….. % b. Luar kabupaten/kota satu provinsi : ………………% c. Luar provinsi : ………………% d. Luar negeri : ……………...% a. Konsumen akhir (rumah tangga) : ……………...% b. Pedagang eceran : ……………...% c. Pedagang besar (eksportir, distributor, agen, grosir, pengumpul) : ……………...%",
       "skor": 0.6
     },
     "R904A3": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.5
     },
     "R904A4": {
       "soal": "901",
-      "teks": "Bahan baku utama yang digunakan dibeli/diperoleh dari:",
+      "teks": "901. Bahan baku utama yang digunakan dibeli/diperoleh dari: a. Dalam satu kabupaten/kota : ……………...% b. Luar kabupaten/kota satu provinsi : ……………...% c. Luar provinsi : ……………...% 001 d. Langsung luar negeri/importir : …………...…% BLOK IX. ASAL BAHAN BAKU, DISTRIBUSI PRODUK DAN DAMPAK COVID-19 BLOK X. CATATAN BLOK XI. KETERANGAN PEMBERI JAWABAN DAN PETUGAS ………………………………………………………………………….. ……………………………………………………………… 001 (tuliskan…………………………..….) (tuliskan…………………………..….) (tuliskan………………………………………...……………………….………..)",
       "skor": 0.5
     },
     "R904A6": {
       "soal": "5",
-      "teks": "Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2",
+      "teks": "5. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenaga kerja 3 4",
       "skor": 0.5
     },
     "R904B3": {
       "soal": "401",
-      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022",
+      "teks": "401. Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja untuk kegiatan September 2021 sampai Agustus 2022 Jumlah [ Kol(2) + Kol(3) ] (4) Klasifikasi Pekerja (1) b. Kelompok umur .................. Jenis Kelamin (2) Pekerja adalah semua orang yang terlibat secara langsung dalam pekerjaan/kegiatan di usaha/perusahaan. Hari kerja adalah hari dimana usaha/perusahaan beroperasi paling sedikit satu jam secara terus menerus. Jam kerja adalah jam operasional usaha/perusahaan (tidak termasuk jam istirahat), dimulai dari menyiapkan pekerjaan sampai selesai (tutup). Rata-rata jam kerja per hari adalah lamanya jam kerja yang biasanya diberlakukan oleh usaha/perusahaan dalam sehari atau jumlah jam kerja kegiatan usaha/perusahaan selama sebulan dibagi banyaknya hari kerja dalam bulan tersebut. Mar Apl MeiDes Jan Feb (14)(13)(12)(11)(10)(9) Laki-laki Perempuan ...................... ...................... 1. Kurang dari 15 tahun 2. 15 - 24 tahun 3. 25 - 64 tahun c. Pendidikan tertinggi yang ditamatkan ........................................ ...................... 1. Tidak tamat SD 2. SD dan sederajat 3. SMP dan sederajat 4. SMA / MA / Paket C 6. Diploma I / II / III 7. Diploma IV / S1 8. S2 / S3 (3)",
       "skor": 0.5
     },
     "R904B5": {
       "soal": "208",
-      "teks": "a. Jenis tempat usaha",
+      "teks": "208. a. Jenis tempat usaha Bangunan khusus usaha - 1 Langsung ke rincian 209 b. Status kepemilikan tempat usaha Milik sendiri tanah bersertifikat - 1 Tidak di bangunan dan lokasi tetap - 3 Tempat tinggal/campuran - 2 Keliling - 4 Milik sendiri tanah tidak bersertifikat - 2 Sewa/kontrak - 3 Lainnya (tuliskan……………………………..…………...………) - 4 Ya Tidak Milik sendiri - 1 Milik sendiri masih kredit - 2 Milik pihak lain - 3",
       "skor": 0.67
     },
     "TAHUN": {
       "soal": "210",
-      "teks": "Tahun mulai berproduksi secara komersial",
+      "teks": "210. Tahun mulai berproduksi secara komersial",
       "skor": 0.5
     }
   }
