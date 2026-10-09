@@ -1,0 +1,409 @@
+{
+  "source": "Kuesioner SAK.AGS23-AK_edit.pdf",
+  "drive_id": "1S7IyOPEdGW9CDEP9EzQZRSEifa0JG89d",
+  "survey_id": "SAKERNAS",
+  "period": "2023 Agustus",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "JENISKEGIA": {
+      "soal": "5",
+      "teks": "Melakukan kegiatan lain (mengurus rumah tangga/sekolah)",
+      "skor": 0.5
+    },
+    "K3": {
+      "soal": "9",
+      "teks": "NAMA KEPALA RUMAH TANGGA",
+      "skor": 1.0
+    },
+    "K5_KD": {
+      "soal": "49",
+      "teks": "Kode KBLI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "K8_BLN": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.5
+    },
+    "K8_TH": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.5
+    },
+    "KODE_KAB": {
+      "soal": "49",
+      "teks": "Kode KBLI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "KODE_PROV": {
+      "soal": "49",
+      "teks": "Kode KBLI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R10": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R11D": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.6
+    },
+    "R13A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R13C_BLN": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.5
+    },
+    "R13C_TH": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.5
+    },
+    "R14BKBJI19": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R14BKBJI20": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R15_BRG": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R15_UANG": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R16A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R16B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R17B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R18B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R19A3": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R19B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R19C3": {
+      "soal": "4",
+      "teks": "Melakukan proses penjualan barang/jasa melalui website/",
+      "skor": 0.57
+    },
+    "R19C4": {
+      "soal": "4",
+      "teks": "Melakukan proses penjualan barang/jasa melalui website/",
+      "skor": 0.71
+    },
+    "R19C5": {
+      "soal": "1",
+      "teks": "Ya 2. TidakApakah ada upaya lainnya selain yang ditanyakan di atas",
+      "skor": 0.5
+    },
+    "R20": {
+      "soal": "21",
+      "teks": "Bagaimana instansi/lembaga/institusi perusahaan/usaha",
+      "skor": 0.8
+    },
+    "R21": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.5
+    },
+    "R22A": {
+      "soal": "24",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.5
+    },
+    "R22D": {
+      "soal": "6",
+      "teks": "Jalan kaki /tidak menggunakan moda transportasi apapun",
+      "skor": 1.0
+    },
+    "R23A1": {
+      "soal": "54",
+      "teks": "Berapa rupiah rata-rata upah/gaji bulanan yang (NAMA)",
+      "skor": 0.5
+    },
+    "R23A4": {
+      "soal": "4",
+      "teks": "Melakukan proses penjualan barang/jasa melalui website/",
+      "skor": 0.5
+    },
+    "R23A8": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R23B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24F": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R27A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R28A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R28B_BLT": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R28C": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R31A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R31B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R32A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R32B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R33_BLN": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R33_TH": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34F": {
+      "soal": "1",
+      "teks": "Ya 2. TidakApakah ada upaya lainnya selain yang ditanyakan di atas",
+      "skor": 1.0
+    },
+    "R35A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35C": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35D": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R36A": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R36B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R36C": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R37": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 1.0
+    },
+    "R38A": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R38A_BLN": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R38A_TH": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R38B": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R40D": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R41BKBJI19": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R41BKBJI20": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R43C": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R44J7": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R45B": {
+      "soal": "46",
+      "teks": "Apa negara terakhir tempat (NAMA) bekerja di luar negeri?",
+      "skor": 0.57
+    },
+    "R46": {
+      "soal": "46",
+      "teks": "Apa negara terakhir tempat (NAMA) bekerja di luar negeri?",
+      "skor": 0.83
+    },
+    "R47_BLN": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.67
+    },
+    "R47_TH": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 0.67
+    },
+    "R5": {
+      "soal": "5",
+      "teks": "Melakukan kegiatan lain (mengurus rumah tangga/sekolah)",
+      "skor": 0.5
+    },
+    "R50KBJI198": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R50KBJI201": {
+      "soal": "50",
+      "teks": "Kode KBJI (DIISI OLEH PENGAWAS)",
+      "skor": 0.5
+    },
+    "R51": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R52": {
+      "soal": "53",
+      "teks": "Bagaimana (NAMA) masuk ke (NEGARA TERAKHIR)",
+      "skor": 1.0
+    },
+    "R53": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R54": {
+      "soal": "54",
+      "teks": "Berapa rupiah rata-rata upah/gaji bulanan yang (NAMA)",
+      "skor": 0.6
+    },
+    "R6B_P": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R6G1SB4": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R6G2SB4": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R6G3_SB4": {
+      "soal": "10",
+      "teks": "Lainnya, tuliskan:.................................................",
+      "skor": 0.5
+    },
+    "R8F": {
+      "soal": "5",
+      "teks": "Melakukan kegiatan lain (mengurus rumah tangga/sekolah)",
+      "skor": 0.5
+    },
+    "R9C": {
+      "soal": "37",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "TAHUN": {
+      "soal": "47",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 1.0
+    }
+  }
+}
