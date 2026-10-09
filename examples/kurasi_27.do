@@ -1,4 +1,4 @@
-* Auto-generated SAKERNAS 2024 Agustus
+* Auto-generated Survei Angkatan Kerja Nasional 2024 Agustus
 * Found: 27, Missing: 0
 
 * SKIP sak202408_part2: hanya berisi variabel wajib
