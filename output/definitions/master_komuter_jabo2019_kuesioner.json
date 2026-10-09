@@ -1,0 +1,449 @@
+{
+  "source": "Kuesioner KOMUTER19-C Jabodetabek.pdf",
+  "drive_id": "1luq-M1HFwWLB6vhSfU9jQaVX20OR5sei",
+  "survey_id": "KOMUTER",
+  "period": "Jabodetabek 2019",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "P101": {
+      "soal": "101",
+      "teks": "Provinsi _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P102": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*) _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P105": {
+      "soal": "104",
+      "teks": "Desa/Kelurahan*) _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P501": {
+      "soal": "501",
+      "teks": "Status kepemilikan tempat tinggal:",
+      "skor": 1.0
+    },
+    "P502": {
+      "soal": "502",
+      "teks": "Alasan utama memilih tempat tinggal sekarang:",
+      "skor": 1.0
+    },
+    "P503": {
+      "soal": "503",
+      "teks": "Jenis lantai terluas:",
+      "skor": 1.0
+    },
+    "P504": {
+      "soal": "504",
+      "teks": "Luas lantai tempat tinggal (m2):",
+      "skor": 1.0
+    },
+    "P505": {
+      "soal": "505",
+      "teks": "Jenis atap terluas:",
+      "skor": 1.0
+    },
+    "P506": {
+      "soal": "506",
+      "teks": "Jenis dinding terluas:",
+      "skor": 1.0
+    },
+    "P507": {
+      "soal": "507",
+      "teks": "Sumber penerangan utama:",
+      "skor": 1.0
+    },
+    "P508": {
+      "soal": "508",
+      "teks": "Bahan bakar utama untuk memasak:",
+      "skor": 1.0
+    },
+    "P509A": {
+      "soal": "509",
+      "teks": "a. Sumber utama air minum:",
+      "skor": 1.0
+    },
+    "P509B": {
+      "soal": "611",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan (km):",
+      "skor": 0.5
+    },
+    "P510A": {
+      "soal": "510",
+      "teks": "a. Penggunaan fasilitas tempat buang air besar:",
+      "skor": 0.75
+    },
+    "P510B": {
+      "soal": "503",
+      "teks": "Jenis lantai terluas:",
+      "skor": 0.5
+    },
+    "P510C": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 0.5
+    },
+    "P513": {
+      "soal": "513",
+      "teks": "Pengeluaran rumah tangga per bulan (rupiah):",
+      "skor": 1.0
+    },
+    "P514A_NO": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 0.5
+    },
+    "P514B_KODE": {
+      "soal": "701",
+      "teks": "Lapangan usaha/bidang pekerjaan utama",
+      "skor": 0.67
+    },
+    "P514C": {
+      "soal": "702",
+      "teks": "a. Status/kedudukan dalam pekerjaan utama:",
+      "skor": 1.0
+    },
+    "P201": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 1.0
+    },
+    "P202": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 1.0
+    },
+    "P203": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 1.0
+    },
+    "P204": {
+      "soal": "204",
+      "teks": "Jumlah ART komuter sekolah",
+      "skor": 1.0
+    },
+    "P205": {
+      "soal": "205",
+      "teks": "Jumlah ART komuter kursus",
+      "skor": 1.0
+    },
+    "P401": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 0.5
+    },
+    "P404": {
+      "soal": "503",
+      "teks": "Jenis lantai terluas:",
+      "skor": 0.5
+    },
+    "P406": {
+      "soal": "501",
+      "teks": "Status kepemilikan tempat tinggal:",
+      "skor": 0.5
+    },
+    "P410A": {
+      "soal": "603",
+      "teks": "Apakah (NAMA) pernah tinggal di luar (KAB/KOTA TEMPAT",
+      "skor": 0.75
+    },
+    "P410B": {
+      "soal": "603",
+      "teks": "Apakah (NAMA) pernah tinggal di luar (KAB/KOTA TEMPAT",
+      "skor": 0.75
+    },
+    "P410C": {
+      "soal": "603",
+      "teks": "Apakah (NAMA) pernah tinggal di luar (KAB/KOTA TEMPAT",
+      "skor": 0.75
+    },
+    "P411": {
+      "soal": "609",
+      "teks": "Kegiatan utama komuter: SALIN DARI BLOK IV KOL (17)",
+      "skor": 1.0
+    },
+    "P412_PROV": {
+      "soal": "101",
+      "teks": "Provinsi _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P412_KAB": {
+      "soal": "628",
+      "teks": "Selama menjadi komuter di (KAB/KOTA TEMPAT KEGIATAN),",
+      "skor": 0.75
+    },
+    "NO_KOMUTER": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 0.67
+    },
+    "NO_PEMBERI": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 0.5
+    },
+    "P601A_BULA": {
+      "soal": "601",
+      "teks": "a. Bulan dan Tahun Lahir :",
+      "skor": 1.0
+    },
+    "P601A_TAHU": {
+      "soal": "601",
+      "teks": "a. Bulan dan Tahun Lahir :",
+      "skor": 1.0
+    },
+    "P602_PROV": {
+      "soal": "101",
+      "teks": "Provinsi _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P602_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*) _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P603": {
+      "soal": "603",
+      "teks": "Apakah (NAMA) pernah tinggal di luar (KAB/KOTA TEMPAT",
+      "skor": 1.0
+    },
+    "P604_PROV": {
+      "soal": "101",
+      "teks": "Provinsi _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P604_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*) _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P605": {
+      "soal": "605",
+      "teks": "Alasan utama pindah ke tempat tinggal yang sekarang:",
+      "skor": 1.0
+    },
+    "P606": {
+      "soal": "606",
+      "teks": "Lama tinggal di tempat tinggal sekarang (tahun):",
+      "skor": 1.0
+    },
+    "P607_PROV": {
+      "soal": "101",
+      "teks": "Provinsi _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P607_KAB": {
+      "soal": "607",
+      "teks": "Provinsi dan kabupaten/kota tempat tinggal 5 tahun",
+      "skor": 0.75
+    },
+    "P609": {
+      "soal": "609",
+      "teks": "Kegiatan utama komuter: SALIN DARI BLOK IV KOL (17)",
+      "skor": 1.0
+    },
+    "P611": {
+      "soal": "611",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan (km):",
+      "skor": 1.0
+    },
+    "P612A": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 1.0
+    },
+    "P612A_JAM": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 1.0
+    },
+    "P612A_MENI": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 1.0
+    },
+    "P612B_1": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P612B_2": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P612C": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 0.5
+    },
+    "P612C_JAM": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 0.5
+    },
+    "P612C_MENI": {
+      "soal": "612",
+      "teks": "a. Pukul berangkat:",
+      "skor": 0.5
+    },
+    "P614": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P615A_J": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P615B_J": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P616": {
+      "soal": "616",
+      "teks": "Apakah alasan utama (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "P617": {
+      "soal": "617",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "P618": {
+      "soal": "614",
+      "teks": "Berapa kali (NAMA) menggunakan moda transportasi",
+      "skor": 1.0
+    },
+    "P619A_J": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P619B_J": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 1.0
+    },
+    "P620": {
+      "soal": "616",
+      "teks": "Apakah alasan utama (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "P623": {
+      "soal": "623",
+      "teks": "Apakah (NAMA) ingin beralih menggunakan moda transportasi",
+      "skor": 0.75
+    },
+    "P624H": {
+      "soal": "624",
+      "teks": "a. Alasan tidak ingin beralih menggunakan moda transportasi",
+      "skor": 0.75
+    },
+    "P624_UTAMA": {
+      "soal": "624",
+      "teks": "a. Alasan tidak ingin beralih menggunakan moda transportasi",
+      "skor": 0.75
+    },
+    "P625A": {
+      "soal": "616",
+      "teks": "Apakah alasan utama (NAMA) memilih moda transportasi",
+      "skor": 0.67
+    },
+    "P625B": {
+      "soal": "625",
+      "teks": "Biaya transportasi untuk perjalanan pergi dan pulang dalam",
+      "skor": 0.67
+    },
+    "P625C": {
+      "soal": "625",
+      "teks": "Biaya transportasi untuk perjalanan pergi dan pulang dalam",
+      "skor": 1.0
+    },
+    "P626C": {
+      "soal": "109",
+      "teks": "Nama kepala rumah tangga _________________________________________________________________________",
+      "skor": 1.0
+    },
+    "P626X": {
+      "soal": "627",
+      "teks": "Apakah keluhan kesehatan tersebut mengganggu kegiatan",
+      "skor": 0.67
+    },
+    "P627": {
+      "soal": "627",
+      "teks": "Apakah keluhan kesehatan tersebut mengganggu kegiatan",
+      "skor": 1.0
+    },
+    "P628C": {
+      "soal": "614",
+      "teks": "Berapa kali (NAMA) menggunakan moda transportasi",
+      "skor": 0.67
+    },
+    "P631": {
+      "soal": "2",
+      "teks": "Dari tempat kegiatan ke",
+      "skor": 0.5
+    },
+    "P632": {
+      "soal": "613",
+      "teks": "Hari melakukan perjalanan ke tempat kegiatan:",
+      "skor": 0.67
+    },
+    "P701": {
+      "soal": "701",
+      "teks": "Lapangan usaha/bidang pekerjaan utama",
+      "skor": 1.0
+    },
+    "P702A": {
+      "soal": "702",
+      "teks": "a. Status/kedudukan dalam pekerjaan utama:",
+      "skor": 1.0
+    },
+    "P702C_1": {
+      "soal": "1",
+      "teks": "Menentukan harga barang",
+      "skor": 1.0
+    },
+    "P703": {
+      "soal": "703",
+      "teks": "Berapakah rata-rata penghasilan/gaji per bulan dari pekerjaan",
+      "skor": 0.8
+    },
+    "P704": {
+      "soal": "502",
+      "teks": "Alasan utama memilih tempat tinggal sekarang:",
+      "skor": 0.83
+    },
+    "P801": {
+      "soal": "801",
+      "teks": "Jenjang pendidikan apa yang sedang diduduki (NAMA)?",
+      "skor": 1.0
+    },
+    "P802": {
+      "soal": "802",
+      "teks": "Tingkat/kelas yang sedang diduduki?",
+      "skor": 1.0
+    },
+    "P803": {
+      "soal": "803",
+      "teks": "Alasan utama sekolah di tempat sekarang?",
+      "skor": 1.0
+    },
+    "P901": {
+      "soal": "901",
+      "teks": "Jenis kursus yang sedang diikuti (NAMA):",
+      "skor": 1.0
+    },
+    "P902": {
+      "soal": "902",
+      "teks": "Alasan utama mengikuti kursus di tempat sekarang?",
+      "skor": 1.0
+    }
+  }
+}
