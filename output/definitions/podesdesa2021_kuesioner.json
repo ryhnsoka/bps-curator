@@ -3,6 +3,27 @@
   "drive_id": "1Oj4G82PPYTvwfODLPULgnoS7-aR9uIgK",
   "survey_id": "PODES",
   "period": "2021 Desa",
-  "metode": "nomor soal 3-digit -> R+nomor",
-  "mapped": {}
+  "metode": "nomor soal mandiri -> R+nomor",
+  "mapped": {
+    "R101": {
+      "soal": "101",
+      "teks": "101 Perkotaan – 1 Perdesaan – 2105"
+    },
+    "R102": {
+      "soal": "102",
+      "teks": "102 Provinsi Status Daerah Kabupaten/Kota *) Kecamatan 103 REPUBLIK INDONESIA BADAN PUSAT STATISTIK PENDATAAN POTENSI DESA/KELURAHAN 2021 a. Alamat lengkap b. Nomor telepon c. Alamat e-mail RAHASIA 104 Desa/Kelurahan *) Lokasi pelayanan pemerintah desa/kelurahan:108 II. KETERANGAN PETUGAS DAN NARASUMBER Kode Pos :"
+    },
+    "R301": {
+      "soal": "301",
+      "teks": "301 III. KETERANGAN UMUM DESA/KELURAHAN"
+    },
+    "R506": {
+      "soal": "506",
+      "teks": "506 a. Sumber air untuk minum sebagian besar keluarga berasal dari: Air kemasan bermerek – 1 Sumur – 6 Air isi ulang – 2 Mata air – 7 Ledeng dengan meteran (PAM/PDAM) – 3 Sungai/danau/kolam /waduk/situ/embung/bendungan – 8 Ledeng tanpa meteran – 4 Air hujan – 9 Sumur bor atau pompa – 5 Lainnya ..................... .................................... – 10 (tuliskan) a. Wilayah desa/kelurahan dilalui Saluran Udara Tegang an Ekstra Tinggi (SUTET) / Saluran Udara Tegangan Tinggi (SUTT) / Saluran Udara Tegangan Tinggi Arus Searah (SUTTAS): Ya – 1 Tidak – 2 R509 b. Keberadaan permukiman di bawah SUTET/SUTT/SUTTAS: Ada – 1 Tidak ada – 2 R509 c. Jika ada permukiman di bawah SUTET/SUTT/SUTTAS: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (Isian tidak boleh lebih dari i"
+    },
+    "R710": {
+      "soal": "710",
+      "teks": "710 Jenis KLB/wabah penyakit (KLB: timbulnya atau meningkatnya kejadian kesakitan atau kematian yang bermakna secara epidemiologis pada suatu daerah dalam kurun waktu tertentu, ditetapkan oleh pemerintah) Kejadian Ada – 1 Tidak ada – 2 Jika ada KLB atau wabah, (kolom (2) berkode 1) (1) (2) (3) a. Muntaber/diare b. Demam berdarah c. Campak d. Malaria e. Flu burung/SARS f. Hepatitis E g. Difteri h. Corona/COVID-19 i. Lainnya ……………………………………………………………………………… (tuliskan, misalnya: chikungunya, leptospirosis, kolera, dll.) J. Kerawanan Pangan *) Jumlah penderita Jumlah penderita yang meninggal (4) Jumlah surat miskin/SKTM yang dikeluarkan desa/kelurahan selama tahun 2020:711 Kejadian luar biasa (KLB) atau wabah penyakit selama setahun terakhir orang surat *) Tidak termasuk KLB 9"
+    }
+  }
 }
