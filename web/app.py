@@ -186,26 +186,34 @@ if menu == "Katalog":
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
         if var_hits:
-            st.write("**Variabel cocok (nama + label):**")
+            st.write("**Variabel cocok (nama + label) — ketuk baris untuk memilih:**")
             st.dataframe(var_hits, use_container_width=True, hide_index=True,
-                         column_config={"Label": st.column_config.TextColumn(width="large")})
+                         column_config={"Label": st.column_config.TextColumn(width="large")},
+                         selection_mode="multi-row", on_select="rerun", key="varhits")
             if "basket" not in st.session_state:
                 st.session_state.basket = []
-            opts = [f"{v['Variabel']} — {v['Label']} [{v['Survei']} {v['Periode']}]" for v in var_hits]
-            pick_vars = st.multiselect("Pilih untuk keranjang", opts)
-            if st.button("Tambah ke keranjang", disabled=not pick_vars):
-                have = {(b["code"], b["survey"], b["period"]) for b in st.session_state.basket}
-                for v, o in zip(var_hits, opts):
-                    if o in pick_vars:
+            tapped = [var_hits[i] for i in st.session_state.varhits.selection.rows
+                      if 0 <= i < len(var_hits)]
+            b1, b2 = st.columns(2)
+            with b1:
+                if st.button("Tambah ke keranjang", disabled=not tapped):
+                    have = {(b["code"], b["survey"], b["period"]) for b in st.session_state.basket}
+                    for v in tapped:
                         key = (v["Variabel"], v["Survei"], v["Periode"])
                         if key not in have:
                             have.add(key)
                             st.session_state.basket.append(
                                 {"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]})
-                st.rerun()
+                    st.rerun()
+            with b2:
+                direct = generate_basket_txt(
+                    [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
+                     for v in tapped]) if tapped else ""
+                st.download_button("Unduh TXT langsung", direct or " ",
+                                   file_name="pilihan.txt", disabled=not tapped)
     st.dataframe(rows, use_container_width=True, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
-                                "Periode": st.column_config.TextColumn(width="medium"),
+                                "Periode": st.column_config.TextColumn(width="large"),
                                 "Jumlah Variabel": st.column_config.NumberColumn(width="small"),
                                 "Jumlah Partisi": st.column_config.NumberColumn(width="small"),
                                 "Wajib": st.column_config.NumberColumn(width="small")})
