@@ -1,0 +1,344 @@
+{
+  "source": "VIMK23-S2 20230728.pdf",
+  "drive_id": "1TGNVFvnuuzBL1w0VqGnKoNSwNVA72tbJ",
+  "survey_id": "IMK",
+  "period": "2023",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "KLAS": {
+      "soal": "203",
+      "teks": "Kondisi usaha/perusahaan saat pencacahan",
+      "skor": 0.5
+    },
+    "R205": {
+      "soal": "205",
+      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "skor": 1.0
+    },
+    "R206B": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.5
+    },
+    "R206C": {
+      "soal": "205",
+      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "skor": 0.6
+    },
+    "R206D": {
+      "soal": "205",
+      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "skor": 0.62
+    },
+    "R210": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R213": {
+      "soal": "213",
+      "teks": "Apakah IMK ini merupakan sumber penghasilan utama di rumah tangga?",
+      "skor": 1.0
+    },
+    "R301D": {
+      "soal": "6",
+      "teks": "E-Katalog LKPP346. E-Katalog LKPP34 d. Jika semua rincian 301.a berkode genap “Tidak”, alasan tidak memanfaatkan internet: 1. Tida",
+      "skor": 0.6
+    },
+    "R303": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R304A1": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.5
+    },
+    "R304A3": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 0.5
+    },
+    "R304A4": {
+      "soal": "7",
+      "teks": "Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal",
+      "skor": 0.5
+    },
+    "R306A1": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.5
+    },
+    "R306A3": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.6
+    },
+    "R306A4": {
+      "soal": "1",
+      "teks": "BensinPemakaian listrik",
+      "skor": 0.5
+    },
+    "R306A5": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.71
+    },
+    "R307A1": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R307A2": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R307A3": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R307A4": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R307A5": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R311A1": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.8
+    },
+    "R311A2": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.57
+    },
+    "R311A3": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.8
+    },
+    "R311A4": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.8
+    },
+    "R311B1": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.6
+    },
+    "R311B2": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R311B3": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R311B4": {
+      "soal": "311",
+      "teks": "a. Jenis bimbingan/pelatihan/penyuluhan yang pernah diikuti selama setahun yang lalu:",
+      "skor": 0.5
+    },
+    "R3121": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 1.0
+    },
+    "R3122": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 1.0
+    },
+    "R3123": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 1.0
+    },
+    "R3124": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 1.0
+    },
+    "R3125": {
+      "soal": "312",
+      "teks": "Teknologi proses kegiatan usaha/perusahaan:2. Mekanik 3 43. Elektronik 5 64. Kecerdasan Buatan (AI) 7 8Ya Tidak 1. Manual 1 25. Di",
+      "skor": 0.83
+    },
+    "R401AK14": {
+      "soal": "904",
+      "teks": "a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode",
+      "skor": 0.5
+    },
+    "R401AK3": {
+      "soal": "904",
+      "teks": "a. Dampak pandemi COVID-19 (September 2022 – Agustus 2023) yang dirasakan adalah b. Jika Rincian 904.a salah satu ada yang berkode",
+      "skor": 0.5
+    },
+    "R402A1K2": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402A1K3": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402A1K4": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 1.0
+    },
+    "R402A2K2": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402A2K3": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402A2K4": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 1.0
+    },
+    "R402AK2": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402AK3": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.67
+    },
+    "R402AK4": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 1.0
+    },
+    "R402B1K2": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B1K3": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B1K4": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B2K2": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B2K3": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B2K4": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B3K2": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B3K3": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B3K4": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B4K2": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B4K3": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402B4K4": {
+      "soal": "4",
+      "teks": "65 tahun ke atas",
+      "skor": 0.5
+    },
+    "R402C8K4": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 0.5
+    },
+    "R402CK4": {
+      "soal": "205",
+      "teks": "Kode KBLI 5-digit 206. Pengusaha/penanggung jawab usaha/perusahaanc. Umur :d. Jenjang pendidikan tertinggi yang ditamatkanTidak ta",
+      "skor": 0.5
+    },
+    "R403DK4": {
+      "soal": "403",
+      "teks": "Nilai seluruh balas jasa (dalam rupiah) yang dikeluarkan untuk pekerja (termasuk pengusaha yang dibayar) menurut jenis kelamin pad",
+      "skor": 1.0
+    },
+    "R504K6": {
+      "soal": "203",
+      "teks": "Kondisi usaha/perusahaan saat pencacahan",
+      "skor": 0.5
+    },
+    "R601JK6": {
+      "soal": "602",
+      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "skor": 0.67
+    },
+    "R602PK5": {
+      "soal": "602",
+      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "skor": 1.0
+    },
+    "R603": {
+      "soal": "602",
+      "teks": "Pengeluaran umum(2)S at ua n S ta nd a r(4)Uraian(5)Banyaknya(6)Nilai (Rp)No(1)a.Bahan bakar dan pelumas [ 1 + 2 + … + 8]",
+      "skor": 0.5
+    },
+    "R904A3": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.5
+    },
+    "R904A4": {
+      "soal": "2",
+      "teks": "Permodalan 3 41. Bahan baku 1 23. Pemasaran/penjualan produk 5 65. Infrastruktur (jalan, air, komunikasi, dan lainnya) 1 2 6.Tenag",
+      "skor": 0.5
+    },
+    "R904A6": {
+      "soal": "7",
+      "teks": "Lainnya (tuliskan ………...……………………..……………………………...) 5 6 Jika semua rincian 307.a berkode genap langsung ke rincian 309.aJika minimal",
+      "skor": 0.5
+    }
+  }
+}
