@@ -5,7 +5,6 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-import html
 import json
 import re
 import sqlite3
@@ -15,12 +14,9 @@ import streamlit as st
 from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list, generate_basket_txt
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
-from bps_curator.definitions import (load_definitions, definitions_for,
-                                     has_definition)
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
-MAX_DEF_BOXES = 50
 
 GOLD, GOLD_DARK, INK, MUTED, LINE, PANEL = "#B8860B", "#8F6A08", "#111827", "#6B7280", "#E5E7EB", "#F4F5F7"
 
@@ -65,21 +61,6 @@ CSS = f"""
 .codebox code {{
   font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
   color: {INK}; word-spacing: .15rem; line-height: 1.7;
-}}
-.defbox {{
-  border: 1px solid #E8D9A8; border-left: 5px solid {GOLD};
-  border-radius: 12px; background: #FEFDF8;
-  padding: .8rem 1rem; margin-top: .6rem;
-}}
-.defbox .defhdr {{ font-weight: 700; color: {INK}; font-size: .95rem; }}
-.defbox .defhdr .code {{
-  font-family: ui-monospace, Consolas, monospace; color: {GOLD_DARK};
-}}
-.defbox .defsrc {{ color: {MUTED}; font-size: .78rem; margin: .25rem 0 .5rem; }}
-.defbox .deftext {{
-  color: {INK}; font-size: .85rem; line-height: 1.7;
-  white-space: pre-wrap;
-  border-top: 1px dashed {LINE}; padding-top: .5rem;
 }}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
@@ -188,7 +169,7 @@ if menu == "Katalog":
     if q:
         qf, ql = normalize_code(q), q.lower()
         hit = set()
-        var_hits, var_keys = [], []
+        var_hits = []
         if qf:
             for r in con.execute(
                     "SELECT m.survey_id, m.period, v.code, v.label FROM variables v "
@@ -199,7 +180,6 @@ if menu == "Katalog":
                 hit.add((survey_name(r["survey_id"]), period_name(r["period"])))
                 var_hits.append({"Variabel": r["code"], "Label": r["label"],
                                  "Survei": survey_name(r["survey_id"]), "Periode": period_name(r["period"])})
-                var_keys.append((r["survey_id"], r["period"], r["code"]))
         rows = [r for r, c in zip(rows_all, catalog)
                 if ql in f"{r['Survei']} {r['Periode']} {c['survey']} {c['period']}".lower()
                 or (r["Survei"], r["Periode"]) in hit]
@@ -213,11 +193,9 @@ if menu == "Katalog":
                         seen.add(key)
                         var_hits.append({"Variabel": v["code"], "Label": v["label"],
                                          "Survei": key[1], "Periode": key[2]})
-                        var_keys.append((c["survey"], c["period"], v["code"]))
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
         if var_hits:
-            defs_all = load_definitions(OUT_DIR / "definitions")
             st.write("**Variabel cocok (nama + label) — pilih lalu unduh:**")
             st.caption("Klik kotak di ujung kiri baris untuk memilih "
                        "(klik isi sel hanya menyorot teks untuk disalin). "
@@ -248,27 +226,6 @@ if menu == "Katalog":
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
                      for v in tapped])
                 st.download_button("Unduh TXT", txt, file_name="pilihan.txt")
-            marked = [i for i, k in enumerate(var_keys)
-                      if has_definition(defs_all, k[0], k[1], k[2])]
-            if marked:
-                shown = marked[:MAX_DEF_BOXES]
-                st.markdown("#### Definisi variabel yang cocok")
-                st.caption(f"Menampilkan {len(shown)} definisi "
-                           f"(dari {len(var_hits)} variabel cocok).")
-                for i in shown:
-                    v = var_hits[i]
-                    dd = definitions_for(defs_all, *var_keys[i][:2]).get(var_keys[i][2], {})
-                    st.markdown(
-                        f"<div class='defbox'><div class='defhdr'>"
-                        f"<span class='code'>{html.escape(v['Variabel'])}</span> — "
-                        f"{html.escape(v['Label'])}</div>"
-                        f"<div class='defsrc'>Sumber: {html.escape(dd.get('source', ''))} "
-                        f"· {html.escape(v['Survei'])} {html.escape(v['Periode'])}</div>"
-                        f"<div class='deftext'>{html.escape(dd.get('text', ''))}</div></div>",
-                        unsafe_allow_html=True)
-                if len(marked) > MAX_DEF_BOXES:
-                    st.caption(f"{len(marked) - MAX_DEF_BOXES} definisi lain tidak "
-                               f"ditampilkan — persempit pencarian.")
     st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
                                 "Periode": st.column_config.TextColumn(width="large"),
