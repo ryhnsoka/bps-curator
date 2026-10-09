@@ -1,0 +1,17 @@
+{
+  "_comment": "Variabel yang benar-benar tersedia di file data BPS (bukan sekadar kamus master). Partisi yang tidak tercantum = tidak ada datanya. Kamus master_*.json tetap utuh.",
+  "masters": [
+    {
+      "survey_id": "SUSENAS",
+      "period": "2024 Modul",
+      "source": "BPS - Okt 2025 / Survei Sosial Ekonomi Nasional 2024 Maret (Modul Konsumsi dan Pengeluaran Variabel Terpilih): SSN 2024 Maret KP.zip + Susenas 202403 KP.zip (konfirmasi penyedia data 2026-10-09)",
+      "note": "Blok 41 agregat gizi; Blok 42 tidak tersedia; Blok 43 agregat pengeluaran",
+      "partitions": {
+        "ssn202403_kp_blok41_11_31": ["KALORI", "KARBO", "LEMAK", "PROTEIN", "R101", "R102", "R105", "R301", "URUT", "WEIND", "WERT"],
+        "ssn202403_kp_blok41_32_36": ["KALORI", "KARBO", "LEMAK", "PROTEIN", "R101", "R102", "R105", "R301", "URUT", "WEIND", "WERT"],
+        "ssn202403_kp_blok41_51_97": ["KALORI", "KARBO", "LEMAK", "PROTEIN", "R101", "R102", "R105", "R301", "URUT", "WEIND", "WERT"],
+        "ssn202403_kp_blok43": ["EXPEND", "FOOD", "KAPITA", "NONFOOD", "R101", "R102", "R105", "R301", "URUT", "WEIND", "WERT"]
+      }
+    }
+  ]
+}

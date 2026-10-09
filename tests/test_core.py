@@ -44,3 +44,28 @@ def test_readme_maps_mandatory_vs_request():
     txt = generate_readme(c, SAK)
     assert "Variabel wajib (7)" in txt and "KLASIFIKAS" in txt
     assert "K1" in txt and "Tidak ditemukan (0)" in txt
+
+
+def _mini_master():
+    return {
+        "survey_id": "UJI", "period": "2024 Modul", "mandatory": ["W1", "W2"],
+        "variables": [
+            {"code": "W1", "label": "WAJIB SATU", "type": "", "partitions": ["p1"]},
+            {"code": "W2", "label": "WAJIB DUA", "type": "", "partitions": ["pX"]},
+            {"code": "A1", "label": "A SATU", "type": "", "partitions": ["p1"]},
+            {"code": "A2", "label": "A DUA", "type": "", "partitions": ["pX"]},
+        ],
+    }
+
+
+def test_availability_filters_keep():
+    c = curate(["A1", "A2", "W2"], _mini_master(), availability={"p1": ["W1", "A1"]})
+    assert c["missing"] == []
+    assert c["mandatory_added"] == ["W1"]
+    assert c["grouped"] == {"p1": ["A1", "W1"]}
+    assert sorted(c["unavailable"]) == ["A2", "W2"]
+    assert c["unavailable_partitions"] == ["pX"]
+    do = generate_do(c, _mini_master())
+    assert "tidak tersedia di data" in do and "pX" in do and "keep A1 W1" in do
+    txt = generate_readme(c, _mini_master())
+    assert "Tidak tersedia di data (2)" in txt and "Variabel wajib (1)" in txt

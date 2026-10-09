@@ -80,6 +80,7 @@ bps-curator/
 - SAKERNAS 4, SUSENAS 5, STPIM 3, KOMUTER 7, IMK 3, PODES 9, E-COM 2, SPAK 1
 - Catalog `output/catalog.json`: wajib = union profil (angka saja)
 - Peta Indonesia dilewati (tidak ada master)
+- Overlay `output/availability.json` → tabel `data_availability`: variabel yang benar-benar ada di file data per partisi (ex SUSENAS 2024 Modul: Blok 42 tanpa data, Blok 41/43 agregat). `.do`/README otomatis hanya keep yang tersedia + seksi "Tidak tersedia di data".
 
 ---
 

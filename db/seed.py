@@ -70,6 +70,8 @@ def seed(db_path, json_dir):
         drive_id = DRIVE_IDS[jf.name]
         con.execute("INSERT OR IGNORE INTO surveys(id, name) VALUES (?, ?)",
                     (m["survey_id"], SURVEY_NAMES.get(m["survey_id"], m["survey_id"])))
+        con.execute("DELETE FROM requests WHERE master_id = ?", (drive_id,))  # kaskade ke request_items
+        con.execute("DELETE FROM data_availability WHERE master_id = ?", (drive_id,))
         con.execute("DELETE FROM masters WHERE drive_id = ?", (drive_id,))
         for tbl in ("var_partitions", "mandatory"):
             pass
@@ -100,9 +102,27 @@ def seed(db_path, json_dir):
                 con.execute("INSERT OR IGNORE INTO mandatory(master_id, profile, code) VALUES (?, ?, ?)",
                             (drive_id, prof, c))
         n_m += 1
+    avail_path = json_dir / "availability.json"
+    n_a = 0
+    if avail_path.exists():
+        avail = json.loads(avail_path.read_text(encoding="utf-8"))
+        for entry in avail.get("masters", []):
+            row = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
+                              (entry.get("survey_id", ""), entry.get("period", ""))).fetchone()
+            if not row:
+                print("avail dilewati (master tak dikenal):",
+                      entry.get("survey_id"), entry.get("period"))
+                continue
+            mid = row[0]
+            con.execute("DELETE FROM data_availability WHERE master_id = ?", (mid,))
+            for part, codes in entry.get("partitions", {}).items():
+                for c in codes:
+                    con.execute("INSERT OR IGNORE INTO data_availability(master_id, partition, code)"
+                                " VALUES (?, ?, ?)", (mid, part, c))
+                    n_a += 1
     con.commit()
     nv = con.execute("SELECT COUNT(*) FROM variables").fetchone()[0]
-    print(f"masters={n_m} variables={nv} -> {db_path}")
+    print(f"masters={n_m} variables={nv} avail={n_a} -> {db_path}")
     con.close()
 
 

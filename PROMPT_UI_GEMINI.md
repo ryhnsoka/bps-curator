@@ -22,8 +22,9 @@ from bps_curator.normalize import normalize_code
 ```
 
 Fungsi yang tersedia (sudah dites, JANGAN tulis ulang):
-- `curate(requested: list[str], master: dict, add_mandatory=True, profile=None) -> {found, missing, mandatory_added, grouped}`
+- `curate(requested: list[str], master: dict, add_mandatory=True, profile=None, availability=None) -> {found, missing, mandatory_added, grouped, unavailable, unavailable_partitions, availability}`
   - Input tidak sensitif kapital/spasi/strip. Output kode standar master.
+  - `availability` = `{partisi: [kode]}` dari `output/availability.json` (None = perilaku lama). Variabel kamus yang tak ada di data -> `unavailable`; partisi tanpa data -> `unavailable_partitions`; keep otomatis hanya yang tersedia.
 - `generate_do(curated, master) -> str` (isi file `.do`, hanya perintah `keep`)
 - `generate_readme(curated, master) -> str` (teks datar `.txt`: wajib vs request + label)
 - `normalize_code(s) -> str`
@@ -34,7 +35,8 @@ Data siap pakai (baca langsung, JANGAN fetch ulang):
 - `output/master_*.json`: `{survey_id, period, n_variables, partitions[], mandatory, variables[]}`
   - `mandatory` = `[]` | `[kode...]` | `{profil: [kode...]}` (contoh profil: `RT/IND/Mig` di Susenas)
   - tiap variable = `{code, label, type, partitions[]}`
-- SQLite `bps.db` (buat jika belum ada via `db/seed.py`): tabel `masters, partitions, variables(fold,label), mandatory, requests, request_items`.
+- SQLite `bps.db` (buat jika belum ada via `db/seed.py`): tabel `masters, partitions, variables(fold,label), mandatory, requests, request_items, data_availability`.
+- `output/availability.json`: overlay variabel yang benar-benar ada di file data per partisi (ex SUSENAS 2024 Modul: blok42 tanpa data) — seed mengisi `data_availability`.
   - Cari lintas master: `SELECT m.survey_id, m.period, v.code, v.label FROM variables v JOIN masters m ON m.drive_id=v.master_id WHERE v.fold LIKE '%Q%' OR LOWER(v.label) LIKE '%q%'`
 
 Aturan bisnis (SUDAH dienkode di backend, UI tinggal menampilkan):

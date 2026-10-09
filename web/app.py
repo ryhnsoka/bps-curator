@@ -109,6 +109,16 @@ def load_master_vars(json_file):
     return json.loads((OUT_DIR / json_file).read_text(encoding="utf-8"))
 
 
+@st.cache_data
+def load_availability():
+    p = OUT_DIR / "availability.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {(e.get("survey_id", ""), e.get("period", "")): e
+            for e in data.get("masters", [])}
+
+
 def log_request(con, master_id, profile, req, curated):
     cur = con.execute("INSERT INTO requests(master_id, profile, note) VALUES (?, ?, '')",
                       (master_id, profile or ""))
@@ -128,6 +138,12 @@ def kept_partitions(curated, master):
     multi = len(curated["grouped"]) > 1
     return [p for p in sorted(curated["grouped"])
             if [v for v in curated["grouped"][p] if normalize_code(v) not in mset] or not multi]
+
+
+def download_stem(master):
+    """Nama file unduh standar, ex 'SUSENAS 2023 KP' (tanpa karakter ilegal)."""
+    stem = f"{master.get('survey_id', 'kurasi')} {master.get('period', '')}".strip()
+    return re.sub(r'[\\/:*?"<>|]+', "-", stem).strip() or "kurasi"
 
 
 st.set_page_config(page_title="BPS Curator — Lab Digital FEB Undip", layout="wide")
@@ -179,9 +195,13 @@ else:
     pick = st.selectbox("Pilih Survei Master", labels)
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])
+    avail_entry = load_availability().get((m.get("survey_id", ""), m.get("period", "")), {})
+    avail_map = avail_entry.get("partitions") if avail_entry else None
+    avail_badge = (f" <span class='badge'>Data tersedia: {len(avail_map)} dari "
+                   f"{len(m['partitions'])} partisi</span>" if avail_map else "")
     st.markdown(f"<div class='card'><h4 style='margin-top:0;'>Informasi Dataset</h4>"
                 f"<span class='badge'>Total Variabel: {m['n_variables']}</span> "
-                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span></div>",
+                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span>{avail_badge}</div>",
                 unsafe_allow_html=True)
 
     req_text = st.text_area("Tempel Daftar Variabel (pisahkan dengan spasi, koma, atau baris baru)",
@@ -191,21 +211,30 @@ else:
     if req:
         st.caption(f"<span class='badge'>{len(req)} variabel ditempel</span>", unsafe_allow_html=True)
     if st.button("Proses Kurasi", disabled=not req):
-        c = curate(req, m)
+        c = curate(req, m, availability=avail_map)
         do, txt = generate_do(c, m), generate_readme(c, m)
         mid = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
                           (m["survey_id"], m["period"])).fetchone()
         log_request(con, mid["drive_id"] if mid else "", None, req, c)
-        s1, s2, s3 = st.columns(3)
+        s1, s2, s3, s4 = st.columns(4)
         s1.metric("Ditemukan", len(c["found"]))
         s2.metric("Hilang", len(c["missing"]))
         s3.metric("Wajib ditambah", len(c["mandatory_added"]))
+        s4.metric("Tak tersedia di data", len(c.get("unavailable", [])))
         if c["missing"]:
             st.warning(f"Tidak ditemukan: {', '.join(c['missing'])}")
+        req_norm = {normalize_code(r) for r in req}
+        unav_req = [u for u in c.get("unavailable", []) if normalize_code(u) in req_norm]
+        if unav_req:
+            st.warning(f"Tidak tersedia di file data: {', '.join(unav_req)}")
+        if c.get("unavailable_partitions"):
+            st.warning(f"Partisi tanpa file data: {', '.join(c['unavailable_partitions'])}")
+        unav_set = set(c.get("unavailable", []))
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
         st.dataframe([{"Kode": v["code"], "Label": v["label"]}
-                      for v in sorted(c["found"], key=lambda x: x["code"])],
+                      for v in sorted(c["found"], key=lambda x: x["code"])
+                      if v["code"] not in unav_set],
                      use_container_width=True, hide_index=True)
         st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
@@ -221,8 +250,9 @@ else:
         with t2:
             st.text(txt)
         st.markdown("#### Unduh Hasil")
+        stem = download_stem(m)
         d1, d2 = st.columns(2)
         with d1:
-            st.download_button("Unduh Kode Stata (.do)", do, file_name="kurasi.do")
+            st.download_button("Unduh Kode Stata (.do)", do, file_name=f"{stem}.do")
         with d2:
-            st.download_button("Unduh Metadata (README.txt)", txt, file_name="kurasi_README.txt")
+            st.download_button("Unduh Metadata (README.txt)", txt, file_name=f"{stem} README.txt")

@@ -65,3 +65,13 @@ CREATE TABLE IF NOT EXISTS request_items (
     status    TEXT NOT NULL,        -- 'found' | 'missing'
     PRIMARY KEY (request_id, code_raw)
 );
+
+-- Variabel yang benar-benar tersedia di file data (subset kamus).
+-- Partisi kamus yang tidak tercantum di sini = tidak ada datanya.
+CREATE TABLE IF NOT EXISTS data_availability (
+    master_id TEXT NOT NULL REFERENCES masters(drive_id) ON DELETE CASCADE,
+    partition TEXT NOT NULL,        -- nama partisi kamus
+    code      TEXT NOT NULL,        -- kode standar master
+    PRIMARY KEY (master_id, partition, code)
+);
+CREATE INDEX IF NOT EXISTS idx_avail_master ON data_availability(master_id);
