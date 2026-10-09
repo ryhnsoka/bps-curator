@@ -1,0 +1,624 @@
+{
+  "source": "Kuesioner Sakernas Agustus 2024.pdf",
+  "drive_id": "1hLMozTkRdBK32LtS-LtA_kbn5GRTFXqH",
+  "survey_id": "SAKERNAS",
+  "period": "2024 Agustus",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "B2R1": {
+      "soal": "2",
+      "teks": "{DISALIN DARI NOMOR URUT ANGGOTA RUMAH TANGGA TERAKHIR PADA DAFTAR ANGGOTA RUMAH TANGGA KOLOM (1) YANG ADA",
+      "skor": 0.5
+    },
+    "K5_NEG": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "K7_PROV": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "K8_NEG": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R10A": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R10C": {
+      "soal": "11",
+      "teks": "Apakah (NAMA) sebenarnya memiliki pekerjaan/kegiatan",
+      "skor": 0.5
+    },
+    "R11": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R12A": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R12D": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.6
+    },
+    "R14A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R16_1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R16_2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R17A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R17B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R18A_BLN": {
+      "soal": "11",
+      "teks": "Apakah (NAMA) sebenarnya memiliki pekerjaan/kegiatan",
+      "skor": 0.5
+    },
+    "R18A_THN": {
+      "soal": "11",
+      "teks": "Apakah (NAMA) sebenarnya memiliki pekerjaan/kegiatan",
+      "skor": 0.5
+    },
+    "R18B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20A1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20A2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20A3": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20A4": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B3": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B4": {
+      "soal": "5",
+      "teks": "Melakukan proses penjualan barang /jasa melalui website/",
+      "skor": 0.57
+    },
+    "R20B5": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B6": {
+      "soal": "7",
+      "teks": "Melakukan proses pembelian barang/jasa melalui website/",
+      "skor": 0.57
+    },
+    "R20B7": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B8": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R20B9": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R21": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.8
+    },
+    "R22": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 0.8
+    },
+    "R23A": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R23C": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.75
+    },
+    "R23C_KAB": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.75
+    },
+    "R23C_NEG": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R23C_PROV": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.75
+    },
+    "R23D3": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R23D6": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R24A1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A3": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A4": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A5": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A6": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A7": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24A8": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R24B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R24C": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R25A": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25B": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25C": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25D": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25E": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25F": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25G": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25H": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R25I": {
+      "soal": "25",
+      "teks": "Apakah instansi/perusahaan/usaha tempat kerja (NAMA)",
+      "skor": 1.0
+    },
+    "R26B": {
+      "soal": "1",
+      "teks": "Ya, Perjanjian Kerja Waktu Tidak Tertentu (PKWTT)",
+      "skor": 0.6
+    },
+    "R28A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R29": {
+      "soal": "11",
+      "teks": "Apakah (NAMA) sebenarnya memiliki pekerjaan/kegiatan",
+      "skor": 0.5
+    },
+    "R32A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34A1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34A2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34A3": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34A4": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B3": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B4": {
+      "soal": "5",
+      "teks": "Melakukan proses penjualan barang /jasa melalui website/",
+      "skor": 0.57
+    },
+    "R34B5": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B6": {
+      "soal": "7",
+      "teks": "Melakukan proses pembelian barang/jasa melalui website/",
+      "skor": 0.57
+    },
+    "R34B7": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B8": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R34B9": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R35A_BLT": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_JML": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_JUM": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_KAM": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_MNG": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_RAB": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_SAB": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_SEL": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35A_SEN": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R35B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R38A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R39A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R40_BLN": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R40_THN": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42C": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R42D": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R43A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R43B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R43C": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R44": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 1.0
+    },
+    "R45A": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R45B": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R46A": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R46B_BLN": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R46B_THN": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R47D": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R48A_KBLI2": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R48B_KBJI1": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R49": {
+      "soal": "44",
+      "teks": "Apakah (NAMA) menginginkan pekerjaan? 1. Ya 2. Tidak",
+      "skor": 0.5
+    },
+    "R50C": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R51J7": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R53": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R54_BLN": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R54_THN": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R56A_KBLI2": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R56B_KBJI1": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R57": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R58": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R59": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R60": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 1.0
+    },
+    "R6C_BLN": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R6C_THN": {
+      "soal": "3",
+      "teks": "Belum pernah bekerja/memulai usaha sejak lulus pendidikan",
+      "skor": 0.5
+    },
+    "R7_NEG": {
+      "soal": "53",
+      "teks": "Apakah nama negara terakhir tempat (NAMA) bekerja di",
+      "skor": 0.5
+    },
+    "R8F": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "R9C6": {
+      "soal": "9",
+      "teks": "Lainnya, tuliskan ……………………………… .",
+      "skor": 0.5
+    },
+    "TAHUN": {
+      "soal": "54",
+      "teks": "Pada bulan dan tahun berapa (NAMA) berangkat ke",
+      "skor": 1.0
+    }
+  }
+}
