@@ -3,6 +3,6 @@
   "drive_id": "1AXwsAUfZkuULMDudvzC2NsYCBXH4cg52",
   "survey_id": "PODES",
   "period": "2024 Kecamatan",
-  "metode": "jangkar kode di teks kuesioner (konteks +-250 chr)",
+  "metode": "nomor soal 3-digit -> R+nomor",
   "mapped": {}
 }
