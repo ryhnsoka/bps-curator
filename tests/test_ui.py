@@ -15,6 +15,11 @@ def test_ui_flow():
     frames = [df.value for df in at.dataframe]
     assert any(((fr["Variabel"] == "K10") & (fr["Label"] == "K10 UMUR")).any()
                for fr in frames if "Variabel" in list(fr.columns)), "tabel variabel cocok"
+    # Keranjang: pilih 1 hasil -> tambah -> preview txt + unduh
+    at.multiselect[0].set_value([at.multiselect[0].options[0]]).run()
+    at.button[0].click().run()
+    assert not at.exception, at.exception
+    assert any("Keranjang" in m.value for m in at.markdown), "panel keranjang"
     # Kurasi: pilih SAK2024, cari, centang, proses
     at.radio[0].set_value("Kurasi").run()
     idx = next(i for i, o in enumerate(at.selectbox[0].options)

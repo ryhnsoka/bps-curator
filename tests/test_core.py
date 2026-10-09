@@ -82,3 +82,19 @@ def test_availability_filters_keep():
     assert "tidak tersedia di data" in do and "pX" in do and "keep A1 W1" in do
     txt = generate_readme(c, _mini_master())
     assert "Tidak tersedia di data (2)" in txt and "Variabel wajib (1)" in txt
+
+
+def test_basket_txt_side_by_side():
+    from bps_curator import generate_basket_txt
+    sel = [
+        {"code": "AB", "survey": "S1", "period": "2024"},
+        {"code": "AC", "survey": "S1", "period": "2024"},
+        {"code": "AD", "survey": "S2", "period": "2023"},
+    ]
+    txt = generate_basket_txt(sel)
+    lines = txt.rstrip("\n").split("\n")
+    assert len(lines) == 3
+    assert lines[0] == "S1 2024   S2 2023"
+    assert lines[1] == "AB        AD"
+    assert lines[2] == "AC"
+    assert generate_basket_txt([]) == ""

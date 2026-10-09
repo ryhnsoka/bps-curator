@@ -166,6 +166,33 @@ def generate_readme(curated, master):
     return "\n".join(L).rstrip() + "\n"
 
 
+def generate_basket_txt(selections):
+    """TXT keranjang: satu kolom per master (Survei Periode), kode rata spasi.
+
+    selections: [{code, survey, period}] (nama lengkap). Return str.
+    """
+    groups, order = {}, []
+    for s in selections:
+        key = (s.get("survey", ""), s.get("period", ""))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        if s.get("code") and s["code"] not in groups[key]:
+            groups[key].append(s["code"])
+    if not order:
+        return ""
+    headers = [f"{sv} {pr}".strip() for sv, pr in order]
+    cols = []
+    for (sv, pr), h in zip(order, headers):
+        w = max([len(h)] + [len(c) for c in groups[(sv, pr)]])
+        cols.append([h] + [c.ljust(w) for c in groups[(sv, pr)]])
+    n = max(len(c) for c in cols)
+    lines = []
+    for i in range(n):
+        lines.append("   ".join(c[i] if i < len(c) else " " * len(c[0]) for c in cols).rstrip())
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def generate_do(curated, master):
     lines = [f"* Auto-generated {survey_name(master.get('survey_id', ''))} {period_name(master.get('period', ''))}".rstrip(),
              f"* Found: {len(curated['found'])}, Missing: {len(curated['missing'])}"]

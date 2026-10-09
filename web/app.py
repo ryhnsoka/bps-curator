@@ -11,7 +11,7 @@ import sqlite3
 
 import streamlit as st
 
-from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list
+from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list, generate_basket_txt
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
 
@@ -188,6 +188,40 @@ if menu == "Katalog":
         if var_hits:
             st.write("**Variabel cocok (nama + label):**")
             st.dataframe(var_hits, use_container_width=True, hide_index=True)
+            if "basket" not in st.session_state:
+                st.session_state.basket = []
+            opts = [f"{v['Variabel']} — {v['Label']} [{v['Survei']} {v['Periode']}]" for v in var_hits]
+            pick_vars = st.multiselect("Pilih untuk keranjang", opts)
+            if st.button("Tambah ke keranjang", disabled=not pick_vars):
+                have = {(b["code"], b["survey"], b["period"]) for b in st.session_state.basket}
+                for v, o in zip(var_hits, opts):
+                    if o in pick_vars:
+                        key = (v["Variabel"], v["Survei"], v["Periode"])
+                        if key not in have:
+                            have.add(key)
+                            st.session_state.basket.append(
+                                {"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]})
+                st.rerun()
+    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.markdown("</div>", unsafe_allow_html=True)
+    basket = st.session_state.get("basket", [])
+    if basket:
+        st.markdown("<div class='card'><h3><span class='ico'>●</span> Keranjang "
+                    f"({len(basket)})</h3>", unsafe_allow_html=True)
+        for i, b in enumerate(basket):
+            c1, c2 = st.columns([5, 1])
+            c1.write(f"**{b['code']}** — {b['survey']} {b['period']}")
+            if c2.button("Hapus", key=f"rm_{i}"):
+                st.session_state.basket.pop(i)
+                st.rerun()
+        txt = generate_basket_txt(basket)
+        st.markdown("#### Preview TXT (menyamping)")
+        st.code(txt, language="text")
+        st.download_button("Unduh TXT", txt, file_name="keranjang.txt")
+        if st.button("Kosongkan keranjang"):
+            st.session_state.basket = []
+            st.rerun()
+        st.markdown("</div>", unsafe_allow_html=True)
     st.dataframe(rows, use_container_width=True, hide_index=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
