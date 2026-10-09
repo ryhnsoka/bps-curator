@@ -190,27 +190,15 @@ if menu == "Katalog":
             st.dataframe(var_hits, use_container_width=True, hide_index=True,
                          column_config={"Label": st.column_config.TextColumn(width="large")},
                          selection_mode="multi-row", on_select="rerun", key="varhits")
-            if "basket" not in st.session_state:
-                st.session_state.basket = []
             tapped = [var_hits[i] for i in st.session_state.varhits.selection.rows
                       if 0 <= i < len(var_hits)]
-            b1, b2 = st.columns(2)
-            with b1:
-                if st.button("Tambah ke keranjang", disabled=not tapped):
-                    have = {(b["code"], b["survey"], b["period"]) for b in st.session_state.basket}
-                    for v in tapped:
-                        key = (v["Variabel"], v["Survei"], v["Periode"])
-                        if key not in have:
-                            have.add(key)
-                            st.session_state.basket.append(
-                                {"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]})
-                    st.rerun()
-            with b2:
-                direct = generate_basket_txt(
+            if tapped:
+                txt = generate_basket_txt(
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
-                     for v in tapped]) if tapped else ""
-                st.download_button("Unduh TXT langsung", direct or " ",
-                                   file_name="pilihan.txt", disabled=not tapped)
+                     for v in tapped])
+                st.markdown("#### Preview TXT (menyamping)")
+                st.code(txt, language="text")
+                st.download_button("Unduh TXT", txt, file_name="pilihan.txt")
     st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
                                 "Periode": st.column_config.TextColumn(width="large"),
@@ -218,24 +206,6 @@ if menu == "Katalog":
                                 "Jumlah Partisi": st.column_config.NumberColumn(width="small"),
                                 "Wajib": st.column_config.NumberColumn(width="small")})
     st.markdown("</div>", unsafe_allow_html=True)
-    basket = st.session_state.get("basket", [])
-    if basket:
-        st.markdown("<div class='card'><h3><span class='ico'>●</span> Keranjang "
-                    f"({len(basket)})</h3>", unsafe_allow_html=True)
-        for i, b in enumerate(basket):
-            c1, c2 = st.columns([5, 1])
-            c1.write(f"**{b['code']}** — {b['survey']} {b['period']}")
-            if c2.button("Hapus", key=f"rm_{i}"):
-                st.session_state.basket.pop(i)
-                st.rerun()
-        txt = generate_basket_txt(basket)
-        st.markdown("#### Preview TXT (menyamping)")
-        st.code(txt, language="text")
-        st.download_button("Unduh TXT", txt, file_name="keranjang.txt")
-        if st.button("Kosongkan keranjang"):
-            st.session_state.basket = []
-            st.rerun()
-        st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------------- KURASI ----------------
 else:

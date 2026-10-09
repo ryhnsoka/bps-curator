@@ -15,16 +15,10 @@ def test_ui_flow():
     frames = [df.value for df in at.dataframe]
     assert any(((fr["Variabel"] == "K10") & (fr["Label"] == "K10 UMUR")).any()
                for fr in frames if "Variabel" in list(fr.columns)), "tabel variabel cocok"
-    # Keranjang: isi via state -> panel preview txt + unduh (ketuk baris diuji di browser)
-    at.session_state["basket"] = [
-        {"code": "K10", "survey": "Survei Angkatan Kerja Nasional", "period": "2024 Agustus"},
-        {"code": "R101", "survey": "Survei Sosial Ekonomi Nasional", "period": "2024 Kor (Inti)"},
-    ]
+    # Tanpa tombol keranjang (ketuk baris diuji di browser); unduh langsung dari ketukan
     at.run()
     assert not at.exception, at.exception
-    assert any("Keranjang (2)" in m.value for m in at.markdown), "panel keranjang"
-    code_txt = at.code[-1].value
-    assert "K10" in code_txt and "R101" in code_txt, code_txt[:200]
+    assert not any("keranjang" in b.label.lower() for b in at.button), "tanpa tombol keranjang"
     # Kurasi: pilih SAK2024, cari, centang, proses
     at.radio[0].set_value("Kurasi").run()
     idx = next(i for i, o in enumerate(at.selectbox[0].options)
