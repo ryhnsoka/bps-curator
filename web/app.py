@@ -15,7 +15,7 @@ from bps_curator.curator import curate, generate_do, generate_readme, get_mandat
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
 from bps_curator.definitions import (load_definitions, definitions_for,
-                                     MIN_COVERAGE)
+                                     has_definition)
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -180,7 +180,7 @@ if menu == "Katalog":
     if q:
         qf, ql = normalize_code(q), q.lower()
         hit = set()
-        var_hits = []
+        var_hits, var_keys = [], []
         if qf:
             for r in con.execute(
                     "SELECT m.survey_id, m.period, v.code, v.label FROM variables v "
@@ -191,6 +191,7 @@ if menu == "Katalog":
                 hit.add((survey_name(r["survey_id"]), period_name(r["period"])))
                 var_hits.append({"Variabel": r["code"], "Label": r["label"],
                                  "Survei": survey_name(r["survey_id"]), "Periode": period_name(r["period"])})
+                var_keys.append((r["survey_id"], r["period"], r["code"]))
         rows = [r for r, c in zip(rows_all, catalog)
                 if ql in f"{r['Survei']} {r['Periode']} {c['survey']} {c['period']}".lower()
                 or (r["Survei"], r["Periode"]) in hit]
@@ -204,30 +205,40 @@ if menu == "Katalog":
                         seen.add(key)
                         var_hits.append({"Variabel": v["code"], "Label": v["label"],
                                          "Survei": key[1], "Periode": key[2]})
+                        var_keys.append((c["survey"], c["period"], v["code"]))
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
         if var_hits:
+            defs_all = load_definitions(OUT_DIR / "definitions")
+            marked = [i for i, k in enumerate(var_keys)
+                      if has_definition(defs_all, k[0], k[1], k[2])]
+            mark_set = set(marked)
+            table = [dict(v, Definisi="📖" if i in mark_set else "–")
+                     for i, v in enumerate(var_hits)]
             st.write("**Variabel cocok (nama + label) — pilih lalu unduh:**")
-            st.caption("Klik kotak di ujung kiri baris untuk memilih "
+            st.caption("Tanda 📖 = punya definisi lanjutan (lihat tombol di bawah tabel). "
+                       "Klik kotak di ujung kiri baris untuk memilih "
                        "(klik isi sel hanya menyorot teks untuk disalin). "
-                       "Atau pilih lewat daftar di bawah — hasilnya sama.")
-            st.dataframe(var_hits, use_container_width=True, hide_index=True,
-                         column_config={"Label": st.column_config.TextColumn(width="large")},
+                       "Atau pilih lewat daftar — hasilnya sama.")
+            st.dataframe(table, use_container_width=True, hide_index=True,
+                         column_config={"Label": st.column_config.TextColumn(width="large"),
+                                        "Definisi": st.column_config.TextColumn(width="small")},
                          selection_mode="multi-row", on_select="rerun", key="varhits")
             _vs = st.session_state.get("varhits")
             _sel = getattr(_vs, "selection", None) if _vs is not None else None
             _rows = getattr(_sel, "rows", []) if _sel is not None else []
             row_idx = {i for i in (_rows or []) if 0 <= i < len(var_hits)}
-            _opts, _seen = [], set()
-            for v in var_hits:
+            _opts, _seen, _opt_idx = [], set(), {}
+            for i, v in enumerate(var_hits):
                 o = f"{v['Variabel']} — {v['Label']} | {v['Survei']} {v['Periode']}"
                 if o in _seen:
                     o = f"{o} #{v['Variabel']}"
                 _seen.add(o)
                 _opts.append(o)
+                _opt_idx[o] = i
             picked = st.multiselect("Atau pilih lewat daftar (bisa ketik kode/label)",
                                     _opts, key="varpick")
-            pick_idx = {_opts.index(o) for o in picked if o in _opts}
+            pick_idx = {_opt_idx[o] for o in picked if o in _opt_idx}
             tapped = [var_hits[i] for i in sorted(row_idx | pick_idx)]
             if tapped:
                 st.caption(f"<span class='badge'>{len(tapped)} variabel dipilih</span>",
@@ -236,6 +247,18 @@ if menu == "Katalog":
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
                      for v in tapped])
                 st.download_button("Unduh TXT", txt, file_name="pilihan.txt")
+            if marked:
+                st.caption(f"{len(marked)} dari {len(var_hits)} variabel bertanda 📖.")
+                _dopts = [f"{var_hits[i]['Variabel']} — {var_hits[i]['Label']} "
+                          f"| {var_hits[i]['Survei']} {var_hits[i]['Periode']}"
+                          for i in marked]
+                _dmap = {o: i for o, i in zip(_dopts, marked)}
+                dop = st.selectbox("Lihat definisi lanjutan", _dopts, key="lihatdef")
+                if dop in _dmap:
+                    sid, per, cd = var_keys[_dmap[dop]]
+                    dd = definitions_for(defs_all, sid, per).get(cd, {})
+                    st.caption(f"Sumber: {dd.get('source', '')}")
+                    st.write(dd.get("text", ""))
     st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
                                 "Periode": st.column_config.TextColumn(width="large"),
@@ -306,35 +329,19 @@ else:
         if unav_req:
             st.warning(f"Tidak tersedia di file data: {', '.join(unav_req)}")
         unav_set = set(c.get("unavailable", []))
-        found_rows = [{"Kode": v["code"], "Label": v["label"]}
-                      for v in sorted(c["found"], key=lambda x: x["code"])
-                      if v["code"] not in unav_set]
-        # Seksi tampil bila ada variabel *request* yang punya definisi —
-        # bukan berdasar cakupan master. Cakupan rendah hanya diberi peringatan.
+        # Tanda 📖 langsung di baris hasil; isi definisi dilihat di Katalog.
         bucket = definitions_for(load_definitions(OUT_DIR / "definitions"),
                                  m.get("survey_id", ""), m.get("period", ""))
-        n_total = len(m.get("variables", []))
-        n_mapped = len({v["code"] for v in m.get("variables", []) if v["code"] in bucket})
-        low_cov = n_total > 0 and n_mapped / n_total < MIN_COVERAGE
-        with_def = [v for v in found_rows if v["Kode"] in bucket]
+        found_rows = [{"Kode": v["code"], "Label": v["label"],
+                       "Definisi": "📖" if v["code"] in bucket else "–"}
+                      for v in sorted(c["found"], key=lambda x: x["code"])
+                      if v["code"] not in unav_set]
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
-        st.dataframe(found_rows, use_container_width=True, hide_index=True)
+        st.caption("Tanda 📖 = variabel punya definisi lanjutan (lihat di Katalog).")
+        st.dataframe(found_rows, use_container_width=True, hide_index=True,
+                     column_config={"Definisi": st.column_config.TextColumn(width="small")})
         st.markdown("</div>", unsafe_allow_html=True)
-        if with_def:
-            st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.markdown("#### Definisi Variabel")
-            st.caption(f"{n_mapped} dari {n_total} variabel punya "
-                       f"definisi/soal kuesioner. Ketuk nama variabel untuk membuka.")
-            if low_cov:
-                st.warning(f"Cakupan definisi master ini rendah ({n_mapped}/{n_total}) — "
-                           f"validasi manual dengan kuesioner sebelum dipakai.")
-            for row in with_def:
-                d = bucket[row["Kode"]]
-                with st.expander(f"{row['Kode']} — {row['Label']}"):
-                    st.caption(f"Sumber: {d.get('source', '')}")
-                    st.write(d.get("text", ""))
-            st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
         for p in kept_partitions(c, m):
             st.markdown(

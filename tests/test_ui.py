@@ -2,14 +2,21 @@
 from streamlit.testing.v1 import AppTest
 
 
-def _expander_map(at):
-    """{kode variabel: (label expander, [isi markdown])} dari tab Definisi."""
-    out = {}
-    for e in at.expander:
-        kode = str(e.label).split(" ")[0]
-        out[kode] = (str(e.label), [str(m.value) for m in e.markdown]
-                     + [str(c.value) for c in e.caption])
-    return out
+def _hasil_rows(at):
+    """Baris tabel hasil Kurasi (kolom Kode/Label/Definisi)."""
+    for df in at.dataframe:
+        v = df.value
+        if "Kode" in list(v.columns):
+            return v.to_dict("records")
+    raise AssertionError("tabel hasil tidak ditemukan")
+
+
+def _katalog_rows(at):
+    for df in at.dataframe:
+        v = df.value
+        if "Variabel" in list(v.columns):
+            return v.to_dict("records")
+    raise AssertionError("tabel katalog tidak ditemukan")
 
 
 def test_ui_flow():
@@ -46,18 +53,36 @@ def test_ui_flow():
     do_text = at.tabs[0].code[0].value
     assert "keep " in do_text and "K10" in do_text, do_text[:200]
     assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown)
-    assert any("Definisi Variabel" in m.value for m in at.markdown), "seksi definisi"
-    assert any("variabel punya" in str(c.value) for c in at.caption), "cakupan dilaporkan"
-    # definisi prakerja ada di expander R51A (bukan selectbox tersembunyi)
-    ex = _expander_map(at)
-    assert "R51A" in ex, sorted(ex)[:10]
-    isi = " ".join(ex["R51A"][1])
-    assert "Kartu Prakerja" in isi, isi[:200]
-    print("UI OK: katalog-search, kurasi-tempel, preview, definisi, 2 unduhan")
+    # tanda 📖 di baris hasil, tanpa seksi definisi terpisah di Kurasi
+    assert not any("Definisi Variabel" in m.value for m in at.markdown), \
+        "seksi definisi tidak lagi di Kurasi"
+    marks = {r["Kode"]: r["Definisi"] for r in _hasil_rows(at)}
+    assert marks.get("R51A") == "📖", marks.get("R51A")
+    print("UI OK: katalog-search, kurasi-tempel, preview, tanda-definisi, 2 unduhan")
+
+
+def test_ui_katalog_tanda_dan_tombol_definisi():
+    """Katalog: baris bertanda 📖 + tombol 'Lihat definisi lanjutan' menampilkan isi."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.text_input[0].set_value("B10_100").run()
+    assert not at.exception, at.exception
+    rows = _katalog_rows(at)
+    b1 = [r for r in rows if r["Variabel"] == "B10_1001"]
+    assert b1, "B10_1001 ketemu di Katalog"
+    assert all(r["Definisi"] == "📖" for r in b1), [r["Definisi"] for r in b1]
+    assert any(r["Definisi"] == "–" for r in rows), "baris tanpa peta bertanda –"
+    opt = next(o for o in at.selectbox[0].options if o.startswith("B10_1001 "))
+    at.selectbox[0].set_value(opt).run()
+    assert not at.exception, at.exception
+    assert any("usaha" in str(m.value).lower() for m in at.markdown), \
+        "isi definisi tampil setelah tombol dipilih"
+    assert any("Sumber:" in str(c.value) for c in at.caption), "sumber disebut"
+    print("UI OK: katalog tanda 📖 + tombol definisi")
 
 
 def test_ui_definitions_underscore_master():
-    """IMK pakai kode ber-underscore (B10_1001): definisi harus tetap ketemu."""
+    """IMK pakai kode ber-underscore (B10_1001): tanda 📖 tetap muncul."""
     at = AppTest.from_file("web/app.py", default_timeout=120)
     at.run()
     at.radio[0].set_value("Kurasi").run()
@@ -67,17 +92,18 @@ def test_ui_definitions_underscore_master():
     at.text_area[0].set_value("B10_1001 B10_1002").run()
     at.button[0].click().run()
     assert not at.exception, at.exception
-    caps = [str(c.value) for c in at.caption]
-    assert any("149 dari 199" in c for c in caps), caps
-    assert any("Ketuk nama variabel" in c for c in caps), caps
-    ex = _expander_map(at)
-    assert "B10_1001" in ex, sorted(ex)[:10]
-    isi = " ".join(ex["B10_1001"][1])
-    assert "usaha" in isi.lower(), isi[:200]
-    assert any("VIMK19_KBLI.pdf" in s for s in ex["B10_1001"][1]), "sumber disebut"
-    # B10_1002 tidak punya peta -> tidak boleh ada expander-nya
-    assert "B10_1002" not in ex, sorted(ex)
-    print("UI OK: definisi IMK (kode underscore) + ambang cakupan")
+    marks = {r["Kode"]: r["Definisi"] for r in _hasil_rows(at)}
+    assert marks.get("B10_1001") == "📖", marks
+    assert marks.get("B10_1002") == "–", marks
+    # isi definisi dibuka lewat Katalog
+    at.radio[0].set_value("Katalog").run()
+    at.text_input[0].set_value("B10_1001").run()
+    opt = next(o for o in at.selectbox[0].options if o.startswith("B10_1001 "))
+    at.selectbox[0].set_value(opt).run()
+    assert not at.exception, at.exception
+    assert any("usaha" in str(m.value).lower() for m in at.markdown), \
+        "soal kuesioner tampil di Katalog"
+    print("UI OK: tanda 📖 IMK (kode underscore) + definisi di Katalog")
 
 
 def test_ui_state_survives_tab_switch():
@@ -103,7 +129,8 @@ def test_ui_state_survives_tab_switch():
         f"master reset: {at.selectbox[0].value!r}"
     assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown), \
         "hasil kurasi hilang setelah pindah tab"
-    assert "B10_1001" in _expander_map(at), "definisi hilang setelah pindah tab"
+    marks = {r["Kode"]: r["Definisi"] for r in _hasil_rows(at)}
+    assert marks.get("B10_1001") == "📖", "tanda 📖 hilang setelah pindah tab"
     print("UI OK: pindah tab tidak menghapus state kurasi")
 
 
@@ -123,8 +150,7 @@ def test_ui_katalog_pilih_lewat_daftar():
 
 
 def test_ui_definitions_low_coverage_master():
-    """Cakupan master rendah (Susenas 2023 Kor, 52/468) tetap tampil bila
-    variabel request punya definisi — dengan peringatan, bukan disembunyikan."""
+    """Master cakupan rendah (Susenas 2023 Kor) tetap bertanda 📖 per variabel."""
     at = AppTest.from_file("web/app.py", default_timeout=120)
     at.run()
     at.radio[0].set_value("Kurasi").run()
@@ -134,17 +160,15 @@ def test_ui_definitions_low_coverage_master():
     at.text_area[0].set_value("R101 R102 R401").run()
     at.button[0].click().run()
     assert not at.exception, at.exception
-    assert any("Definisi Variabel" in m.value for m in at.markdown), "seksi tampil"
-    ex = _expander_map(at)
-    assert "R101" in ex and "R401" in ex, sorted(ex)
-    assert "R102" not in ex, "tanpa peta -> tanpa expander"
-    assert any("Cakupan definisi" in str(w.value) for w in at.warning), \
-        "peringatan cakupan rendah"
-    print("UI OK: definisi tampil di master cakupan rendah + peringatan")
+    marks = {r["Kode"]: r["Definisi"] for r in _hasil_rows(at)}
+    assert marks.get("R101") == "📖" and marks.get("R401") == "📖", marks
+    assert marks.get("R102") == "–", marks
+    print("UI OK: tanda 📖 per-request di master cakupan rendah")
 
 
 if __name__ == "__main__":
     test_ui_flow()
+    test_ui_katalog_tanda_dan_tombol_definisi()
     test_ui_definitions_underscore_master()
     test_ui_state_survives_tab_switch()
     test_ui_katalog_pilih_lewat_daftar()

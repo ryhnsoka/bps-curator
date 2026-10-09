@@ -84,22 +84,6 @@ def definitions_for(definitions, survey_id, period):
     return definitions.get((survey_id or "", period or ""), {})
 
 
-#: Cakupan minimum agar seksi definisi ditampilkan di UI. Di bawah ini
-#: peta hasil eksplorasi yang belum tervalidasi, jadi lebih baik disembunyikan.
-MIN_COVERAGE = 0.15
-
-
-def master_definitions(definitions, master, min_coverage=MIN_COVERAGE):
-    """Definisi untuk variabel master, atau {} bila cakupannya di bawah ambang.
-
-    Mengembalikan (lookup, info) dengan lookup memakai kode master apa adanya.
-    """
-    bucket = definitions_for(definitions, master.get("survey_id", ""),
-                             master.get("period", ""))
-    codes = [v["code"] for v in master.get("variables", [])]
-    lookup = {c: bucket[c] for c in codes if c in bucket}
-    coverage = len(lookup) / len(codes) if codes else 0.0
-    info = {"n_total": len(codes), "n_mapped": len(lookup), "coverage": coverage}
-    if not codes or coverage < min_coverage:
-        return {}, info
-    return lookup, info
+def has_definition(definitions, survey_id, period, code):
+    """True bila kode punya definisi/soal lanjutan (tanda 📖 di tabel)."""
+    return code in definitions_for(definitions, survey_id, period)

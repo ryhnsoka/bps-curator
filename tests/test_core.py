@@ -100,29 +100,19 @@ def test_definitions_loader(tmp_path):
     assert definitions_for(load_definitions(tmp_path), "XX", "2000") == {}
 
 
-def test_master_definitions_underscore_and_threshold(tmp_path):
-    from bps_curator.definitions import master_definitions
+def test_definitions_underscore_alias_and_mark(tmp_path):
+    from bps_curator.definitions import has_definition
     (tmp_path / "c.json").write_text(json.dumps({
         "survey_id": "IMK", "period": "2019", "source": "kues.pdf",
         "mapped": {"B10_1001": {"soal": "910", "teks": "Apakah ada usaha"}}}), encoding="utf-8")
     defs = load_definitions(tmp_path)
     # kode master ber-underscore harus tetap ketemu (kode polos jadi alias)
-    lookup, info = master_definitions(defs, {
-        "survey_id": "IMK", "period": "2019",
-        "variables": [{"code": "B10_1001"}, {"code": "B10_1002"}]})
-    assert lookup["B10_1001"]["text"] == "Apakah ada usaha"
-    assert lookup["B10_1001"]["source"] == "kues.pdf"
-    assert info["n_mapped"] == 1 and abs(info["coverage"] - 0.5) < 1e-9
-    # di bawah ambang -> disembunyikan ({}), info tetap dilaporkan
-    lookup2, info2 = master_definitions(defs, {
-        "survey_id": "IMK", "period": "2019",
-        "variables": [{"code": f"B10_100{i}"} for i in range(1, 21)]})
-    assert lookup2 == {} and info2["coverage"] < 0.15
-    # periode tak dikenal -> 0
-    lookup3, info3 = master_definitions(defs, {
-        "survey_id": "IMK", "period": "1999",
-        "variables": [{"code": "B10_1001"}]})
-    assert lookup3 == {} and info3["coverage"] == 0.0
+    bucket = definitions_for(defs, "IMK", "2019")
+    assert bucket["B10_1001"]["text"] == "Apakah ada usaha"
+    assert bucket["B10_1001"]["source"] == "kues.pdf"
+    assert has_definition(defs, "IMK", "2019", "B10_1001") is True
+    assert has_definition(defs, "IMK", "2019", "B10_1002") is False
+    assert has_definition(defs, "IMK", "1999", "B10_1001") is False
 
 
 def test_basket_txt_side_by_side():
