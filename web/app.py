@@ -64,21 +64,15 @@ CSS = f"""
   font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
   color: {INK}; word-spacing: .15rem; line-height: 1.7;
 }}
-.defbox {{
-  border: 1px solid #E8D9A8; border-left: 5px solid {GOLD};
-  border-radius: 12px; background: #FEFDF8;
-  padding: .8rem 1rem; margin-top: .6rem;
+details[data-testid="stExpander"] {{
+  border: 1px solid {LINE}; border-radius: 12px; background: #fff;
+  margin-bottom: .4rem;
 }}
-.defbox .defhdr {{ font-weight: 700; color: {INK}; font-size: .95rem; }}
-.defbox .defhdr .code {{
-  font-family: ui-monospace, Consolas, monospace; color: {GOLD_DARK};
+details[data-testid="stExpander"] summary {{
+  font-weight: 600; color: {INK};
+  font-family: ui-monospace, Consolas, monospace; font-size: .88rem;
 }}
-.defbox .defsrc {{ color: {MUTED}; font-size: .78rem; margin: .25rem 0 .5rem; }}
-.defbox .deftext {{
-  color: {INK}; font-size: .9rem; line-height: 1.65;
-  white-space: pre-wrap; max-height: 26rem; overflow-y: auto;
-  border-top: 1px dashed {LINE}; padding-top: .5rem;
-}}
+details[data-testid="stExpander"] summary p {{ font-family: inherit; }}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
 div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
@@ -103,20 +97,6 @@ div[data-testid="stSelectbox"] label p {{
 }}
 </style>
 """
-
-
-def selected_rows(widget_state):
-    """Baris terpilih dari st.dataframe, atau [] kalau belum ada.
-
-    Streamlit memakai objek berkolom .selection.rows; AppTest 1.39 tidak
-    membuat objek itu, jadi bentuk dict juga diterima.
-    """
-    if not widget_state:
-        return []
-    sel = getattr(widget_state, "selection", None)
-    if sel is None and isinstance(widget_state, dict):
-        sel = widget_state.get("selection")
-    return list(getattr(sel, "rows", None) or (sel or {}).get("rows", []) or [])
 
 
 @st.cache_resource
@@ -249,7 +229,13 @@ if menu == "Katalog":
 # ---------------- KURASI ----------------
 else:
     labels = [f"{survey_name(c['survey'])} — {period_name(c['period'])}" for c in catalog]
-    pick = st.selectbox("Pilih Survei Master", labels)
+    # Streamlit membuang state widget yang tidak dirender di run tersebut. Simpan
+    # mirror-nya di *_saved supaya pindah tab ke Katalog tidak mengosongkan
+    # pilihan master maupun daftar variabel.
+    if "pick_input" not in st.session_state:
+        st.session_state["pick_input"] = st.session_state.get("pick_saved", labels[0])
+    pick = st.selectbox("Pilih Survei Master", labels, key="pick_input")
+    st.session_state["pick_saved"] = pick
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])
     avail_entry = load_availability().get((m.get("survey_id", ""), m.get("period", "")), {})
@@ -261,9 +247,15 @@ else:
                 f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span>{avail_badge}</div>",
                 unsafe_allow_html=True)
 
-    req_text = st.text_area("Tempel Daftar Variabel (pisahkan dengan spasi, koma, atau baris baru)",
-                            height=130,
-                            help="Tak perlu centang — tempel daftar lalu tekan Proses")
+    # req_text disimpan di session_state supaya pindah tab tidak mengosongkan
+    # kotak tempel (kalau kosong, hasil kurasi ikut hilang karena signature beda).
+    if "req_input" not in st.session_state:
+        st.session_state["req_input"] = st.session_state.get("req_saved", "")
+    st.text_area("Tempel Daftar Variabel (pisahkan dengan spasi, koma, atau baris baru)",
+                 height=130, key="req_input",
+                 help="Tak perlu centang — tempel daftar lalu tekan Proses")
+    req_text = st.session_state["req_input"]
+    st.session_state["req_saved"] = req_text
     req = [t for t in re.split(r"[\s,;]+", req_text) if t]
     if req:
         st.caption(f"<span class='badge'>{len(req)} variabel ditempel</span>", unsafe_allow_html=True)
@@ -276,8 +268,14 @@ else:
         st.session_state.hasil = {"sig": (entry["file"], req_text),
                                   "req": list(req), "c": c, "do": do, "txt": txt}
     h = st.session_state.get("hasil")
-    if h and h.get("sig") == (entry["file"], req_text):
+    # Streamlit menghapus state widget yang tak dirender di run itu, jadi pindah
+    # tab ke Katalog mengosongkan req_input. Hasil disimpan terpisah supaya tetap
+    # tampil begitu user kembali ke tab Kurasi.
+    if h:
         c, do, txt, req = h["c"], h["do"], h["txt"], h["req"]
+        if h.get("sig", (None, None))[1] != req_text:
+            st.caption("Hasil di bawah dari permintaan sebelumnya — tekan "
+                       "Proses Kurasi untuk memperbarui.")
         s1, s2, s3, s4 = st.columns(4)
         s1.metric("Ditemukan", len(c["found"]))
         s2.metric("Hilang", len(c["missing"]))
@@ -294,31 +292,23 @@ else:
                       for v in sorted(c["found"], key=lambda x: x["code"])
                       if v["code"] not in unav_set]
         defs, dinfo = master_definitions(load_definitions(OUT_DIR / "definitions"), m)
-        with_def = {v["code"] for v in c["found"] if v["code"] in defs}
-        by_code = {v["code"]: v for v in c["found"]}
+        with_def = [v for v in found_rows if v["Kode"] in defs]
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
-        if with_def:
-            st.caption(f"Klik baris untuk melihat definisi. "
-                       f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel "
-                       f"punya definisi/soal kuesioner.")
-            st.dataframe(found_rows, use_container_width=True, hide_index=True,
-                         selection_mode="multi-row", on_select="rerun", key="hasiltabel")
-            picked = [found_rows[i] for i in selected_rows(st.session_state.get("hasiltabel"))
-                      if 0 <= i < len(found_rows) and found_rows[i]["Kode"] in with_def]
-            for row in picked[:8]:
-                d = defs[row["Kode"]]
-                st.markdown(
-                    f"<div class='defbox'><div class='defhdr'>"
-                    f"<span class='code'>{row['Kode']}</span> — {row['Label']}</div>"
-                    f"<div class='defsrc'>Sumber: {d.get('source', '')}</div>"
-                    f"<div class='deftext'>{d.get('text', '')}</div></div>",
-                    unsafe_allow_html=True)
-            if len(picked) > 8:
-                st.caption(f"{len(picked) - 8} baris lain tidak ditampilkan (maks. 8).")
-        else:
-            st.dataframe(found_rows, use_container_width=True, hide_index=True)
+        st.dataframe(found_rows, use_container_width=True, hide_index=True)
         st.markdown("</div>", unsafe_allow_html=True)
+        if with_def:
+            st.markdown("<div class='card'>", unsafe_allow_html=True)
+            st.markdown("#### Definisi Variabel")
+            st.caption(f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel punya "
+                       f"definisi/soal kuesioner. Ketuk nama variabel untuk membuka.")
+            for row in with_def:
+                d = defs[row["Kode"]]
+                # key stabil -> Streamlit sendiri ingat expander mana yang terbuka
+                with st.expander(f"{row['Kode']} — {row['Label']}"):
+                    st.caption(f"Sumber: {d.get('source', '')}")
+                    st.write(d.get("text", ""))
+            st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
         for p in kept_partitions(c, m):
             st.markdown(
