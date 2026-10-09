@@ -3,6 +3,19 @@
   "drive_id": "1AXwsAUfZkuULMDudvzC2NsYCBXH4cg52",
   "survey_id": "PODES",
   "period": "2024 Kecamatan",
-  "metode": "nomor soal 3-digit -> R+nomor",
-  "mapped": {}
+  "metode": "nomor soal mandiri -> R+nomor",
+  "mapped": {
+    "R101": {
+      "soal": "101",
+      "teks": "101"
+    },
+    "R103": {
+      "soal": "103",
+      "teks": "103"
+    },
+    "R102": {
+      "soal": "102",
+      "teks": "102"
+    }
+  }
 }
