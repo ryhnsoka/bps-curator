@@ -187,7 +187,8 @@ if menu == "Katalog":
                    unsafe_allow_html=True)
         if var_hits:
             st.write("**Variabel cocok (nama + label):**")
-            st.dataframe(var_hits, use_container_width=True, hide_index=True)
+            st.dataframe(var_hits, use_container_width=True, hide_index=True,
+                         column_config={"Label": st.column_config.TextColumn(width="large")})
             if "basket" not in st.session_state:
                 st.session_state.basket = []
             opts = [f"{v['Variabel']} — {v['Label']} [{v['Survei']} {v['Periode']}]" for v in var_hits]
@@ -202,7 +203,12 @@ if menu == "Katalog":
                             st.session_state.basket.append(
                                 {"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]})
                 st.rerun()
-    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.dataframe(rows, use_container_width=True, hide_index=True,
+                 column_config={"Survei": st.column_config.TextColumn(width="large"),
+                                "Periode": st.column_config.TextColumn(width="medium"),
+                                "Jumlah Variabel": st.column_config.NumberColumn(width="small"),
+                                "Jumlah Partisi": st.column_config.NumberColumn(width="small"),
+                                "Wajib": st.column_config.NumberColumn(width="small")})
     st.markdown("</div>", unsafe_allow_html=True)
     basket = st.session_state.get("basket", [])
     if basket:
@@ -222,8 +228,6 @@ if menu == "Katalog":
             st.session_state.basket = []
             st.rerun()
         st.markdown("</div>", unsafe_allow_html=True)
-    st.dataframe(rows, use_container_width=True, hide_index=True)
-    st.markdown("</div>", unsafe_allow_html=True)
 
 # ---------------- KURASI ----------------
 else:
