@@ -64,6 +64,21 @@ CSS = f"""
   font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
   color: {INK}; word-spacing: .15rem; line-height: 1.7;
 }}
+.defbox {{
+  border: 1px solid #E8D9A8; border-left: 5px solid {GOLD};
+  border-radius: 12px; background: #FEFDF8;
+  padding: .8rem 1rem; margin-top: .6rem;
+}}
+.defbox .defhdr {{ font-weight: 700; color: {INK}; font-size: .95rem; }}
+.defbox .defhdr .code {{
+  font-family: ui-monospace, Consolas, monospace; color: {GOLD_DARK};
+}}
+.defbox .defsrc {{ color: {MUTED}; font-size: .78rem; margin: .25rem 0 .5rem; }}
+.defbox .deftext {{
+  color: {INK}; font-size: .9rem; line-height: 1.65;
+  white-space: pre-wrap; max-height: 26rem; overflow-y: auto;
+  border-top: 1px dashed {LINE}; padding-top: .5rem;
+}}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
 div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
@@ -88,6 +103,20 @@ div[data-testid="stSelectbox"] label p {{
 }}
 </style>
 """
+
+
+def selected_rows(widget_state):
+    """Baris terpilih dari st.dataframe, atau [] kalau belum ada.
+
+    Streamlit memakai objek berkolom .selection.rows; AppTest 1.39 tidak
+    membuat objek itu, jadi bentuk dict juga diterima.
+    """
+    if not widget_state:
+        return []
+    sel = getattr(widget_state, "selection", None)
+    if sel is None and isinstance(widget_state, dict):
+        sel = widget_state.get("selection")
+    return list(getattr(sel, "rows", None) or (sel or {}).get("rows", []) or [])
 
 
 @st.cache_resource
@@ -261,29 +290,35 @@ else:
         if unav_req:
             st.warning(f"Tidak tersedia di file data: {', '.join(unav_req)}")
         unav_set = set(c.get("unavailable", []))
+        found_rows = [{"Kode": v["code"], "Label": v["label"]}
+                      for v in sorted(c["found"], key=lambda x: x["code"])
+                      if v["code"] not in unav_set]
+        defs, dinfo = master_definitions(load_definitions(OUT_DIR / "definitions"), m)
+        with_def = {v["code"] for v in c["found"] if v["code"] in defs}
+        by_code = {v["code"]: v for v in c["found"]}
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
-        st.dataframe([{"Kode": v["code"], "Label": v["label"]}
-                      for v in sorted(c["found"], key=lambda x: x["code"])
-                      if v["code"] not in unav_set],
-                     use_container_width=True, hide_index=True)
-        st.markdown("</div>", unsafe_allow_html=True)
-        defs, dinfo = master_definitions(load_definitions(OUT_DIR / "definitions"), m)
-        with_def = sorted({v["code"] for v in c["found"] if v["code"] in defs})
         if with_def:
-            by_code = {v["code"]: v for v in c["found"]}
-            def_opts = [f"{cd} | {by_code[cd]['label']}" if cd in by_code else cd
-                        for cd in with_def]
-            st.markdown("<div class='card'>", unsafe_allow_html=True)
-            st.markdown("#### Lihat Definisi")
-            st.caption(f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel punya "
-                       f"definisi/soal kuesioner")
-            opt = st.selectbox("Pilih variabel", def_opts)
-            opt_code = opt.split("|")[0].strip() if opt else ""
-            d = defs.get(opt_code, {})
-            st.caption(f"Sumber: {d.get('source', '')}")
-            st.write(d.get("text", ""))
-            st.markdown("</div>", unsafe_allow_html=True)
+            st.caption(f"Klik baris untuk melihat definisi. "
+                       f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel "
+                       f"punya definisi/soal kuesioner.")
+            st.dataframe(found_rows, use_container_width=True, hide_index=True,
+                         selection_mode="multi-row", on_select="rerun", key="hasiltabel")
+            picked = [found_rows[i] for i in selected_rows(st.session_state.get("hasiltabel"))
+                      if 0 <= i < len(found_rows) and found_rows[i]["Kode"] in with_def]
+            for row in picked[:8]:
+                d = defs[row["Kode"]]
+                st.markdown(
+                    f"<div class='defbox'><div class='defhdr'>"
+                    f"<span class='code'>{row['Kode']}</span> — {row['Label']}</div>"
+                    f"<div class='defsrc'>Sumber: {d.get('source', '')}</div>"
+                    f"<div class='deftext'>{d.get('text', '')}</div></div>",
+                    unsafe_allow_html=True)
+            if len(picked) > 8:
+                st.caption(f"{len(picked) - 8} baris lain tidak ditampilkan (maks. 8).")
+        else:
+            st.dataframe(found_rows, use_container_width=True, hide_index=True)
+        st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
         for p in kept_partitions(c, m):
             st.markdown(

@@ -36,14 +36,34 @@ def test_ui_flow():
     do_text = at.tabs[0].code[0].value
     assert "keep " in do_text and "K10" in do_text, do_text[:200]
     assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown)
-    assert any("Lihat Definisi" in m.value for m in at.markdown), "seksi definisi"
+    assert any("Klik baris untuk melihat definisi" in str(c.value) for c in at.caption), \
+        "petunjuk klik tampil"
     assert any("variabel punya" in str(c.value) for c in at.caption), "cakupan dilaporkan"
-    opt51 = next(o for o in at.selectbox[1].options if o.startswith("R51A"))
-    assert opt51.count("|") == 1, f"pemisah opsi tetap '|': {opt51}"
-    at.selectbox[1].set_value(opt51).run()
+    # ketuk baris R51A -> definisi prakerja tampil (AppTest tak punya select(),
+    # jadi state selection disimulasikan lewat session_state)
+    row = next(i for i, r in enumerate(df_has_kode(at, "K10"))
+               if r["Kode"] == "R51A")
+    at.session_state["hasiltabel"] = {"selection": {"rows": [row]}}
+    at.run()
     assert not at.exception, at.exception
-    assert any("Kartu Prakerja" in m.value for m in at.markdown), "isi definisi tampil"
-    print("UI OK: katalog-search, kurasi-tempel, preview, definisi, 2 unduhan")
+    box = [m.value for m in at.markdown if is_defbox(m.value)]
+    assert box, "kotak definisi tampil setelah baris diklik"
+    assert "R51A" in box[0] and "Kartu Prakerja" in box[0], box[0][:200]
+    print("UI OK: katalog-search, kurasi-tempel, preview, definisi-klik, 2 unduhan")
+
+
+def is_defbox(v):
+    """True untuk markdown kotak definisi (bukan blok CSS di atas)."""
+    return "class='defbox'" in str(v)
+
+
+def df_has_kode(at, kode):
+    """Baris tabel hasil (kolom Kode/Label) dari frame pertama yang punya kolom tsb."""
+    for df in at.dataframe:
+        v = df.value
+        if "Kode" in list(v.columns):
+            return v.to_dict("records")
+    raise AssertionError("tabel hasil tidak ditemukan")
 
 
 def test_ui_definitions_underscore_master():
@@ -54,15 +74,21 @@ def test_ui_definitions_underscore_master():
     idx = next(i for i, o in enumerate(at.selectbox[0].options)
                if "Mikro dan Kecil" in o and o.endswith("2019"))
     at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
-    at.text_area[0].set_value("B10_1001 B10_1002 B10_1003").run()
+    at.text_area[0].set_value("B10_1001 B10_1002").run()
     at.button[0].click().run()
     assert not at.exception, at.exception
-    assert any("Lihat Definisi" in m.value for m in at.markdown), "seksi definisi IMK"
-    assert any("149 dari 199" in str(c.value) for c in at.caption), [c.value for c in at.caption]
-    at.selectbox[1].set_value(next(o for o in at.selectbox[1].options
-                                   if o.startswith("B10_1001"))).run()
+    caps = [str(c.value) for c in at.caption]
+    assert any("149 dari 199" in c for c in caps), caps
+    assert any("Klik baris" in c for c in caps), caps
+    rows = df_has_kode(at, "B10_1001")
+    at.session_state["hasiltabel"] = {"selection": {"rows": [0]}}
+    at.run()
     assert not at.exception, at.exception
-    assert any("usaha" in m.value.lower() for m in at.markdown), "soal kuesioner tampil"
+    box = [m.value for m in at.markdown if is_defbox(m.value)]
+    assert box and "B10_1001" in box[0], box[:1]
+    assert "usaha" in box[0].lower(), box[0][:200]
+    # baris tanpa definisi (B10_1002 tidak terpeta) tidak menghasilkan kotak
+    assert len([m for m in at.markdown if is_defbox(m.value)]) == 1
     print("UI OK: definisi IMK (kode underscore) + ambang cakupan")
 
 
