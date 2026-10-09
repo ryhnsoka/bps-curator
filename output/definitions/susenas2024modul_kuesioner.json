@@ -1,0 +1,14 @@
+{
+  "source": "VSEN24.KP MARET.pdf",
+  "drive_id": "1AtQFxEWmgP55CxAlp0uUKORO42VViGMD",
+  "survey_id": "SUSENAS",
+  "period": "2024 Modul",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "R203": {
+      "soal": "2",
+      "teks": "Hasil Pertanian, Peternakan, Perikanan, Penggalian, Industri, dll. ... ... ...",
+      "skor": 0.5
+    }
+  }
+}

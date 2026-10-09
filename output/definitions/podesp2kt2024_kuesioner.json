@@ -1,0 +1,17 @@
+{
+  "source": "Kuesioner Podes 2024 - 2T - Terdepan-Terluar.pdf",
+  "drive_id": "1BjHJklJRKSCOr_xiAW9R292Es4pWR140",
+  "survey_id": "PODES",
+  "period": "2024 P2KT",
+  "metode": "nomor soal mandiri -> R+nomor (ekspansi prefiks)",
+  "mapped": {
+    "R101": {
+      "soal": "101",
+      "teks": "101"
+    },
+    "R102": {
+      "soal": "102",
+      "teks": "102 Provinsi Kabupaten /Kota *) REPUBLIK INDONESIA BADAN PUSAT STATISTIK PENDATAAN POTENSI DESA/KELURAHAN 2024 RAHASIA II-A. PRELIST DESA TERDEPAN * I. KETERANGAN TEMPAT"
+    }
+  }
+}

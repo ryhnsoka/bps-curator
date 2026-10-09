@@ -29,14 +29,19 @@ def test_ui_flow():
     idx = next(i for i, o in enumerate(at.selectbox[0].options)
                if "2024 Agustus" in o and "Survei Angkatan Kerja Nasional" in o)
     at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
-    at.text_area[0].set_value("K10 k3 TIDAKADA").run()
+    at.text_area[0].set_value("R51A K10 k3 TIDAKADA").run()
     at.button[0].click().run()
     assert not at.exception, at.exception
     assert any("TIDAKADA" in str(w.value) for w in at.warning), "missing dilaporkan"
     do_text = at.tabs[0].code[0].value
     assert "keep " in do_text and "K10" in do_text, do_text[:200]
     assert any("Pemetaan Variabel Valid" in m.value for m in at.markdown)
-    print("UI OK: katalog-search, kurasi-tempel, preview, 2 unduhan")
+    assert any("Lihat Definisi" in m.value for m in at.markdown), "seksi definisi"
+    at.selectbox[1].set_value(next(o for o in at.selectbox[1].options
+                                        if o.startswith("R51A"))).run()
+    assert not at.exception, at.exception
+    assert any("Kartu Prakerja" in m.value for m in at.markdown), "isi definisi tampil"
+    print("UI OK: katalog-search, kurasi-tempel, preview, definisi, 2 unduhan")
 
 
 if __name__ == "__main__":

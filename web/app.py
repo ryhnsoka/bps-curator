@@ -14,6 +14,7 @@ import streamlit as st
 from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list, generate_basket_txt
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
+from bps_curator.definitions import load_definitions, definitions_for
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -242,6 +243,11 @@ else:
         mid = con.execute("SELECT drive_id FROM masters WHERE survey_id = ? AND period = ?",
                           (m["survey_id"], m["period"])).fetchone()
         log_request(con, mid["drive_id"] if mid else "", None, req, c)
+        st.session_state.hasil = {"sig": (entry["file"], req_text),
+                                  "req": list(req), "c": c, "do": do, "txt": txt}
+    h = st.session_state.get("hasil")
+    if h and h.get("sig") == (entry["file"], req_text):
+        c, do, txt, req = h["c"], h["do"], h["txt"], h["req"]
         s1, s2, s3, s4 = st.columns(4)
         s1.metric("Ditemukan", len(c["found"]))
         s2.metric("Hilang", len(c["missing"]))
@@ -261,6 +267,21 @@ else:
                       if v["code"] not in unav_set],
                      use_container_width=True, hide_index=True)
         st.markdown("</div>", unsafe_allow_html=True)
+        defs = definitions_for(load_definitions(OUT_DIR / "definitions"),
+                               m.get("survey_id", ""), m.get("period", ""))
+        with_def = sorted({v["code"] for v in c["found"] if v["code"] in defs})
+        if with_def:
+            by_code = {v["code"]: v for v in c["found"]}
+            def_opts = [f"{cd} — {by_code[cd]['label']}" if cd in by_code else cd
+                        for cd in with_def]
+            st.markdown("<div class='card'>", unsafe_allow_html=True)
+            st.markdown("#### Lihat Definisi")
+            opt = st.selectbox("Pilih variabel", def_opts)
+            opt_code = opt.split()[0].strip() if opt and opt.split() else ""
+            d = defs.get(opt_code, {})
+            st.caption(f"Sumber: {d.get('source', '')}")
+            st.write(d.get("text", ""))
+            st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
         for p in kept_partitions(c, m):
             st.markdown(

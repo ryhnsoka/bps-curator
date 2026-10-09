@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 from bps_curator.normalize import normalize_code
 from bps_curator.curator import curate, generate_do, generate_readme
+from bps_curator.definitions import load_definitions, definitions_for
 import json
 
 SAK = json.loads(Path("output/master_sak2024.json").read_text(encoding="utf-8"))
@@ -82,6 +83,21 @@ def test_availability_filters_keep():
     assert "tidak tersedia di data" in do and "pX" in do and "keep A1 W1" in do
     txt = generate_readme(c, _mini_master())
     assert "Tidak tersedia di data (2)" in txt and "Variabel wajib (1)" in txt
+
+
+def test_definitions_loader(tmp_path):
+    (tmp_path / "a.json").write_text(json.dumps({
+        "survey_id": "SAKERNAS", "period": "2024 Agustus", "source": "prakerja.pdf",
+        "map_question_to_codes": {"51J": ["R51J1", "R51J2"]},
+        "definitions": {"51A": "Apakah tahu prakerja?", "51J": "Untuk apa insentif?"}}), encoding="utf-8")
+    (tmp_path / "b.json").write_text(json.dumps({
+        "survey_id": "SAKERNAS", "period": "2024 Agustus", "source": "kuesioner.pdf",
+        "mapped": {"K10": {"soal": "10", "teks": "Umur responden", "skor": 0.9}}}), encoding="utf-8")
+    defs = definitions_for(load_definitions(tmp_path), "SAKERNAS", "2024 Agustus")
+    assert defs["R51A"]["kind"] == "definisi" and "prakerja" in defs["R51A"]["text"]
+    assert defs["R51J1"]["text"].startswith("Untuk apa insentif")
+    assert defs["K10"]["kind"] == "soal"
+    assert definitions_for(load_definitions(tmp_path), "XX", "2000") == {}
 
 
 def test_basket_txt_side_by_side():

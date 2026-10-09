@@ -1,0 +1,389 @@
+{
+  "source": "VSEN24.MSBP.pdf",
+  "drive_id": "1lhm6TCbARSlAkd5L5BRnfqlDl-RgizkE",
+  "survey_id": "SUSENAS",
+  "period": "2024 MSBP",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "M1101": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M1201": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M1301": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M1401": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 1.0
+    },
+    "M1403": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1404": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1406": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_A": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_B": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_C": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_D": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_E": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_F": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_G": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_H": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_I": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_J": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_K": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_L": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_M": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_N": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1407_O": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_A": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_B": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_C": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_D": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_E": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_F": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_G": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_H": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_I": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1515_X": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1518": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M1519C": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M1519D": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.5
+    },
+    "M1519E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M1519J": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M1519N": {
+      "soal": "1",
+      "teks": "KRT 3. Anak kandung/tiri 5. Menantu 7. Orang tua/mertua 9. Lainnya (famili lain, orang yang tidak",
+      "skor": 0.5
+    },
+    "M1519O": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.5
+    },
+    "M1601": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M1602": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1604": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1605": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1606": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1607": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1608": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1609": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1610": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1611": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1612": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1615": {
+      "soal": "01",
+      "teks": "Sedang mengikuti",
+      "skor": 0.5
+    },
+    "M1701": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M1702_A": {
+      "soal": "03",
+      "teks": "Bekerja/mencari nafkah",
+      "skor": 1.0
+    },
+    "M1702_B": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 1.0
+    },
+    "M1702_C": {
+      "soal": "05",
+      "teks": "Mengurus rumah tangga",
+      "skor": 1.0
+    },
+    "M1704": {
+      "soal": "03",
+      "teks": "Bekerja/mencari nafkah",
+      "skor": 0.5
+    },
+    "M1806": {
+      "soal": "04",
+      "teks": "Lingkungan hidup",
+      "skor": 0.5
+    },
+    "M2003B_E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M2005BK2_E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M2005BK3_E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M2005BK4_E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M2005BK5_E": {
+      "soal": "02",
+      "teks": "Tidak ada biaya sekolah",
+      "skor": 0.67
+    },
+    "M301": {
+      "soal": "10",
+      "teks": "Pertanyaan dalam format roster (nama anggota rumah tangga (ART) per baris) seperti pada Blok IV sampai",
+      "skor": 0.5
+    },
+    "M401": {
+      "soal": "10",
+      "teks": "Pertanyaan dalam format roster (nama anggota rumah tangga (ART) per baris) seperti pada Blok IV sampai",
+      "skor": 0.5
+    },
+    "M403": {
+      "soal": "1",
+      "teks": "KRT 3. Anak kandung/tiri 5. Menantu 7. Orang tua/mertua 9. Lainnya (famili lain, orang yang tidak",
+      "skor": 0.5
+    },
+    "M406B": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.5
+    },
+    "M406C": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.5
+    },
+    "M407": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 1.0
+    },
+    "M410": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "M801": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 0.67
+    },
+    "M802": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan September 2024:",
+      "skor": 1.0
+    },
+    "M807": {
+      "soal": "0",
+      "teks": "Ditinggal sendiri",
+      "skor": 0.5
+    },
+    "M902": {
+      "soal": "04",
+      "teks": "Lingkungan hidup",
+      "skor": 0.5
+    },
+    "M904": {
+      "soal": "04",
+      "teks": "Lingkungan hidup",
+      "skor": 0.5
+    },
+    "M906_J": {
+      "soal": "05",
+      "teks": "Mengurus rumah tangga",
+      "skor": 1.0
+    },
+    "NUINFORT": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    }
+  }
+}

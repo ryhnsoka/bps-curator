@@ -1,0 +1,944 @@
+{
+  "source": "KMT23-K Jabodetabek.pdf",
+  "drive_id": "1N-aHPdKnH9x7aunEoL3-iXTtab1Hzhrt",
+  "survey_id": "KOMUTER",
+  "period": "Jabodetabek 2023",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "B1R101": {
+      "soal": "603",
+      "teks": "Provinsi dan kabupaten/kota tempat tinggal terakhir",
+      "skor": 1.0
+    },
+    "B1R102": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B1R105": {
+      "soal": "104",
+      "teks": "Desa/Kelurahan*)",
+      "skor": 1.0
+    },
+    "B2R201": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 1.0
+    },
+    "B2R202": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 1.0
+    },
+    "B2R203": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 1.0
+    },
+    "B2R204": {
+      "soal": "204",
+      "teks": "Jumlah ART komuter sekolah/kuliah/kursus",
+      "skor": 1.0
+    },
+    "B4R401": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 0.5
+    },
+    "B4R403": {
+      "soal": "109",
+      "teks": "Nama kepala rumah tangga",
+      "skor": 1.0
+    },
+    "B4R404": {
+      "soal": "504",
+      "teks": "Jenis permukaan utama jalan menuju bangunan tempat",
+      "skor": 0.5
+    },
+    "B4R405_BUL": {
+      "soal": "512",
+      "teks": "Dalam 1 bulan terakhir, berapakah pengeluaran rumah",
+      "skor": 0.5
+    },
+    "B4R405_TAH": {
+      "soal": "601",
+      "teks": "Di mana Tempat Lahir (NAMA) ?",
+      "skor": 0.5
+    },
+    "B4R407": {
+      "soal": "501",
+      "teks": "Status kepemilikan tempat tinggal:",
+      "skor": 0.5
+    },
+    "B4R409A": {
+      "soal": "203",
+      "teks": "Jumlah ART komuter bekerja",
+      "skor": 0.5
+    },
+    "B4R409B": {
+      "soal": "204",
+      "teks": "Jumlah ART komuter sekolah/kuliah/kursus",
+      "skor": 0.75
+    },
+    "B4R410B": {
+      "soal": "204",
+      "teks": "Jumlah ART komuter sekolah/kuliah/kursus",
+      "skor": 0.6
+    },
+    "B4R411A": {
+      "soal": "602",
+      "teks": "Apakah (NAMA) pernah tinggal di luar Kab/Kota Tempat",
+      "skor": 0.67
+    },
+    "B4R411B": {
+      "soal": "204",
+      "teks": "Jumlah ART komuter sekolah/kuliah/kursus",
+      "skor": 0.6
+    },
+    "B4R412A_PR": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.67
+    },
+    "B4R412B_KA": {
+      "soal": "626",
+      "teks": "Alasan utama sekolah/kuliah/kursus di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B4R412B_PR": {
+      "soal": "626",
+      "teks": "Alasan utama sekolah/kuliah/kursus di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B4R413": {
+      "soal": "614",
+      "teks": "Dimanakah lokasi utama tempat kegiatan utama (NAMA)?",
+      "skor": 1.0
+    },
+    "B5R501": {
+      "soal": "501",
+      "teks": "Status kepemilikan tempat tinggal:",
+      "skor": 1.0
+    },
+    "B5R502": {
+      "soal": "502",
+      "teks": "Luas lantai bangunan tempat tinggal (m2):",
+      "skor": 1.0
+    },
+    "B5R503": {
+      "soal": "503",
+      "teks": "Lebar ruas jalan di depan bangunan tempat tinggal:",
+      "skor": 1.0
+    },
+    "B5R504": {
+      "soal": "504",
+      "teks": "Jenis permukaan utama jalan menuju bangunan tempat",
+      "skor": 1.0
+    },
+    "B5R505": {
+      "soal": "505",
+      "teks": "Jarak berjalan kaki dari tempat tinggal menuju",
+      "skor": 1.0
+    },
+    "B5R506": {
+      "soal": "506",
+      "teks": "Jenis angkutan umum massal bertrayek yang melewati",
+      "skor": 1.0
+    },
+    "B5R507": {
+      "soal": "505",
+      "teks": "Jarak berjalan kaki dari tempat tinggal menuju",
+      "skor": 1.0
+    },
+    "B5R508A_A": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_B": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_C": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_D": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_E": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_F": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_G": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508A_H": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R508B": {
+      "soal": "508",
+      "teks": "a. Alasan memilih tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R509": {
+      "soal": "509",
+      "teks": "Lama menempati tempat tinggal saat ini:",
+      "skor": 1.0
+    },
+    "B5R510A": {
+      "soal": "510",
+      "teks": "Jumlah kendaraan yang dikuasai (Unit):",
+      "skor": 1.0
+    },
+    "B5R510B": {
+      "soal": "510",
+      "teks": "Jumlah kendaraan yang dikuasai (Unit):",
+      "skor": 1.0
+    },
+    "B5R510C": {
+      "soal": "510",
+      "teks": "Jumlah kendaraan yang dikuasai (Unit):",
+      "skor": 1.0
+    },
+    "B5R510D": {
+      "soal": "510",
+      "teks": "Jumlah kendaraan yang dikuasai (Unit):",
+      "skor": 1.0
+    },
+    "B5R510E": {
+      "soal": "510",
+      "teks": "Jumlah kendaraan yang dikuasai (Unit):",
+      "skor": 1.0
+    },
+    "B5R511": {
+      "soal": "511",
+      "teks": "Dimanakah tempat parkir kendaraan yang dikuasai?",
+      "skor": 1.0
+    },
+    "B5R512": {
+      "soal": "512",
+      "teks": "Dalam 1 bulan terakhir, berapakah pengeluaran rumah",
+      "skor": 0.5
+    },
+    "B5R513B_KO": {
+      "soal": "611",
+      "teks": "Lapangan usaha/bidang pekerjaan utama",
+      "skor": 0.75
+    },
+    "B5R513C": {
+      "soal": "613",
+      "teks": "Status/kedudukan dalam pekerjaan utama:",
+      "skor": 1.0
+    },
+    "B6_NAMA_UR": {
+      "soal": "202",
+      "teks": "Jumlah anggota rumah tangga (ART)",
+      "skor": 0.5
+    },
+    "B6_PEMBERI": {
+      "soal": "110",
+      "teks": "Nama & No HP pemberi informasi",
+      "skor": 1.0
+    },
+    "B6R601_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B6R601_PRO": {
+      "soal": "601",
+      "teks": "Di mana Tempat Lahir (NAMA) ?",
+      "skor": 0.67
+    },
+    "B6R602": {
+      "soal": "602",
+      "teks": "Apakah (NAMA) pernah tinggal di luar Kab/Kota Tempat",
+      "skor": 1.0
+    },
+    "B6R603_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B6R603_PRO": {
+      "soal": "603",
+      "teks": "Provinsi dan kabupaten/kota tempat tinggal terakhir",
+      "skor": 0.67
+    },
+    "B6R604": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B6R605_BUL": {
+      "soal": "605",
+      "teks": "Pada bulan dan tahun berapa (NAMA) pindah ke tempat",
+      "skor": 0.75
+    },
+    "B6R605_TAH": {
+      "soal": "605",
+      "teks": "Pada bulan dan tahun berapa (NAMA) pindah ke tempat",
+      "skor": 0.75
+    },
+    "B6R606_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B6R606_PRO": {
+      "soal": "606",
+      "teks": "Provinsi dan kabupaten/kota tempat tinggal 5 tahun",
+      "skor": 0.67
+    },
+    "B6R607A": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607B": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607C": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607D": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607E": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607F": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607G": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607H": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R607I": {
+      "soal": "607",
+      "teks": "Apakah (NAMA) mengalami kesulitan/gangguan:",
+      "skor": 1.0
+    },
+    "B6R608": {
+      "soal": "608",
+      "teks": "Dalam 1 bulan terakhir, apakah menggunakan Hand Phone",
+      "skor": 1.0
+    },
+    "B6R609": {
+      "soal": "609",
+      "teks": "Apa nama operator seluler yang aktif digunakan 1 bulan",
+      "skor": 1.0
+    },
+    "B6R610": {
+      "soal": "610",
+      "teks": "Dalam 1 bulan terakhir, apakah HP digunakan untuk akses",
+      "skor": 1.0
+    },
+    "B6R611_KOD": {
+      "soal": "611",
+      "teks": "Lapangan usaha/bidang pekerjaan utama",
+      "skor": 1.0
+    },
+    "B6R612": {
+      "soal": "612",
+      "teks": "Apakah pekerjaan yang dilakukan memerlukan mobilitas",
+      "skor": 1.0
+    },
+    "B6R613": {
+      "soal": "613",
+      "teks": "Status/kedudukan dalam pekerjaan utama:",
+      "skor": 1.0
+    },
+    "B6R614": {
+      "soal": "614",
+      "teks": "Dimanakah lokasi utama tempat kegiatan utama (NAMA)?",
+      "skor": 1.0
+    },
+    "B6R615": {
+      "soal": "615",
+      "teks": "Dalam 1 bulan terakhir, apakah di tempat kegiatan utama",
+      "skor": 1.0
+    },
+    "B6R616": {
+      "soal": "616",
+      "teks": "Dalam 1 bulan terakhir, seberapa sering (NAMA) melakukan",
+      "skor": 1.0
+    },
+    "B6R617": {
+      "soal": "617",
+      "teks": "Dalam 1 bulan terakhir, berapakah pendapatan/",
+      "skor": 1.0
+    },
+    "B6R618A_A": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_B": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_C": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_D": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_E": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_F": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_G": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_H": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618A_I": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R618B": {
+      "soal": "618",
+      "teks": "a. Apa alasan (NAMA) bekerja di tempat sekarang?",
+      "skor": 0.8
+    },
+    "B6R619": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 1.0
+    },
+    "B6R620_KOD": {
+      "soal": "611",
+      "teks": "Lapangan usaha/bidang pekerjaan utama",
+      "skor": 1.0
+    },
+    "B6R621_KAB": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*)",
+      "skor": 1.0
+    },
+    "B6R621_PRO": {
+      "soal": "621",
+      "teks": "Dimana lokasi tempat bekerja (NAMA) sebelumnya?",
+      "skor": 0.75
+    },
+    "B6R622": {
+      "soal": "613",
+      "teks": "Status/kedudukan dalam pekerjaan utama:",
+      "skor": 1.0
+    },
+    "B6R623": {
+      "soal": "623",
+      "teks": "Jenjang pendidikan apa yang sedang diduduki (NAMA)?",
+      "skor": 1.0
+    },
+    "B6R624": {
+      "soal": "624",
+      "teks": "Tingkat/kelas yang sedang diduduki?",
+      "skor": 1.0
+    },
+    "B6R625": {
+      "soal": "625",
+      "teks": "Penyelenggara pendidikan / jenis sekolah?",
+      "skor": 1.0
+    },
+    "B6R626": {
+      "soal": "626",
+      "teks": "Alasan utama sekolah/kuliah/kursus di tempat sekarang?",
+      "skor": 1.0
+    },
+    "B7R701": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 1.0
+    },
+    "B7R702A_JA": {
+      "soal": "702",
+      "teks": "a. Pukul biasanya berangkat dari tempat tinggal:",
+      "skor": 0.8
+    },
+    "B7R702A_ME": {
+      "soal": "702",
+      "teks": "a. Pukul biasanya berangkat dari tempat tinggal:",
+      "skor": 0.8
+    },
+    "B7R702B": {
+      "soal": "614",
+      "teks": "Dimanakah lokasi utama tempat kegiatan utama (NAMA)?",
+      "skor": 0.8
+    },
+    "B7R702C": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R702D": {
+      "soal": "614",
+      "teks": "Dimanakah lokasi utama tempat kegiatan utama (NAMA)?",
+      "skor": 0.6
+    },
+    "B7R702E": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R702F_JA": {
+      "soal": "702",
+      "teks": "a. Pukul biasanya berangkat dari tempat tinggal:",
+      "skor": 0.6
+    },
+    "B7R702F_ME": {
+      "soal": "702",
+      "teks": "a. Pukul biasanya berangkat dari tempat tinggal:",
+      "skor": 0.6
+    },
+    "B7R703": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 0.75
+    },
+    "B7R704A": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704B": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704C": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704D": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704E": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704F": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R704G": {
+      "soal": "703",
+      "teks": "Jumlah hari biasanya melakukan kegiatan utama dalam",
+      "skor": 1.0
+    },
+    "B7R705": {
+      "soal": "705",
+      "teks": "Berapa kali (NAMA) menggunakan moda transportasi",
+      "skor": 1.0
+    },
+    "B7R706A": {
+      "soal": "706",
+      "teks": "a. Moda transportasi apa saja yang biasanya digunakan",
+      "skor": 1.0
+    },
+    "B7R706B_1": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706B_2": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706B_3": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706B_4": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706B_5": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706B_6": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R706C_KO": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 0.67
+    },
+    "B7R707A_A": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_B": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_C": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_D": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_E": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_F": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_G": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707A_H": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R707B": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R708": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R709": {
+      "soal": "705",
+      "teks": "Berapa kali (NAMA) menggunakan moda transportasi",
+      "skor": 1.0
+    },
+    "B7R710A": {
+      "soal": "706",
+      "teks": "a. Moda transportasi apa saja yang biasanya digunakan",
+      "skor": 1.0
+    },
+    "B7R710B_1": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710B_2": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710B_3": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710B_4": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710B_5": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710B_6": {
+      "soal": "701",
+      "teks": "Jarak tempuh dari tempat tinggal ke tempat kegiatan utama",
+      "skor": 0.67
+    },
+    "B7R710C_KO": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 0.67
+    },
+    "B7R711A_A": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_B": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_C": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_D": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_E": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_F": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_G": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711A_H": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R711B": {
+      "soal": "707",
+      "teks": "a. Apakah alasan (NAMA) memilih moda transportasi",
+      "skor": 1.0
+    },
+    "B7R714": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_A": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_B": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_C": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_D": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_E": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_F": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_G": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715A_H": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R715B": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 1.0
+    },
+    "B7R716": {
+      "soal": "716",
+      "teks": "Apakah (NAMA) menggunakan kendaraan bermotor",
+      "skor": 1.0
+    },
+    "B7R717": {
+      "soal": "716",
+      "teks": "Apakah (NAMA) menggunakan kendaraan bermotor",
+      "skor": 1.0
+    },
+    "B7R718A": {
+      "soal": "718",
+      "teks": "Biaya transportasi untuk perjalanan pergi dan pulang dalam",
+      "skor": 1.0
+    },
+    "B7R718B": {
+      "soal": "718",
+      "teks": "Biaya transportasi untuk perjalanan pergi dan pulang dalam",
+      "skor": 1.0
+    },
+    "B7R718C": {
+      "soal": "718",
+      "teks": "Biaya transportasi untuk perjalanan pergi dan pulang dalam",
+      "skor": 1.0
+    },
+    "B7R719A": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719B": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719C": {
+      "soal": "109",
+      "teks": "Nama kepala rumah tangga",
+      "skor": 1.0
+    },
+    "B7R719D": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719E": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719F": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719G": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719H": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R719X": {
+      "soal": "719",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) mengalami keluhan",
+      "skor": 1.0
+    },
+    "B7R720": {
+      "soal": "720",
+      "teks": "Apakah keluhan kesehatan tersebut mengganggu kegiatan",
+      "skor": 1.0
+    },
+    "B7R721A": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 0.5
+    },
+    "B7R721B": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 0.5
+    },
+    "B7R721C": {
+      "soal": "708",
+      "teks": "Apakah (NAMA) menggunakan moda transportasi yang",
+      "skor": 0.67
+    },
+    "B7R721D": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 0.5
+    },
+    "B7R721E": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 0.5
+    },
+    "B7R721X": {
+      "soal": "619",
+      "teks": "Apakah (NAMA) pernah memiliki pengalaman bekerja",
+      "skor": 0.5
+    },
+    "B7R722": {
+      "soal": "722",
+      "teks": "Dalam sebulan terakhir, selama menjadi komuter di",
+      "skor": 1.0
+    },
+    "B7R723": {
+      "soal": "723",
+      "teks": "Dalam 1 tahun ke depan, apakah (NAMA) berencana untuk",
+      "skor": 1.0
+    },
+    "B7R724": {
+      "soal": "724",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) ikut serta dalam",
+      "skor": 1.0
+    },
+    "B7R725": {
+      "soal": "725",
+      "teks": "Dalam 1 bulan terakhir, apakah (NAMA) melakukan",
+      "skor": 1.0
+    }
+  }
+}

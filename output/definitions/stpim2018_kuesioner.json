@@ -1,0 +1,899 @@
+{
+  "source": "VAR-Kuesioner IBS 2018_final.pdf",
+  "drive_id": "1TZZawZuoXjD6E_rmgk8GxnUW0m9R0iLu",
+  "survey_id": "STPIM",
+  "period": "2018",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "JAN": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "FEB": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "MAR": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "APR": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "MEI": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "JUN": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "JUL": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "AGS": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "SEP": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "OKT": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "NOP": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "DES": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "DSTATS18": {
+      "soal": "7",
+      "teks": "Status Penanaman Modal 1. PMDN 2. PMA 3. Non fasilitas DSTATS",
+      "skor": 1.0
+    },
+    "DPUSAT18": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DPEMDA18": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DDMSTK18": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DASING18": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "PRRMSM18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 1.0
+    },
+    "PRRMSP18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 1.0
+    },
+    "PRRMOP18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 1.0
+    },
+    "PRRMOC18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 1.0
+    },
+    "PRYRSM18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 1.0
+    },
+    "PRYRSP18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 1.0
+    },
+    "PRYROP18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 1.0
+    },
+    "PRYROC18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 1.0
+    },
+    "PRYRSG18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "PRYROM18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "PRYRWH18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "PRYRIN18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "PRYROT18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "PRYROD18": {
+      "soal": "11",
+      "teks": "Persentase penjualan barang/jasa menurut jenis konsumen selama tahun 2018 :",
+      "skor": 1.0
+    },
+    "SNI18": {
+      "soal": "12",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 1.0
+    },
+    "SNIPRO18": {
+      "soal": "13",
+      "teks": "Standar Nasional Indonesia (SNI) yang diterapkan pada perusahaan Ya",
+      "skor": 1.0
+    },
+    "SNIMAN18": {
+      "soal": "13",
+      "teks": "Standar Nasional Indonesia (SNI) yang diterapkan pada perusahaan Ya",
+      "skor": 1.0
+    },
+    "SNIOTH18": {
+      "soal": "13",
+      "teks": "Standar Nasional Indonesia (SNI) yang diterapkan pada perusahaan Ya",
+      "skor": 1.0
+    },
+    "RND18": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2018 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 1.0
+    },
+    "COSTRD18": {
+      "soal": "15",
+      "teks": "Apakah perusahaan membiayai kegiatan Penelitian dan Pengembangan (R&D) yang dilakukan",
+      "skor": 1.0
+    },
+    "INOPRD18": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2018 perusahaan melakukan inovasi dalam hal: Ya Tidak",
+      "skor": 1.0
+    },
+    "INOPCS18": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2018 perusahaan melakukan inovasi dalam hal: Ya Tidak",
+      "skor": 1.0
+    },
+    "INOMKT18": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2018 perusahaan melakukan inovasi dalam hal: Ya Tidak",
+      "skor": 1.0
+    },
+    "INOORG18": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2018 perusahaan melakukan inovasi dalam hal: Ya Tidak",
+      "skor": 1.0
+    },
+    "LPMNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LPMNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNMNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNMNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LFMNOU18": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LTMNOU18": {
+      "soal": "1",
+      "teks": "Laki-laki LPMNOL LPMNOF LNMNOL LNMNOF LFMNOU LTMNOU",
+      "skor": 0.5
+    },
+    "LPWNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LPWNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNWNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNWNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LFWNOU18": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LTWNOU18": {
+      "soal": "2",
+      "teks": "Perempuan LPWNOL LPWNOF LNWNOL LNWNOF LFWNOU LTWNOU",
+      "skor": 0.5
+    },
+    "LPRNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LPRNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNPNOL18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LNPNOF18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "LFANOU18": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 1.0
+    },
+    "LTLNOU18": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LTLRND18": {
+      "soal": "34",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZPSVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZNSVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZPOVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZNOVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZPIVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZNIVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZPPVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZNPVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZPAVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZNAVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.5
+    },
+    "ZPDVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.83
+    },
+    "ZNDVCU18": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2018",
+      "skor": 0.83
+    },
+    "EPELIU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "EPEVCU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "EPELIE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EPEVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOLIU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "ESOVCU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "ESOLIE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLKGU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ECLVCU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ECLKGE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECBKGU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "ECBVCU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "EGAM3U18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "EGAVCU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "EGAM3E18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGAVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOM3U18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "EGOVCU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "EGOM3E18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELPKGU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ELPVCU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ENCVCU18": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ELULIU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ELUVCU18": {
+      "soal": "9",
+      "teks": "Persentase bahan baku yang digunakan selama tahun 2018 berasal dari :",
+      "skor": 0.5
+    },
+    "ELULIE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELUVCE18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EFUVCU18": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 1.0
+    },
+    "EFUVCE18": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 1.0
+    },
+    "ESGKHU18": {
+      "soal": "20",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan :",
+      "skor": 0.5
+    },
+    "MGENOU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 1.0
+    },
+    "MGEKWU18": {
+      "soal": "21",
+      "teks": "Generator yang digunakan",
+      "skor": 1.0
+    },
+    "OELKHU18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "YELVCU18": {
+      "soal": "22",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "IBRVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "ILRVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IISLOV18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 1.0
+    },
+    "IISFOV18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 1.0
+    },
+    "IINVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "ICOVCU18": {
+      "soal": "4",
+      "teks": "Rincian 23.e (hadiah, sumbangan, derma dan sejenisnya)",
+      "skor": 0.8
+    },
+    "IRRVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IDEVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IPRVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IRDVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IKIVCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 0.75
+    },
+    "IOTVCU18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 0.57
+    },
+    "IT1VCU18": {
+      "soal": "23",
+      "teks": "Pengeluaran lain selama tahun 2018",
+      "skor": 1.0
+    },
+    "RDNVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "RIMVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "RTLVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "EKSPOR18": {
+      "soal": "25",
+      "teks": "a. Apakah ada produksi yang diekspor, baik yang diekspor sendiri atau pihak lain ? EKSPOR",
+      "skor": 1.0
+    },
+    "EXSRTL18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 0.67
+    },
+    "YPRVCU18": {
+      "soal": "10",
+      "teks": "Persentase nilai barang/jasa yang dijual selama tahun 2018 ke :",
+      "skor": 0.67
+    },
+    "PRPRCA18": {
+      "soal": "26",
+      "teks": "Persentase realisasi produksi selama tahun 2018 terhadap kapasitas terpasang: PRPRCA",
+      "skor": 1.0
+    },
+    "YISVDO18": {
+      "soal": "27",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 0.8
+    },
+    "YISVFO18": {
+      "soal": "27",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 0.8
+    },
+    "YISVCU18": {
+      "soal": "27",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 1.0
+    },
+    "YRNVCU18": {
+      "soal": "28",
+      "teks": "Pendapatan lainnya YRNVCU",
+      "skor": 0.67
+    },
+    "YT1VCU18": {
+      "soal": "27",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 1.0
+    },
+    "DEVVCU18": {
+      "soal": "29",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "INTVCU18": {
+      "soal": "29",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "RENVCU18": {
+      "soal": "29",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "INSVCU18": {
+      "soal": "29",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "NOPVCU18": {
+      "soal": "29",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "SRJVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SRDVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SHJVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.83
+    },
+    "SHDVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.83
+    },
+    "SFJVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.83
+    },
+    "SFDVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.83
+    },
+    "STJVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 1.0
+    },
+    "STDVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 1.0
+    },
+    "CLTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CLSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "V1101": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CBTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CBSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CBDACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1103": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CMTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CMSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CMDACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "V1106": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CVTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CVSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CVDACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1109": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CSTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CSSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "V1110": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "COTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "COSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CODACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1112": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.83
+    },
+    "CTTTCU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.8
+    },
+    "CTSACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.83
+    },
+    "CTDACU18": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.75
+    },
+    "V1115": {
+      "soal": "31",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 1.0
+    },
+    "OUTPUT18": {
+      "soal": "28",
+      "teks": "Pendapatan lainnya YRNVCU",
+      "skor": 0.5
+    },
+    "VTLVCU18": {
+      "soal": "36",
+      "teks": "a. Pengeluaran lain yang merupakan komponen nilai tambah",
+      "skor": 0.67
+    },
+    "SHFVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.67
+    },
+    "SRMVCU18": {
+      "soal": "24",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SFNVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 0.67
+    },
+    "STLVCU18": {
+      "soal": "30",
+      "teks": "Nilai stok pada awal dan akhir tahun 2018",
+      "skor": 1.0
+    }
+  }
+}

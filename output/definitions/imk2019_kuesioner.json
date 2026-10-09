@@ -1,0 +1,754 @@
+{
+  "source": "VIMK19_KBLI.pdf",
+  "drive_id": "1USxMtkQyb0KXRUZLXg3YMMd7M08icCJk",
+  "survey_id": "IMK",
+  "period": "2019",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "B10_1001": {
+      "soal": "910",
+      "teks": "Apakah usaha/perusahaan saat ini",
+      "skor": 0.5
+    },
+    "B10_1004A": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*",
+      "skor": 1.0
+    },
+    "B10_1004B": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*",
+      "skor": 1.0
+    },
+    "B10_1004C": {
+      "soal": "204",
+      "teks": "Kegiatan Utama",
+      "skor": 0.5
+    },
+    "B10_1004D": {
+      "soal": "204",
+      "teks": "Kegiatan Utama",
+      "skor": 0.5
+    },
+    "B10_1006A": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*",
+      "skor": 1.0
+    },
+    "B10_1006B": {
+      "soal": "102",
+      "teks": "Kabupaten/Kota*",
+      "skor": 1.0
+    },
+    "B10_1006C": {
+      "soal": "501",
+      "teks": "Nilai produksi bukan maklun",
+      "skor": 0.5
+    },
+    "B10_1006D": {
+      "soal": "501",
+      "teks": "Nilai produksi bukan maklun",
+      "skor": 0.5
+    },
+    "B10_1008": {
+      "soal": "910",
+      "teks": "Apakah usaha/perusahaan saat ini",
+      "skor": 0.5
+    },
+    "B2_201M": {
+      "soal": "201",
+      "teks": "Kode KBLI 2-digit",
+      "skor": 0.67
+    },
+    "B2_202": {
+      "soal": "202",
+      "teks": "Klasifikasi Industri",
+      "skor": 1.0
+    },
+    "B2_2042": {
+      "soal": "201",
+      "teks": "Kode KBLI 2-digit",
+      "skor": 1.0
+    },
+    "B2_206B": {
+      "soal": "208",
+      "teks": "Status badan usaha",
+      "skor": 0.67
+    },
+    "B2_207": {
+      "soal": "207",
+      "teks": "Tahun mulai berproduksi",
+      "skor": 1.0
+    },
+    "B2_208": {
+      "soal": "208",
+      "teks": "Status badan usaha",
+      "skor": 1.0
+    },
+    "B2_209": {
+      "soal": "209",
+      "teks": "Aktivitas keuangan yang dapat",
+      "skor": 1.0
+    },
+    "B2_213": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 1.0
+    },
+    "B3_301A_10": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_11": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_12": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_13": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_14": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_3": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_4": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_5": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_6": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_7": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_8": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301A_9": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_301B_10": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_11": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_12": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_13": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_14": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_3": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_4": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_5": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_6": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_7": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_8": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_9": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301B_TO": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.67
+    },
+    "B3_301C_10": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_11": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_12": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_13": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_14": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_3": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_4": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_5": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_6": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_7": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_8": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_301C_9": {
+      "soal": "301",
+      "teks": "Banyaknya pekerja (termasuk pengusaha), hari kerja, dan rata-rata jam kerja per hari",
+      "skor": 0.5
+    },
+    "B3_302A2_2": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302A3_3": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302A4_4": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302A_5": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302A_6": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.6
+    },
+    "B3_302B2_2": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302B_3": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302B_4": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302B_5": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.57
+    },
+    "B3_302B_6": {
+      "soal": "302",
+      "teks": "Banyaknya pekerja (termasuk pengusaha) dibayar dan tidak dibayar menurut klasifikasi pekerja",
+      "skor": 0.6
+    },
+    "B3_302C1_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C1_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C1_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C1_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C1_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C2_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C2_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C2_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C2_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C2_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C3_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C3_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C3_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C3_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C3_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C4_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C4_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C4_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C4_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C4_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C5_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C5_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C5_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C5_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C5_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C6_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C6_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C6_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C6_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C6_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C7_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C7_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C7_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C7_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C7_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C8_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C8_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C8_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C8_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C8_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C_2": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C_3": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C_4": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C_5": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B3_302C_6": {
+      "soal": "213",
+      "teks": "Pendidikan tertinggi yang ditamatkan",
+      "skor": 0.67
+    },
+    "B5_504_5": {
+      "soal": "501",
+      "teks": "Nilai produksi bukan maklun",
+      "skor": 0.5
+    },
+    "B6_1": {
+      "soal": "503",
+      "teks": "Pendapatan dari kegiatan lain yang berhubungan dengan usaha:",
+      "skor": 0.5
+    },
+    "B6_2": {
+      "soal": "401",
+      "teks": "Pengeluaran khusus",
+      "skor": 0.5
+    },
+    "B8_801A_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801A_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801B_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801B_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801C_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801C_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801D_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801D_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801E_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801E_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801F_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801F_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801G_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801G_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_801H_2": {
+      "soal": "801",
+      "teks": "Komposisi permodalan:",
+      "skor": 0.5
+    },
+    "B8_801H_3": {
+      "soal": "702",
+      "teks": "Hutang usaha per 31 Agustus 2019 (Rp)",
+      "skor": 0.6
+    },
+    "B8_802": {
+      "soal": "204",
+      "teks": "Kegiatan Utama",
+      "skor": 0.5
+    },
+    "B8_803B1": {
+      "soal": "1",
+      "teks": "Kredit Usaha Rakyat (KUR)",
+      "skor": 1.0
+    },
+    "B9_901": {
+      "soal": "901",
+      "teks": "Kendala/kesulitan yang dialami oleh",
+      "skor": 1.0
+    },
+    "B9_902": {
+      "soal": "204",
+      "teks": "Kegiatan Utama",
+      "skor": 0.5
+    },
+    "B9_903": {
+      "soal": "903",
+      "teks": "Jenis kemitraan yang pernah dilakukan oleh",
+      "skor": 1.0
+    },
+    "B9_904": {
+      "soal": "904",
+      "teks": "Badan/lembaga yang pernah menjalin kemitraan",
+      "skor": 1.0
+    },
+    "B9_905": {
+      "soal": "905",
+      "teks": "Model/bentuk kemitraan yang dijalankan:",
+      "skor": 1.0
+    },
+    "B9_906": {
+      "soal": "906",
+      "teks": "Apakah kemitraan yang sedang dijalankan",
+      "skor": 1.0
+    },
+    "B9_909": {
+      "soal": "909",
+      "teks": "Apakah ada Memorandum of Understanding",
+      "skor": 1.0
+    },
+    "B9_910": {
+      "soal": "910",
+      "teks": "Apakah usaha/perusahaan saat ini",
+      "skor": 1.0
+    },
+    "B9_911": {
+      "soal": "911",
+      "teks": "Jenis pelayanan/bantuan yang pernah diterima",
+      "skor": 1.0
+    },
+    "B9_912": {
+      "soal": "911",
+      "teks": "Jenis pelayanan/bantuan yang pernah diterima",
+      "skor": 0.6
+    },
+    "B9_913": {
+      "soal": "913",
+      "teks": "Badan/lembaga selain koperasi yang pernah",
+      "skor": 1.0
+    },
+    "B9_914": {
+      "soal": "914",
+      "teks": "Jenis bimbingan/pelatihan/penyuluhan",
+      "skor": 1.0
+    },
+    "B9_915": {
+      "soal": "915",
+      "teks": "Penyelenggara bimbingan/pelatihan/penyuluhan :",
+      "skor": 1.0
+    },
+    "B9_916": {
+      "soal": "916",
+      "teks": "Apakah usaha menjadi anggota asosiasi/paguyuban ?",
+      "skor": 1.0
+    },
+    "B9_917": {
+      "soal": "917",
+      "teks": "Sumber perolehan air yang digunakan",
+      "skor": 1.0
+    },
+    "B9_918": {
+      "soal": "917",
+      "teks": "Sumber perolehan air yang digunakan",
+      "skor": 0.5
+    },
+    "B9_919": {
+      "soal": "919",
+      "teks": "Volume air yang digunakan (tanpa biaya)",
+      "skor": 1.0
+    },
+    "TAHUN": {
+      "soal": "207",
+      "teks": "Tahun mulai berproduksi",
+      "skor": 1.0
+    }
+  }
+}

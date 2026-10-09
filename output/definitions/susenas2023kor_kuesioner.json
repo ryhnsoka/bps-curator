@@ -1,0 +1,269 @@
+{
+  "source": "VSEN23.K MARET.pdf",
+  "drive_id": "1aN3NVM5Xf6aJcrkH-BUAszHtX-adxtTS",
+  "survey_id": "SUSENAS",
+  "period": "2023 KOR",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "R1401": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan Maret 2023:",
+      "skor": 0.67
+    },
+    "NUINFOBAYI": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "NUINFORT": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "NUINFORT1": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "NUINFOWPK": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "R1001": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan Maret 2023:",
+      "skor": 0.5
+    },
+    "R101": {
+      "soal": "7",
+      "teks": "Kode pilihan jawaban yang menggunakan huruf kapital seperti A, B, C, dan seterusnya, boleh",
+      "skor": 0.5
+    },
+    "R1101_A": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1101_B": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1101_C": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R1101_E": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1101_X": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1102": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1109_A": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1109_B": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1109_D": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1109_E": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1109_X": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1110_A": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1110_E": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1204_A": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1204_B": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1204_D": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1204_E": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1204_X": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1205_A": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R1205_E": {
+      "soal": "06",
+      "teks": "Kesehatan/berobat",
+      "skor": 0.5
+    },
+    "R2001A": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R2001C": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 1.0
+    },
+    "R2001I": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R2001K": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R2001M": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.67
+    },
+    "R2208C2": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R2208C3": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R2208C4": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R2208C5": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R2210A": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R2210B": {
+      "soal": "2",
+      "teks": "Usaha kecil memiliki modal usaha lebih dari Rp1 miliar sampai Rp5 miliar dan tidak termasuk tanah dan",
+      "skor": 0.5
+    },
+    "R2211A1": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R301": {
+      "soal": "10",
+      "teks": "Pertanyaan dalam format roster (nama anggota rumah tangga (ART) per baris) seperti pada Blok IV",
+      "skor": 0.5
+    },
+    "R401": {
+      "soal": "10",
+      "teks": "Pertanyaan dalam format roster (nama anggota rumah tangga (ART) per baris) seperti pada Blok IV",
+      "skor": 0.67
+    },
+    "R406B": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan Maret 2023:",
+      "skor": 0.5
+    },
+    "R406C": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan Maret 2023:",
+      "skor": 0.5
+    },
+    "R407": {
+      "soal": "14",
+      "teks": "Tabulasi umur responden yang sudah berulang tahun pada bulan Maret 2023:",
+      "skor": 1.0
+    },
+    "R410": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "R502": {
+      "soal": "08",
+      "teks": "Mengunjungi teman/keluarga",
+      "skor": 0.5
+    },
+    "R618": {
+      "soal": "13",
+      "teks": "Contoh cara penulisan informasi penerimaan Bantuan Pangan adalah menggunakan format rata kanan:",
+      "skor": 0.5
+    },
+    "R807_A": {
+      "soal": "7",
+      "teks": "Kode pilihan jawaban yang menggunakan huruf kapital seperti A, B, C, dan seterusnya, boleh",
+      "skor": 0.5
+    },
+    "R807_C": {
+      "soal": "7",
+      "teks": "Kode pilihan jawaban yang menggunakan huruf kapital seperti A, B, C, dan seterusnya, boleh",
+      "skor": 0.5
+    },
+    "R807_X": {
+      "soal": "7",
+      "teks": "Kode pilihan jawaban yang menggunakan huruf kapital seperti A, B, C, dan seterusnya, boleh",
+      "skor": 0.5
+    },
+    "R811_A": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    },
+    "R811_B": {
+      "soal": "15",
+      "teks": "Informasi dan komunikasi",
+      "skor": 0.5
+    }
+  }
+}

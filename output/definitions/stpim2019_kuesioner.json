@@ -1,0 +1,884 @@
+{
+  "source": "Kuesioner IBS 2019.pdf",
+  "drive_id": "1rm6kDBPW-ZBLVBWyNX307tsNSJQRKIBJ",
+  "survey_id": "STPIM",
+  "period": "2019",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "AGS": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "APR": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "CBDACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "CBSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CBTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CLSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CLTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CMDACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CMSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CMTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CODACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "COSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "COSTRD19": {
+      "soal": "207",
+      "teks": "Apakah perusahaan membiayai kegiatan Penelitian dan Pengembangan (R&D) yang dilakukan",
+      "skor": 1.0
+    },
+    "COTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CSSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CSTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CTDACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.75
+    },
+    "CTSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.83
+    },
+    "CTTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.8
+    },
+    "CVDACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "CVSACU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CVTTCU19": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "DASING19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DDMSTK19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DES": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "DEVVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 0.67
+    },
+    "DPEMDA19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DPUSAT19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "ECBKGE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECBKGU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ECBVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECBVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ECLKGE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLKGU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ECLVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EFUVCE19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 1.0
+    },
+    "EFUVCU19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 1.0
+    },
+    "EGAM3E19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGAM3U19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EGAVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGAVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EGOM3E19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOM3U19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EGOVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EKSPOR19": {
+      "soal": "401",
+      "teks": "a. Apakah ada produksi yang diekspor, baik yang diekspor sendiri atau pihak lain? EKSPOR",
+      "skor": 1.0
+    },
+    "ELPKGE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELPKGU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ELPVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELPVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ELULIE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELULIU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ELUVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELUVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ENCDES19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ENCVCE19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ENCVCU19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ENPKHU19": {
+      "soal": "303",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan",
+      "skor": 0.75
+    },
+    "ENPVCU19": {
+      "soal": "303",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan",
+      "skor": 0.75
+    },
+    "EPCKVA19": {
+      "soal": "303",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan",
+      "skor": 0.75
+    },
+    "EPELIE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EPELIU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EPEVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EPEVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EPLKHU19": {
+      "soal": "303",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan",
+      "skor": 0.75
+    },
+    "EPLVCU19": {
+      "soal": "303",
+      "teks": "Penggunaan listrik yang dipakai oleh perusahaan",
+      "skor": 0.75
+    },
+    "ESGKHU19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOLIE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOLIU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ESOVCE19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "EXSRTL19": {
+      "soal": "401",
+      "teks": "a. Apakah ada produksi yang diekspor, baik yang diekspor sendiri atau pihak lain? EKSPOR",
+      "skor": 0.5
+    },
+    "FEB": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "IISFMC19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.75
+    },
+    "IISFMO19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.5
+    },
+    "IISFMP19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.5
+    },
+    "IISFOV19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.6
+    },
+    "IISLOV19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.6
+    },
+    "IKIVMC19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.5
+    },
+    "IKIVMO19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.5
+    },
+    "IKIVMP19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "INSVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "INTVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 0.67
+    },
+    "IOTVCU19": {
+      "soal": "301",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2019",
+      "skor": 0.5
+    },
+    "IRDVCU19": {
+      "soal": "301",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2019",
+      "skor": 0.5
+    },
+    "IT1VCU19": {
+      "soal": "307",
+      "teks": "Pengeluaran lain selama tahun 2019",
+      "skor": 1.0
+    },
+    "JAN": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "JUL": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "JUN": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "LFANOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 1.0
+    },
+    "LFMNOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LFWNOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LTLNOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LTLRND19": {
+      "soal": "206",
+      "teks": "Apakah selama tahun 2019 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "LTMNOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LTWNOU19": {
+      "soal": "208",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "MAR": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "MEI": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "MGEKWU19": {
+      "soal": "304",
+      "teks": "Generator yang digunakan",
+      "skor": 0.5
+    },
+    "MGENOU19": {
+      "soal": "304",
+      "teks": "Generator yang digunakan",
+      "skor": 1.0
+    },
+    "NAMYPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.67
+    },
+    "NOP": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "NOPVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "OELKHU19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "OKT": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "OTHVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "OUTPUT19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 0.5
+    },
+    "PPRV1RTL": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "PPRV1YPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "PPRV2RTL": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "PPRV2YPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "PPRV3RTL": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "PPRV3YPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "PPRVORTL": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "PPRVOYPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "PR1RTL": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "PR1YPR": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "PRPRCA19": {
+      "soal": "403",
+      "teks": "Persentase realisasi produksi selama tahun 2019 terhadap kapasitas terpasang PRPRCA",
+      "skor": 1.0
+    },
+    "PRYRIN19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYROD19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYROM19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYROT19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYRRE19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYRSG19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "PRYRWH19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.9
+    },
+    "RDNVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "RENVCU19": {
+      "soal": "503",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "RIMVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "RND19": {
+      "soal": "206",
+      "teks": "Apakah selama tahun 2019 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 1.0
+    },
+    "RTLVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "SEP": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.6
+    },
+    "SFDVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SFJVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SFNVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.67
+    },
+    "SHDVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SHFVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.67
+    },
+    "SHJVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SNI19": {
+      "soal": "205",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 1.0
+    },
+    "SRDVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SRJVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 0.83
+    },
+    "SRMVCU19": {
+      "soal": "302",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "STDVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 1.0
+    },
+    "STJVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 1.0
+    },
+    "STLVCU19": {
+      "soal": "504",
+      "teks": "Nilai stok pada awal dan akhir tahun 2019",
+      "skor": 1.0
+    },
+    "V1101": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "V1103": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "V1106": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "V1109": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "V1110": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "V1112": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.83
+    },
+    "V1115": {
+      "soal": "601",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 1.0
+    },
+    "YEAR": {
+      "soal": "202",
+      "teks": "Bulan kegiatan produksi perusahaan pada tahun 2019",
+      "skor": 0.67
+    },
+    "YELVCU19": {
+      "soal": "306",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "YISVCU19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YISVDO19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YISVFO19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YISVMC19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YISVMO19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YISVMP19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.8
+    },
+    "YKFVMC19": {
+      "soal": "1",
+      "teks": "Negara utama. Tuliskan .......YISVMC................................ %",
+      "skor": 0.75
+    },
+    "YKFVMO19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "YKFVMP19": {
+      "soal": "203",
+      "teks": "Persentase permodalan",
+      "skor": 0.5
+    },
+    "YPRVCU19": {
+      "soal": "204",
+      "teks": "Persentase nilai penjualan barang/jasa menurut jenis konsumen selama tahun 2019",
+      "skor": 0.67
+    },
+    "YRNVCU19": {
+      "soal": "501",
+      "teks": "Pendapatan dari jasa industri (maklun) Nilai",
+      "skor": 0.67
+    },
+    "ZNDVCU19": {
+      "soal": "301",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2019",
+      "skor": 0.83
+    },
+    "ZNEVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ZNHVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ZNRVCU19": {
+      "soal": "301",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2019",
+      "skor": 0.8
+    },
+    "ZNTVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ZPDVCU19": {
+      "soal": "301",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2019",
+      "skor": 0.83
+    },
+    "ZPEVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ZPHVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    },
+    "ZPRVCU19": {
+      "soal": "307",
+      "teks": "Pengeluaran lain selama tahun 2019",
+      "skor": 0.75
+    },
+    "ZPTVCU19": {
+      "soal": "201",
+      "teks": "Produk utama pada tahun 2019",
+      "skor": 0.5
+    }
+  }
+}

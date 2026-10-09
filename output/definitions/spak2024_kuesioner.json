@@ -1,0 +1,69 @@
+{
+  "source": "Kuesioner SPAK 2024.pdf",
+  "drive_id": "1y7Zxb4IlWUU7fL9tmiXwkPP5lLU5JLmT",
+  "survey_id": "SPAK",
+  "period": "2024",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "R302": {
+      "soal": "3",
+      "teks": "Anak kandung/tiri 6. Cucu 9. Lainnya (famili lain, orang yang tidak ada hubungan famili dengan KRT)",
+      "skor": 1.0
+    },
+    "R306": {
+      "soal": "15",
+      "teks": "Jasa Pendidikan",
+      "skor": 0.5
+    },
+    "R416": {
+      "soal": "14",
+      "teks": "Administrasi Pemerintahan,",
+      "skor": 0.5
+    },
+    "R421": {
+      "soal": "8",
+      "teks": "Rumah (orang tua/anggota",
+      "skor": 0.67
+    },
+    "R422": {
+      "soal": "8",
+      "teks": "Rumah (orang tua/anggota",
+      "skor": 0.67
+    },
+    "R423": {
+      "soal": "8",
+      "teks": "Rumah (orang tua/anggota",
+      "skor": 0.67
+    },
+    "R426": {
+      "soal": "13",
+      "teks": "Jasa Perusahaan",
+      "skor": 0.5
+    },
+    "R502": {
+      "soal": "30",
+      "teks": "V. PENGALAMAN BERURUSAN DENGAN LAYANAN PUBLIK",
+      "skor": 0.5
+    },
+    "R701": {
+      "soal": "10",
+      "teks": "Media Sosial milik sendiri",
+      "skor": 0.5
+    },
+    "R702_C": {
+      "soal": "10",
+      "teks": "Media Sosial milik sendiri",
+      "skor": 0.5
+    },
+    "R702_L": {
+      "soal": "15",
+      "teks": "Jasa Pendidikan",
+      "skor": 0.5
+    },
+    "R704_A": {
+      "soal": "8",
+      "teks": "Rumah (orang tua/anggota",
+      "skor": 1.0
+    }
+  }
+}
