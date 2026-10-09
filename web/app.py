@@ -15,7 +15,7 @@ from bps_curator.curator import curate, generate_do, generate_readme, get_mandat
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
 from bps_curator.definitions import (load_definitions, definitions_for,
-                                     master_definitions)
+                                     MIN_COVERAGE)
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -309,8 +309,14 @@ else:
         found_rows = [{"Kode": v["code"], "Label": v["label"]}
                       for v in sorted(c["found"], key=lambda x: x["code"])
                       if v["code"] not in unav_set]
-        defs, dinfo = master_definitions(load_definitions(OUT_DIR / "definitions"), m)
-        with_def = [v for v in found_rows if v["Kode"] in defs]
+        # Seksi tampil bila ada variabel *request* yang punya definisi —
+        # bukan berdasar cakupan master. Cakupan rendah hanya diberi peringatan.
+        bucket = definitions_for(load_definitions(OUT_DIR / "definitions"),
+                                 m.get("survey_id", ""), m.get("period", ""))
+        n_total = len(m.get("variables", []))
+        n_mapped = len({v["code"] for v in m.get("variables", []) if v["code"] in bucket})
+        low_cov = n_total > 0 and n_mapped / n_total < MIN_COVERAGE
+        with_def = [v for v in found_rows if v["Kode"] in bucket]
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
         st.dataframe(found_rows, use_container_width=True, hide_index=True)
@@ -318,11 +324,13 @@ else:
         if with_def:
             st.markdown("<div class='card'>", unsafe_allow_html=True)
             st.markdown("#### Definisi Variabel")
-            st.caption(f"{dinfo['n_mapped']} dari {dinfo['n_total']} variabel punya "
+            st.caption(f"{n_mapped} dari {n_total} variabel punya "
                        f"definisi/soal kuesioner. Ketuk nama variabel untuk membuka.")
+            if low_cov:
+                st.warning(f"Cakupan definisi master ini rendah ({n_mapped}/{n_total}) — "
+                           f"validasi manual dengan kuesioner sebelum dipakai.")
             for row in with_def:
-                d = defs[row["Kode"]]
-                # key stabil -> Streamlit sendiri ingat expander mana yang terbuka
+                d = bucket[row["Kode"]]
                 with st.expander(f"{row['Kode']} — {row['Label']}"):
                     st.caption(f"Sumber: {d.get('source', '')}")
                     st.write(d.get("text", ""))

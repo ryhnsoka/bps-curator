@@ -122,8 +122,30 @@ def test_ui_katalog_pilih_lewat_daftar():
     print("UI OK: katalog pilih-lewat-daftar -> unduh TXT")
 
 
+def test_ui_definitions_low_coverage_master():
+    """Cakupan master rendah (Susenas 2023 Kor, 52/468) tetap tampil bila
+    variabel request punya definisi — dengan peringatan, bukan disembunyikan."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.radio[0].set_value("Kurasi").run()
+    idx = next(i for i, o in enumerate(at.selectbox[0].options)
+               if "2023 Kor" in o and "Sosial Ekonomi" in o)
+    at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
+    at.text_area[0].set_value("R101 R102 R401").run()
+    at.button[0].click().run()
+    assert not at.exception, at.exception
+    assert any("Definisi Variabel" in m.value for m in at.markdown), "seksi tampil"
+    ex = _expander_map(at)
+    assert "R101" in ex and "R401" in ex, sorted(ex)
+    assert "R102" not in ex, "tanpa peta -> tanpa expander"
+    assert any("Cakupan definisi" in str(w.value) for w in at.warning), \
+        "peringatan cakupan rendah"
+    print("UI OK: definisi tampil di master cakupan rendah + peringatan")
+
+
 if __name__ == "__main__":
     test_ui_flow()
     test_ui_definitions_underscore_master()
     test_ui_state_survives_tab_switch()
     test_ui_katalog_pilih_lewat_daftar()
+    test_ui_definitions_low_coverage_master()
