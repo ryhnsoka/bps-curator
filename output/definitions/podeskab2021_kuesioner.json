@@ -1,0 +1,17 @@
+{
+  "source": "Kuesioner PODES2021-KAB_KOTA.pdf",
+  "drive_id": "1itSKpa30Ow4U4gGlCejrmu-l6rGtNggB",
+  "survey_id": "PODES",
+  "period": "2021 Kabupaten",
+  "metode": "jangkar kode di teks kuesioner (konteks +-250 chr)",
+  "mapped": {
+    "KABUPATEN": {
+      "konteks": "ak sesuai **) Khusus di Provinsi Sumatera Barat DAFTAR INI DIISI OLEH PETUGAS BERDASARKAN HASIL PENCACAHAN/WAWANCARA DENGAN NARASUMBER TERKAIT YANG BERWENANG DAN RELEVAN, SERTA PENELUSURAN DOKUMEN KABUPATEN/KOTA PODES2021-KAB/KOTA . ., . 2021 Mengetahui Sekretaris Daerah __________________________ Nama dan Stempel RAHASIA 201 Narasumber : NIP Pencacah 204 202 203 II. KETERANGAN PETUGAS DAN NAR ASUMBER Nama Pencacah 101 102 . Kode Pos : Telepon kantor : ...............................",
+      "n_termu": 3
+    },
+    "KAB": {
+      "konteks": "ovinsi Sumatera Barat DAFTAR INI DIISI OLEH PETUGAS BERDASARKAN HASIL PENCACAHAN/WAWANCARA DENGAN NARASUMBER TERKAIT YANG BERWENANG DAN RELEVAN, SERTA PENELUSURAN DOKUMEN KABUPATEN/KOTA PODES2021-KAB/KOTA . ., . 2021 Mengetahui Sekretaris Daerah __________________________ Nama dan Stempel RAHASIA 201 Narasumber : NIP Pencacah 204 202 203 II. KETERANGAN PETUGAS DAN NAR ASUMBER Nama Pencacah 101 102 . Kode Pos : Telepon kantor : .........................................................",
+      "n_termu": 1
+    }
+  }
+}
