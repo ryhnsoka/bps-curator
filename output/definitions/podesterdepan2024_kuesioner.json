@@ -3,7 +3,7 @@
   "drive_id": "1BjHJklJRKSCOr_xiAW9R292Es4pWR140",
   "survey_id": "PODES",
   "period": "2024 Terdepan-Terluar",
-  "metode": "nomor soal mandiri -> R+nomor",
+  "metode": "nomor soal mandiri -> R+nomor (ekspansi prefiks)",
   "mapped": {
     "R101": {
       "soal": "101",
