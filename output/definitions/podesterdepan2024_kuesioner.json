@@ -3,6 +3,6 @@
   "drive_id": "1BjHJklJRKSCOr_xiAW9R292Es4pWR140",
   "survey_id": "PODES",
   "period": "2024 Terdepan-Terluar",
-  "metode": "jangkar kode di teks kuesioner (konteks +-250 chr)",
+  "metode": "nomor soal 3-digit -> R+nomor",
   "mapped": {}
 }
