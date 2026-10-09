@@ -1,0 +1,17 @@
+{
+  "source": "Kuesioner_PODES2021_desa_final.pdf",
+  "drive_id": "1Oj4G82PPYTvwfODLPULgnoS7-aR9uIgK",
+  "survey_id": "PODES",
+  "period": "2021 Desa",
+  "metode": "jangkar kode di teks kuesioner (konteks +-250 chr)",
+  "mapped": {
+    "R301": {
+      "konteks": "em keuangan desa: Ada, diperbaharui – 1 Ada, tidak diperbaharui – 2 Tidak ada – 3 Blok ini akan terisi jika Blok III R 301, status pemerintahannya adalah Desa atau UPT/SPT atau Nagari (Jika Blok III R301 berstatus Kelurahan maka langsung ke R1501) 1403 a. 1. Rencana Pembangunan Jangka Menengah Desa (RPJM Desa) yang berlaku: Ada – 1 Tidak ada – 2 R1403b 2. Periode RPJM Desa yang berlaku tahun: hingga b. Rencana Kerja Pemerintah Desa (RKP Desa) tahun 2021: Ada – 3 Tidak ada – 4 c. Jumlah peratu",
+      "n_termu": 1
+    },
+    "R506": {
+      "konteks": "– 4 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. a. Penggunaan fasilitas buang air besar sebagian besar keluarga di desa/kelurahan: Jamban sendiri – 1 Jamban umum – 3 Jamban bersama – 2 Bukan jamban – 4 R506 b. Tempat pembuangan akhir tinja sebagian besar keluarga : Tangki septik – 1 Kolam/sawah/sungai/danau/laut – 3 Panta i/tanah lapang/kebun – 5 IPAL – 2 Lubang tanah – 4 Lainnya – 6 505 502 a. Penerangan di jalan desa/kelurahan yang menggunakan lampu tenaga surya ; Ada – 1 Tidak ada – 2 b. P",
+      "n_termu": 1
+    }
+  }
+}
