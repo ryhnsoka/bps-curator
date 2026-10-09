@@ -1,0 +1,769 @@
+{
+  "source": "Kuesioner IBS 2017.pdf",
+  "drive_id": "1pLGM6sGLL086AF3_c8Q_tldM4s5DNLGT",
+  "survey_id": "STPIM",
+  "period": "2017",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "JAN": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "FEB": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "MAR": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "APR": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "MEI": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "JUN": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "JUL": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "AGS": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "SEP": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "OKT": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "NOV": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "DES": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.6
+    },
+    "DSTATS17": {
+      "soal": "7",
+      "teks": "Status Penanaman Modal 1. PMDN 2. PMA 3. Non fasilitas DSTATS",
+      "skor": 1.0
+    },
+    "DPUSAT17": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DPEMDA17": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DDMSTK17": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "DASING17": {
+      "soal": "8",
+      "teks": "Persentase permodalan",
+      "skor": 1.0
+    },
+    "IUIB17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.75
+    },
+    "IUIM17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.75
+    },
+    "IUIK17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.75
+    },
+    "TDI17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.5
+    },
+    "TDP17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.5
+    },
+    "IZINO17": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.75
+    },
+    "IZINO17K": {
+      "soal": "9",
+      "teks": "Izin yang pernah dimiliki perusahaan:",
+      "skor": 0.75
+    },
+    "SNI17": {
+      "soal": "10",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 1.0
+    },
+    "SNIPRO17": {
+      "soal": "10",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 0.5
+    },
+    "SNIMAN17": {
+      "soal": "10",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 0.5
+    },
+    "SNIPCS17": {
+      "soal": "10",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 0.5
+    },
+    "SNIPSN17": {
+      "soal": "10",
+      "teks": "Apakah perusahaan memiliki sertifikat Standar Nasional Indonesia (SNI) ?",
+      "skor": 0.5
+    },
+    "BENSNI17": {
+      "soal": "12",
+      "teks": "Manfaat penerapan SNI bagi perusahaan",
+      "skor": 1.0
+    },
+    "CONCST17": {
+      "soal": "13",
+      "teks": "Apakah ada kendala penerapan SNI pada perusahaan?",
+      "skor": 0.8
+    },
+    "CONSIN17": {
+      "soal": "13",
+      "teks": "Apakah ada kendala penerapan SNI pada perusahaan?",
+      "skor": 0.8
+    },
+    "CONINF17": {
+      "soal": "13",
+      "teks": "Apakah ada kendala penerapan SNI pada perusahaan?",
+      "skor": 0.8
+    },
+    "FITSNI17": {
+      "soal": "13",
+      "teks": "Apakah ada kendala penerapan SNI pada perusahaan?",
+      "skor": 0.8
+    },
+    "DEMAND17": {
+      "soal": "13",
+      "teks": "Apakah ada kendala penerapan SNI pada perusahaan?",
+      "skor": 0.8
+    },
+    "RND17": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 1.0
+    },
+    "COSTRD17": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.5
+    },
+    "INOPRD17": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2017 perusahaan melakukan inovasi dalam hal:",
+      "skor": 0.75
+    },
+    "INOPCS17": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2017 perusahaan melakukan inovasi dalam hal:",
+      "skor": 0.75
+    },
+    "INOMKT17": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2017 perusahaan melakukan inovasi dalam hal:",
+      "skor": 0.75
+    },
+    "INOORG17": {
+      "soal": "16",
+      "teks": "Apakah pada tahun 2017 perusahaan melakukan inovasi dalam hal:",
+      "skor": 0.75
+    },
+    "LPMNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LNMNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LFMNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LTMNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LPWNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LNWNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LFWNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.75
+    },
+    "LTWNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LPRNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LNPNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LFANOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 1.0
+    },
+    "LTLNOU17": {
+      "soal": "17",
+      "teks": "a. Banyaknya rata-rata pekerja/karyawan rata-rata per hari kerja baik pekerja yang dibayar maupun",
+      "skor": 0.5
+    },
+    "LTLRND17": {
+      "soal": "14",
+      "teks": "Apakah selama Tahun 2017 perusahaan melakukan sendiri kegiatan Penelitian dan Pengembangan (R&D )?",
+      "skor": 0.5
+    },
+    "ZPSVCU17": {
+      "soal": "35",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZNSVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "ZPOVCU17": {
+      "soal": "35",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZNOVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "ZPIVCU17": {
+      "soal": "35",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZNIVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "ZPPVCU17": {
+      "soal": "35",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZNPVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "ZPAVCU17": {
+      "soal": "35",
+      "teks": "a. Pekerja (18. jumlah) kolom (2) + kolom (3)",
+      "skor": 0.5
+    },
+    "ZNAVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "ZPDVCU17": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2017",
+      "skor": 0.5
+    },
+    "ZNDVCU17": {
+      "soal": "18",
+      "teks": "Pengeluaran untuk pekerja/karyawan dibayar selama tahun 2017",
+      "skor": 0.5
+    },
+    "EPELIE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EPEVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOLIE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ESOVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLKGE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECLVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECBKGE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ECBVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGAM3E17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGAVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOM3E17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EGOVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELPKGE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELPVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ENCVCU17": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ENCVCE17": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "ELULIE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "ELUVCE17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 0.67
+    },
+    "EFUVCU17": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "EFUVCE17": {
+      "soal": "19",
+      "teks": "Bahan bakar dan pelumas",
+      "skor": 0.67
+    },
+    "EPLKHU17": {
+      "soal": "20",
+      "teks": "Tenaga listrik yang dibeli dari Banyaknya Nilai",
+      "skor": 0.8
+    },
+    "EPLVCU17": {
+      "soal": "20",
+      "teks": "Tenaga listrik yang dibeli dari Banyaknya Nilai",
+      "skor": 1.0
+    },
+    "ENPKHU17": {
+      "soal": "20",
+      "teks": "Tenaga listrik yang dibeli dari Banyaknya Nilai",
+      "skor": 0.8
+    },
+    "ENPVCU17": {
+      "soal": "20",
+      "teks": "Tenaga listrik yang dibeli dari Banyaknya Nilai",
+      "skor": 1.0
+    },
+    "ESGKHU17": {
+      "soal": "22",
+      "teks": "Banyaknya tenaga listrik yang dibangkitkan sendiri oleh perusahaan",
+      "skor": 1.0
+    },
+    "OELKHU17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "YELVCU17": {
+      "soal": "23",
+      "teks": "Tenaga listrik yang dijual",
+      "skor": 1.0
+    },
+    "ICOVCU17": {
+      "soal": "4",
+      "teks": "Rincian 24.e (hadiah, sumbangan, derma dan sejenisnya)",
+      "skor": 0.8
+    },
+    "IOTVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "IT1VCU17": {
+      "soal": "37",
+      "teks": "a. Pengeluaran lain yang merupakan komponen nilai tambah",
+      "skor": 0.67
+    },
+    "RDNVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "RIMVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "RTLVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "EKSPOR17": {
+      "soal": "26",
+      "teks": "a. Apakah ada produksi yang diekspor, baik yang diekspor sendiri atau pihak lain ? EKSPOR",
+      "skor": 1.0
+    },
+    "PRPRCA17": {
+      "soal": "27",
+      "teks": "Persentase realisasi produksi selama tahun 2017 terhadap kapasitas terpasang:",
+      "skor": 1.0
+    },
+    "YISVDO17": {
+      "soal": "28",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 0.8
+    },
+    "YISVFO17": {
+      "soal": "28",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 0.8
+    },
+    "YISVCU17": {
+      "soal": "28",
+      "teks": "Pendapatan dari jasa industri (makloon) Nilai",
+      "skor": 0.8
+    },
+    "YRNVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 1.0
+    },
+    "YT1VCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 1.0
+    },
+    "DEVVCU17": {
+      "soal": "5",
+      "teks": "Rincian 24.g (deviden/laba yang dibagikan)",
+      "skor": 0.67
+    },
+    "RENVCU17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "NOPVCU17": {
+      "soal": "30",
+      "teks": "Pendapatan non operasional",
+      "skor": 1.0
+    },
+    "SRJVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SRDVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SHJVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.5
+    },
+    "SHDVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.5
+    },
+    "SFJVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.5
+    },
+    "SFDVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.5
+    },
+    "STJVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 1.0
+    },
+    "STDVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 1.0
+    },
+    "CLTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CLSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CLDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1101": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CBTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CBSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CBDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1103": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CMTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CMSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CMDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "V1106": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CVTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CVSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CVDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1109": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CSTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "CSSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "CSDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "V1110": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.5
+    },
+    "COTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.57
+    },
+    "COSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CODACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.6
+    },
+    "V1112": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.8
+    },
+    "CTTTCU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.67
+    },
+    "CTSACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.8
+    },
+    "CTDACU17": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 0.75
+    },
+    "V1115": {
+      "soal": "32",
+      "teks": "Nilai taksiran seluruh barang modal tetap dan penambahan/pengurangan/perbaikan besar barang modal tetap",
+      "skor": 1.0
+    },
+    "SRMVCU17": {
+      "soal": "25",
+      "teks": "Bahan baku dan bahan penolong",
+      "skor": 1.0
+    },
+    "SHFVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.67
+    },
+    "SFNVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 0.67
+    },
+    "STLVCU17": {
+      "soal": "31",
+      "teks": "Nilai stok pada awal dan akhir tahun 2017",
+      "skor": 1.0
+    },
+    "IINPUT17": {
+      "soal": "29",
+      "teks": "Pendapatan lainnya",
+      "skor": 0.5
+    },
+    "OUTPUT17": {
+      "soal": "1",
+      "teks": "Manfaat ekonomi (kenaikan pendapatan) 2. Sama saja 3. Tidak ada manfaat",
+      "skor": 0.5
+    },
+    "VTLVCU17": {
+      "soal": "37",
+      "teks": "a. Pengeluaran lain yang merupakan komponen nilai tambah",
+      "skor": 0.67
+    }
+  }
+}
