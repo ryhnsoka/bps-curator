@@ -1,0 +1,46 @@
+{
+  "source": "Metadata Konsep dan Definisi Variabel Prakerja Dalam Sakernas Agustus 2022.pdf",
+  "drive_id": "1H5sLewfoLShkrQzXKROR8Mufb2cFuZMT",
+  "survey_id": "SAKERNAS",
+  "period": "2022 Agustus",
+  "map_question_to_codes": {
+    "47A": [
+      "R47A"
+    ],
+    "47B": [
+      "R47B"
+    ],
+    "47C": [
+      "R47C"
+    ],
+    "47D": [
+      "R47D"
+    ],
+    "47E": [
+      "R47E"
+    ],
+    "47F": [
+      "R47F"
+    ],
+    "47G": [
+      "R47G"
+    ],
+    "47H": [
+      "R47H1",
+      "R47H2",
+      "R47H3",
+      "R47H4",
+      "R47H5"
+    ]
+  },
+  "definitions": {
+    "47A": "Nomor 47.a s/d 47.h",
+    "47B": "Nomor 47.b: Apakah Anda mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui seberapa banyak responden yang mendaftar Program Kartu \nPrakerja.",
+    "47C": "Nomor 47.c: Apakah Anda bekerja saat mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui status responden saat mendaftar Program Kartu Prakerja \napakah sedang bekerja atau tidak.",
+    "47D": "Nomor 47.d: Apakah alasan Anda mendaftar Program Kartu Prakerja? (pilih salah satu yang \nutama) \nPertanyaan ini untuk mengetahui alasan utama/motivasi responden mendaftar Program Kartu \nPrakerja. \n1. Meningkatkan keterampilan kerja (skill), adalah alasan responden mendaftar karena \ningin meningkatkan keterampilan/keahlian kerja (skill). \n2. Mendapatkan insentif, adalah alasan responden mendaftar karena ingin mendapatkan \ninsentif. \n3. Mengisi waktu luang, adalah alasan responden mendaftar karena ingin mengisi waktu \nluang. \n4. Ikut teman/coba-coba, adalah alasan responden mendaftar karena diajak teman atau \ncoba-coba peruntungan. \n5. Pendaftaran gratis, adalah alasan responden mendaftar karena pendaftaran program \npelatihan ini tidak ada biayanya/gratis. \n6. Selain alasan di atas, tuliskan: adalah alasan selain yang telah disebutkan di atas.",
+    "47E": "Nomor 47.e: Apakah Anda diterima Program Kartu Prakerja? \nPertanyaan ini bertujuan untuk mengetahui apakah responden yang mendaftar Kartu Prakerja \nlolos seleksi/diterima. Tidak seperti bansos lain yang diberikan berkelanjutan setiap tahun, \nPenerima Kartu Prakerja hanya bisa menerima Kartu Prakerja satu kali seumur hidupnya. \nKuesioner Sakernas tidak menanyakan periode penerimaan/gelombang penerimaan \npenerima program. \n \nAnalisis terhadap variabel ini perlu dilengkapi dengan informasi tambahan terkait \nbatch/gelombang penerimaan dan karakteristiknya. Hal tersebut karena adanya perbedaan \nperiode pencacahan Sakernas dengan periode penerimaan Program Kartu Prakerja. Sebagai \ngambaran, dalam setiap tahun anggaran, terdapat beberapa batch/gelombang penerimaan \nprogram yang terlaksana. Di sisi lain, periode pencacahan responden Sakernas hanya \ndilakukan dua kali setahun pada waktu yang sudah ditentukan, dan periode tersebut dapat \nberbeda dengan periode gelombang penerimaan Kartu Prakerja. Oleh sebab itu, pertanyaan \nterkait Kartu Prakerja dalam kuesioner Sakernas bisa saja dijawab oleh penerima pada \nbatch/gelombang tahun pencacahan maupun pada batch/gelombang tahun-tahun \nsebelumnya. \n \nOleh karena itu, analisis variabel ini tanpa informasi gelombang penerimaan dapat \nmemberikan kesimpulan yang tidak representatif terkait dampak Program Kartu Prakerja \nterhadap penerima Program.",
+    "47F": "Nomor 47.f: Apakah Anda menyelesaikan pelatihan pertama pada Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui apakah responden menyelesaikan pelatihan pertama yang \ndiikuti.",
+    "47G": "Nomor 47.g: Apakah Program Kartu Prakerja meningkatkan keterampilan kerja Anda? \nPertanyaan ini untuk mengetahui apakah Program Kartu Prakerja memberikan manfaat \nterhadap peningkatan keterampilan kerja responden.",
+    "47H": "Nomor 47.h: Digunakan untuk apakah insentif dari Program Kartu Prakerja? \nUang saku (insentif) didapatkan peserta setelah menyelesaikan pelatihan pertama Program \nKartu Prakerja. Uang saku yang didapatkan sebesar Rp.600.000/bulan (diberikan selama 4 \nbulan) dan juga uang saku survei kebekerjaan sebesar Rp.50.000/survei (sebanyak 3 kali \nsurvei). \nPenggunaan insentif Kartu Prakerja diantaranya: \n1. Memenuhi kebutuhan sehari-hari, jika insentif tersebut digunakan untuk memenuhi \nkebutuhan sehari-hari. \n2. Modal usaha, jika insentif tersebut digunakan untuk modal usaha. \n3. Membayar hutang, jika insentif tersebut digunakan untuk membayar hutang. \n4. Ditabung, jika insentif tersebut disimpan/ditabung. \n5. Lainnya, tuliskan: jika digunakan selain dari yang telah disebutkan di atas. \n \n \n \nDirektur Statistik Kependudukan \ndan Ketenagakerjaan, \n \n \nAli Said"
+  }
+}
