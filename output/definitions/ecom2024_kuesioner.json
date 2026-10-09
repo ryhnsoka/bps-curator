@@ -1,0 +1,89 @@
+{
+  "source": "Kuesioner_survei_e_commerce_2024.pdf",
+  "drive_id": "1e49aK44ZihhIj-Eysg29mQHKeQQbvl59",
+  "survey_id": "ECOM",
+  "period": "2024",
+  "metode": "fuzzy label-soal (ambang 0.5)",
+  "mapped": {
+    "R317A_01": {
+      "soal": "1",
+      "teks": "Hasil pertanian, kehutanan, peternakan, dan perikanan (contoh: sayur, buah, binatang",
+      "skor": 0.62
+    },
+    "R317A_02": {
+      "soal": "2",
+      "teks": "Produksi hasil pertanian yang diolah menjadi produk makanan/minuman dan tembakau",
+      "skor": 1.0
+    },
+    "R317A_03": {
+      "soal": "3",
+      "teks": "Produksi pakaian, tekstil, dan alas kaki (contoh: kain tenunan, baju, topi, sepatu, tas kulit )",
+      "skor": 0.62
+    },
+    "R317A_04": {
+      "soal": "4",
+      "teks": "Produksi barang dan perabotan rumah tangga dari kayu, anyaman (contoh: kayu lapis,",
+      "skor": 0.71
+    },
+    "R317A_05": {
+      "soal": "5",
+      "teks": "Produksi barang dari kertas, buku, dan cetakan (contoh: majalah, brosur, cetakan foto)",
+      "skor": 0.71
+    },
+    "R317A_06": {
+      "soal": "6",
+      "teks": "Produksi bahan kimia (contoh: pupuk, pestisida, obat-obatan, parfum, sabun)",
+      "skor": 0.5
+    },
+    "R317A_07": {
+      "soal": "7",
+      "teks": "Produksi produk dari karet, plastik, dan kaca (contoh: ban, kantong plastik, keramik,",
+      "skor": 0.62
+    },
+    "R317A_08": {
+      "soal": "8",
+      "teks": "Produksi barang dari logam dan mesin (contoh: produk dari besi/baja, barang dari",
+      "skor": 0.67
+    },
+    "R317A_09": {
+      "soal": "9",
+      "teks": "Penjualan/Perdagangan besar dan eceran (contoh: agen, reseller, toko kelontong )",
+      "skor": 0.57
+    },
+    "R317A_10": {
+      "soal": "10",
+      "teks": "Jasa akomodasi dan pelayanan/penyediaan makan-minum (contoh: hotel, penginapan,",
+      "skor": 0.67
+    },
+    "R317A_11": {
+      "soal": "11",
+      "teks": "Jasa transportasi dan pengiriman (contoh: ojek, bus/travel, rental mobil, kurir barang)",
+      "skor": 0.67
+    },
+    "R317A_12": {
+      "soal": "12",
+      "teks": "Jasa profesional, ilmiah, dan teknis (contoh: konsultan hukum, pengacara, jasa",
+      "skor": 0.57
+    },
+    "R317A_13": {
+      "soal": "13",
+      "teks": "Jasa pendidikan, kesehatan, kesenian, olahraga, dan hiburan (contoh: kursus, klinik",
+      "skor": 0.67
+    },
+    "R317B_4": {
+      "soal": "9",
+      "teks": "Penjualan/Perdagangan besar dan eceran (contoh: agen, reseller, toko kelontong )",
+      "skor": 0.5
+    },
+    "R317B_5": {
+      "soal": "9",
+      "teks": "Penjualan/Perdagangan besar dan eceran (contoh: agen, reseller, toko kelontong )",
+      "skor": 0.5
+    },
+    "R319": {
+      "soal": "11",
+      "teks": "Jasa transportasi dan pengiriman (contoh: ojek, bus/travel, rental mobil, kurir barang)",
+      "skor": 0.5
+    }
+  }
+}
