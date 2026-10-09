@@ -13,6 +13,7 @@ import streamlit as st
 
 from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list
 from bps_curator.normalize import normalize_code
+from bps_curator.surveys import survey_name
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -162,7 +163,7 @@ if menu == "Katalog":
     st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
     q = st.text_input("Cari survei / periode / variabel / label",
                       "", help="Label ikut dicari, bukan cuma kode variabel")
-    rows = [{"Survei": c["survey"], "Periode": c["period"], "Jumlah Variabel": c["n_vars"],
+    rows = [{"Survei": survey_name(c["survey"]), "Periode": c["period"], "Jumlah Variabel": c["n_vars"],
              "Jumlah Partisi": c["n_partitions"], "Wajib": c["mandatory"]} for c in catalog]
     if q:
         qf, ql = normalize_code(q), q.lower()
@@ -175,9 +176,9 @@ if menu == "Katalog":
                     "WHERE v.fold LIKE '%' || ? || '%' OR LOWER(v.label) LIKE '%' || ? || '%'"
                     " ORDER BY m.survey_id, m.period, v.code LIMIT 200",
                     (qf, ql)):
-                hit.add((r["survey_id"], r["period"]))
+                hit.add((survey_name(r["survey_id"]), r["period"]))
                 var_hits.append({"Variabel": r["code"], "Label": r["label"],
-                                 "Survei": r["survey_id"], "Periode": r["period"]})
+                                 "Survei": survey_name(r["survey_id"]), "Periode": r["period"]})
         rows = [r for r in rows
                 if q.lower() in (r["Survei"] + " " + r["Periode"]).lower()
                 or (r["Survei"], r["Periode"]) in hit]
@@ -191,7 +192,7 @@ if menu == "Katalog":
 
 # ---------------- KURASI ----------------
 else:
-    labels = [f"{c['survey']} — {c['period']}" for c in catalog]
+    labels = [f"{survey_name(c['survey'])} — {c['period']}" for c in catalog]
     pick = st.selectbox("Pilih Survei Master", labels)
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])

@@ -6,17 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 from bps_curator.normalize import normalize_code
-
-SURVEY_NAMES = {
-    "SAKERNAS": "Survei Angkatan Kerja Nasional",
-    "SUSENAS": "Survei Sosial Ekonomi Nasional",
-    "STPIM": "Survei Tahunan Perusahaan Industri Manufaktur",
-    "KOMUTER": "Survei Komuter",
-    "IMK": "Survei Industri Mikro dan Kecil",
-    "PODES": "Pendataan Potensi Desa",
-    "ECOM": "Survei E-Commerce",
-    "SPAK": "Survei Perilaku Anti Korupsi",
-}
+from bps_curator.surveys import SURVEY_NAMES
 
 # drive_id per file JSON lokal (sumber kanonis folder Kode Variabel BPS)
 DRIVE_IDS = {

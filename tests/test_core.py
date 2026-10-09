@@ -46,6 +46,17 @@ def test_readme_maps_mandatory_vs_request():
     assert "K1" in txt and "Tidak ditemukan (0)" in txt
 
 
+def test_full_survey_names():
+    from bps_curator.surveys import survey_name
+    assert survey_name("SAKERNAS") == "Survei Angkatan Kerja Nasional"
+    assert survey_name("PODES") == "Pendataan Potensi Desa"
+    assert survey_name("ECOM") == "Survei E-Commerce"
+    assert survey_name("XX") == "XX"
+    c = curate("K1 K10".split(), SAK)
+    assert "Survei Angkatan Kerja Nasional 2024 Agustus" in generate_do(c, SAK)
+    assert "Survei Angkatan Kerja Nasional 2024 Agustus" in generate_readme(c, SAK)
+
+
 def _mini_master():
     return {
         "survey_id": "UJI", "period": "2024 Modul", "mandatory": ["W1", "W2"],

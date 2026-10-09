@@ -17,7 +17,8 @@ def test_ui_flow():
                for fr in frames if "Variabel" in list(fr.columns)), "tabel variabel cocok"
     # Kurasi: pilih SAK2024, cari, centang, proses
     at.radio[0].set_value("Kurasi").run()
-    idx = next(i for i, o in enumerate(at.selectbox[0].options) if "2024 Agustus" in o and "SAKERNAS" in o)
+    idx = next(i for i, o in enumerate(at.selectbox[0].options)
+               if "2024 Agustus" in o and "Survei Angkatan Kerja Nasional" in o)
     at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
     at.text_area[0].set_value("K10 k3 TIDAKADA").run()
     at.button[0].click().run()
