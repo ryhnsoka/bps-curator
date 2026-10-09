@@ -107,7 +107,23 @@ def test_ui_state_survives_tab_switch():
     print("UI OK: pindah tab tidak menghapus state kurasi")
 
 
+def test_ui_katalog_pilih_lewat_daftar():
+    """Pilih variabel Katalog lewat daftar (fallback ketuk baris) -> badge + unduh."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.text_input[0].set_value("B10_1001").run()
+    assert not at.exception, at.exception
+    assert len(at.multiselect) == 1, "daftar pilih tampil saat ada hasil"
+    opt = next(o for o in at.multiselect[0].options if o.startswith("B10_1001 "))
+    at.multiselect[0].set_value([opt]).run()
+    assert not at.exception, at.exception
+    assert any("1 variabel dipilih" in str(c.value) for c in at.caption), \
+        [str(c.value) for c in at.caption]
+    print("UI OK: katalog pilih-lewat-daftar -> unduh TXT")
+
+
 if __name__ == "__main__":
     test_ui_flow()
     test_ui_definitions_underscore_master()
     test_ui_state_survives_tab_switch()
+    test_ui_katalog_pilih_lewat_daftar()

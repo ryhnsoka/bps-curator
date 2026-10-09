@@ -207,13 +207,31 @@ if menu == "Katalog":
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
         if var_hits:
-            st.write("**Variabel cocok (nama + label) — ketuk baris untuk memilih:**")
+            st.write("**Variabel cocok (nama + label) — pilih lalu unduh:**")
+            st.caption("Klik kotak di ujung kiri baris untuk memilih "
+                       "(klik isi sel hanya menyorot teks untuk disalin). "
+                       "Atau pilih lewat daftar di bawah — hasilnya sama.")
             st.dataframe(var_hits, use_container_width=True, hide_index=True,
                          column_config={"Label": st.column_config.TextColumn(width="large")},
                          selection_mode="multi-row", on_select="rerun", key="varhits")
-            tapped = [var_hits[i] for i in st.session_state.varhits.selection.rows
-                      if 0 <= i < len(var_hits)]
+            _vs = st.session_state.get("varhits")
+            _sel = getattr(_vs, "selection", None) if _vs is not None else None
+            _rows = getattr(_sel, "rows", []) if _sel is not None else []
+            row_idx = {i for i in (_rows or []) if 0 <= i < len(var_hits)}
+            _opts, _seen = [], set()
+            for v in var_hits:
+                o = f"{v['Variabel']} — {v['Label']} | {v['Survei']} {v['Periode']}"
+                if o in _seen:
+                    o = f"{o} #{v['Variabel']}"
+                _seen.add(o)
+                _opts.append(o)
+            picked = st.multiselect("Atau pilih lewat daftar (bisa ketik kode/label)",
+                                    _opts, key="varpick")
+            pick_idx = {_opts.index(o) for o in picked if o in _opts}
+            tapped = [var_hits[i] for i in sorted(row_idx | pick_idx)]
             if tapped:
+                st.caption(f"<span class='badge'>{len(tapped)} variabel dipilih</span>",
+                           unsafe_allow_html=True)
                 txt = generate_basket_txt(
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
                      for v in tapped])
