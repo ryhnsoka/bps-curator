@@ -3,6 +3,67 @@
   "drive_id": "1itSKpa30Ow4U4gGlCejrmu-l6rGtNggB",
   "survey_id": "PODES",
   "period": "2021 Kabupaten",
-  "metode": "nomor soal mandiri -> R+nomor",
-  "mapped": {}
+  "metode": "nomor soal mandiri -> R+nomor (ekspansi prefiks)",
+  "mapped": {
+    "R402K2": {
+      "soal": "402",
+      "teks": "402 1. 2. 3. III. KETERANGAN UMUM KABUPATEN /KOTA 302 Luas wilayah kabupaten/kota : ................................................................ km2 , a. ............................................................................................. 1. 2. 3. b. ............................................................................................. 1. 2. 3. c. ............................................................................................. 1. 2. 3. d. ............................................................................................. 1. 2. 3. Koordinat dan ketinggian letak kantor bupati/wali kota : a. Koordinat : Garis Lintang (Latitude) Lintang Utara - 1 Lintang Selatan - 2 Garis Bujur (Longitude) b. Ketinggian (Altitude) letak kantor bupati di atas permukaan"
+    },
+    "R601A": {
+      "soal": "601",
+      "teks": "601 VI. PERHUBUNGAN (Sumber Informasi : Dinas Perhubungan ) a. Lapangan terbang perintis : Ada – 1 Tidak Ada – 2 R602 b. Banyaknya lapangan terbang perintis : ........................... lapangan terbang perintis Nama lapangan terbang perintis Nama maskapai penerbangan yang beroperasi Frekuensi penerbangan : Kurang dari seminggu sekali – 1 Seminggu sekali – 2 Lebih dari seminggu sekali – 3 (1) (2) 1. ................................................................ 1. ................................................................................................. 2. ................................................................................................. 1. 2. 2. ................................................................ 1. ...................................................."
+    },
+    "R601B": {
+      "soal": "601",
+      "teks": "601 VI. PERHUBUNGAN (Sumber Informasi : Dinas Perhubungan ) a. Lapangan terbang perintis : Ada – 1 Tidak Ada – 2 R602 b. Banyaknya lapangan terbang perintis : ........................... lapangan terbang perintis Nama lapangan terbang perintis Nama maskapai penerbangan yang beroperasi Frekuensi penerbangan : Kurang dari seminggu sekali – 1 Seminggu sekali – 2 Lebih dari seminggu sekali – 3 (1) (2) 1. ................................................................ 1. ................................................................................................. 2. ................................................................................................. 1. 2. 2. ................................................................ 1. ...................................................."
+    },
+    "R901K2_A": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K2_B": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K2_C": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K3_A": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K3_B": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K3_C": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K4_A": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K4_B": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K4_C": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K5_A": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K5_B": {
+      "soal": "901",
+      "teks": "901"
+    },
+    "R901K5_C": {
+      "soal": "901",
+      "teks": "901"
+    }
+  }
 }
