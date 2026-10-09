@@ -4,6 +4,33 @@
   "survey_id": "SAKERNAS",
   "period": "2024 Agustus",
   "map_question_to_codes": {
+    "51A": [
+      "R51A"
+    ],
+    "51B": [
+      "R51B"
+    ],
+    "51C": [
+      "R51C"
+    ],
+    "51D": [
+      "R51D"
+    ],
+    "51E": [
+      "R51E"
+    ],
+    "51F": [
+      "R51F"
+    ],
+    "51G": [
+      "R51G"
+    ],
+    "51H": [
+      "R51H"
+    ],
+    "51I": [
+      "R51I"
+    ],
     "51J": [
       "R51J1",
       "R51J2",
@@ -15,7 +42,7 @@
     ]
   },
   "definitions": {
-    "51A": "Nomor 51.a s/d 51.j",
+    "51A": "Pertanyaan 51.a s/d 51.j bertujuan untuk memperoleh informasi terkait pemahaman terhadap \nprogram, keikutsertaan dalam program, penyelesaian pelatihan, persepsi terhadap manfaat \nprogram, dan pemanfaatan insentif pasca pelatihan Program Kartu Prakerja oleh r esponden \nSakernas. Berdasarkan Peraturan Presiden Nomor 36 Tahun 2020 tentang Pengembangan \nKompetensi Kerja melalui Program Dana Kartu Prakerja sebagaimana telah beberapa kali diubah \nterakhir dengan Peraturan Presiden Nomor 113 Tahun 2022 Tentang Perubahan Kedua Atas \nPeraturan Presiden Nomor 36 Tahun 2020 Tentang Pengembangan Kompetensi Kerja Melalui \nProgram Kartu Prakerja (“ Perpres 113/2020 ”) dan Peraturan Menteri Koordinator Bidang \nPerekonomian Republik Indonesia Nomor 17 Tahun 2022 Tentang Peraturan Pelaksanaan \nPeraturan Presiden Nomor 36 Tahun 2020 Tentang Pengembangan Kompetensi Kerja Melalui \nProgram Kartu Prakerja Sebagaimana telah Beberapa Kali Diubah Terakhir dengan Peraturan \nPresiden Nomor 113 Tahun 2022 Tentang Perubahan Kedua Atas Peraturan Presiden Nomor 36 \nTahun 2 020 Tentang Pengembangan Kompetensi Kerja Melalui Program Kartu Prakerja \n(“Permenko 17/2022 ”), Program Kartu Prakerja adalah program pengembangan kompetensi \nkerja yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, \ndan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi. Penerima Kartu Prakerja \nberhak mendapatkan manfaat berupa pelatihan dan insentif dengan besaran tertentu ketika telah \nmenyelesaikan pelatihan. \nTujuan Program Kartu Prakerja, antara lain: \n● Mengembangkan kompetensi angkatan kerja; \n● Meningkatkan produktivitas dan daya saing angkatan kerja; dan \n● Mengembangkan kewirausahaan. \nSyarat Penerima Program Kartu Prakerja: \n● Warga Negara Indonesia, dibuktikan dengan kartu tanda penduduk; \n● Berusia 18 tahun ke atas (gelombang penerimaan 1 - 17); Berusia 18 - 64 tahun ( \ngelombang penerimaan 18 hingga saat ini); \n● Tidak sedang mengikuti pendidikan formal; \n● Pencari Kerja, Pekerja/Buruh terkena PHK, Pekerja/Buruh yang membutuhkan \npeningkatan kompetensi kerja (termasuk Pekerja/Buruh yang dirumahkan dan pekerja \nbukan penerima upah, termasuk pelaku usaha mikro kecil); dan \n● Diprioritaskan yang terdampak COVID -19 dan belum menerima bantuan sosial selama \npandemi COVID-19. \nYang dilarang untuk menerima Kartu Prakerja adalah sebagai berikut: \n● Pejabat Negara; \n● Pimpinan dan Anggota Dewan Perwakilan Rakyat Daerah; \n● Aparatur Sipil Negara; \n● Prajurit Tentara Nasional Indonesia; \n● Anggota Kepolisian Negara Republik Indonesia; \n● Kepala Desa dan perangkat desa; dan \n \n \n● Direksi, Komisaris, dan Dewan Pengawas pada badan usaha milik negara atau badan \nusaha milik daerah. \nSelain itu, dalam 1 (satu) Kartu Keluarga hanya diperbolehkan maksimal 2 (dua) NIK yang \nmenjadi Penerima Kartu Prakerja. \nSejak diluncurkannya Program Kartu Prakerja pada tanggal 11 April 2020 hingga 31 Agustus \n2024, total penerima efektif Program Kartu Prakerja telah mencapai 1",
     "51B": "Nomor 51.b: Apakah (NAMA) mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui seberapa banyak responden yang mendaftar Program Kartu \nPrakerja. Pendaftaran Program Kartu Prakerja merupakan proses awal yang harus dilalui untuk \nmenjadi penerima. Pendaftaran dilakukan hanya melalui laman website Prakerja yaitu \nwww.prakerja.go.id dengan mengisi beberapa informasi data diri dan hanya dilakukan 1 (satu) \nkali. Jawaban berkode 1 (Ya) jika responden berhasil mendaftar akun Prakerja hingga tahap \nverifikasi. Jika jawaban berkode 2 (Tidak), maka pertanyaan 51.c sam pai 51.j tidak ditanyakan \nkepada responden, dan petugas melanjutkan ke pertanyaan Nomor 52.",
     "51C": "Nomor 51.c: Apakah alasan utama (NAMA) mendaftar Program Kartu Prakerja? \nPertanyaan ini untuk mengetahui alasan utama/motivasi responden mendaftar Program Kartu \nPrakerja. Pilih satu alasan utama, jika responden menyebutkan beberapa alasan berikut: \n \n1. Meningkatkan pengetahuan/keterampilan, adalah alasan responden mendaftar karena \ningin meningkatkan pengetahuan/keterampilan. \n2. Mendapatkan sertifikat, adalah alasan responden mendaftar karena ingin memperoleh \nsertifikat atas kemampuan yang diperoleh dari pelatihan. \n3. Mendapatkan uang saku (insentif) , adalah alasan responden mendaftar karena ingin \nmendapatkan insentif. \n4. Mengisi waktu luang, adalah alasan responden mendaftar karena ingin mengisi waktu \nluang. \n5. Ikut teman/coba-coba, adalah alasan responden mendaftar karena diajak teman atau \ncoba-coba peruntungan. \n6. Selain alasan di atas, tuliskan: adalah alasan selain yang telah disebutkan di atas. \n \nApapun jawaban di pertanyaan ini, petugas melanjutkan ke pertanyaan nomor 51.d.",
     "51D": "Nomor 51.d: Apakah (NAMA) diterima Program Kartu Prakerja? \nPertanyaan ini bertujuan untuk mengetahui apakah responden yang mendaftar Kartu Prakerja \nlolos seleksi dan ditetapkan sebagai penerima Kartu Prakerja. Responden yang diterima sebagai \npenerima manfaat akan menerima notifikasi/pemberitahuan informasi melalui 2 kanal \nkomunikasi, yaitu SMS dan e-mail. Jika lolos seleksi, responden juga dapat mengecek hasil \npengumuman di laman website akun Prakerja dan akan muncul video tentang Kartu Prakerja \nyang harus ditonton oleh responden. Tidak seperti bantuan sosial lainn ya yang dapat diperoleh \nlebih dari satu kali, penerima Kartu Prakerja hanya dapat menerima Kartu Prakerja satu kali \nseumur hidupnya. \nJika jawaban berkode 2 (Tidak), maka pertanyaan 51.e sampai 51.j tidak ditanyakan kepada \nresponden, dan petugas melanjutkan ke pertanyaan Nomor 52.",
