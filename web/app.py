@@ -267,8 +267,6 @@ else:
         unav_req = [u for u in c.get("unavailable", []) if normalize_code(u) in req_norm]
         if unav_req:
             st.warning(f"Tidak tersedia di file data: {', '.join(unav_req)}")
-        if c.get("unavailable_partitions"):
-            st.warning(f"Partisi tanpa file data: {', '.join(c['unavailable_partitions'])}")
         unav_set = set(c.get("unavailable", []))
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
