@@ -3,6 +3,63 @@
   "drive_id": "1eM0MFFSRTIbK3OZQtuK0uXK_Jan3u73I",
   "survey_id": "PODES",
   "period": "2024 Desa",
-  "metode": "nomor soal 3-digit -> R+nomor",
-  "mapped": {}
+  "metode": "nomor soal mandiri -> R+nomor",
+  "mapped": {
+    "R101": {
+      "soal": "101",
+      "teks": "101 Perkotaan – 1 Perdesaan – 2"
+    },
+    "R105": {
+      "soal": "105",
+      "teks": "105"
+    },
+    "R102": {
+      "soal": "102",
+      "teks": "102 Provinsi Status Daerah Kabupaten / Kota *) Kecamatan"
+    },
+    "R103": {
+      "soal": "103",
+      "teks": "103 REPUBLIK INDONESIA BADAN PUSAT STATISTIK P ENDATAAN POTENSI DESA / KELURAHAN 2024 a . Alamat lengkap b . Nomor t elepon c . Alamat e - mail RAHASIA"
+    },
+    "R104": {
+      "soal": "104",
+      "teks": "104 Desa / Kelurahan * ) Lokasi pelayanan pemerintah desa / kelurahan : 10 8 I I . KETERANGAN PETUGAS DAN NARASUMBER Kode Pos :"
+    },
+    "R301": {
+      "soal": "301",
+      "teks": "301 III . KETERANGAN UMUM DESA / KELURAHAN"
+    },
+    "R310": {
+      "soal": "310",
+      "teks": "310 b . Status kawasan hutan / hutan : Hutan Negara – 1 Hutan Hak – 2 Hutan Adat – 3 c . Fungsi kawasan hutan / hutan : Konservasi – 1 Lindung – 2 Produksi – 4 d . Ketergantungan penduduk terhadap kawasan hutan / hutan : Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 e . P rogram Perhutanan Sosial tahun"
+    },
+    "R505": {
+      "soal": "505",
+      "teks": "505 2 . Jenis pemilahan yang dilakukan di TPS 3 R ( lingkari kode yang sesuai ) Sampah organik – A Sampah B 3 ( Bahan Beracun Berbahaya ) – C Sampah anorganik – B Sampah residu – D"
+    },
+    "R507": {
+      "soal": "507",
+      "teks": "507 b . Tempat pembuangan akhir tinja seba g ian besar keluarga : Tangki septik – 1 K olam / sawah / sungai / danau / laut – 3 Pantai / tanah lapang / kebun – 5 IPAL – 2 Lubang tanah – 4 Lainnya – 6"
+    },
+    "R516": {
+      "soal": "516",
+      "teks": "516 Keberadaan dan keaktifan komunitas / kelompok lingkungan hidup ( meliputi gerakan lingkungan berkelanjutan , sadar lingkungan , siaga bencana ) Ada , aktif – 1 Ada , tidak aktif – 2 Tidak ada – 3 8 V I I . P EN DIDIKAN DAN K E SEH AT AN Jenis / jenjang p endidikan Jumlah lembaga pendidikan Negeri Swasta ( 1 ) ( 2 ) ( 3 ) a . Pos Pendidikan Anak Usia Dini ( Pos PAUD ) b . TK c . RA / BA d . SD e . MI f . SMP g . MTs h . SMA i . MA j . SMK k . Akademi / P erguruan T inggi l . S D LB m . SMPLB n . SMALB o . Pondok P esantren p . Madrasah D iniyah q . Seminari / s ejenisnya Jika tidak ada lembaga pendidikan ( k ol o m ( 2 ) dan kolom ( 3 ) berkode 0 ) , untuk mencapai sarana pendidikan terdekat ( 4 ) J a rak ( km ) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa / kelurahan"
+    },
+    "R707": {
+      "soal": "707",
+      "teks": "707 Keberadaan B idan D i D esa ( BDD ): Ada – 1 Tidak ada – 2"
+    },
+    "R708": {
+      "soal": "708",
+      "teks": "708 Dukun b ayi / dukun bersalin / paraji yang tinggal / menetap di desa / kelurahan : orang 7 11 Jenis KLB / wabah penyakit ( KLB : timbulnya atau meningkatnya kejadian kesakitan atau kematian yang bermakna secara epidemiologis pada suatu daerah dalam kurun waktu tertentu , ditetapkan oleh pemerintah ) Kejadian Ada – 1 Tidak ada – 2 Jika ada KLB atau wabah , ( k ol o m ( 2 ) berkode 1 ) ( 1 ) ( 2 ) ( 3 ) a . Muntaber / d iare b . Demam b erdarah c . Campak d . Malaria e . Flu b urung / SARS f . Hepatitis E g . Difteri h . Corona / COVID - 19 i . Lainnya ……………………………………………………………………………… ( tuliskan , misalnya : c hikungunya , leptospirosis , kolera , dll .) J . Kerawanan Pangan *) Jumlah penderita Jumlah penderita yang meninggal ( 4 ) Kejadian luar biasa ( KLB ) atau wabah penyakit s e lama s"
+    },
+    "R710": {
+      "soal": "710",
+      "teks": "710 orang surat"
+    },
+    "R802": {
+      "soal": "802",
+      "teks": "802 *) Tidak termasuk KLB 11 f . Pura g . Wihara h . Kelenteng i . Balai Basarah j . Lainnya , ……………… .. a . Masjid b . Surau / Langgar / Mus a la c . Gereja Kristen d . Gereja Katolik e . Kapel J enis tempat ibadah Jumlah ( 1 ) ( 2 ) J enis tempat ibadah Jumlah ( 1 ) ( 2 ) ( tuliskan , misalnya : Pamunjungan , dll .) 8 03 Jumlah tempat ibadah di desa / kelurahan :"
+    }
+  }
 }
