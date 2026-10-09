@@ -167,7 +167,7 @@ def generate_readme(curated, master):
 
 
 def generate_basket_txt(selections):
-    """TXT keranjang: satu kolom per master (Survei Periode), kode rata spasi.
+    """TXT keranjang: per master satu blok — baris nama, lalu kode menyamping.
 
     selections: [{code, survey, period}] (nama lengkap). Return str.
     """
@@ -179,18 +179,12 @@ def generate_basket_txt(selections):
             order.append(key)
         if s.get("code") and s["code"] not in groups[key]:
             groups[key].append(s["code"])
-    if not order:
-        return ""
-    headers = [f"{sv} {pr}".strip() for sv, pr in order]
-    cols = []
-    for (sv, pr), h in zip(order, headers):
-        w = max([len(h)] + [len(c) for c in groups[(sv, pr)]])
-        cols.append([h] + [c.ljust(w) for c in groups[(sv, pr)]])
-    n = max(len(c) for c in cols)
     lines = []
-    for i in range(n):
-        lines.append("   ".join(c[i] if i < len(c) else " " * len(c[0]) for c in cols).rstrip())
-    return "\n".join(lines).rstrip() + "\n"
+    for sv, pr in order:
+        head = f"{sv} {pr}".strip()
+        lines.append(f"{head}:" if not head.endswith(":") else head)
+        lines.append(" ".join(groups[(sv, pr)]))
+    return "\n".join(lines).rstrip() + "\n" if lines else ""
 
 
 def generate_do(curated, master):

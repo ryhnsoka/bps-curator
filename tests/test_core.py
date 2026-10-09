@@ -87,14 +87,13 @@ def test_availability_filters_keep():
 def test_basket_txt_side_by_side():
     from bps_curator import generate_basket_txt
     sel = [
-        {"code": "AB", "survey": "S1", "period": "2024"},
-        {"code": "AC", "survey": "S1", "period": "2024"},
-        {"code": "AD", "survey": "S2", "period": "2023"},
+        {"code": "AB", "survey": "Susenas", "period": ""},
+        {"code": "BC", "survey": "Susenas", "period": ""},
+        {"code": "CD", "survey": "Susenas", "period": ""},
+        {"code": "BAA", "survey": "Sakernas", "period": ""},
+        {"code": "BAC", "survey": "Sakernas", "period": ""},
+        {"code": "BAB", "survey": "Sakernas", "period": ""},
     ]
     txt = generate_basket_txt(sel)
-    lines = txt.rstrip("\n").split("\n")
-    assert len(lines) == 3
-    assert lines[0] == "S1 2024   S2 2023"
-    assert lines[1] == "AB        AD"
-    assert lines[2] == "AC"
+    assert txt == "Susenas:\nAB BC CD\nSakernas:\nBAA BAC BAB\n"
     assert generate_basket_txt([]) == ""

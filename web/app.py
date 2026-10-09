@@ -196,8 +196,6 @@ if menu == "Katalog":
                 txt = generate_basket_txt(
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
                      for v in tapped])
-                st.markdown("#### Preview TXT (menyamping)")
-                st.code(txt, language="text")
                 st.download_button("Unduh TXT", txt, file_name="pilihan.txt")
     st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
