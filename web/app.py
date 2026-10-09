@@ -183,6 +183,16 @@ if menu == "Katalog":
         rows = [r for r, c in zip(rows_all, catalog)
                 if ql in f"{r['Survei']} {r['Periode']} {c['survey']} {c['period']}".lower()
                 or (r["Survei"], r["Periode"]) in hit]
+        for c in catalog:
+            if ql in f"{survey_name(c['survey'])} {period_name(c['period'])} {c['survey']} {c['period']}".lower():
+                seen = {(v["Variabel"], v["Survei"], v["Periode"]) for v in var_hits}
+                m_all = load_master_vars(c["file"])
+                for v in m_all["variables"]:
+                    key = (v["code"], survey_name(c["survey"]), period_name(c["period"]))
+                    if key not in seen and len(var_hits) < 500:
+                        seen.add(key)
+                        var_hits.append({"Variabel": v["code"], "Label": v["label"],
+                                         "Survei": key[1], "Periode": key[2]})
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
         if var_hits:

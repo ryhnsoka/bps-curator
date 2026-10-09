@@ -15,6 +15,11 @@ def test_ui_flow():
     frames = [df.value for df in at.dataframe]
     assert any(((fr["Variabel"] == "K10") & (fr["Label"] == "K10 UMUR")).any()
                for fr in frames if "Variabel" in list(fr.columns)), "tabel variabel cocok"
+    # cari nama survei -> semua variabel master cocok tampil
+    at.text_input[0].set_value("komuter banjarbakula").run()
+    frames = [df.value for df in at.dataframe]
+    assert any(((fr["Variabel"] == "B6R617") & (fr["Survei"] == "Survei Komuter")).any()
+               for fr in frames if "Variabel" in list(fr.columns)), "semua variabel master"
     # Tanpa tombol keranjang (ketuk baris diuji di browser); unduh langsung dari ketukan
     at.run()
     assert not at.exception, at.exception
