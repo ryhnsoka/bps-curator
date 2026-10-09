@@ -5,6 +5,7 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
+import html
 import json
 import re
 import sqlite3
@@ -19,6 +20,7 @@ from bps_curator.definitions import (load_definitions, definitions_for,
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
+MAX_DEF_BOXES = 50
 
 GOLD, GOLD_DARK, INK, MUTED, LINE, PANEL = "#B8860B", "#8F6A08", "#111827", "#6B7280", "#E5E7EB", "#F4F5F7"
 
@@ -64,15 +66,21 @@ CSS = f"""
   font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
   color: {INK}; word-spacing: .15rem; line-height: 1.7;
 }}
-details[data-testid="stExpander"] {{
-  border: 1px solid {LINE}; border-radius: 12px; background: #fff;
-  margin-bottom: .4rem;
+.defbox {{
+  border: 1px solid #E8D9A8; border-left: 5px solid {GOLD};
+  border-radius: 12px; background: #FEFDF8;
+  padding: .8rem 1rem; margin-top: .6rem;
 }}
-details[data-testid="stExpander"] summary {{
-  font-weight: 600; color: {INK};
-  font-family: ui-monospace, Consolas, monospace; font-size: .88rem;
+.defbox .defhdr {{ font-weight: 700; color: {INK}; font-size: .95rem; }}
+.defbox .defhdr .code {{
+  font-family: ui-monospace, Consolas, monospace; color: {GOLD_DARK};
 }}
-details[data-testid="stExpander"] summary p {{ font-family: inherit; }}
+.defbox .defsrc {{ color: {MUTED}; font-size: .78rem; margin: .25rem 0 .5rem; }}
+.defbox .deftext {{
+  color: {INK}; font-size: .9rem; line-height: 1.65;
+  white-space: pre-wrap;
+  border-top: 1px dashed {LINE}; padding-top: .5rem;
+}}
 html, body, [class*="st-"] {{ color: {INK}; }}
 label, .stMarkdown p, .stCaption {{ color: {INK} !important; }}
 div[data-testid="stMetricValue"] {{ color: {INK} !important; }}
@@ -210,19 +218,12 @@ if menu == "Katalog":
                    unsafe_allow_html=True)
         if var_hits:
             defs_all = load_definitions(OUT_DIR / "definitions")
-            marked = [i for i, k in enumerate(var_keys)
-                      if has_definition(defs_all, k[0], k[1], k[2])]
-            mark_set = set(marked)
-            table = [dict(v, Definisi="📖" if i in mark_set else "–")
-                     for i, v in enumerate(var_hits)]
             st.write("**Variabel cocok (nama + label) — pilih lalu unduh:**")
-            st.caption("Tanda 📖 = punya definisi lanjutan (lihat tombol di bawah tabel). "
-                       "Klik kotak di ujung kiri baris untuk memilih "
+            st.caption("Klik kotak di ujung kiri baris untuk memilih "
                        "(klik isi sel hanya menyorot teks untuk disalin). "
                        "Atau pilih lewat daftar — hasilnya sama.")
-            st.dataframe(table, use_container_width=True, hide_index=True,
-                         column_config={"Label": st.column_config.TextColumn(width="large"),
-                                        "Definisi": st.column_config.TextColumn(width="small")},
+            st.dataframe(var_hits, use_container_width=True, hide_index=True,
+                         column_config={"Label": st.column_config.TextColumn(width="large")},
                          selection_mode="multi-row", on_select="rerun", key="varhits")
             _vs = st.session_state.get("varhits")
             _sel = getattr(_vs, "selection", None) if _vs is not None else None
@@ -247,18 +248,27 @@ if menu == "Katalog":
                     [{"code": v["Variabel"], "survey": v["Survei"], "period": v["Periode"]}
                      for v in tapped])
                 st.download_button("Unduh TXT", txt, file_name="pilihan.txt")
+            marked = [i for i, k in enumerate(var_keys)
+                      if has_definition(defs_all, k[0], k[1], k[2])]
             if marked:
-                st.caption(f"{len(marked)} dari {len(var_hits)} variabel bertanda 📖.")
-                _dopts = [f"{var_hits[i]['Variabel']} — {var_hits[i]['Label']} "
-                          f"| {var_hits[i]['Survei']} {var_hits[i]['Periode']}"
-                          for i in marked]
-                _dmap = {o: i for o, i in zip(_dopts, marked)}
-                dop = st.selectbox("Lihat definisi lanjutan", _dopts, key="lihatdef")
-                if dop in _dmap:
-                    sid, per, cd = var_keys[_dmap[dop]]
-                    dd = definitions_for(defs_all, sid, per).get(cd, {})
-                    st.caption(f"Sumber: {dd.get('source', '')}")
-                    st.write(dd.get("text", ""))
+                shown = marked[:MAX_DEF_BOXES]
+                st.markdown("#### Definisi variabel yang cocok")
+                st.caption(f"Menampilkan {len(shown)} definisi "
+                           f"(dari {len(var_hits)} variabel cocok).")
+                for i in shown:
+                    v = var_hits[i]
+                    dd = definitions_for(defs_all, *var_keys[i][:2]).get(var_keys[i][2], {})
+                    st.markdown(
+                        f"<div class='defbox'><div class='defhdr'>"
+                        f"<span class='code'>{html.escape(v['Variabel'])}</span> — "
+                        f"{html.escape(v['Label'])}</div>"
+                        f"<div class='defsrc'>Sumber: {html.escape(dd.get('source', ''))} "
+                        f"· {html.escape(v['Survei'])} {html.escape(v['Periode'])}</div>"
+                        f"<div class='deftext'>{html.escape(dd.get('text', ''))}</div></div>",
+                        unsafe_allow_html=True)
+                if len(marked) > MAX_DEF_BOXES:
+                    st.caption(f"{len(marked) - MAX_DEF_BOXES} definisi lain tidak "
+                               f"ditampilkan — persempit pencarian.")
     st.dataframe(rows, hide_index=True,
                  column_config={"Survei": st.column_config.TextColumn(width="large"),
                                 "Periode": st.column_config.TextColumn(width="large"),
@@ -329,18 +339,12 @@ else:
         if unav_req:
             st.warning(f"Tidak tersedia di file data: {', '.join(unav_req)}")
         unav_set = set(c.get("unavailable", []))
-        # Tanda 📖 langsung di baris hasil; isi definisi dilihat di Katalog.
-        bucket = definitions_for(load_definitions(OUT_DIR / "definitions"),
-                                 m.get("survey_id", ""), m.get("period", ""))
-        found_rows = [{"Kode": v["code"], "Label": v["label"],
-                       "Definisi": "📖" if v["code"] in bucket else "–"}
+        found_rows = [{"Kode": v["code"], "Label": v["label"]}
                       for v in sorted(c["found"], key=lambda x: x["code"])
                       if v["code"] not in unav_set]
         st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("#### Pemetaan Variabel Valid")
-        st.caption("Tanda 📖 = variabel punya definisi lanjutan (lihat di Katalog).")
-        st.dataframe(found_rows, use_container_width=True, hide_index=True,
-                     column_config={"Definisi": st.column_config.TextColumn(width="small")})
+        st.dataframe(found_rows, use_container_width=True, hide_index=True)
         st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("#### Detail Partisi")
         for p in kept_partitions(c, m):
