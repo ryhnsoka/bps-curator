@@ -3,7 +3,7 @@
   "drive_id": "1Oj4G82PPYTvwfODLPULgnoS7-aR9uIgK",
   "survey_id": "PODES",
   "period": "2021 Desa",
-  "metode": "nomor soal mandiri -> R+nomor",
+  "metode": "nomor soal mandiri -> R+nomor (ekspansi prefiks)",
   "mapped": {
     "R101": {
       "soal": "101",
@@ -13,17 +13,1337 @@
       "soal": "102",
       "teks": "102 Provinsi Status Daerah Kabupaten/Kota *) Kecamatan 103 REPUBLIK INDONESIA BADAN PUSAT STATISTIK PENDATAAN POTENSI DESA/KELURAHAN 2021 a. Alamat lengkap b. Nomor telepon c. Alamat e-mail RAHASIA 104 Desa/Kelurahan *) Lokasi pelayanan pemerintah desa/kelurahan:108 II. KETERANGAN PETUGAS DAN NARASUMBER Kode Pos :"
     },
+    "R107A": {
+      "soal": "107",
+      "teks": "107 106 a. SK pembentukan/pengesahan desa/kelurahan: Permendagri – 1 Perda Provinsi – 2 Perda Kabupaten – 3 b. Jika SK Permendagri (R106a kode 1), kode desa -- SK Gubernur/Bupati – 4 Lainnya……………………………………………………. – 5 (tuliskan) PODES2021– DESA Disimpan di BPS Kabupaten/Kota ................................, ......... 2021 Mengetahui Kepala Desa/Lurah*) _______________________ Nama dan Stempel *) Coret yang tidak sesuai DAFTAR INI DIISI OLEH PETUGAS BERDASARKAN HASIL PENCACAHAN/ WAWANCARA DENGAN NARASUMBER TERKAIT YANG BERWENANG DAN RELEVAN, SERTA PENELUSURAN DOKUMEN DESA/KELURAHAN 1 a. Kegiatan pemerintahan desa/kelurahan utamanya dilaksanakan di: Kantor kepala desa/lurah – 1 Bukan kantor kepala desa/lu rah – 2 b. Koordinat lokasi kegiatan pemerintahan desa/kelurahan: 1. Koordinat: Garis Li"
+    },
+    "R107B": {
+      "soal": "107",
+      "teks": "107 106 a. SK pembentukan/pengesahan desa/kelurahan: Permendagri – 1 Perda Provinsi – 2 Perda Kabupaten – 3 b. Jika SK Permendagri (R106a kode 1), kode desa -- SK Gubernur/Bupati – 4 Lainnya……………………………………………………. – 5 (tuliskan) PODES2021– DESA Disimpan di BPS Kabupaten/Kota ................................, ......... 2021 Mengetahui Kepala Desa/Lurah*) _______________________ Nama dan Stempel *) Coret yang tidak sesuai DAFTAR INI DIISI OLEH PETUGAS BERDASARKAN HASIL PENCACAHAN/ WAWANCARA DENGAN NARASUMBER TERKAIT YANG BERWENANG DAN RELEVAN, SERTA PENELUSURAN DOKUMEN DESA/KELURAHAN 1 a. Kegiatan pemerintahan desa/kelurahan utamanya dilaksanakan di: Kantor kepala desa/lurah – 1 Bukan kantor kepala desa/lu rah – 2 b. Koordinat lokasi kegiatan pemerintahan desa/kelurahan: 1. Koordinat: Garis Li"
+    },
+    "R107C": {
+      "soal": "107",
+      "teks": "107 106 a. SK pembentukan/pengesahan desa/kelurahan: Permendagri – 1 Perda Provinsi – 2 Perda Kabupaten – 3 b. Jika SK Permendagri (R106a kode 1), kode desa -- SK Gubernur/Bupati – 4 Lainnya……………………………………………………. – 5 (tuliskan) PODES2021– DESA Disimpan di BPS Kabupaten/Kota ................................, ......... 2021 Mengetahui Kepala Desa/Lurah*) _______________________ Nama dan Stempel *) Coret yang tidak sesuai DAFTAR INI DIISI OLEH PETUGAS BERDASARKAN HASIL PENCACAHAN/ WAWANCARA DENGAN NARASUMBER TERKAIT YANG BERWENANG DAN RELEVAN, SERTA PENELUSURAN DOKUMEN DESA/KELURAHAN 1 a. Kegiatan pemerintahan desa/kelurahan utamanya dilaksanakan di: Kantor kepala desa/lurah – 1 Bukan kantor kepala desa/lu rah – 2 b. Koordinat lokasi kegiatan pemerintahan desa/kelurahan: 1. Koordinat: Garis Li"
+    },
+    "R303A": {
+      "soal": "303",
+      "teks": "303"
+    },
+    "R303B": {
+      "soal": "303",
+      "teks": "303"
+    },
+    "R303C": {
+      "soal": "303",
+      "teks": "303"
+    },
+    "R305A": {
+      "soal": "305",
+      "teks": "305"
+    },
+    "R305B": {
+      "soal": "305",
+      "teks": "305"
+    },
+    "R306A": {
+      "soal": "306",
+      "teks": "306 a. Keberadaan Satuan Lingkungan Setempat (SLS) di bawa h desa/kelurahan: Ada – 1 Tidak ada – 2 R304 b. Banyaknya jenjang SLS di bawah desa/kelurahan: c. Banyaknya SLS terkecil di desa/kelurahan: 302 Peta desa/kelurahan yang ditetapkan dalam Peraturan Bupati/Walikota atau Gubernur: Ada – 1 Tidak ada – 2"
+    },
+    "R306B": {
+      "soal": "306",
+      "teks": "306 a. Keberadaan Satuan Lingkungan Setempat (SLS) di bawa h desa/kelurahan: Ada – 1 Tidak ada – 2 R304 b. Banyaknya jenjang SLS di bawah desa/kelurahan: c. Banyaknya SLS terkecil di desa/kelurahan: 302 Peta desa/kelurahan yang ditetapkan dalam Peraturan Bupati/Walikota atau Gubernur: Ada – 1 Tidak ada – 2"
+    },
+    "R306C": {
+      "soal": "306",
+      "teks": "306 a. Keberadaan Satuan Lingkungan Setempat (SLS) di bawa h desa/kelurahan: Ada – 1 Tidak ada – 2 R304 b. Banyaknya jenjang SLS di bawah desa/kelurahan: c. Banyaknya SLS terkecil di desa/kelurahan: 302 Peta desa/kelurahan yang ditetapkan dalam Peraturan Bupati/Walikota atau Gubernur: Ada – 1 Tidak ada – 2"
+    },
+    "R306D": {
+      "soal": "306",
+      "teks": "306 a. Keberadaan Satuan Lingkungan Setempat (SLS) di bawa h desa/kelurahan: Ada – 1 Tidak ada – 2 R304 b. Banyaknya jenjang SLS di bawah desa/kelurahan: c. Banyaknya SLS terkecil di desa/kelurahan: 302 Peta desa/kelurahan yang ditetapkan dalam Peraturan Bupati/Walikota atau Gubernur: Ada – 1 Tidak ada – 2"
+    },
     "R301": {
       "soal": "301",
       "teks": "301 III. KETERANGAN UMUM DESA/KELURAHAN"
+    },
+    "R308A": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B1A": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B1B": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B1C": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B1D": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B1E": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B2": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R308B3": {
+      "soal": "308",
+      "teks": "308 Status pemerintahan: Desa – 1 Kelurahan – 2 UPT/SPT – 3 Nagar i – 4 2 a. Lokasi wilayah desa/kelurahan terhadap kawasan hutan: Di dalam kawasan hutan – 1 Di tepi/sekitar kawasan hutan – 2 Di luar kawasan hutan – 3 R401 b. Fungsi kawasan hutan/hutan : Konservasi – 1 Lindung – 2 Produksi – 4 c. Ketergantungan penduduk terhadap kawasan hutan/hutan: Tinggi – 1 Sedang – 2 Rendah – 3 Tidak tergantung – 4 d. Program Perhutanan Sosial tahun 2020: Ada – 1 Tidak – 2"
+    },
+    "R309A": {
+      "soal": "309",
+      "teks": "309 Luas wilayah desa/kelurahan : …………………. km2 (1 Ha= 0,01 km2 ) 304 , ,"
+    },
+    "R309B": {
+      "soal": "309",
+      "teks": "309 Luas wilayah desa/kelurahan : …………………. km2 (1 Ha= 0,01 km2 ) 304 , ,"
+    },
+    "R309C": {
+      "soal": "309",
+      "teks": "309 Luas wilayah desa/kelurahan : …………………. km2 (1 Ha= 0,01 km2 ) 304 , ,"
+    },
+    "R309D": {
+      "soal": "309",
+      "teks": "309 Luas wilayah desa/kelurahan : …………………. km2 (1 Ha= 0,01 km2 ) 304 , ,"
+    },
+    "R307A": {
+      "soal": "307",
+      "teks": "307 a. Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI (Pekerja Migran Indonesia)/TKI di luar negeri: Ada – 1 Tidak ada – 2 R402c Tidak tahu – 3 R402c b. Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI di luar negeri: 1. Laki– laki orang 2. Perempuan orang c. Keberadaan agen (seseorang/sekelompok orang/perusahaan) pengerahan PMI/TKI ke luar negeri di desa/kelurahan: Ada – 1 Tidak ada – 2 d. Keberadaan Warga Negara Asing (WNA) di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R307B1_LA0": {
+      "soal": "307",
+      "teks": "307 a. Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI (Pekerja Migran Indonesia)/TKI di luar negeri: Ada – 1 Tidak ada – 2 R402c Tidak tahu – 3 R402c b. Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI di luar negeri: 1. Laki– laki orang 2. Perempuan orang c. Keberadaan agen (seseorang/sekelompok orang/perusahaan) pengerahan PMI/TKI ke luar negeri di desa/kelurahan: Ada – 1 Tidak ada – 2 d. Keberadaan Warga Negara Asing (WNA) di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R307B1_LAT": {
+      "soal": "307",
+      "teks": "307 a. Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI (Pekerja Migran Indonesia)/TKI di luar negeri: Ada – 1 Tidak ada – 2 R402c Tidak tahu – 3 R402c b. Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI di luar negeri: 1. Laki– laki orang 2. Perempuan orang c. Keberadaan agen (seseorang/sekelompok orang/perusahaan) pengerahan PMI/TKI ke luar negeri di desa/kelurahan: Ada – 1 Tidak ada – 2 d. Keberadaan Warga Negara Asing (WNA) di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R307B1_LON": {
+      "soal": "307",
+      "teks": "307 a. Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI (Pekerja Migran Indonesia)/TKI di luar negeri: Ada – 1 Tidak ada – 2 R402c Tidak tahu – 3 R402c b. Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI di luar negeri: 1. Laki– laki orang 2. Perempuan orang c. Keberadaan agen (seseorang/sekelompok orang/perusahaan) pengerahan PMI/TKI ke luar negeri di desa/kelurahan: Ada – 1 Tidak ada – 2 d. Keberadaan Warga Negara Asing (WNA) di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R307B2": {
+      "soal": "307",
+      "teks": "307 a. Keberadaan warga desa/kelurahan yang sedang bekerja sebagai PMI (Pekerja Migran Indonesia)/TKI di luar negeri: Ada – 1 Tidak ada – 2 R402c Tidak tahu – 3 R402c b. Jumlah warga desa/kelurahan yang sedang bekerja sebagai PMI/TKI di luar negeri: 1. Laki– laki orang 2. Perempuan orang c. Keberadaan agen (seseorang/sekelompok orang/perusahaan) pengerahan PMI/TKI ke luar negeri di desa/kelurahan: Ada – 1 Tidak ada – 2 d. Keberadaan Warga Negara Asing (WNA) di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R402A": {
+      "soal": "402",
+      "teks": "402 Penduduk dan keluarga pada 1 Januari 2021 : a. Jumlah penduduk laki– laki orang b. Jumlah penduduk perempuan orang c. Jumlah keluarga keluarga d. Jumlah keluarga pertanian (tanaman pangan, hortikultura, perkebunan, kehutanan, peternakan, perikanan ) keluarga"
+    },
+    "R402B1": {
+      "soal": "402",
+      "teks": "402 Penduduk dan keluarga pada 1 Januari 2021 : a. Jumlah penduduk laki– laki orang b. Jumlah penduduk perempuan orang c. Jumlah keluarga keluarga d. Jumlah keluarga pertanian (tanaman pangan, hortikultura, perkebunan, kehutanan, peternakan, perikanan ) keluarga"
+    },
+    "R402B2": {
+      "soal": "402",
+      "teks": "402 Penduduk dan keluarga pada 1 Januari 2021 : a. Jumlah penduduk laki– laki orang b. Jumlah penduduk perempuan orang c. Jumlah keluarga keluarga d. Jumlah keluarga pertanian (tanaman pangan, hortikultura, perkebunan, kehutanan, peternakan, perikanan ) keluarga"
+    },
+    "R402C": {
+      "soal": "402",
+      "teks": "402 Penduduk dan keluarga pada 1 Januari 2021 : a. Jumlah penduduk laki– laki orang b. Jumlah penduduk perempuan orang c. Jumlah keluarga keluarga d. Jumlah keluarga pertanian (tanaman pangan, hortikultura, perkebunan, kehutanan, peternakan, perikanan ) keluarga"
+    },
+    "R402D": {
+      "soal": "402",
+      "teks": "402 Penduduk dan keluarga pada 1 Januari 2021 : a. Jumlah penduduk laki– laki orang b. Jumlah penduduk perempuan orang c. Jumlah keluarga keluarga d. Jumlah keluarga pertanian (tanaman pangan, hortikultura, perkebunan, kehutanan, peternakan, perikanan ) keluarga"
+    },
+    "R403A": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403B": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403C1": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403C2": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403D1K2": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403D1K3": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403D2K2": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R403D2K3": {
+      "soal": "403",
+      "teks": "403 1. Jika R403b berkode “05”, maka jumlah pabrik kelapa sawit (PKS) 2. Jika R403b berkode “12”, maka jumlah pabrik gula (PG) Jenis pabrik Jika tidak ada [kolom (2) terisi 0], Jarak ke pabrik terdekat (Km) (3) Jumlah (2)(1) d. Jika R403b berkode 5 dan atau R403b berkode 12. Jenis pabrik kelapa sawit (PKS) dan pabrik gula (PG) di desa/kelurahan , , 4 V. PERUMAHAN DAN LINGKUNGAN HIDUP 501 a. Jumlah keluarga pengguna listrik: 1. PLN (Perusahaan Listrik Negara) 2. Non–PLN (misalnya: swasta, swadaya, atau perseorangan) b. Jumlah keluarga bukan pengguna listrik: c. Keluarga yang menggunakan lampu tenaga surya: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3"
+    },
+    "R503A1": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A10": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A11": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A2": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A3": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A4": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A5": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A6": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A7": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A8": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503A9": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503B": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R503C": {
+      "soal": "503",
+      "teks": "503 (tuliskan, misalnya: batu bara, arang, dll.) 1. 2. 3. 4. 5. 6. (tuliskan) 4 a. Tempat buang sampah keluarga: 1. Tempat sampah, kemudian diangkut Ya – 1 Tidak – 2 2. Dalam lubang atau dibakar Ya – 3 Tidak – 4 3. Sungai/saluran irigasi/danau/laut Ya – 5 Tidak – 6 4. Drainase (got/selokan) Ya – 7 Tidak – 8 5. Lainnya ……………………………………... Ya – 1 Tidak – 2 b. Tempat buang sampah sebagian besar keluarga (Pilih salah satu kode pada R504a yang dijawab “Ya” ): c. Tempat pembuangan sampah sementara (TPS): Ada, digunakan – 1 Ada, tidak digunakan – 2 Tidak ada – 3 d. Keberadaan bank sampah di desa/kelurahan Ada – 1 Tidak ada – 2"
+    },
+    "R504A1": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504A2": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504A3": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504A4": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504A5": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504B": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504C": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R504D": {
+      "soal": "504",
+      "teks": "504 (tuliskan) 1. 2. 3. 4. 5. keluarga keluarga keluarga a. Bahan bakar untuk memasak yang digunakan oleh kel uarga: 1. Listrik Ya – 1 Tidak – 2 2. Elpiji 5,5 kg /blue gaz Ya – 3 Tidak – 4 3. Elpiji 12 kg Ya – 5 Tidak – 6 4. Elpiji 3 kg Ya – 7 Tidak – 8 5. Gas kota Ya – 1 Tidak – 2 6. Biogas Ya – 3 Tidak – 4 7. Minyak tanah Ya – 5 Tidak – 6 8. Briket Ya – 7 Tidak – 8 9. Arang Ya – 1 Tidak – 2 10. Kayu bakar Ya – 3 Tidak – 4 11. Lainnya ……………………………………... Ya – 5 Tidak – 6 12. Tidak memasak di rumah Ya – 7 Tidak – 8 b. Bahan bakar untuk memasak sebagian besar keluarga: (Pilih salah satu kode pada R503a yang dijawab “Ya” ) c. Jika R503a.10 berkode 3, cara memperoleh kayu bakar oleh sebagian besar keluarga: Pembelian – 1 Pengambilan dari luar kawasan hutan/hu tan – 3 Pengambilan dari kawasan hu"
+    },
+    "R505A": {
+      "soal": "505",
+      "teks": "505 502 a. Penerangan di jalan desa/kelurahan yang menggunakan lampu tenaga surya ; Ada – 1 Tidak ada – 2 b. Penerangan di jalan utama desa/kelurahan: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3 → R503 c. Sumber penerangan di jalan utama desa/kelurahan: Listrik diusahakan oleh pemerintah – 1 Listrik diusa hakan oleh non pemerintah – 2 Non listrik – 3 Tempat/saluran pembuangan limbah cair dari air mandi/cuci sebagian besar keluarga: Lubang resapan – 1 Dalam lubang atau tanah terbuka – 4 Drainase (got/selokan) – 2 Lainnya .................... ..................................... – 5 Sungai/saluran irigasi/danau/laut – 3 (tuliskan)"
+    },
+    "R505B": {
+      "soal": "505",
+      "teks": "505 502 a. Penerangan di jalan desa/kelurahan yang menggunakan lampu tenaga surya ; Ada – 1 Tidak ada – 2 b. Penerangan di jalan utama desa/kelurahan: Ada, sebagian besar – 1 Ada, sebagian kecil – 2 Tidak ada – 3 → R503 c. Sumber penerangan di jalan utama desa/kelurahan: Listrik diusahakan oleh pemerintah – 1 Listrik diusa hakan oleh non pemerintah – 2 Non listrik – 3 Tempat/saluran pembuangan limbah cair dari air mandi/cuci sebagian besar keluarga: Lubang resapan – 1 Dalam lubang atau tanah terbuka – 4 Drainase (got/selokan) – 2 Lainnya .................... ..................................... – 5 Sungai/saluran irigasi/danau/laut – 3 (tuliskan)"
     },
     "R506": {
       "soal": "506",
       "teks": "506 a. Sumber air untuk minum sebagian besar keluarga berasal dari: Air kemasan bermerek – 1 Sumur – 6 Air isi ulang – 2 Mata air – 7 Ledeng dengan meteran (PAM/PDAM) – 3 Sungai/danau/kolam /waduk/situ/embung/bendungan – 8 Ledeng tanpa meteran – 4 Air hujan – 9 Sumur bor atau pompa – 5 Lainnya ..................... .................................... – 10 (tuliskan) a. Wilayah desa/kelurahan dilalui Saluran Udara Tegang an Ekstra Tinggi (SUTET) / Saluran Udara Tegangan Tinggi (SUTT) / Saluran Udara Tegangan Tinggi Arus Searah (SUTTAS): Ya – 1 Tidak – 2 R509 b. Keberadaan permukiman di bawah SUTET/SUTT/SUTTAS: Ada – 1 Tidak ada – 2 R509 c. Jika ada permukiman di bawah SUTET/SUTT/SUTTAS: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (Isian tidak boleh lebih dari i"
     },
+    "R507A": {
+      "soal": "507",
+      "teks": "507"
+    },
+    "R507B": {
+      "soal": "507",
+      "teks": "507"
+    },
+    "R508A": {
+      "soal": "508",
+      "teks": "508 a. Keberadaan permukiman di bantaran sungai: Ada – 1 Tidak ada – 2 R510c b. Jika ada permukiman di bantaran sungai: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga c. 1. Air sungai tercemar limbah: Ya – 1 Tidak – 2 R511 2. Jika air sungai tercemar limbah, sumber limbah berasal dari: a. Pabrik/industri/usaha Ya – 1 Tidak – 2 b. Rumah tangga Ya – 3 Tidak – 4 c. Lainnya Ya – 5 Tidak – 6 3. Sumber limbah berlokasi di: Dalam desa/kelurahan ini – 1 Luar desa/kelurahan ini – 2 Dalam dan luar desa/kelurahan – 3"
+    },
+    "R508B": {
+      "soal": "508",
+      "teks": "508 a. Keberadaan permukiman di bantaran sungai: Ada – 1 Tidak ada – 2 R510c b. Jika ada permukiman di bantaran sungai: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga c. 1. Air sungai tercemar limbah: Ya – 1 Tidak – 2 R511 2. Jika air sungai tercemar limbah, sumber limbah berasal dari: a. Pabrik/industri/usaha Ya – 1 Tidak – 2 b. Rumah tangga Ya – 3 Tidak – 4 c. Lainnya Ya – 5 Tidak – 6 3. Sumber limbah berlokasi di: Dalam desa/kelurahan ini – 1 Luar desa/kelurahan ini – 2 Dalam dan luar desa/kelurahan – 3"
+    },
+    "R508C1": {
+      "soal": "508",
+      "teks": "508 a. Keberadaan permukiman di bantaran sungai: Ada – 1 Tidak ada – 2 R510c b. Jika ada permukiman di bantaran sungai: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga c. 1. Air sungai tercemar limbah: Ya – 1 Tidak – 2 R511 2. Jika air sungai tercemar limbah, sumber limbah berasal dari: a. Pabrik/industri/usaha Ya – 1 Tidak – 2 b. Rumah tangga Ya – 3 Tidak – 4 c. Lainnya Ya – 5 Tidak – 6 3. Sumber limbah berlokasi di: Dalam desa/kelurahan ini – 1 Luar desa/kelurahan ini – 2 Dalam dan luar desa/kelurahan – 3"
+    },
+    "R508C2": {
+      "soal": "508",
+      "teks": "508 a. Keberadaan permukiman di bantaran sungai: Ada – 1 Tidak ada – 2 R510c b. Jika ada permukiman di bantaran sungai: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga c. 1. Air sungai tercemar limbah: Ya – 1 Tidak – 2 R511 2. Jika air sungai tercemar limbah, sumber limbah berasal dari: a. Pabrik/industri/usaha Ya – 1 Tidak – 2 b. Rumah tangga Ya – 3 Tidak – 4 c. Lainnya Ya – 5 Tidak – 6 3. Sumber limbah berlokasi di: Dalam desa/kelurahan ini – 1 Luar desa/kelurahan ini – 2 Dalam dan luar desa/kelurahan – 3"
+    },
+    "R508C3": {
+      "soal": "508",
+      "teks": "508 a. Keberadaan permukiman di bantaran sungai: Ada – 1 Tidak ada – 2 R510c b. Jika ada permukiman di bantaran sungai: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga c. 1. Air sungai tercemar limbah: Ya – 1 Tidak – 2 R511 2. Jika air sungai tercemar limbah, sumber limbah berasal dari: a. Pabrik/industri/usaha Ya – 1 Tidak – 2 b. Rumah tangga Ya – 3 Tidak – 4 c. Lainnya Ya – 5 Tidak – 6 3. Sumber limbah berlokasi di: Dalam desa/kelurahan ini – 1 Luar desa/kelurahan ini – 2 Dalam dan luar desa/kelurahan – 3"
+    },
+    "R509AK2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509AK3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509AK4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509AK5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B10K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B10K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B10K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B1K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B1K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B1K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B1K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B2K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B2K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B2K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B2K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B3K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B3K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B3K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B3K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B4K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B4K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B4K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B4K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B5K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B5K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B5K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B5K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B6K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B6K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B6K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B6K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B7K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B7K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B7K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B8K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B8K3": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B8K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B8K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B9K2": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B9K4": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R509B9K5": {
+      "soal": "509",
+      "teks": "509"
+    },
+    "R510A": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510B1": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510B2": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510B3": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510C1": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510C2A": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510C2B": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510C2C": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R510C3": {
+      "soal": "510",
+      "teks": "510 5 6 511 a. Keberadaan mata air di desa/kelurahan: Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 b. Jumlah embung di desa/kelurahan: buah a. Keberadaan permukiman kumuh (sanitasi lingkung an buruk, bangunan padat dan sebagian besar tidak l ayak huni) di desa/kelurahan: Ada – 1 Tidak ada – 2 R513 b. Jika ada permukiman kumuh: 1. Jumlah lokasi lokasi 2. Jumlah bangunan rumah unit 3. Jumlah keluarga (isian tidak boleh lebih dari isian R401c) keluarga"
+    },
+    "R512A": {
+      "soal": "512",
+      "teks": "512 Pencemaran lingkungan hidup (polusi) di desa/kelurahan selama setahun terakhir: Pencemaran lingkungan hidup (polusi) Kejadian pencemaran lingkungan hidup Ada – 1 Tidak ada – 2 Jika ada kejadian pencemaran lingkungan hidup (kolom (2) berkode 1) Sumber pencemaran lingkungan hidup yang utama Rumah tangga – 1 Pabrik/industri/usaha – 2 Lainnya – 3 Jika jawaban berkode 3 tuliskan sumber pencemarannya Pengaduan warga ke aparat desa/ kelurahan Ada – 1 Tidak ada – 2 (1) (2) (3) (4)"
+    },
+    "R512B1": {
+      "soal": "512",
+      "teks": "512 Pencemaran lingkungan hidup (polusi) di desa/kelurahan selama setahun terakhir: Pencemaran lingkungan hidup (polusi) Kejadian pencemaran lingkungan hidup Ada – 1 Tidak ada – 2 Jika ada kejadian pencemaran lingkungan hidup (kolom (2) berkode 1) Sumber pencemaran lingkungan hidup yang utama Rumah tangga – 1 Pabrik/industri/usaha – 2 Lainnya – 3 Jika jawaban berkode 3 tuliskan sumber pencemarannya Pengaduan warga ke aparat desa/ kelurahan Ada – 1 Tidak ada – 2 (1) (2) (3) (4)"
+    },
+    "R512B2": {
+      "soal": "512",
+      "teks": "512 Pencemaran lingkungan hidup (polusi) di desa/kelurahan selama setahun terakhir: Pencemaran lingkungan hidup (polusi) Kejadian pencemaran lingkungan hidup Ada – 1 Tidak ada – 2 Jika ada kejadian pencemaran lingkungan hidup (kolom (2) berkode 1) Sumber pencemaran lingkungan hidup yang utama Rumah tangga – 1 Pabrik/industri/usaha – 2 Lainnya – 3 Jika jawaban berkode 3 tuliskan sumber pencemarannya Pengaduan warga ke aparat desa/ kelurahan Ada – 1 Tidak ada – 2 (1) (2) (3) (4)"
+    },
+    "R512B3": {
+      "soal": "512",
+      "teks": "512 Pencemaran lingkungan hidup (polusi) di desa/kelurahan selama setahun terakhir: Pencemaran lingkungan hidup (polusi) Kejadian pencemaran lingkungan hidup Ada – 1 Tidak ada – 2 Jika ada kejadian pencemaran lingkungan hidup (kolom (2) berkode 1) Sumber pencemaran lingkungan hidup yang utama Rumah tangga – 1 Pabrik/industri/usaha – 2 Lainnya – 3 Jika jawaban berkode 3 tuliskan sumber pencemarannya Pengaduan warga ke aparat desa/ kelurahan Ada – 1 Tidak ada – 2 (1) (2) (3) (4)"
+    },
+    "R513AK2": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513AK3": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513AK4": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513BK2": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513BK3": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513BK4": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513CK2": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513CK3": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R513CK4": {
+      "soal": "513",
+      "teks": "513 a. Air b. Tanah c. Udara , .......................... ....................................... , .......................... ....................................... , .......................... ......................................."
+    },
+    "R514A": {
+      "soal": "514",
+      "teks": "514 Jenis Kegiatan a. Penanaman/pemeliharaan pepohonan di lahan kritis, penanaman mangrove, dan sejenisnya oleh masyarakat desa/kelurahan b. Pengolahan/daur ulang sampah/limbah ( reuse, recycle ) oleh masyarakat desa/kelurahan Ada, sebagian warga terlibat – 1 Ada, warga tidak terlibat – 2 Tidak ada kegiatan – 3516 Keberadaan lokasi penggalian Golongan C (misalnya: ba tu kali, pasir, kapur, kaolin, pasir kuarsa, tanah liat, dll.) di desa/kelurahan: Ada – 1 Tidak ada – 2 515 Kebiasaan masyarakat membakar ladang/kebun di desa/ kelurahan untuk proses usaha pertanian: Ada – 1 Tidak ada – 2 (1) (2) Kegiatan pelestarian lingkungan dan pengolahan sampah selama 3 tahun terakhir VI. BENCANA ALAM DAN MITIGASI BENCANA ALAM Kejadian/bencana alam (mengganggu kehidupan dan menyebabkan kerugian bagi masya"
+    },
+    "R514B": {
+      "soal": "514",
+      "teks": "514 Jenis Kegiatan a. Penanaman/pemeliharaan pepohonan di lahan kritis, penanaman mangrove, dan sejenisnya oleh masyarakat desa/kelurahan b. Pengolahan/daur ulang sampah/limbah ( reuse, recycle ) oleh masyarakat desa/kelurahan Ada, sebagian warga terlibat – 1 Ada, warga tidak terlibat – 2 Tidak ada kegiatan – 3516 Keberadaan lokasi penggalian Golongan C (misalnya: ba tu kali, pasir, kapur, kaolin, pasir kuarsa, tanah liat, dll.) di desa/kelurahan: Ada – 1 Tidak ada – 2 515 Kebiasaan masyarakat membakar ladang/kebun di desa/ kelurahan untuk proses usaha pertanian: Ada – 1 Tidak ada – 2 (1) (2) Kegiatan pelestarian lingkungan dan pengolahan sampah selama 3 tahun terakhir VI. BENCANA ALAM DAN MITIGASI BENCANA ALAM Kejadian/bencana alam (mengganggu kehidupan dan menyebabkan kerugian bagi masya"
+    },
+    "R601AK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601AK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601AK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601AK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601AK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601BK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601BK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601BK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601BK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601BK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601CK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601CK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601CK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601CK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601CK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601DK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601DK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601DK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601DK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601DK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601EK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601EK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601EK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601EK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601EK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601FK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601FK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601FK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601FK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601FK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601GK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601GK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601GK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601GK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601GK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601HK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601HK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601HK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601HK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601HK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601IK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601IK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601IK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601IK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601IK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601JK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601JK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601JK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601JK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601JK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601KK2": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601KK3": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601KK4": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601KK5": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R601KK6": {
+      "soal": "601",
+      "teks": "601 Korban jiwa Banyak kejadian (3) Tahun 2020 Korban jiwa (6) Banyak kejadian (5) Tahun 2021 (Jan-Mei) (4) 6 Jika R.601 kol (3) tidak sama dengan “0” semua, berapa luas areal pertanian yang terdampak/rusak pada tahun 2020 ….....Ha 603 , Jika R.601 kol (3) tidak sama dengan ‘0’ semua, berapa jumlah penduduk yang terdampak bencana tahun 2020 …….. orang 602 Fasilitas/upaya antisipasi/mitigasi bencana alam yang ada di desa/kelurahan: a. Sistem peringatan dini bencana alam Ada – 1 Tidak ada – 2 b. Sistem peringatan dini khusus tsunami Bukan wilayah potensi tsunami – 0 Ada – 3 Tidak ad a – 4 c. Perlengkapan keselamatan (perahu karet, tenda, mas ker, dll.) Ada – 5 Tidak ada – 6 d. Rambu–rambu dan jalur evakuasi bencana Ada – 7 Tidak ada – 8 e. Pembuatan, perawatan, atau normalisasi: sungai, ka n"
+    },
+    "R604A": {
+      "soal": "604",
+      "teks": "604 Jenis/jenjang pendidikan Jumlah lembaga pendidikan Negeri Swasta (1) (2) (3) a. Pos Pendidikan Anak Usia Dini (Pos PAUD) b. TK c. RA/BA d. SD e. MI f. SMP g. MTs h. SMA i. MA j. SMK k. Akademi/Perguruan Tinggi l. SDLB m. SMPLB n. SMALB o. Pondok Pesantren p. Madrasah Diniyah q. Seminari/sejenisnya Jika tidak ada lembaga pendidikan (kolom (2) dan kolom (3) berkode 0 ), untuk mencapai sarana pendidikan terdekat (4) Jarak (km) Biaya transportasi < Rp 500 ribu Ya 1 Tidak 2 (5) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa/kelurahan 701 702 a. Kegiatan pendidikan keaksaraan dasar/lanjutan sel ama 1 tahun terakhir : Ada – 1 Tidak ada – 2 b. Kegiatan pendidikan Paket A/B/C selama setahun terakhir: Ada – 3 Tidak ada – 4 c. Taman Bacaan Masyarakat (TBM) : Ada – 5 Tidak ada – 6"
+    },
+    "R604B": {
+      "soal": "604",
+      "teks": "604 Jenis/jenjang pendidikan Jumlah lembaga pendidikan Negeri Swasta (1) (2) (3) a. Pos Pendidikan Anak Usia Dini (Pos PAUD) b. TK c. RA/BA d. SD e. MI f. SMP g. MTs h. SMA i. MA j. SMK k. Akademi/Perguruan Tinggi l. SDLB m. SMPLB n. SMALB o. Pondok Pesantren p. Madrasah Diniyah q. Seminari/sejenisnya Jika tidak ada lembaga pendidikan (kolom (2) dan kolom (3) berkode 0 ), untuk mencapai sarana pendidikan terdekat (4) Jarak (km) Biaya transportasi < Rp 500 ribu Ya 1 Tidak 2 (5) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa/kelurahan 701 702 a. Kegiatan pendidikan keaksaraan dasar/lanjutan sel ama 1 tahun terakhir : Ada – 1 Tidak ada – 2 b. Kegiatan pendidikan Paket A/B/C selama setahun terakhir: Ada – 3 Tidak ada – 4 c. Taman Bacaan Masyarakat (TBM) : Ada – 5 Tidak ada – 6"
+    },
+    "R604C": {
+      "soal": "604",
+      "teks": "604 Jenis/jenjang pendidikan Jumlah lembaga pendidikan Negeri Swasta (1) (2) (3) a. Pos Pendidikan Anak Usia Dini (Pos PAUD) b. TK c. RA/BA d. SD e. MI f. SMP g. MTs h. SMA i. MA j. SMK k. Akademi/Perguruan Tinggi l. SDLB m. SMPLB n. SMALB o. Pondok Pesantren p. Madrasah Diniyah q. Seminari/sejenisnya Jika tidak ada lembaga pendidikan (kolom (2) dan kolom (3) berkode 0 ), untuk mencapai sarana pendidikan terdekat (4) Jarak (km) Biaya transportasi < Rp 500 ribu Ya 1 Tidak 2 (5) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa/kelurahan 701 702 a. Kegiatan pendidikan keaksaraan dasar/lanjutan sel ama 1 tahun terakhir : Ada – 1 Tidak ada – 2 b. Kegiatan pendidikan Paket A/B/C selama setahun terakhir: Ada – 3 Tidak ada – 4 c. Taman Bacaan Masyarakat (TBM) : Ada – 5 Tidak ada – 6"
+    },
+    "R604D": {
+      "soal": "604",
+      "teks": "604 Jenis/jenjang pendidikan Jumlah lembaga pendidikan Negeri Swasta (1) (2) (3) a. Pos Pendidikan Anak Usia Dini (Pos PAUD) b. TK c. RA/BA d. SD e. MI f. SMP g. MTs h. SMA i. MA j. SMK k. Akademi/Perguruan Tinggi l. SDLB m. SMPLB n. SMALB o. Pondok Pesantren p. Madrasah Diniyah q. Seminari/sejenisnya Jika tidak ada lembaga pendidikan (kolom (2) dan kolom (3) berkode 0 ), untuk mencapai sarana pendidikan terdekat (4) Jarak (km) Biaya transportasi < Rp 500 ribu Ya 1 Tidak 2 (5) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa/kelurahan 701 702 a. Kegiatan pendidikan keaksaraan dasar/lanjutan sel ama 1 tahun terakhir : Ada – 1 Tidak ada – 2 b. Kegiatan pendidikan Paket A/B/C selama setahun terakhir: Ada – 3 Tidak ada – 4 c. Taman Bacaan Masyarakat (TBM) : Ada – 5 Tidak ada – 6"
+    },
+    "R604E": {
+      "soal": "604",
+      "teks": "604 Jenis/jenjang pendidikan Jumlah lembaga pendidikan Negeri Swasta (1) (2) (3) a. Pos Pendidikan Anak Usia Dini (Pos PAUD) b. TK c. RA/BA d. SD e. MI f. SMP g. MTs h. SMA i. MA j. SMK k. Akademi/Perguruan Tinggi l. SDLB m. SMPLB n. SMALB o. Pondok Pesantren p. Madrasah Diniyah q. Seminari/sejenisnya Jika tidak ada lembaga pendidikan (kolom (2) dan kolom (3) berkode 0 ), untuk mencapai sarana pendidikan terdekat (4) Jarak (km) Biaya transportasi < Rp 500 ribu Ya 1 Tidak 2 (5) Keberadaan sarana pendidikan menurut jenjang pendidikan di desa/kelurahan 701 702 a. Kegiatan pendidikan keaksaraan dasar/lanjutan sel ama 1 tahun terakhir : Ada – 1 Tidak ada – 2 b. Kegiatan pendidikan Paket A/B/C selama setahun terakhir: Ada – 3 Tidak ada – 4 c. Taman Bacaan Masyarakat (TBM) : Ada – 5 Tidak ada – 6"
+    },
+    "R704AK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704AK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704AK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704AK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704AK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704AK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704BK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704CK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704DK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704EK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704FK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704GK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704HK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704IK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704JK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704KK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704LK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK2": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK3": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK4": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK5": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK6": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R704MK7": {
+      "soal": "704",
+      "teks": "704 Jumlah sarana kesehatan (1) a. Rumah sakit b. Rumah sakit bersalin c. Puskesmas dengan rawat inap d. Puskesmas tanpa rawat inap e. Puskesmas pembantu f. Poliklinik/balai pengobatan g. Tempat praktik dokter h. Rumah bersalin i. Tempat praktik bidan j. Poskesdes (pos kesehatan desa) k. Polindes (pondok bersalin desa) l. Apotek m. Toko khusus obat/jamu Sarana kesehatan (2) , , , , , , , , , , , , Keberadaan sarana kesehatan di desa/kelurahan 705 Jumlah Upaya Kesehatan Bersumberdaya Masyarakat (UKBM) selama setahun terakhir : a. Jumlah posyandu aktif: b. Posyandu dengan kegiatan/pelayanan setiap sebulan sekali: c. Posyandu dengan kegiatan/pelayanan setiap 2 bulan sekali atau lebih: d. Pos Pembinaan Terpadu (Posbindu): unit unit unit 706 Tenaga kesehatan yang tinggal/menetap di desa/kelurah"
+    },
+    "R709AK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709AK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709AK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709BK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709BK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709BK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709CK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709CK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709CK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709DK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709DK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709DK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709EK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709EK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709EK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709FK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709FK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709FK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709GK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709GK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709GK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709HK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709HK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709HK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709IK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709IK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709IK4": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709JK2": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709JK3": {
+      "soal": "709",
+      "teks": "709"
+    },
+    "R709JK4": {
+      "soal": "709",
+      "teks": "709"
+    },
     "R710": {
       "soal": "710",
       "teks": "710 Jenis KLB/wabah penyakit (KLB: timbulnya atau meningkatnya kejadian kesakitan atau kematian yang bermakna secara epidemiologis pada suatu daerah dalam kurun waktu tertentu, ditetapkan oleh pemerintah) Kejadian Ada – 1 Tidak ada – 2 Jika ada KLB atau wabah, (kolom (2) berkode 1) (1) (2) (3) a. Muntaber/diare b. Demam berdarah c. Campak d. Malaria e. Flu burung/SARS f. Hepatitis E g. Difteri h. Corona/COVID-19 i. Lainnya ……………………………………………………………………………… (tuliskan, misalnya: chikungunya, leptospirosis, kolera, dll.) J. Kerawanan Pangan *) Jumlah penderita Jumlah penderita yang meninggal (4) Jumlah surat miskin/SKTM yang dikeluarkan desa/kelurahan selama tahun 2020:711 Kejadian luar biasa (KLB) atau wabah penyakit selama setahun terakhir orang surat *) Tidak termasuk KLB 9"
+    },
+    "R801_1": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_2": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_3": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_4": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_5": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_6": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R801_7": {
+      "soal": "801",
+      "teks": "801 Islam Ada – 1 Tidak ada – 2 Kristen Ada – 3 Tidak ada – 4 Katolik Ada – 5 Tidak ada – 6 Buddha Ada – 7 Tidak ada – 8 Hindu Ada – 1 Tidak ada – 2 Konghucu Ada – 3 Tidak ada – 4 Aliran penghayat kepercayaan…………………………… Ada – 5 Tidak ada – 6 Keberadaan warga yang menganut agama/kepercayaan di desa/kelurahan: (2) (3) Kode 1 2 3 4 5 6 7 Nama agama/kepercayaan (1) Keberadaan (tuliskan) VIII. SOSIAL BUDAYA Agama/kepercayaan yang dianut oleh sebagian besar warga di desa/kelurahan: (pilih salah satu kode pada R801 kolom (1) yang isian kolom (3) nya berkode 1, 3, 5, atau 7)802 10 f. Pura g. Wihara h. Kelenteng i. Balai Basarah j. Lainnya, ……………….. a. Jumlah tuna netra (buta) b. Jumlah tuna rungu (tuli) c. Jumlah tuna wicara (bisu) d. Jumlah tuna rungu–wicara (tuli–bisu) e. Jumlah tuna daksa (disa"
+    },
+    "R803A": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803B": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803C": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803D": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803E": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803F": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803G": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803H": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803I": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R803J": {
+      "soal": "803",
+      "teks": "803 Jumlah tempat ibadah di desa/kelurahan: 807 a. Ruang publik terbuka yang peruntukan utamanya sebagai tempat bagi warga desa/kelurahan untuk bersantai/ bermain tanpa perlu membayar (misalnya: lapangan terbuka/alun–alun, taman, dll.): Ada, dikelola – 1 Ada, tidak dikelola – 2 Tidak ada – 3 R808 b. Jika ada ruang publik terbuka, maka keberadaan : 1. Ruang Terbuka Hijau (RTH) Ada – 1 Tidak ada – 2 2. Ruang Terbuka Non Hijau (RTNH) Ada – 1 Tidak ada – 2 a. Kebiasaan dan keterlibatan warga dalam kegiatan got ong royong di desa/kelurahan untuk kepentingan umum/komunitas (seperti: kerja bakti, siskamling, pesta rakyat, dll) selama 1 tahun terakhir : Ada, sebagian besar warga terlibat – 1 Ada, sebagi an kecil warga terlibat – 2 Tidak ada kebiasaan – 3 b. Kebiasaan dan keterlibatan warga dalam k"
+    },
+    "R808A": {
+      "soal": "808",
+      "teks": "808 d. Kelompok tani e. Lembaga pengelolaan air f. Kelompok masyarakat (pokmas)"
+    },
+    "R808B": {
+      "soal": "808",
+      "teks": "808 d. Kelompok tani e. Lembaga pengelolaan air f. Kelompok masyarakat (pokmas)"
+    },
+    "R809A": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
+    },
+    "R809B": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
+    },
+    "R809C": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
+    },
+    "R809D": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
+    },
+    "R809E": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
+    },
+    "R809F": {
+      "soal": "809",
+      "teks": "809 a. PKK b. Karang taruna c. Lembaga adat Jenis lembaga Jumlah Jenis lembaga Jumlah Jumlah jenis–jenis lembaga kemasyarakatan di desa/kelurahan: (1) (2) (1) (2) Jenis olahraga Fasilitas/lapangan olahraga Ada, baik – 1 Ada, rusak parah – 3 Ada, rusak sedang – 2 Tidak ada – 4 Kelompok kegiatan Ada – 1 Tidak ada – 2 (1) (2) a. Sepak bola b. Bola voli c. Bulu tangkis d. Bola basket e. Tenis lapangan f. Tenis meja g. Futsal h. Renang i. Bela diri (pencak silat, karate, dll.) j. Bilyard k. Fitnes, aerobik, dll. l. Lainnya………………………………………………………… 901 Ketersediaan fasilitas/lapangan dan kelompok kegiatan olahraga di desa/kelurahan: (3) IX. OLAHRAGA DAN HIBURAN (tuliskan) 902 a. Keberadaan pub/diskotek/tempat karaoke yang masih berfungsi di desa/kelurahan: Ada – 1 R1001 Tidak ada – 2 b. Jika tidak "
     }
   }
 }
