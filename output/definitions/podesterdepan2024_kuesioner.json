@@ -3,6 +3,19 @@
   "drive_id": "1BjHJklJRKSCOr_xiAW9R292Es4pWR140",
   "survey_id": "PODES",
   "period": "2024 Terdepan-Terluar",
-  "metode": "nomor soal 3-digit -> R+nomor",
-  "mapped": {}
+  "metode": "nomor soal mandiri -> R+nomor",
+  "mapped": {
+    "R101": {
+      "soal": "101",
+      "teks": "101"
+    },
+    "R102": {
+      "soal": "102",
+      "teks": "102 Provinsi Kabupaten /Kota *) REPUBLIK INDONESIA BADAN PUSAT STATISTIK PENDATAAN POTENSI DESA/KELURAHAN 2024 RAHASIA II-A. PRELIST DESA TERDEPAN * I. KETERANGAN TEMPAT"
+    },
+    "R203": {
+      "soal": "203",
+      "teks": "203 PODES2024– 2T 1 Apakah terdapat penduduk yang kesehariannya lebih banyak menggunakan mata uang selain rupiah? Ada – 1 Tidak – 2 204 Apakah terdapat penduduk yang bersekolah (pulang-pergi) di negara tetangga? Ada – 1 Tidak - 2 205 Apakah terdapat penduduk yang bekerja (pulang-pergi) di negara tetangga? Ada – 1 Tidak – 2 206 Apakah terdapat penduduk yang kebutuhan sehari-harinya berasal dari negara tetangga (membeli barang dari negara tetangga)? Ada – 1 Tidak – 2 II-B. KETERANGAN SOSIAL DAN EKONOMI DESA TERDEPAN CATATAN : * BPS DAERAH BISA MENAMBAHKAN DESA DI LUAR PRELIST DESA TERDEPAN /TERLUAR 201 Apakah terdapat wilayah desa yang berbatasan langsung (darat) dengan wilayah negara lain? Ya – 1 Tidak – 2  BLOK III-A DESA TERDEPAN 1 Prelist (daftar) desa terdepan disiapkan oleh BPS Pusat "
+    }
+  }
 }
