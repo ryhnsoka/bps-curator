@@ -1,6 +1,6 @@
 """Kurasi request -> grouping per partisi -> do-file Stata (hanya keep)."""
 from .normalize import normalize_code
-from .surveys import survey_name
+from .surveys import survey_name, period_name
 
 
 def get_mandatory_list(master, profile=None):
@@ -118,7 +118,7 @@ def generate_readme(curated, master):
                 if normalize_code(v["code"]) not in mset and v["code"] not in unavailable]
     bar = "-" * 70
     L = ["=" * 70,
-         f"Kurasi {survey_name(master.get('survey_id', ''))} {master.get('period', '')}".rstrip(),
+         f"Kurasi {survey_name(master.get('survey_id', ''))} {period_name(master.get('period', ''))}".rstrip(),
          "=" * 70,
          f"Ditemukan: {len(curated['found'])} | Hilang: {len(curated['missing'])} "
          f"| Wajib ditambah: {len(curated['mandatory_added'])}",
@@ -167,7 +167,7 @@ def generate_readme(curated, master):
 
 
 def generate_do(curated, master):
-    lines = [f"* Auto-generated {survey_name(master.get('survey_id', ''))} {master.get('period', '')}".rstrip(),
+    lines = [f"* Auto-generated {survey_name(master.get('survey_id', ''))} {period_name(master.get('period', ''))}".rstrip(),
              f"* Found: {len(curated['found'])}, Missing: {len(curated['missing'])}"]
     if curated["missing"]:
         lines.append(f"* WARNING missing: {', '.join(curated['missing'])}")

@@ -47,11 +47,13 @@ def test_readme_maps_mandatory_vs_request():
 
 
 def test_full_survey_names():
-    from bps_curator.surveys import survey_name
+    from bps_curator.surveys import survey_name, period_name
     assert survey_name("SAKERNAS") == "Survei Angkatan Kerja Nasional"
     assert survey_name("PODES") == "Pendataan Potensi Desa"
     assert survey_name("ECOM") == "Survei E-Commerce"
     assert survey_name("XX") == "XX"
+    assert period_name("2024 MSBP") == "2024 Modul Sosial Budaya dan Pendidikan"
+    assert period_name("2024 Agustus") == "2024 Agustus"
     c = curate("K1 K10".split(), SAK)
     assert "Survei Angkatan Kerja Nasional 2024 Agustus" in generate_do(c, SAK)
     assert "Survei Angkatan Kerja Nasional 2024 Agustus" in generate_readme(c, SAK)

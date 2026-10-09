@@ -13,7 +13,7 @@ import streamlit as st
 
 from bps_curator.curator import curate, generate_do, generate_readme, get_mandatory_list
 from bps_curator.normalize import normalize_code
-from bps_curator.surveys import survey_name
+from bps_curator.surveys import survey_name, period_name
 
 OUT_DIR = ROOT / "output"
 DB_PATH = ROOT / "bps.db"
@@ -163,8 +163,9 @@ if menu == "Katalog":
     st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
     q = st.text_input("Cari survei / periode / variabel / label",
                       "", help="Label ikut dicari, bukan cuma kode variabel")
-    rows = [{"Survei": survey_name(c["survey"]), "Periode": c["period"], "Jumlah Variabel": c["n_vars"],
-             "Jumlah Partisi": c["n_partitions"], "Wajib": c["mandatory"]} for c in catalog]
+    rows_all = [{"Survei": survey_name(c["survey"]), "Periode": period_name(c["period"]), "Jumlah Variabel": c["n_vars"],
+                 "Jumlah Partisi": c["n_partitions"], "Wajib": c["mandatory"]} for c in catalog]
+    rows = rows_all
     if q:
         qf, ql = normalize_code(q), q.lower()
         hit = set()
@@ -176,11 +177,11 @@ if menu == "Katalog":
                     "WHERE v.fold LIKE '%' || ? || '%' OR LOWER(v.label) LIKE '%' || ? || '%'"
                     " ORDER BY m.survey_id, m.period, v.code LIMIT 200",
                     (qf, ql)):
-                hit.add((survey_name(r["survey_id"]), r["period"]))
+                hit.add((survey_name(r["survey_id"]), period_name(r["period"])))
                 var_hits.append({"Variabel": r["code"], "Label": r["label"],
-                                 "Survei": survey_name(r["survey_id"]), "Periode": r["period"]})
-        rows = [r for r in rows
-                if q.lower() in (r["Survei"] + " " + r["Periode"]).lower()
+                                 "Survei": survey_name(r["survey_id"]), "Periode": period_name(r["period"])})
+        rows = [r for r, c in zip(rows_all, catalog)
+                if ql in f"{r['Survei']} {r['Periode']} {c['survey']} {c['period']}".lower()
                 or (r["Survei"], r["Periode"]) in hit]
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
@@ -192,7 +193,7 @@ if menu == "Katalog":
 
 # ---------------- KURASI ----------------
 else:
-    labels = [f"{survey_name(c['survey'])} — {c['period']}" for c in catalog]
+    labels = [f"{survey_name(c['survey'])} — {period_name(c['period'])}" for c in catalog]
     pick = st.selectbox("Pilih Survei Master", labels)
     entry = catalog[labels.index(pick)]
     m = load_master_vars(entry["file"])
