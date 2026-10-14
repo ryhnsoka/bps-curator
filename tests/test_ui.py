@@ -6,7 +6,7 @@ def test_ui_flow():
     at = AppTest.from_file("web/app.py", default_timeout=120)
     at.run()
     assert not at.exception, at.exception
-    assert any("BPS Curator" in m.value for m in at.markdown), [m.value[:40] for m in at.markdown]
+    assert any("Website BPS Master" in m.value for m in at.markdown), [m.value[:40] for m in at.markdown]
     # navigasi di atas (bukan sidebar)
     assert at.radio[0].value == "Katalog"
     # Katalog: cari label 'umur' -> tabel variabel wajib tampil nama + label
@@ -40,8 +40,8 @@ def test_ui_flow():
 
 
 def _hasil_rows(at):
-    """Baris tabel hasil Kurasi (kolom Kode/Label)."""
-    for df in at.dataframe:
+    """Baris tabel hasil Kurasi (kolom Kode/Label, static st.table)."""
+    for df in at.table:
         v = df.value
         if "Kode" in list(v.columns):
             return v.to_dict("records")
@@ -76,22 +76,55 @@ def test_ui_state_survives_tab_switch():
     print("UI OK: pindah tab tidak menghapus state kurasi")
 
 
-def test_ui_katalog_pilih_lewat_daftar():
-    """Pilih variabel Katalog lewat daftar (fallback ketuk baris) -> badge + unduh."""
+def test_ui_katalog_tanpa_daftar():
+    """Dropdown pilih-lewat-daftar sudah dihapus -> hanya ketuk baris + unduh."""
     at = AppTest.from_file("web/app.py", default_timeout=120)
     at.run()
     at.text_input[0].set_value("B10_1001").run()
     assert not at.exception, at.exception
-    assert len(at.multiselect) == 1, "daftar pilih tampil saat ada hasil"
-    opt = next(o for o in at.multiselect[0].options if o.startswith("B10_1001 "))
-    at.multiselect[0].set_value([opt]).run()
+    assert len(at.multiselect) == 0, "dropdown pilih-lewat-daftar harus hilang"
+    frames = [df.value for df in at.dataframe]
+    assert any("Variabel" in list(fr.columns) for fr in frames), "tabel variabel cocok tetap ada"
+    print("UI OK: dropdown dihapus, tabel ketuk-baris tetap ada")
+
+
+def test_ui_katalog_persists_across_tabs():
+    """Query + hasil cari Katalog tidak hilang saat pindah ke Kurasi dan kembali."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.text_input[0].set_value("umur").run()
     assert not at.exception, at.exception
-    assert any("1 variabel dipilih" in str(c.value) for c in at.caption), \
-        [str(c.value) for c in at.caption]
-    print("UI OK: katalog pilih-lewat-daftar -> unduh TXT")
+    assert at.text_input[0].value == "umur"
+    assert any("Variabel" in list(fr.columns) for fr in (df.value for df in at.dataframe)), \
+        "tabel variabel cocok harus tampil"
+    at.radio[0].set_value("Kurasi").run()
+    at.radio[0].set_value("Katalog").run()
+    assert not at.exception, at.exception
+    assert at.text_input[0].value == "umur", "query katalog hilang setelah pindah tab"
+    assert any("Variabel" in list(fr.columns) for fr in (df.value for df in at.dataframe)), \
+        "hasil cari katalog hilang setelah pindah tab"
+    print("UI OK: katalog persisten lintas tab")
+
+
+def test_ui_kurasi_marks_unsubscribed():
+    """Variabel kamus tanpa data (Blok 42) -> missing berlabel tak dilanggan."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.radio[0].set_value("Kurasi").run()
+    idx = next(i for i, o in enumerate(at.selectbox[0].options)
+               if o.endswith("2024 Modul Konsumsi dan Pengeluaran") and "Sosial Ekonomi" in o)
+    at.selectbox[0].set_value(at.selectbox[0].options[idx]).run()
+    at.text_area[0].set_value("B42K3 R101").run()
+    at.button[0].click().run()
+    assert not at.exception, at.exception
+    assert any("tidak dilanggan FEB Undip" in str(w.value) and "B42K3" in str(w.value)
+               for w in at.warning), [str(w.value) for w in at.warning]
+    print("UI OK: tak dilanggan berlabel di missing")
 
 
 if __name__ == "__main__":
     test_ui_flow()
     test_ui_state_survives_tab_switch()
-    test_ui_katalog_pilih_lewat_daftar()
+    test_ui_katalog_tanpa_daftar()
+    test_ui_katalog_persists_across_tabs()
+    test_ui_kurasi_marks_unsubscribed()

@@ -7,3 +7,9 @@ __pycache__/
 .env
 output/*.do
 .DS_Store
+# cache & log lokal
+.pytest_cache/
+*.log
+# tooling lokal
+.agents/
+skills-lock.json

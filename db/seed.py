@@ -119,7 +119,7 @@ def seed(db_path, json_dir):
 if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser()
-    p.add_argument("--db", default="bps.db")
+    p.add_argument("--db", default="db/bps.db")
     p.add_argument("--json-dir", default="output")
     a = p.parse_args()
     seed(a.db, a.json_dir)

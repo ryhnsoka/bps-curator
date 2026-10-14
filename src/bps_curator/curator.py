@@ -81,11 +81,13 @@ def curate(requested, master, add_mandatory=True, profile=None, availability=Non
                              if avail is not None else None)}
 
 
-def _readme_table(vars_sorted, available=None):
+def _readme_table(vars_sorted, available=None, only_partition=None):
     """Tabel teks: nomor + kode + label + partisi, semua kolom rata.
 
     available: {partisi: [kode]} overlay data; bila ada, kolom Partisi
     hanya tampilkan partisi yang benar-benar ada datanya.
+    only_partition: bila diisi, kolom Partisi hanya tampilkan partisi itu
+    (untuk seksi rincian per partisi).
     """
     items = sorted(vars_sorted, key=lambda x: x["code"])
 
@@ -93,6 +95,8 @@ def _readme_table(vars_sorted, available=None):
         parts = v["partitions"]
         if available is not None:
             parts = [p for p in parts if p in available]
+        if only_partition is not None:
+            parts = [p for p in parts if p == only_partition]
         return ", ".join(parts)
 
     w_no = len(str(len(items)))
@@ -117,6 +121,8 @@ def generate_readme(curated, master):
     req_vars = [v for v in curated["found"]
                 if normalize_code(v["code"]) not in mset and v["code"] not in unavailable]
     bar = "-" * 70
+    w_by_code = {v["code"]: v for v in w_vars}
+    multi = len(curated["grouped"]) > 1
     L = ["=" * 70,
          f"Kurasi {survey_name(master.get('survey_id', ''))} {period_name(master.get('period', ''))}".rstrip(),
          "=" * 70,
@@ -124,12 +130,23 @@ def generate_readme(curated, master):
          f"| Wajib ditambah: {len(curated['mandatory_added'])}",
          "",
          bar,
-         f"Variabel wajib ({len(w_vars)})",
+         f"Variabel wajib ({len(w_vars)} unik, rincian per partisi)",
          bar]
     if w_vars:
-        L += _readme_table(w_vars, available)
-        if curated["mandatory_added"]:
-            L.append(f"  (ditambahkan otomatis: {', '.join(sorted(curated['mandatory_added']))})")
+        for p in sorted(curated["grouped"]):
+            plist = sorted({v for v in curated["grouped"][p]
+                            if normalize_code(v) in mset and v not in unavailable})
+            if not plist:
+                continue
+            skip = multi and not [v for v in curated["grouped"][p]
+                                  if normalize_code(v) not in mset]
+            tag = " [SKIP di .do]" if skip else ""
+            L += ["", f"-- {p}{tag} ({len(plist)})"]
+            L += _readme_table([w_by_code[v] for v in plist], available,
+                               only_partition=p)
+            auto = sorted(set(plist) & set(curated["mandatory_added"]))
+            if auto:
+                L.append(f"  (ditambahkan otomatis: {', '.join(auto)})")
     elif get_mandatory_list(master):
         L.append("  Tidak ada variabel wajib dalam hasil.")
     else:
@@ -144,11 +161,13 @@ def generate_readme(curated, master):
         L.append("  Tidak ada.")
     L += ["",
           bar,
-          f"Tidak ditemukan ({len(curated['missing'])})",
+          f"Tidak ditemukan ({len(curated['missing']) + len(curated.get('unavailable', []))})",
           bar]
     for m in curated["missing"]:
         L.append(f"  - {m}")
-    if not curated["missing"]:
+    for u in curated.get("unavailable", []):
+        L.append(f"  - {u} (tidak dilanggan FEB Undip)")
+    if not curated["missing"] and not curated.get("unavailable"):
         L.append("  Tidak ada.")
     L += ["",
           bar,

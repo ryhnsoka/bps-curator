@@ -43,7 +43,7 @@ def test_labels_from_kamus_block():
 def test_readme_maps_mandatory_vs_request():
     c = curate("K1 K10".split(), SAK)
     txt = generate_readme(c, SAK)
-    assert "Variabel wajib (7)" in txt and "KLASIFIKAS" in txt
+    assert "Variabel wajib (7 unik" in txt and "KLASIFIKAS" in txt
     assert "K1" in txt and "Tidak ditemukan (0)" in txt
 
 
@@ -82,7 +82,7 @@ def test_availability_filters_keep():
     do = generate_do(c, _mini_master())
     assert "tidak tersedia di data" in do and "pX" in do and "keep A1 W1" in do
     txt = generate_readme(c, _mini_master())
-    assert "Tidak tersedia di data (2)" in txt and "Variabel wajib (1)" in txt
+    assert "Tidak tersedia di data (2)" in txt and "Variabel wajib (1 unik" in txt
 
 
 def test_definitions_loader(tmp_path):
@@ -128,3 +128,27 @@ def test_basket_txt_side_by_side():
     txt = generate_basket_txt(sel)
     assert txt == "Susenas:\nAB BC CD\nSakernas:\nBAA BAC BAB\n"
     assert generate_basket_txt([]) == ""
+
+
+def test_readme_marks_unsubscribed():
+    c = curate(["A1", "A2", "W2"], _mini_master(), availability={"p1": ["W1", "A1"]})
+    txt = generate_readme(c, _mini_master())
+    assert "Tidak ditemukan (2)" in txt
+    assert "A2 (tidak dilanggan FEB Undip)" in txt
+    assert "Tidak tersedia di data (2)" in txt
+
+
+def test_selection_merge_and_restore():
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "web"))
+    from helpers import merge_saved_selection, restore_selection
+    hits = [
+        {"Variabel": "K10", "Survei": "S", "Periode": "P"},
+        {"Variabel": "R51A", "Survei": "S", "Periode": "P"},
+    ]
+    # otoritatif: uncheck tidak bangkit lagi, kode luar-hasil dipertahankan
+    saved = merge_saved_selection([hits[0]], hits, [["XX", "S", "P"]])
+    assert saved == [["K10", "S", "P"], ["XX", "S", "P"]]
+    # restore setelah pindah tab: hanya yang cocok hasil saat ini
+    assert restore_selection(hits, saved) == hits[:1] + []
+    assert restore_selection(hits, []) == []

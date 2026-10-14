@@ -16,33 +16,43 @@ Alat bantu asisten Lab Digital FEB Undip untuk **mengkurasi variabel BPS** → m
 
 ```
 bps-curator/
-├── src/bps_curator/           # Paket inti (5 file)
+├── src/bps_curator/           # Paket inti (7 file)
 │   ├── __init__.py
 │   ├── normalize.py           # normalisasi kode (huruf+angka saja)
 │   ├── parser.py              # Parser universal master BPS
 │   ├── curator.py             # Kurasi + generate .do + generate README.txt
+│   ├── definitions.py         # definisi/label kuesioner
+│   ├── surveys.py             # nama survei
 │   └── cli.py                 # CLI: parse & curate
 ├── db/
 │   ├── schema.sql             # SQLite: surveys→masters→partitions→variables + mandatory + requests
-│   └── seed.py                # Seed dari output/master_*.json → SQLite
+│   ├── seed.py                # Seed dari output/master_*.json → db/bps.db (default --db db/bps.db)
+│   └── bps.db                 # SQLite (di-ignore, build via seed.py)
 ├── data/
 │   ├── masters.csv            # 34 master: drive_id, survey, period, local_file
+│   ├── README.md              # alur unduh master dari Drive
 │   └── *.xlsx (di-ignore)     # ±20 MB file master lokal
 ├── output/
 │   ├── catalog.json           # Ringkasan 34 master (wajib = union profil)
-│   └── master_*.json          # 34 file parsed (variabel, partisi, wajib)
+│   ├── availability.json      # overlay ketersediaan data per partisi
+│   ├── master_*.json          # 34 file parsed (variabel, partisi, wajib)
+│   ├── master_inventory.json  # inventaris master
+│   └── definitions/           # *_kuesioner.json per master
 ├── web/
-│   ├── app.py                 # Streamlit UI (tema emas-putih, kartu putih)
-│   └── .streamlit/config.toml # base="light", primaryColor=#B8860B
+│   └── app.py                 # Streamlit UI (tema emas-putih, kartu putih)
+├── .streamlit/
+│   └── config.toml            # base="light", primaryColor=#B8860B
+├── scripts/
+│   └── screen.py              # Screening 34 master (0 temuan), pindahan dari tests/
+├── docs/
+│   └── prompts/PROMPT_UI_GEMINI.md # prompt UI (arsip, bukan kode aktif)
 ├── examples/
 │   ├── request_27vars.txt     # Contoh request SAK 2024
-│   ├── kurasi_27.do / _README.txt
-│   └── kurasi_27_README.txt
-├── db/bps.db                  # SQLite (di-ignore, build via seed.py)
+│   ├── kurasi_27.do / kurasi_27_README.txt # contoh output (.txt saja)
+│   └── contoh_sak2024.do
 ├── tests/
 │   ├── test_core.py           # Tes normalisasi, kurasi, README txt
-│   ├── test_ui.py             # AppTest alur Katalog→Kurasi
-│   └── screen.py              # Screening 34 master (0 temuan)
+│   └── test_ui.py             # AppTest alur Katalog→Kurasi
 ├── requirements.txt           # openpyxl, streamlit==1.39.0
 ├── requirements-dev.txt       # pytest
 └── README.md                  # Dokumentasi paket
@@ -95,7 +105,7 @@ $env:PYTHONPATH='src'
 python -m bps_curator.cli parse data/Master_SAK2024_Agustus.xlsx --survey SAKERNAS --period "2024 Agustus" -o output/master_sak2024.json
 
 # 3. Seed database
-python db/seed.py --db bps.db --json-dir output
+python db/seed.py --db db/bps.db --json-dir output
 
 # 4. Jalankan Web UI
 streamlit run web/app.py --server.port 8501
@@ -146,7 +156,7 @@ main (e7697ec) ── develop (0e6689e) ── feature/web-ui (0fe00e8 ← HEAD)
 ---
 
 ## 📌 Catatan Penting
-- File `.xlsx` & `bps.db` **di-ignore** (lihat `.gitignore`). Bangun ulang via `db/seed.py`.
+- File `.xlsx` & `*.db` **di-ignore** (lihat `.gitignore`). DB bangun ulang via `python db/seed.py --db db/bps.db --json-dir output`.
 - Streamlit dipin `1.39.0` (1.65 gagal ekstrak di Windows path panjang).
 - Tes: `$env:PYTHONPATH='src'; python -m pytest tests/ -q` (7/7 lolos).
 - Server: `streamlit run web/app.py --server.port 8501` → `http://localhost:8501`.
