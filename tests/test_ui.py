@@ -106,6 +106,23 @@ def test_ui_katalog_persists_across_tabs():
     print("UI OK: katalog persisten lintas tab")
 
 
+def test_ui_kuesioner_links():
+    """Tautan kuesioner tampil di tabel Katalog dan kartu info Kurasi."""
+    at = AppTest.from_file("web/app.py", default_timeout=120)
+    at.run()
+    at.text_input[0].set_value("B10_1001").run()
+    assert not at.exception, at.exception
+    frames = [df.value for df in at.dataframe]
+    assert any("Variabel" in list(fr.columns) for fr in frames), "tabel variabel cocok tetap ada"
+    assert any("drive.google.com" in str(m.value) for m in at.markdown), \
+        "lencana kuesioner tampil di atas tabel"
+    print("UI OK: tautan kuesioner tampil")
+    at.radio[0].set_value("Kurasi").run()
+    assert any("drive.google.com" in str(m.value) for m in at.markdown), \
+        "kartu info Kurasi memuat tautan kuesioner"
+    print("UI OK: tautan kuesioner tampil")
+
+
 def test_ui_kurasi_marks_unsubscribed():
     """Variabel kamus tanpa data (Blok 42) -> missing berlabel tak dilanggan."""
     at = AppTest.from_file("web/app.py", default_timeout=120)
@@ -127,4 +144,5 @@ if __name__ == "__main__":
     test_ui_state_survives_tab_switch()
     test_ui_katalog_tanpa_daftar()
     test_ui_katalog_persists_across_tabs()
+    test_ui_kuesioner_links()
     test_ui_kurasi_marks_unsubscribed()

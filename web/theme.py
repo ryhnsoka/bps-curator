@@ -107,6 +107,13 @@ div[data-testid="stCodeBlock"] button {{
   display: inline-block; background: #D1FAE5; color: {GREEN_DEEP};
   border-radius: 999px; padding: .1rem .7rem; font-size: .8rem; font-weight: 700;
 }}
+a.doclink {{
+  display: inline-block; background: #fff; color: {GREEN_DEEP} !important;
+  border: 1.5px solid {GREEN_DEEP}; border-radius: 999px;
+  padding: .1rem .8rem; font-size: .8rem; font-weight: 700; text-decoration: none;
+  margin-left: .3rem;
+}}
+a.doclink:hover {{ background: {GREEN_DEEP}; color: #fff !important; }}
 .codebox {{
   border: 1px solid {GREEN_DEEP}; border-radius: 10px; background: {INK};
   padding: .8rem .95rem; margin-top: .5rem;

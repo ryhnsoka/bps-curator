@@ -3,12 +3,18 @@ import streamlit as st
 
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
-from data import load_master_vars, search_variables
+from data import load_documents, load_master_vars, search_variables
 from helpers import group_selection, merge_saved_selection, restore_selection
 
 
 def render_katalog(catalog):
     st.markdown("<div class='card'><h3><span class='ico'>●</span> Katalog master</h3>", unsafe_allow_html=True)
+    docs = load_documents()
+    doc_by_display = {}
+    for c in catalog:
+        d = (docs or {}).get((c["survey"], c["period"]), {})
+        if d.get("kuesioner_url"):
+            doc_by_display[(survey_name(c["survey"]), period_name(c["period"]))] = d["kuesioner_url"]
     # Mirror q_saved: Streamlit membuang state widget yang tak-dirender saat
     # pindah tab — hasil cari + pilihan kembali utuh saat tab dibuka lagi.
     if "q_input" not in st.session_state:
@@ -43,6 +49,16 @@ def render_katalog(catalog):
                                          "Survei": key[1], "Periode": key[2]})
         st.caption(f"<span class='badge'>{len(rows)} master, {len(var_hits)} variabel cocok untuk '{q}'</span>",
                    unsafe_allow_html=True)
+        seen_docs = {}
+        for v in var_hits:
+            k = (v["Survei"], v["Periode"])
+            if k not in seen_docs and k in doc_by_display:
+                seen_docs[k] = doc_by_display[k]
+        if seen_docs:
+            links = " ".join(
+                f"<a class='doclink' href='{u}' target='_blank'>{sv} {pr}</a>"
+                for (sv, pr), u in seen_docs.items())
+            st.markdown(f"Kuesioner terkait: {links}", unsafe_allow_html=True)
         if var_hits:
             st.write("**Variabel cocok (nama + label) — pilih lalu salin:**")
             st.caption("Klik kotak di ujung kiri baris untuk memilih "
@@ -69,7 +85,9 @@ def render_katalog(catalog):
                            unsafe_allow_html=True)
                 groups, order = group_selection(tapped)
                 for sv, pr in order:
-                    st.markdown(f"**{sv} {pr}:**")
+                    extra = (f" <a class='doclink' href='{seen_docs[(sv, pr)]}' target='_blank'>Kuesioner</a>"
+                             if (sv, pr) in seen_docs else "")
+                    st.markdown(f"**{sv} {pr}:**{extra}", unsafe_allow_html=True)
                     st.code(" ".join(groups[(sv, pr)]), language="text")
 
                 def _clear_katalog():
