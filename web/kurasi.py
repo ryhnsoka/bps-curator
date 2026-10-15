@@ -6,7 +6,7 @@ import streamlit as st
 from bps_curator.curator import curate, generate_do, generate_readme
 from bps_curator.normalize import normalize_code
 from bps_curator.surveys import survey_name, period_name
-from data import get_master_drive_id, load_availability, load_master_vars, log_request
+from data import get_master_drive_id, load_availability, load_documents, load_master_vars, log_request
 from helpers import download_stem, kept_partitions
 
 
@@ -25,9 +25,12 @@ def render_kurasi(catalog):
     avail_map = avail_entry.get("partitions") if avail_entry else None
     avail_badge = (f" <span class='badge'>Data tersedia: {len(avail_map)} dari "
                    f"{len(m['partitions'])} partisi</span>" if avail_map else "")
+    doc = (load_documents() or {}).get((m.get("survey_id", ""), m.get("period", "")), {})
+    doc_badge = (f" <a class='doclink' href='{doc['kuesioner_url']}' target='_blank'>Kuesioner</a>"
+                 if doc.get("kuesioner_url") else "")
     st.markdown(f"<div class='card'><h4 style='margin-top:0;'>Informasi Dataset</h4>"
                 f"<span class='badge'>Total Variabel: {m['n_variables']}</span> "
-                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span>{avail_badge}</div>",
+                f"<span class='badge'>Total Partisi: {len(m['partitions'])}</span>{avail_badge}{doc_badge}</div>",
                 unsafe_allow_html=True)
 
     # req_text disimpan di session_state supaya pindah tab tidak mengosongkan

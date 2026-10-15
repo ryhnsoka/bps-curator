@@ -68,6 +68,17 @@ def load_availability():
             for e in data.get("masters", [])}
 
 
+@st.cache_data
+def load_documents():
+    """Pemetaan (survei, periode) -> kuesioner/layout di Drive (hyperlink)."""
+    import csv
+    rows = {}
+    with (ROOT / "data" / "dokumen.csv").open(encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            rows[(r["survey"], r["period"])] = r
+    return rows
+
+
 def search_variables(qf, ql, limit=200):
     """Cari variabel per kode-fold/label (koneksi pendek, aman konkuren)."""
     con = get_conn()

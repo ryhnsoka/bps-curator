@@ -138,6 +138,20 @@ def test_readme_marks_unsubscribed():
     assert "Tidak tersedia di data (2)" in txt
 
 
+def test_dokumen_csv_covers_all_masters():
+    import csv
+    root = Path(__file__).resolve().parent.parent
+    with (root / "data" / "dokumen.csv").open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    masters = {(r["survey"], r["period"]) for r in
+               csv.DictReader((root / "data" / "masters.csv").open(encoding="utf-8"))}
+    docs = {(r["survey"], r["period"]) for r in rows}
+    assert masters - docs == set(), f"master tanpa dokumen: {masters - docs}"
+    for r in rows:
+        assert r["kuesioner_url"].startswith("https://drive.google.com/file/d/"), r
+        assert r["kuesioner_id"] in r["kuesioner_url"], r["kuesioner_name"]
+
+
 def test_selection_merge_and_restore():
     import sys as _sys
     _sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "web"))
